@@ -48,7 +48,7 @@ a senior engineer or an elder brother over coffee. **Zero sodhi:** no fluff, che
 ## How we make a film (§3; owner gates in bold)
 **Promise first:** the title and thumbnail concept are locked in the plan, the opening is written first and checked
 against them, everything else pays that promise. **Decide early, build once.** Each step has a checked creative output.
-1. **Topic** (`brief.md`) → 2. **Research** (§4): what everyone says vs the primary record, **our edge in one
+1. **Topic** (`brief.md`) → 2. **Research** (§4; the owner's Gemini sweep, checked by us): what everyone says vs the primary record, **our edge in one
    sentence**, the objection ledger, the story bank, search words; no edge, no film → 3. **The plan** (§5): the locked
    promise, cold opens and endings that differ in kind, the creative spine, the beat sheet, the hero shots; independent
    plan review; **the owner approves the plan and the promise** → 4. **Facts** (§8, `claims_check.py`) →
@@ -125,7 +125,7 @@ against them, everything else pays that promise. **Decide early, build once.** E
 `projects/<slug>/` one folder per film (brief, research, plan, narration, `vo.txt`, claims, word map, scenes, Remotion
 code, review, `youtube/`, `handoff.md`; media in gitignored `assets/`) · `config/` brand, voice, pronunciation, music
 catalog · `lib/remotion/` shared components · `scripts/` tools (`scripts/blender/` Cycles scenes) · `tools/` editing
-tools · `prompts/` the independent audience review · `.github/workflows/` light jobs and the Drive backup ·
+tools · `prompts/` the independent audience review and the Gemini Deep Research prompt · `.github/workflows/` light jobs and the Drive backup ·
 `docs/PLAYBOOK.md` everything else · `docs/recovery/` the 2026-11-23 rebuild record.
 
 **Ground rules:** pin every version (npm, pip, actions, Remotion, Blender, Modal); fail soft per source, loud per stage;

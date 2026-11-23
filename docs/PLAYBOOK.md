@@ -200,6 +200,12 @@ Skills that walk through the steps: `/new-documentary`, `/fact-check`, `/source-
 ## 4. Research: what everyone says vs what it actually is
 
 `research/landscape.md` has these parts:
+- **Gemini Deep Research as a sweep (owner, 2026-11-23):** at the start of research, and again whenever a gap stays
+  open, the session gives the owner `prompts/gemini_deep_research_v1.md` filled in for the film, as a click-to-copy
+  block. The owner runs it in Gemini and pastes the result back. Its items are **leads, never facts**: each is checked
+  against the primary source it names, and only what holds up becomes a `claims.csv` row. *Why:* Gemini reads many fresh
+  pages fast (it found RAPP-8's clearance and the 74 GW evening ramp), but it states things without the source's exact
+  line, and its "Why India's reactors don't need foreign fuel" was false (many run on imported uranium since 2008).
 - **What everyone says:** the news, officials, the biggest videos and posts, and the **3–5 strongest existing films**
   with their angle and what viewers complain about in their comments.
 - **What it actually is:** the real mechanism, numbers and history from primary documents (papers, filings,
