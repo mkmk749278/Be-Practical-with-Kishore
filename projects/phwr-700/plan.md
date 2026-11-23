@@ -3,6 +3,19 @@
 v2 applies the independent plan review (`review_plan_v1.md`: package 6 → 8, plan 7 → 8–9). Research:
 `research/landscape.md`, `claims.csv` (41 rows). Facts marked **[to source]** are found before the narration or cut.
 
+## 0. Approved by the owner (23 NOV 2026, about 4:30 PM IST) with four locks
+1. **Title locked:** "Canada Walked Out of India's Nuclear Reactor". **Test & Compare:** main "1974" against
+   challenger 1 "LEFT HALF-BUILT" (replaces "306 TUBES"); both on the same 306-port Blender face, the yellow shielded
+   flask and the engineer for scale. Challenger 2 ("THEY LEFT.") is dropped.
+2. **The Canadian restriction, said precisely (ch.2, ch.3):** after 1974, Canada's export rules barred Canadian firms
+   from supplying the retubing tools or running the job. Never imply that no technical contact ever existed (the COG
+   link is part of the record, C25).
+3. **Rupees, not dollars:** the ch.3 cost comparison in crores, spelled out in words for Akash; its conversion is an
+   OUR CALCULATION row with the year's rate unless a rupee figure is found. **No prime ministers' names**, including for
+   the March 2026 Cameco deal.
+4. **The owner's Section 10 facts** go into `claims.csv` (C42–C48), each checked against its primary source before
+   the narration uses it (§4 of the playbook: the Gemini sweep is a lead sweep).
+
 ## 1. Angles (chosen: C)
 - A · The record (Kaiga-1, 962 days): a scoreboard. Used once, to open chapter 2.
 - B · The scale-up (220 → 700 MW, 100 GW by 2047): a brochure. Kept to 90 seconds, with the delays.
@@ -14,7 +27,7 @@ v2 applies the independent plan review (`review_plan_v1.md`: package 6 → 8, pl
   is the cryogenic-engine and NavIC story everyone has seen.
 - D · Thorium hype: one line (these reactors make what Kalpakkam's breeder burns).
 
-## 2. The promise (for the owner to lock)
+## 2. The promise (locked 23 NOV, see §0)
 **Promise:** in 1974 Canada walked out of a half-built nuclear reactor in Rajasthan. India finished it. Then its 306
 tubes began to wear out, and the only country that had ever replaced them all was Canada, whose rules wouldn't let it
 help. You'll see how Indian engineers rebuilt the heart of that same reactor by remote control, what it taught them,
@@ -107,11 +120,12 @@ remembers it.
 |---|---|---|---|---|
 | 0:00–0:45 | **Cold open** · Who left, and how do you open a heart you were never taught to open? | the same reactor, its heart wearing out, the only expert not allowed to help | the 306 face and the flask → Rawatbhata on the Chambal → the 1974 half-built hall (archive if found, else ILLUSTRATION) | clunk; river; one low string |
 | 0:45–3:00 | **1 · What Canada left behind** · Why did they come, and why did they go? | friends, then a test, then an empty site | 20 s of the friendship (CIRUS, Bhabha in Canada **[to source]**); 1974; Canada's case and India's; **set piece: one pot vs 306 cookers**; Indian hands finish Unit 2 by 1981 | cooker whistle once; wind on the lake |
+| ~2:55 | **The first ask (PLAYBOOK §15.6)** · 10 s, right after Unit 2 is finished by Indian hands | — | Kishore's desk: a brass plate with the QR code beside the cooker; "If you're watching on the big TV, pick up your phone and point the camera at the screen. Every Sunday, eleven thirty in the morning, we open one machine like this. Now, back to Rawatbhata." (words final at narration) | music dips, one soft clunk to return |
 | 3:00–5:30 | **2 · What kills a reactor that never stops?** | It can run 962 days (Kaiga), so what stops it? The tubes age. | early tubes lasted 10–12 years (C04); **set piece: the ring that slid** (Pickering 1983); India "denied detailed knowledge of the accident" (C35); push into one circle | pumps; silence before the crack |
 | 5:30–8:30 | **3 · The same reactor, twice** · Can India open a radioactive heart alone? | 1995: "with or without outside help" (C25); 1996–97: all 306 out | the people: V.K. Chaturvedi, R.C. Arya (C38, C39); the tools built in India; **set piece: one old tube followed from cut to flask to vault**; the circles go dark and come back new; RAPS-2 runs again **[May 1998 to confirm]**; the saying | clunk returns as rhythm; the motif's full chord |
 | 8:30–9:40 | **4 · Kakrapar** · And when it went wrong? | the honest wound | 11 MAR 2016, about 9 am: the reactor shuts itself; 11 days to plug; three cracks; corrosion from impure gas; limited to two units; all 612 tubes replaced, KAPS-2 back on 17 SEP 2018; "heart transplantation" (S.K. Jain), shown as arteries and stents | no hiss; plain voice |
 | 9:40–11:10 | **5 · From 306 to 392** · Footnote or future? | the confession: about 3% of India's electricity, one turn in thirty of your fan | the face grows to 392; KAPP-3 critical 22 JUL 2020 in the lockdown (tests and review done from home, C33); RAPP-7 full power FEB 2026; RAPP-8 cleared NOV 2026; how many 700s run now, and the delays; the fuel truth; Canada's sales since 2015; the 100 GW arithmetic (OUR CALCULATION) | warm strings |
-| 11:10–12:00 | **Landing** | — | fathers and the radio; the saying; the date (RAPP-8 to the grid, expected FY27, attributed); subscribe tied to the next film (the 7 PM grid and the AI data centres); the question: "Would you have waited for help, or opened it yourself?"; the logo | tanpura; "This is Be Practical with Kishore. Stay practical." |
+| 11:10–12:00 | **Landing** | — | fathers and the radio; the saying; the date (RAPP-8 to the grid, expected FY27, attributed); subscribe tied to the next film (the 7 PM grid and the AI data centres), the QR code on the desk for the TV viewer and "every Sunday, eleven thirty in the morning" (§15.6); the question: "Would you have waited for help, or opened it yourself?"; the logo | tanpura; "This is Be Practical with Kishore. Stay practical." |
 
 **Real Indian people in every chapter:** NPCIL, DAE, BARC and PIB photos and video; Films Division archive; NFC Hyderabad
 (who makes the tubes now) **[to find, step 7]**.

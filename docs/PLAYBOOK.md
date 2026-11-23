@@ -63,6 +63,15 @@ mobile data (§9.6).
   AIP 9,522; Matsya 959. Comments: catapult's most-liked are mockery and one-upmanship ("India's EMALS can launch
   400 kg", "only US and China can build EMALS"), one asks the fuel cost of a ramp launch; Arjun's ask "why always
   engines, in the air and on the ground?" and one defends Arjun vs T-90 on delivery; viewers ask for AMCA.
+- **23 NOV, the gap (owner):** over 4,000 watch hours but 550 subscribers; the Partner Programme needs 1,000, so
+  450 more. At 3 per 1,000 views that is 150,000 views; at our target of 10 it is 45,000 (one good film). The cause:
+  nearly half the watch time is on the family TV, where there is no thumb near a red button, the ask comes only at the
+  end (most have gone by then) and never says how. The fix is §15.6.
+- **Arjun, 23 NOV:** the most-liked comment (5) is mockery ("can't build an assault rifle"); a DRDO defender wrote "your
+  intention is deliberately misleading or your method is poorly communicated", because the deficit title ("Have No
+  Engine") read as "India can't" before the film's fairness was heard. The owner pinned an outside draft that said
+  "outperformed the T-90 on accuracy and protection"; our source says only "marginally better in accuracy", so it was
+  replaced (`projects/arjun-tank/youtube/comments.md`). A pinned comment is a factual line like any other (§8).
 - **Matsya, 24 h (2026-11-14):** CTR 4.7% but 25% average view: a dark-sea thumbnail and an abstract noun didn't travel,
   and retention was the bigger problem.
 
@@ -80,6 +89,8 @@ The two 50,000-view films won on their words. So every film has:
 8. **Named places:** the town and state of every plant and lab.
 9. **The closing line (owner, 2026-11-11):** the subscribe line tied to a real promise, one real question for the
    comments, then "This is Be Practical with Kishore. Stay practical." on the logo sting.
+10. **The subscribe ask is built for the family TV (§15.6):** once in the middle, at the first payoff, and once at the
+   end, each telling the viewer how (the phone in his hand and the code on the screen), and the Sunday appointment.
 And in the picture: real Indian people at work in every chapter; no run of diagrams over about 20 s; every comparison
 from Indian life; never open on an object in a void.
 
@@ -654,6 +665,14 @@ existing films**. Archived when done.
   working Modal pattern is the course repo's (`mkmk749278/CAIIB`: `tools/modal/render.py`, `modal-render.yml`,
   `modal-status.yml`; a 17-minute lesson at 720p in about 7 minutes for about $0.09). Modal is paid past its monthly
   free credit: state each render's expected cost and ask before going past it.
+- **Zero rupees a film (owner, 2026-11-23: "Modal won't work out with those costs"):** every film's Modal work fits
+  inside the Starter plan's US$30 monthly free credit (2026 rates: L4 GPU about $0.80/h, T4 about $0.59/h, CPU about
+  $0.047 per core-hour). How: Blender heroes at 2560×1440 (upscaled in Remotion to the 4K master), Cycles with
+  adaptive sampling (noise threshold 0.02, at most 128 samples) and the OptiX denoiser, on an L4; a 10-frame bench
+  first, its seconds per frame × frames = the cost, written in the handoff before the full run; a shot that would
+  pass about $2 moves to Eevee or Three.js. The 4K master on CPU (the 720p course lesson cost $0.09; 4K at 60 fps is
+  about 18× the pixels a second, so about $1–3). Budget per film: heroes ≤ $10, master ≤ $5, retries ≤ $5. Anything
+  that would cross the free credit stops and goes to the owner.
 - *Why the limit:* GitHub disabled the old `Creator` repo (about 20 NOV) after heavy 4K and Blender renders on its
   runners (the last: the Arjun hero render on 6 runners, 18 NOV), and its terms allow Actions compute for building and
   testing the repo's own software, not a video farm. So the heavy work never goes back to the runners, and everything
@@ -752,6 +771,33 @@ draws the viewers who stay. Misleading packaging is against the rules and costs 
   (target 2). Read every comment: objections into the next ledger, requests into the topic list, §1.2 updated. Low CTR
   with good retention: the package failed. High CTR with an early cliff: the opening broke the promise.
 - **Close-out:** commit `youtube/`, merge, tell the owner which branch to delete, archive the session.
+
+### 15.6 Turning the family-TV viewer into a subscriber (owner, 2026-11-23: "most of them watch on TV")
+*Why:* 4,000 hours made only 550 subscribers. On the TV the subscribe button hides behind the remote, the TV is often
+signed in to a son's account or none, and our one ask came at the end, after about two thirds had left. Our viewer is
+over 45 with a phone in his hand or on the table beside him. So the ask moves to the phone, comes earlier and comes
+with a reason.
+- **The phone bridge:** a QR code on screen that opens the channel with the subscribe prompt
+  (`youtube.com/@BePracticalWithKishore?sub_confirmation=1`). Kishore says it plainly, once: "If you're watching on the
+  big TV, pick up your phone and point the camera at the screen." The code sits on a physical base (a brass plate on
+  Kishore's desk, a page in a notebook, never a floating card), with a quiet "SCAN TO SUBSCRIBE" at ≥ 44 px. Size: at
+  least 300 px tall mid-film and 420 px at the end, high contrast, 4-module quiet zone, checked by scanning a 55-inch
+  TV photo at 3 metres before the cut goes out.
+- **Two asks, both earned:** the first after the film's first climax and its saying, at a chapter break (about 60%
+  in), never inside an open loop (*why:* phwr-700 review, 23 NOV: an ask at 2:55 broke the cliffhanger and four of
+  five panel viewers drifted), 8–12 s, tied to what was just given ("If that made sense of something the news never explained, this is what we do
+  every Sunday"); the code shows only there and at the end. The second in the landing (§1.3 item 9). Never in the first
+  two minutes, never twice in one chapter, never begging.
+- **The appointment:** "A new film every Sunday, eleven thirty in the morning" in the landing, the pinned comment,
+  the description's last plain line and the channel banner. *Why:* this audience grew up with Sunday-morning television;
+  a fixed time is a reason to subscribe that a single film is not.
+- **A reason, not a request:** each ask names the next thing the viewer gets (the next film's subject or the date to
+  watch), never "support the channel".
+- **Leave the caring viewer feeling respected:** a title that reads as "India can't" draws mockers, and they don't
+  subscribe (Arjun, §1.2). The alternate rule (§1.4) protects this; in replies to a defender of India's engineers,
+  agree with what is true, hold the fact, and never add a subscribe pitch to a disagreement.
+- **Measure:** subscribers per 1,000 views at 7 days (Studio, Audience, by device when the Analytics scope works).
+  First target 10; if TV subscribers stay flat after two films, change the wording and placement, not the idea.
 
 ---
 

@@ -1,29 +1,30 @@
 # Handoff · phwr-700 (session closed 23 NOV 2026, about 3:00 PM IST)
 
-## Where it stands
-- **Step 1 Topic:** done (`brief.md`). Owner picked it on 23 NOV under the new alternate rule (PLAYBOOK §1.4).
-- **Step 2 Research:** done, two passes (`research/landscape.md`, `research/search_terms.md`,
-  `research/competitor_comments.json`, `claims.csv` with 41 draft rows, most still `unverified`).
-- **Step 3 Plan:** **plan v2** (`plan.md`) after the independent review (`review_plan_v1.md`; the review session is
-  archived). **The owner has NOT approved it yet:** on 23 NOV he asked for time to read it, and said "wait" on the
-  thumbnail words. Nothing is locked: title, promise and thumbnail words all wait for him.
-- **The owner's Gemini Deep Research sweep is running** (prompt in the chat of 23 NOV, template
-  `prompts/gemini_deep_research_v1.md`). When he pastes it, check every item against its primary source; only what holds
-  up becomes a `claims.csv` row (PLAYBOOK §4).
+## Where it stands (updated 23 NOV 2026, about 5:30 PM IST)
+- **Plan v2 APPROVED** by the owner with four locks (`plan.md` §0): title "Canada Walked Out of India's Nuclear
+  Reactor"; Test & Compare "1974" vs "LEFT HALF-BUILT"; the Canadian restriction said precisely (export rules barred
+  Canadian firms from the retubing tools and the job; COG contact existed); rupees in crores for the ch.3 cost; no
+  prime ministers' names.
+- **The owner's Section 10 facts checked (C42–C48):** confirmed Pickering G16 and the hydrogen-to-the-coldest-point
+  physics (AECL report on NRC ADAMS), Kakrapar INES 2 final with no fuel failure and no radiological impact (IAEA),
+  KAPP-3/4 first concrete, three 700s running, Cameco C$2.6 billion (C19's US$ was wrong, fixed). **Changed:** RAPS-1
+  "last operated in 2004, never formally retired" (not "permanently shut down"); RAPS-2 "ran again by 1998" (the
+  exact day is unverified; C41's May 1998 is cut).
+- The channel became a YouTube Partner on 23 NOV (expanded tier); full ads need 1,000 subscribers (§15.6 plan).
 
-## Next, in order
-1. Ask the owner for his plan decision (AskUserQuestion): approve plan v2 / change the title (Alt 1 "1974: Canada Left.
-   India Rebuilt Its Heart", Alt 2 "The Reactor Canada Left Half-Built") / changes; and the thumbnail words (1974
-   recommended by the panel; 306 TUBES; THEY LEFT.).
-2. Take in the Gemini result; source the open list in `plan.md` §10 (Chambal/Rana Pratap Sagar, why PHWR, the
-   Canada–India friendship, India's 1974 reasons, Soviet heavy water for RAPS-2, RAPS-1 shutdown date, the Pickering
-   "one metre", hydride migration for the dew analogy, RAPS-2 restart (May 1998?), a non-NPCIL source for "second in
-   the world", Kakrapar release figures, KAPP-3/4 construction start, how many 700s run now, the uranium-mines line,
-   NPCIL/PIB text for RAPP-8). Unconfirmed items are cut.
-3. Step 4 facts: `/fact-check` at max effort, verbatim quotes for every row, `scripts/claims_check.py` passes.
-4. Step 5 narration: the opening first through the promise check, then the rest (PLAYBOOK §6).
-5. From plan approval: footage requests (NPCIL/DAE/PIB/Films Division, Rawatbhata photos) and the Blender heroes
-   (plan §8; Modal cost stated to the owner first).
+## Next, in order (session closed 23 NOV 2026, about 6:30 PM IST)
+1. **Narration v2 APPROVED** (owner, 23 NOV). **The owner is recording the two takes himself** on Eleven v4 (Akash,
+   Creative 0.0, similarity 50%). When the files arrive: `scripts/vo_take_check.py` on each, then the owner approves
+   the audio (step 6).
+2. C01 (RAPP-8 cleared 19 Nov) is still unverified: ask the owner for a PIB screenshot, else keep C31 wording.
+3. From now: footage requests (NPCIL/DAE/PIB photos of Rawatbhata, the EMCCR, Kakrapar; Films Division archive), the
+   Blender heroes with a 10-frame Modal bench first (free credit only, §14.1), the SRT with real spellings.
+4. Copy this folder to Drive `Creator/English/phwr-700/` (not done on 23 NOV).
+
+## Modal: inside the free credit (owner, 23 NOV: the US$20–40 estimate "won't work out")
+Re-planned to PLAYBOOK §14.1 "Zero rupees a film": 4 heroes at 2560×1440 on an L4 with adaptive sampling and the
+denoiser, benched on 10 frames first (expected about 8–15 s a frame × 2,160 frames = 5–9 GPU hours = US$4–7); the 4K
+master on CPU about US$1–3. Together about US$5–10 of the US$30 monthly credit: no payment.
 
 ## Decisions made on 23 NOV (owner)
 - Alternate rule: one bottleneck film, then one breakthrough or civilian film (PLAYBOOK §1.4).
