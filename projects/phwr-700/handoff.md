@@ -1,6 +1,6 @@
 # Handoff · phwr-700
 
-**Where it stands (23 NOV 2026):** topic approved by the owner. Step 1 (brief) done. Step 2 (research) in progress:
+**Where it stands (23 NOV 2026):** topic approved. Step 2 research: two passes done (`research/landscape.md`, 31 draft claims). Spine found: two refusals (1974 walk-out, 1995 Canadian rules blocked repair help) and India did both alone.
 `research/landscape.md` (first pass), `claims.csv` (draft rows).
 
 **Next, in order**

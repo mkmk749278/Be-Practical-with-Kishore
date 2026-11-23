@@ -76,11 +76,35 @@ Refuelling is done on power, by fuelling machines from the control room (BARC 20
   (Budget 2025–26). Since 2008 many PHWRs run on imported uranium under IAEA safeguards (Cameco 2015: ~3,000 tU;
   2026: ~22M lb over nine years).
 
+
+## 2b. Second pass (23 NOV): the second refusal, the heart transplant
+- **The second refusal (the spine):** Nucleonics Week, 1 JUN 1995 (via CCNR's archive of COG reports): India's DAE
+  "has just decided" to retube Rajasthan-2 "with or without outside help", expected to take at least three years. The
+  CANDU Owners Group (COG MD Bany Collingwood) wanted to cooperate, but the COG 1994/95 annual report says Canadian
+  export policy on India was impeding cooperation. DAE would go alone "even if it takes longer" if Canada continued
+  "to curtail COG activities". COG had sent seven Canadian operators to RAPS from 28 FEB to 5 MAR 1993. *So Canada
+  walked out of building the reactor in 1974, and in 1995 its rules kept it from helping to repair it. India did the
+  repair alone, in 1996–97.* Find the Nucleonics Week original or a second source before the plan locks.
+- **Canada's suspension:** "Canada suspended nuclear cooperation with India following the explosion of a bomb at the
+  Pokhran site in May 1974"; formally ended in May 1976 (CCNR, advocacy: attribute, or use a Canadian government
+  source). The CIRUS research reactor that made the plutonium was Canadian-supplied (CCNR; widely documented).
+- **"Heart transplantation":** former NPCIL chairman S.K. Jain likened coolant-channel replacement to "heart
+  transplantation in human beings" (Deccan Herald, 18 SEP 2018). KAPS-2 went critical on 17 SEP 2018 after all 306
+  channels and the feeders were replaced, three months ahead of the December 2018 target; work began July 2016 (WNN).
+  V.K. Jain, Station Director KAPS-1 and 2, Jan 2017: "In all 612 coolant channels in both the units will be changed"
+  (IANS via Business Standard). *A named person on record.*
+- **Fleet mode:** the Cabinet approved 10 indigenous 700 MW PHWRs on 17 MAY 2017: about ₹70,000 crore in orders to
+  Indian industry, 33,400+ jobs, 7,000 MW (PIB via pmindia.gov.in).
+- **RAPP-8 fuel loading:** started about 20 SEP 2026, "4,704 fuel bundles across 392 coolant channels" (Business
+  Standard, 20 SEP 2026), with commercial operation targeted in FY27. 392 × 12 = 4,704 checks out.
+- **A Canadian moment for colour:** Nehru at CIRUS, 1961: "Our reactors, oil refineries, dams and steel plants are our
+  new temples" (Scroll, 21 NOV 2026, quoting the archive). Use only if the plan needs the 1960s.
+
 ## 3. Our edge, in one sentence
 Everyone sells India's nuclear future as thorium. We show the reactor that actually carries India today: born when
 Canada walked out in 1974, made of a few hundred thin tubes that crack, sag and age, and kept alive because Indian
 engineers learned to replace every tube inside a radioactive core by remote control, a job done "only the second
-time in the world" when they first did it.
+time in the world" when they first did it, in 1996–97, after Canada's rules had kept its experts from helping.
 
 ## 4. The objection ledger
 | # | Objection | What the sources say | Where to answer |
