@@ -58,6 +58,11 @@ mobile data (§9.6).
   wrong map of India, an unsourced number, stale facts, and fluff ("four of eleven minutes").
 - **"India can't" also draws mockers;** only the caring viewers return, so the film leaves *them* satisfied: the
   bottleneck told honestly, then who is solving it and the date to watch.
+- **23 NOV (Data API; Analytics still blocked):** 549 subscribers, 174,492 views. Catapult 22,857 views in 6 days
+  (98 likes, 105 comments), the best since Tejas: "₹20,000 Cr carrier + has no catapult". Arjun 4,683 in 1 day.
+  AIP 9,522; Matsya 959. Comments: catapult's most-liked are mockery and one-upmanship ("India's EMALS can launch
+  400 kg", "only US and China can build EMALS"), one asks the fuel cost of a ramp launch; Arjun's ask "why always
+  engines, in the air and on the ground?" and one defends Arjun vs T-90 on delivery; viewers ask for AMCA.
 - **Matsya, 24 h (2026-11-14):** CTR 4.7% but 25% average view: a dark-sea thumbnail and an abstract noun didn't travel,
   and retention was the bigger problem.
 
@@ -79,6 +84,14 @@ And in the picture: real Indian people at work in every chapter; no run of diagr
 from Indian life; never open on an object in a void.
 
 ### 1.4 The roadmap (owner, 2026-11-05; the owner picks the next film)
+- **Alternate (owner, 2026-11-23):** one honest bottleneck film, then one breakthrough or civilian-infrastructure film,
+  never two "India can't" films in a row and never a third engine film running. A breakthrough film keeps the same
+  tension in its title: the barrier that should have stopped India (physics, a sanction, a refusal), then the
+  engineers who beat it. *Why:* after Tejas, AIP, the catapult and the Arjun engine, the owner asked "are we really
+  encouraging India?"; the catapult's most-liked comments were mockery ("Super POWDER India"), and mockers don't
+  return. Matsya (a win) stalled on its abstract title and dark thumbnail, not because it was a win.
+- **Choose by research, not the list order (owner, 2026-11-23):** before the owner picks, compare the candidates on
+  audience demand, what already exists on YouTube, and our edge (§4).
 | # | Film | Mechanism |
 |---|---|---|
 | 1 | The AIP Dilemma (released 10 NOV) | fuel-cell air-independent propulsion |
