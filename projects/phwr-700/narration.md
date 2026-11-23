@@ -1,4 +1,6 @@
-# Narration · phwr-700 · v2 for the owner's approval (2026-11-23)
+# Narration · phwr-700 · v2, APPROVED by the owner (23 NOV 2026, about 6:30 PM IST)
+
+The owner records the two takes himself (blocks sent in the chat). Split: take 1 ends at "…And no doctor would come. What would you have done?" (4,111 characters); take 2 starts at "In nineteen ninety five, a nuclear trade weekly…" (5,676).
 
 **Locked package (owner, 2026-11-23):** title **Canada Walked Out of India's Nuclear Reactor**; thumbnail **1974**
 (the 306-port reactor face, the yellow shielded flask locked on, an Indian engineer for scale); challenger

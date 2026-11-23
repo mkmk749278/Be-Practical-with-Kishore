@@ -12,15 +12,14 @@
   exact day is unverified; C41's May 1998 is cut).
 - The channel became a YouTube Partner on 23 NOV (expanded tier); full ads need 1,000 subscribers (§15.6 plan).
 
-## Next, in order (updated 23 NOV, about 6:00 PM IST)
-1. **Fact-check done:** 50 rows, all sourced except **C01** (RAPP-8 cleared 19 Nov; PIB refuses our fetch). The
-   owner can screenshot the PIB page from his phone; until then the narration uses C31 (fuel loading, September).
-   Cut rows are in `claims_cut.csv`.
-2. **Narration v1 written** (`narration.md`, `vo.txt`, 1,762 words, both language gates pass). The independent review
-   is running in session_019NnLekRfFPSKKdyqAtNRdE (no repo). Next: `review_audience_v1.md` + `review_ack_r1.md`, the
-   fixes, archive that session, then **the owner approves the narration**.
-3. Then audio (two takes, split before "In nineteen ninety five"), footage requests, Blender bench on Modal (free
-   credit only, §14.1).
+## Next, in order (session closed 23 NOV 2026, about 6:30 PM IST)
+1. **Narration v2 APPROVED** (owner, 23 NOV). **The owner is recording the two takes himself** on Eleven v4 (Akash,
+   Creative 0.0, similarity 50%). When the files arrive: `scripts/vo_take_check.py` on each, then the owner approves
+   the audio (step 6).
+2. C01 (RAPP-8 cleared 19 Nov) is still unverified: ask the owner for a PIB screenshot, else keep C31 wording.
+3. From now: footage requests (NPCIL/DAE/PIB photos of Rawatbhata, the EMCCR, Kakrapar; Films Division archive), the
+   Blender heroes with a 10-frame Modal bench first (free credit only, §14.1), the SRT with real spellings.
+4. Copy this folder to Drive `Creator/English/phwr-700/` (not done on 23 NOV).
 
 ## Modal: inside the free credit (owner, 23 NOV: the US$20–40 estimate "won't work out")
 Re-planned to PLAYBOOK §14.1 "Zero rupees a film": 4 heroes at 2560×1440 on an L4 with adaptive sampling and the
