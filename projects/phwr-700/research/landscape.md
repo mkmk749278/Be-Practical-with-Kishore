@@ -100,6 +100,17 @@ Refuelling is done on power, by fuelling machines from the control room (BARC 20
 - **A Canadian moment for colour:** Nehru at CIRUS, 1961: "Our reactors, oil refineries, dams and steel plants are our
   new temples" (Scroll, 21 NOV 2026, quoting the archive). Use only if the plan needs the 1960s.
 
+## 2c. The people (Business India, 7–20 OCT 1996, Shivanand Kanavi, reposted by him)
+- **V.K. Chaturvedi**, project director at Rawatbhata, led the on-site team; **R.C. Arya**, director of reactor
+  services, led the Coolant Channel Replacement Group; **G.R. Srinivasan** (NPC) on the low radiation exposure.
+- Because of the embargo, Indian engineers "were denied detailed knowledge of the accident, its cause and the remedial
+  actions taken" (Pickering 1983), and had to reinvent components. *The heart of chapter 3: India had to learn from a
+  crack it wasn't allowed to study.*
+- Plan: "within 36 months, as opposed to 44 months taken by the Canadians"; "The Canadians spent nearly $300 million
+  whereas the Indians would spend $72 million to do the same." Old channels cut out in about four months; new ones
+  fitted DEC 1996 to SEP 1997; four tighter garter springs; Canadian precedent (Pickering) cited. RAPS-2 critical
+  again in May 1998 (Deccan Herald; find primary).
+
 ## 3. Our edge, in one sentence
 Everyone sells India's nuclear future as thorium. We show the reactor that actually carries India today: born when
 Canada walked out in 1974, made of a few hundred thin tubes that crack, sag and age, and kept alive because Indian
