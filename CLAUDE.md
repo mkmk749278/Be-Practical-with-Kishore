@@ -13,7 +13,9 @@ the playbook rule they belong to, with the reason; never a new doc file. `docs/a
 - **Released:** AIP submarines (10 NOV), Matsya 6000 (13 NOV), carrier catapult (17 NOV), Arjun tank (22 NOV,
   `A2mxbj2LoJI`, "Why India's ₹7,500 Cr Arjun Tanks Have No Engine"). The Arjun film was finished after the last
   recovered session (18 NOV), so its repo folder stops at the Blender stage; the channel itself is the record.
-- **Next:** the owner picks the next film (§1.4). Read the four new films' comments into §1.2 first.
+- **Open film: `phwr-700`** (India's own 700 MW reactors; "Canada Walked Out of India's Nuclear Reactor"). Research
+  done, plan v2 waits for the owner's approval; the owner's Gemini sweep is running. Read
+  `projects/phwr-700/handoff.md` first. **After it:** the 7 PM grid film with the AI data-centre hook (owner, 23 NOV).
 - **Rebuilt 2026-11-23** after GitHub disabled the old `Creator` repo: what is missing is in
   `docs/RECOVERY_2026-11-23.md`. To rebuild before they are needed: `scripts/yt_audience.py`, `scripts/vo_rejoin.py`,
   `scripts/yt_upload.py`, the `drive-backup.yml` secret (below), and the Modal port for heavy renders (§14.1).
@@ -48,7 +50,7 @@ a senior engineer or an elder brother over coffee. **Zero sodhi:** no fluff, che
 ## How we make a film (§3; owner gates in bold)
 **Promise first:** the title and thumbnail concept are locked in the plan, the opening is written first and checked
 against them, everything else pays that promise. **Decide early, build once.** Each step has a checked creative output.
-1. **Topic** (`brief.md`) → 2. **Research** (§4): what everyone says vs the primary record, **our edge in one
+1. **Topic** (`brief.md`) → 2. **Research** (§4; the owner's Gemini sweep, checked by us): what everyone says vs the primary record, **our edge in one
    sentence**, the objection ledger, the story bank, search words; no edge, no film → 3. **The plan** (§5): the locked
    promise, cold opens and endings that differ in kind, the creative spine, the beat sheet, the hero shots; independent
    plan review; **the owner approves the plan and the promise** → 4. **Facts** (§8, `claims_check.py`) →
@@ -125,7 +127,7 @@ against them, everything else pays that promise. **Decide early, build once.** E
 `projects/<slug>/` one folder per film (brief, research, plan, narration, `vo.txt`, claims, word map, scenes, Remotion
 code, review, `youtube/`, `handoff.md`; media in gitignored `assets/`) · `config/` brand, voice, pronunciation, music
 catalog · `lib/remotion/` shared components · `scripts/` tools (`scripts/blender/` Cycles scenes) · `tools/` editing
-tools · `prompts/` the independent audience review · `.github/workflows/` light jobs and the Drive backup ·
+tools · `prompts/` the independent audience review and the Gemini Deep Research prompt · `.github/workflows/` light jobs and the Drive backup ·
 `docs/PLAYBOOK.md` everything else · `docs/recovery/` the 2026-11-23 rebuild record.
 
 **Ground rules:** pin every version (npm, pip, actions, Remotion, Blender, Modal); fail soft per source, loud per stage;
