@@ -1,6 +1,6 @@
 # Handoff · phwr-700
 
-**Where it stands (23 NOV 2026):** topic approved. Step 2 research: two passes done (`research/landscape.md`, 31 draft claims). Spine found: two refusals (1974 walk-out, 1995 Canadian rules blocked repair help) and India did both alone.
+**Where it stands (23 NOV 2026):** research done (two passes, 41 claims); plan v2 after the independent review (`review_plan_v1.md`) waits for the owner's approval of the plan and promise. Gemini sweep prompt sent to the owner.
 `research/landscape.md` (first pass), `claims.csv` (draft rows).
 
 **Next, in order**
