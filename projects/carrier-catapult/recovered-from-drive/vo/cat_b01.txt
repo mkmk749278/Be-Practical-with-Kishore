@@ -1,0 +1,79 @@
+The twenty-ninth of October. A Rafale fighter, here for trials, comes down on India's newest aircraft carrier, I-N-S Vikrant.
+
+This deck is missing something that India's first carrier had, back in nineteen sixty-one. A catapult.
+
+The Rafale was built to be thrown off a ship by one. Vikrant has a ramp instead. The jet can leave by that ramp. It passed that test in Goa. But think about this.
+
+Sixty-five years ago, India was throwing jets off a ship. Today the Navy wants a catapult again — and the one India has shown so far, sits on the back of a lorry.
+
+So what happened in between? And here is something you would not guess. The electricity to throw a fighter jet costs you less than two hundred rupees. Yet it is one of the hardest machines on earth. By the end of this film, you will see why.
+
+Come and stand on Vikrant's deck with me. In front of you, the deck curves upward, like a flyover that ends in the sky.
+
+Do you see any moving parts on that ramp? None. The jet opens its engines fully, runs, and the curve throws it up. Nothing you can break. Nothing you must repair. You have to admit, it is a clever idea.
+
+But here's the catch. On a ramp, the jet must lift itself, with its own engines. So you take off lighter. You carry less fuel, or fewer weapons, or both.
+
+How much lighter? The Navy has not published that number. So I won't invent one for you.
+
+What nobody argues about is this. You cannot get a heavy, slow aircraft off a ramp at all. And which heavy aircraft matters most at sea? The flying radar. A plane with a big dish on its back, that sees trouble long before your ship can.
+
+India's carriers do that job with a helicopter. It works. But ask naval experts, and they will tell you, a helicopter cannot do it as well as a plane.
+
+So the ramp has a price. Then why did India choose it? To answer that, you must first see the catapult we already had, and how we let it go.
+
+Belfast, the fourth of March, nineteen sixty-one. India commissions its first aircraft carrier, bought from Britain and finished in that shipyard. Her name, too, is Vikrant. And under her deck is a steam catapult.
+
+How does steam throw a jet? You already own a small one. The pressure cooker in your kitchen. Steam builds up behind the weight, and when it goes, it goes with force. On the ship, that steam drives a piston along a tube under the deck, and the piston drags the jet.
+
+For nine years, it works. Then, in June nineteen seventy, in Bombay, the engineers find cracks in a boiler. Not one crack. Many, in the drums that hold the water. You cannot weld them. And a lasting repair is not possible in India.
+
+Do you see what that means? The same steam that turns the propellers, also fires the catapult. If you push those boilers too hard, in the words of Admiral Arun Prakash, they could simply blow up. Would you send that ship to war?
+
+So the ship is held to fourteen knots. That is about twenty-six kilometres an hour. Too slow for a carrier. And some very senior officers say, leave her out of the next war.
+
+The Navy chief, Admiral Nanda, will not have it. If Vikrant sits out a war, he says, she will be called a white elephant, and naval flying will be written off.
+
+So it comes down to the engine room, and to one man. Commander Benoy Roy Chowdhury, the ship's engineer. His shipmates call him Beeloo.
+
+What would you do with a cracked boiler, and no spare? Beeloo and his team put steel bands around it. They reset the safety valves, to accept more risk. And they keep the boiler room almost empty. Because if a drum bursts, that room fills with superheated steam.
+
+It holds.
+
+On the fourth of December, nineteen seventy-one, Sea Hawk jets leave Vikrant's catapult, and strike Cox's Bazar. And for his work in that boiler room, Beeloo is given the Vir Chakra, a medal for bravery.
+
+So India did not only have a catapult. India kept one alive with steel bands, and took it to war.
+
+Then how did we lose it? In the nineteen eighties, the Navy bought the Sea Harrier, a jet that needs no catapult. The last planes that still needed the catapult, the old propeller planes, retired in nineteen eighty-nine. So the catapult came out, and a ramp went on.
+
+You can see why. It made sense then. And when India designed its own carrier, the new Vikrant, she was drawn around a ramp jet too. Her engines are gas turbines. They make no steam for a catapult. And naval analysts say there is no room under that ramp to add one now.
+
+So steam is gone. If you want to throw a jet again, you have to do it with electricity.
+
+Look up at your ceiling fan. Do you know what turns it? An induction motor. Coils of wire in a circle, and a magnetic pull that chases round and round.
+
+Now cut that circle in your mind, and unroll it flat. You get a straight line of coils, about a hundred metres long, laid under the deck. The pull no longer goes round. It runs straight ahead, and it takes the jet with it.
+
+Only the coils beside the jet are switched on. A wave of force, racing down the deck.
+
+Now count with me.
+
+One.
+
+Two.
+
+Three.
+
+By the time you finish counting, a thirty-tonne fighter has gone from standing still, to two hundred and forty kilometres an hour.
+
+And what does that take, in electricity? Here is the number I promised you. The energy in that moving jet is about nineteen units of electricity. An average Indian home uses that much in about six days. On your bill, it is well under two hundred rupees.
+
+Then where is the difficulty? In the three seconds.
+
+Your home sips that energy over six days. The catapult must pour it out in three seconds. At its peak, that is close to fifty megawatts. More than half of what all four of Vikrant's engines make together.
+
+Can you take that from a ship's engines, in an instant? No. So you save up. Between launches, you spin up great steel machines, each one over thirty-six tonnes, like giant spinning tops. Then you pull the energy back out of that spin, and that becomes the push.
+
+And you must do this again every forty-five seconds, for years, on a ship at sea.
+
+So now you know the real machine. Not a motor. A power station, that works for three seconds at a time.

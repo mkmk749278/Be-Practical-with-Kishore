@@ -1,0 +1,92 @@
+[
+ {
+  "line": 1,
+  "start": 0.0,
+  "end": 2.255,
+  "te": "Medicines aren't the only missing piece.",
+  "en": "",
+  "speech_vs_text": 1.0,
+  "boundary_margin": 1.366,
+  "confidence": "high"
+ },
+ {
+  "line": 2,
+  "start": 2.748,
+  "end": 4.975,
+  "te": "India writes software for the whole world.",
+  "en": "",
+  "speech_vs_text": 0.84,
+  "boundary_margin": 0.296,
+  "confidence": "high"
+ },
+ {
+  "line": 3,
+  "start": 5.352,
+  "end": 10.192,
+  "te": "So why is India's own A.I. still so far behind America's and China's?",
+  "en": "",
+  "speech_vs_text": 1.39,
+  "boundary_margin": 0.296,
+  "confidence": "high"
+ },
+ {
+  "line": 4,
+  "start": 10.631,
+  "end": 11.748,
+  "te": "That's our next story.",
+  "en": "",
+  "speech_vs_text": 0.96,
+  "boundary_margin": 0.368,
+  "confidence": "high"
+ },
+ {
+  "line": 5,
+  "start": 12.234,
+  "end": 18.549,
+  "te": "Before you go, tell me in the comments — which medicine in your home would you most like to see fully made in India?",
+  "en": "",
+  "speech_vs_text": 0.92,
+  "boundary_margin": 0.368,
+  "confidence": "high"
+ },
+ {
+  "line": 6,
+  "start": 19.011,
+  "end": 20.02,
+  "te": "I read every one.",
+  "en": "",
+  "speech_vs_text": 1.14,
+  "boundary_margin": 3.974,
+  "confidence": "high"
+ },
+ {
+  "line": 7,
+  "start": 20.627,
+  "end": 22.167,
+  "te": "This is Be Practical with Kishore.",
+  "en": "",
+  "speech_vs_text": 0.81,
+  "boundary_margin": 9.9,
+  "confidence": "high"
+ },
+ {
+  "line": 8,
+  "start": 22.632,
+  "end": 23.404,
+  "te": "Stay practical.",
+  "en": "",
+  "speech_vs_text": 0.87,
+  "boundary_margin": 9.9,
+  "confidence": "high"
+ },
+ {
+  "line": 9,
+  "start": 23.797,
+  "end": 24.177,
+  "te": "Jai Hind.",
+  "en": "",
+  "speech_vs_text": 0.8,
+  "boundary_margin": 9.9,
+  "confidence": "high"
+ }
+]

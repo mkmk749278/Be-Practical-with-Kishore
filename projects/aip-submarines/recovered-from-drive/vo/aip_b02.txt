@@ -1,0 +1,17 @@
+Now switch back. You're in the submarine again. So why would you ever raise that mast?
+
+Because under water, everything you depend on runs on one giant battery. The motor, the lights, the air plant, the computers. And the engines that charge your battery need air. Down there, there is none.
+
+So how long can your battery last? A few days. The makers of India's Kalvari class say about four, and only if you move at a crawl. Then you must come up near the surface, raise your mast, and breathe for hours.
+
+Picture your patrol as a strip of time. Every few days, a red mark. Each red mark is a few hours when you can be heard, seen, or caught on radar.
+
+For a submarine navy, that's the whole game, right? Fewer red marks. Shorter red marks.
+
+That's exactly what A-I-P does. It's a second engine that doesn't need air from outside. Three main kinds are in use today. A Stirling engine, a steam turbine, and a fuel cell. India chose the fuel cell.
+
+And for you, the difference is huge. About four days on the battery becomes about two weeks under water. That's D-R-D-O's own figure from its land trials.
+
+So, a ghost? Not quite.
+
+A-I-P lets you crawl for weeks. It doesn't let you run. Push for speed, and you're back on the battery, draining it fast. And even when you're quiet, you can still be found. Active sonar can bounce sound off your hull. And the moment you raise a mast, you can still be seen.

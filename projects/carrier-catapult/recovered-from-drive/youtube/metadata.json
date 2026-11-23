@@ -1,0 +1,80 @@
+{
+ "slug": "carrier-catapult",
+ "promise": "India threw jets off a ship with a catapult in 1961 and fought the 1971 war with it; in 2026 its newest carrier has a ramp, and the Rafale it has bought was built to be thrown.",
+ "title": "India Had a Catapult in 1961. Why Not Now?",
+ "title_alternatives": [
+  "26 Rafales Built for a Catapult India Lacks",
+  "Why INS Vikrant Has a Ramp, Not a Catapult"
+ ],
+ "thumbnails": {
+  "main": {
+   "file": "thumb_a.jpg",
+   "words": "HAD ONE. 1961.",
+   "picture": "A Rafale M with Indian roundels on a carrier deck at sunset, nose to the ski-jump; a glowing yellow band set into the deck under it, where a catapult track would run. Generated with Canva's image generator (prompts in the session log; the Matsya precedent, owner 2026-11-12). No real person.",
+   "paid_off": "0:02 the Rafale on Vikrant; 0:08 'missing something that India's first carrier had, back in 1961'; 0:14 'A catapult.'"
+  },
+  "challenger_1": {
+   "file": "thumb_b.jpg",
+   "words": "NO CATAPULT",
+   "picture": "the same picture, the words in signal red",
+   "paid_off": "0:08-0:20 'This deck is missing something... A catapult... Vikrant has a ramp instead.'"
+  },
+  "challenger_2": {
+   "file": "thumb_c.jpg",
+   "words": "3 SECONDS",
+   "picture": "bright daylight, the deck cut open under a Rafale to show a line of glowing catapult coils (generated; the plain-object version)",
+   "paid_off": "0:30 the three-second throw; the EMALS chapter from 4:42"
+  },
+  "source_pictures": "Drive English/carrier-catapult/youtube/src/"
+ },
+ "description": "The Rafale M has landed on INS Vikrant, a jet built for an aircraft carrier catapult, on a carrier with a ski-jump ramp. Yet India's first carrier had a steam catapult in 1961, and went to war with it in 1971.\nHow a catapult throws a fighter in three seconds, how EMALS works, why America is arguing about it, China's Fujian against the USS Ford, and DRDO's electric catapult demonstrator in Pune.\nWhat India still needs before its jets are thrown off an Indian deck.\n\n00:00 Rafale on INS Vikrant without a catapult\n00:51 Why INS Vikrant has a ski-jump ramp\n02:00 India's 1961 steam catapult and the 1971 war\n04:42 How an electric catapult (EMALS) works\n06:26 China's Fujian vs America's USS Ford\n07:48 DRDO's electric catapult demonstrator\n09:32 What India needs next",
+ "chapters": [
+  {
+   "time": "00:00",
+   "title": "Rafale on INS Vikrant without a catapult"
+  },
+  {
+   "time": "00:51",
+   "title": "Why INS Vikrant has a ski-jump ramp"
+  },
+  {
+   "time": "02:00",
+   "title": "India's 1961 steam catapult and the 1971 war"
+  },
+  {
+   "time": "04:42",
+   "title": "How an electric catapult (EMALS) works"
+  },
+  {
+   "time": "06:26",
+   "title": "China's Fujian vs America's USS Ford"
+  },
+  {
+   "time": "07:48",
+   "title": "DRDO's electric catapult demonstrator"
+  },
+  {
+   "time": "09:32",
+   "title": "What India needs next"
+  }
+ ],
+ "playlist": "Practical India | Hard Truths, Simply Explained",
+ "schedule": "Sunday 22 November 2026, 11:30 AM IST (the weekly slot)",
+ "publish_at_utc": "2026-11-22T06:00:00Z",
+ "category_id": 28,
+ "altered_or_synthetic": "No",
+ "altered_or_synthetic_note": "No AI footage in the film; the voice is no real person; reconstructions are our own Blender/Remotion animation, labelled. Only the thumbnail pictures are AI-generated.",
+ "tags": [
+  "INS Vikrant",
+  "Rafale M",
+  "aircraft carrier catapult",
+  "EMALS",
+  "INS Vishal",
+  "IAC-2",
+  "ski jump carrier"
+ ],
+ "captions": "vo/captions.en.srt (English, written spellings)",
+ "pinned_comment": "Sources for every fact in this film (the full list with quotes is kept with the film). The jets on deck, the catapult cutaways and the boiler room are our own illustrations; the rupee figures marked OUR CALCULATION are ours, with the working on screen.\n\nhttps://www.navalnews.com/naval-news/2026/11/rafale-m-conducts-maiden-trials-onboard-indian-aircraft-carrier-ins-vikrant/\nhttps://theaviationist.com/2026/10/31/rafale-m-conducts-trials-aboard-ins-vikrant/\nhttps://www.thestatesman.com/india/26-rafale-ms-cleared-for-takeoff-india-and-france-ink-rs-63000-cr-defence-pact-to-strengthen-indian-navy-1503425910.html\nhttps://digital-commons.usnwc.edu/cgi/viewcontent.cgi?article=1005&context=nwc-review\nhttps://www.lowyinstitute.org/the-interpreter/third-aircraft-carrier-india-budget-versus-necessity\nhttps://news.usni.org/2025/09/22/chinese-aircraft-carrier-fujian-launches-stealth-jet-early-warning-aircraft-in-catapult-tests\nhttps://www.globalsecurity.org/military/world/india/r-vikrant.htm\nhttps://m.thewire.in/article/security/1971-series-indian-navy-bangladesh-war-stellar-role-arun-prakash\nhttps://www.livehistoryindia.com/story/eras/ins-vikrant\nhttps://karve.wordpress.com/2020/03/21/remembering-admiral-benoy-roy-chowdhury-an-engineer-par-excellence/\nhttps://www.geaerospace.com/news/press-releases/marine-industrial-engines/ges-lm2500-engines-power-indias-first-indigenous-aircraft\nhttps://en.wikipedia.org/wiki/INS_Vikrant_(2013)\nhttps://en.wikipedia.org/wiki/Electromagnetic_Aircraft_Launch_System\nhttps://www.ga.com/emals-motor-generator-passes-acceptance-testing\nhttps://www.dataforindia.com/access-to-electricity/\nhttps://maritime-executive.com/article/report-navy-s-costliest-carrier-cannot-reliably-launch-fighters\nhttps://www.dote.osd.mil/Portals/97/pub/reports/FY2025/navy/2025cvn78.pdf\nhttps://www.twz.com/sea/bringing-back-steam-catapults-on-carriers-is-a-huge-risk\nhttps://www.whitehouse.gov/presidential-actions/2026/08/rebuilding-the-united-states-navy-and-americas-shipbuilding-industrial-base/\nhttps://www.ga.com/ga-official-statement-in-response-to-the-national-security-memo-president-trump-signed-on-august-13-titled-rebuilding-the-united-states-navy-and-america-shipbuilding-industrial-base\nhttps://www.twz.com/sea/china-commissions-newest-aircraft-carrier-with-its-electromagnetic-catapults-front-and-center\nhttps://www.defensenews.com/naval/2017/11/09/tech-breakthrough-chinas-next-carrier-could-feature-electromagnetic-launch-system/\nhttps://idrw.org/indias-advance-towards-electromagnetic-aircraft-launch-systems-emals/\nhttps://idrw.org/future-carrier-power-navy-to-fund-emls-development-potentially-for-iac-iii/\nhttps://www.navalnews.com/naval-news/2025/09/india-unveils-15-year-technology-and-capability-roadmap-for-navy/\nhttps://idrw.org/indian-navy-eyes-2026-clearance-for-second-indigenous-aircraft-carrier-same-size-as-ins-vikrant-but-with-uav-focus-and-design-overhauls/\nhttps://news.usni.org/2017/10/20/reports-u-s-offers-emals-indian-carrier-development-program\nhttps://www.navalnews.com/?p=28363\nhttps://www.nao.org.uk/reports/carrier-strike-the-2012-reversion-decision/\nhttps://spectrum.ieee.org/a-hightech-launchsystem-for-carriers\n\nSome of you will ask, can the Rafale M fly from Vikrant at all? Yes. It was chosen after ramp trials at Goa, and it landed on Vikrant on 29 October. What the ramp costs it is weight at take-off, and the radar aircraft a catapult would carry. How much weight has never been published, so we do not guess.\n\nIf that forty thousand crore were your money, what would you build: a ramp, or a catapult?",
+ "video_file": "Drive English/carrier-catapult/renders/carrier-catapult_master_4k.mp4 (md5 cb1a3ec6581cae698ae3bbae870533a0, 11:04)",
+ "drive_folder": "Creator/English/carrier-catapult/youtube/"
+}

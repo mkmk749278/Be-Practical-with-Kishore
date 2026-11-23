@@ -1,0 +1,715 @@
+8bcc086 2026-11-05 Merge pull request #71 from mkmk749278/ccr-81359325-53ugk2
+5fe3126 2026-11-05 Docs rewritten fresh: one clear CLAUDE.md and playbook for the weekly documentaries
+2c11361 2026-11-05 Merge pull request #70 from mkmk749278/ccr-81359325-53ugk2
+d76c63d 2026-11-05 Docs: one channel, weekly film, 25-film industrial roadmap (owner directive 2026-11-05)
+b5a6895 2026-11-04 Merge pull request #69 from mkmk749278/ccr-08456474-xdf7nd
+2a4c33c 2026-11-04 india-own-ai: owner's final thumbnail (BUILD OR RENT? THE AI TOLL), corner watermark removed, 1280x720
+daca2bd 2026-11-04 Add film ideas list with the Ola ferrite motor viewer request (#68)
+058465b 2026-11-04 Merge pull request #67 from mkmk749278/ccr-7ad9c298-sjfxov
+7e1faf4 2026-11-04 Music library: own Lyria 3.5 tracks in Drive Music-Library, pull and generate scripts, docs
+58987ad 2026-11-04 Merge pull request #65 from mkmk749278/ccr-0679c205-b16app
+7015b5e 2026-11-04 india-own-ai: final 4K measured; YouTube package; round-2 acknowledgement complete; 4K lessons in the playbook
+d3f118b 2026-11-04 india-own-ai: the three chat apps type their answers across the hold (a 3 s still at 12:16)
+63bd35e 2026-11-04 india-own-ai: a nested animation begun before a part seam shows finished (the 9:10 training bar restarted at the p7/p8 join)
+a77a84b 2026-11-04 india-own-ai: remux_audio.sh joins any number of parts
+c23b544 2026-11-04 india-own-ai: TRIM=1 cuts each shot's own seconds into the part (4K p2 ran out of RAM holding whole source clips)
+69e7315 2026-11-04 india-own-ai r3: 10-part native 4K build, full-res sources, thumbnail B upgrade, round-2 acknowledgement
+d31a856 2026-11-04 india-own-ai r3: r2 review fixes (right person, right model cards, promise bar, real H100, Aadhaar and Maharashtra documents, bigger type, rule of 2)
+85d6cf9 2026-11-04 Merge india-own-ai (r2) into the working branch
+efef0f0 2026-11-03 india-own-ai: r2 cut delivered; note the NDTV caption for round 3
+af10faf 2026-11-03 india-own-ai: log the r2 render fixes (720p part media, no fake screens)
+706388c 2026-11-03 india-own-ai r2: real Indian engineers instead of a laptop showing a fake hacker screen
+95d4dfc 2026-11-03 india-own-ai: shrink a part's clips to 720p for review renders
+b257837 2026-11-03 india-own-ai r2: a real picture on every name, place and number (92 word-level cutaways)
+83b0c8c 2026-11-03 india-own-ai r2: the owner's YouTube clips in (Vaishnaw briefing, PM at Sarvam's stand with the 30B/105B screens, Pratyush Kumar, BharatGen, Bhasha Daan, Indus, NVS-03)
+0b44ea2 2026-11-03 india-own-ai r2 prep: bundle Gujarati, Kannada, Malayalam, Gurmukhi, Arabic, Ol Chiki fonts and the missing Chinese glyphs
+8566b6e 2026-11-03 india-own-ai: review cut r1 (720p) and review notes
+128c040 2026-11-03 PLAYBOOK: lessons from the india-own-ai render (script fonts on every style, check before render, media tars, music)
+d79b276 2026-11-03 india-own-ai r1 review fixes: Indian-script fonts on every text style, no burned-in news captions, no empty plates, date labels clear
+d6daed4 2026-11-03 india-own-ai: all five parts pass hyperframes check (overlaps fixed)
+36e8b07 2026-11-03 india-own-ai: layout fixes from the snapshot review (captions clear, payoff bars, stuck label guard)
+012aa3d 2026-11-03 india-own-ai: film build (5 parts, 13:07), reading-room overlay engine, score and SFX tracks
+da36d85 2026-11-03 india-own-ai: score (5 ElevenLabs music cues, 11:50) and 16 SFX; manifest rows
+e47d1b8 2026-11-03 india-own-ai: PIB photos of the 30 Jan 2025 briefing, document captures, YouTube candidates
+260dab3 2026-11-03 Merge pull request #64 from mkmk749278/ccr-f2c16d1a-fculpb
+630e55b 2026-11-03 Docs: readable by an elder on a phone, motion a viewer can see, builds on their words, outside picture reviews
+a18f48e 2026-11-03 india-own-ai: Pexels batches checked by picture (33 kept, 13 rejected); contact sheets
+5ebcf8e 2026-11-03 india-own-ai: VO approved by the owner; screenplay on the approved timings
+24e36ce 2026-11-03 scripts: termux_pexels_to_drive.sh downloads Pexels clips on the phone into Drive
+0aabb96 2026-11-03 india-own-ai: VO recorded (9 Akash takes via API, 12:53), aligned and take-checked; owner footage sheet and asset notes
+abab882 2026-11-03 india-own-ai: owner keeps Meta-alone and Indus lines; text final; block aligner
+225f164 2026-11-03 india-own-ai: narration v5 passes the spoken-English check
+6a0ffc7 2026-11-03 india-own-ai: narration v5 restores the DeepSeek cost line; owner approves translations and NavIC
+5e8fe97 2026-11-03 india-own-ai: narration v4 leads with Hindi, then Marathi and Telugu; many-languages beat; outside review checked
+cea9ffe 2026-11-03 india-own-ai: fact-check (83 claims) and narration v3 with its 16 fixes; recording blocks
+42c0b00 2026-11-03 india-own-ai: audience review v1 and narration v2 fixes
+92ae5bb 2026-11-03 india-own-ai: fact-check token re-run (in progress)
+4fefac2 2026-11-03 india-own-ai: treatment, research, token test, narration v1; ElevenLabs Akash tooling
+ec797e9 2026-10-31 Merge pull request #62 from mkmk749278/ccr-f5cfa6ba-4g2v8i
+fda0270 2026-10-30 Merge remote-tracking branch 'origin/main' into ccr-f5cfa6ba-4g2v8i
+e96f178 2026-10-30 pharma-apis round 6: final 4K master measured; acknowledgement complete; dissolve and seam lessons
+3cd39c7 2026-10-30 pharma-apis: 'build a plant here?' on the empty plot from above; drop the Lyfius globe-zoom span
+3b6ac37 2026-10-30 pharma-apis: part seams sit inside a shot, after each dissolve; a slow push on the 4:15 skyline
+9583771 2026-10-30 pharma-apis: round 6 acknowledgement draft (measurements added after the 4K master)
+3b49810 2026-10-30 pharma-apis round 6: real Chinese drug plants, and every cut a 6-frame dissolve
+f9ee2e4 2026-10-30 Docs: the shot-by-word audit is part of every review round (owner, 2026-10-30)
+8b8dde1 2026-10-30 pharma-apis round 6: picture matched to the words, shot by shot
+bd01153 2026-10-30 Merge pull request #61 from mkmk749278/ccr-f5cfa6ba-4g2v8i
+abab17b 2026-10-30 Merge remote-tracking branch 'origin/main' into ccr-f5cfa6ba-4g2v8i
+ed31cba 2026-10-30 pharma-apis: final 4K master measured; round 5 acknowledgement complete
+52311d7 2026-10-30 PLAYBOOK: part-seam and true-peak lessons from the pharma final master
+ff500f4 2026-10-30 pharma-apis: clean part seams for the final master
+4d85475 2026-10-30 pharma-apis: round 5 acknowledgement draft (measurements added after the 4K master)
+da405ed 2026-10-30 pharma-apis: package re-timed to the final cut (chapters 5:58, 7:47, 8:06), Test & Compare titles, a 'WHOSE POWDER?' thumbnail; round 5 lessons
+14eee0d 2026-10-30 pharma-apis round 5: r4 review fixes and the second review's notes
+630825d 2026-10-30 pharma-apis round 5 (in progress): 'cooked' batch-reactor scene drawn from real plant footage; 2001 beat gets the AP footage of H.I.V.-positive activists at the Pretoria medicine-price case
+f6a745d 2026-10-30 pharma-apis: round 4 acknowledgement for the next reviewer; Lyfius clean spans split at the promo's own wipes (the flicker chains); rule: every review round ends with an acknowledgement doc
+8f39e67 2026-10-30 Merge pull request #60 from mkmk749278/ccr-f5cfa6ba-4g2v8i
+2ca89b9 2026-10-30 pharma-apis: round 4 720p review cut record (0 repeats, 0 flashes)
+2c0680b 2026-10-30 termux_fetch_to_drive.sh: paced requests, and a throwaway account's cookies from Downloads when YouTube asks for the bot check
+9edaece 2026-10-30 Docs: search YouTube from the session with the channel's API access (yt_search.py), phone downloads; quota, limits and token rules
+16ec7ec 2026-10-30 yt_search.py: search YouTube from the session with the channel's API access, thumbnail contact sheets for vetting; round 4 results
+e811a85 2026-10-30 pharma-apis: grain step rounded, not floored (floor repeated every 3rd frame; tested frame by frame in the browser: 0 repeats)
+fdbc251 2026-10-30 PLAYBOOK: round 4 lessons (grain at the film's frame rate, shot times floored onto frames, one Drive folder per batch, rebuilding assets from Drive, YouTube search on the phone)
+d2f8dc0 2026-10-30 pharma-apis round 4: PLI press note, thermometer on white tablets, 'It did.' black beat into HAL today, the trap on the tanks with a PRICE WAR stamp, review record
+e11cd9b 2026-10-30 Render film workflow: 720p review cuts (native 1280x720 copies, 5 Mb/s) beside 1080p and 4K
+66aaba7 2026-10-30 pharma-apis: the penicillin G -> 6-APA -> amoxicillin chain drawn (one core, the side group swapped) and the lesson as a cracking chain (India's last link, China's before it)
+587ff46 2026-10-30 pharma-apis round 4 (30 Oct audit): Indian plant under 'It has the factories', Wuhan lockdown footage, PSU Watch page under the 5,000 crore, the <1% to 86% hero match cut, fermenter clock forward with a WHAT IF branch, counters land in 0.45 s, safe zones (tank meters, Andhra Pradesh label, tablet labels)
+1e7e0a8 2026-10-30 Termux: search YouTube on the phone and drop titles and thumbnails in Drive for the session to vet
+b039d1c 2026-10-30 pharma-apis: grain steps every frame (24/s on 30 fps froze it every 5th frame: the audit's judder on the animated scenes); shot times floored onto their frames (rounded up, 13 cuts flashed the empty background for one frame)
+b46d8b2 2026-10-30 Merge pull request #59 from mkmk749278/ccr-f5cfa6ba-4g2v8i
+fd273f0 2026-10-30 pharma-apis: master rebuilt with the new Corona-days shot
+db398ef 2026-10-30 pharma-apis: review record for the Corona-days shot change
+6222a46 2026-10-30 pharma-apis: the Corona-days line on The Tribune's 4 March 2020 report (Delhi chemists out of masks) instead of a generic street (owner, 2026-10-30)
+77f7f9f 2026-10-30 Merge pull request #58 from mkmk749278/ccr-f5cfa6ba-4g2v8i
+7585883 2026-10-30 pharma-apis: 4K master assembled from the 4K parts and the owner's re-uploaded takes (timing unchanged); QA record
+9eb5c3c 2026-10-29 Pharma: end-card question under the NEXT chip (clear of captions and banner); more space between the anti-dumping chips
+2646b97 2026-10-29 Pharma: name the photographers on the J.N. Port photo credits; log port photos, Pixabay photos and new documents in the media manifest
+de6c6b5 2026-10-29 Pharma: end-card question chip back below the banner tagline (y 760)
+9bf650c 2026-10-29 pharma-apis: round 3 record, YouTube package with chapters from the 4K cut; PLAYBOOK lessons on frame-rate conform, promo cuts and clean footage budgets
+63b248a 2026-10-29 pharma-apis: footage credit on a dark backing
+4f90ec8 2026-10-29 pharma-apis: firmer Lyfius crop (boxes and logo out of frame), labels clear of the lifted captions, dark backing on source tags and gauge
+3348779 2026-10-29 pharma-apis round 3: footage placed in clean spans with minimal re-use, documents for the date and the Aurobindo unit, line 81 in three pictures, parts with 4K scenes, YouTube SRT in film time
+c56544f 2026-10-29 pharma-apis: pack each part's media for the Render film workflow; 4K scene renders switch
+ffe95c5 2026-10-29 pharma-apis: native 4K scene renders for the master
+bdf7878 2026-10-29 pharma-apis round 3 (owner's 720p audit), work in progress: 30 fps conform by frame retiming, clean source ranges and frame-snapped cuts (no flash frames), Indian ports and archive documents for weak stock, sea-lane trade map, sourced case count, captions held and lifted, SRT in film time
+8e3e07a 2026-10-29 pharma-apis: v4 720p review notes
+3890f34 2026-10-29 pharma-apis v4 creative pass: living fermenter week, the 2001 price drop to scale, the minimum import price as a border gate; creativity rule in CLAUDE.md and the playbook
+ef1a2f0 2026-10-29 pharma-apis v4: owner's review round (narration restored, maps without Kakinada before the reveal, Cipla cards in one unit, PAP and petitioner labels, contamination beat, stock de-duplication, stabilised chakki); native 720p review copies (make_native_res.mjs)
+6712c1a 2026-10-29 pharma-apis: pending fixes for the next review round
+c87b159 2026-10-29 Docs: review cuts at 720p, fixes batched per review round, 4K only after the owner finalises (owner, 2026-10-29)
+fd8bf71 2026-10-29 Docs and checks from the jet engine film's production errors: doubled phrases from spliced re-takes, misread names and units; take trim that cut the last sentence off pharma blocks (vo_take_check.py, listen-for lists and respellings in vo_blocks.py, trailing-silence-only trim)
+74130fb 2026-10-28 pharma-apis: Lyfius in-points moved past the title and lower boxes (checked frame by frame)
+2187fc2 2026-10-28 pharma-apis: dark backing on every date (contrast on bright footage)
+c1eafae 2026-10-28 pharma-apis: review of preview 1 and fixes (long holds split into new framings, clean in-points for third-party footage, no real people under the roll call, map label above captions, end card moves); lessons in PLAYBOOK §15
+fb12bcd 2026-10-28 pharma-apis: regenerated parts 3-5 with the seam fixes
+8efe777 2026-10-28 pharma-apis: overlays and captions no longer stick across part seams (seam slivers dropped, short windows squeeze both fades); dark backing on the January 2027 date; render script takes a part list
+17c6af1 2026-10-28 pharma-apis: thumbnails fixed after the click panel (A main, B challenger), description draft
+2f65d54 2026-10-28 pharma-apis: session render and assembly scripts, thumbnail drafts and phone feed check
+c33013f 2026-10-28 pharma-apis: five film parts generated (11:19, Kakinada at 7:56.8); render workflow unpacks part tars pulled from Drive and fails clearly without the Drive secret
+ed3dbda 2026-10-28 pharma-apis: synthesised bed and SFX (reveal silences, roll-call stamps, phone ring); render workflow pins pillow 12.3.0 like pyproject
+f8663e5 2026-10-28 pharma-apis: film assembler (make_film.py: shots on VO lines, picture-led beats, captions, capsule gauge, roll call), longer scenes, stock clips used at most twice
+64f11a3 2026-10-28 pharma-apis: 9 animated scenes (powder route China→India and home, Hubei lockdown map, India pins, capsule opening, exploded tablet, fermenter and its lit Kakinada twin, tank scale), land-only maps
+3ada9bb 2026-10-28 Docs: render on GitHub Actions, author in the session (PLAYBOOK §3a, researched and measured: free public-repo runners, 41 s vs 61 s on the same spike, zero Claude usage); pharma overlay engine started (video/pha/_shared)
+da79421 2026-10-28 Merge pull request #56 from mkmk749278/ccr-9e90093e-jmluj9
+c28bccc 2026-10-28 Render film workflow: fetch library files before vendoring (npm ci's postinstall failed on a fresh runner)
+9f1e8ac 2026-10-28 pharma-apis: research, narration (recorded), alignment, screenplay, sourcing pass; render-film workflow
+52428d8 2026-10-28 Render film workflow: HyperFrames compositions rendered as parallel jobs on GitHub's free public-repo runners (no Claude usage), Drive or artifact output, timing in the run summary
+f56c962 2026-10-28 pharma-apis: owner's footage vetted (Lyfius Kakinada corporate film, HAL Pimpri gate, two chakkis, two Pexels pill clips kept; ET Now, PM exhibition and a Western pharmacy clip rejected), manifest rows
+c5e2ff9 2026-10-28 pharma-apis: sourcing pass 1 (14 Pixabay clips, 4 Wellcome CC BY images, 8 real documents incl. both DGFT orders and the NITI 86.1% table), media_manifest.csv, asset-manifest.md with gaps and the owner's fetch command, contact sheets
+cdaba7b 2026-10-28 pharma-apis: screenplay on the recorded VO (8 chapters, Q column, signature moments, ~20 s of picture-led beats so Kakinada lands ~7:55), asset list for sourcing
+f1a32d2 2026-10-28 Keep the pharma takes; per-block pace varies with one voice setup, so fast blocks get room in the edit (lesson)
+b7438df 2026-10-28 pharma-apis: owner's 8 Akash takes aligned per block (tools/align_blocks.py): 88 lines timed, sentence SRT, block offsets; VO 10:47.5, Kakinada at 7:37 raw
+fe99356 2026-10-28 pharma-apis: parks line ties Nakkapalli to the Kakinada plant (both in Andhra Pradesh); only block 7 changes
+bb13112 2026-10-28 pharma-apis: ending says 'the plant in Kakinada… right here in India' (owner heard Kakinada and Andhra as two places); docs: owner re-records freely, name the blocks to record again, stable block boundaries, place names by ear
+8a0fb8e 2026-10-28 pharma-apis: Corona and 1991 anchors independently confirmed (P72-P77), 'almost six weeks', recording file rebuilt
+24c9686 2026-10-28 pharma-apis: claims rows for the Corona and 1991 anchors (independent check in progress)
+5905f9d 2026-10-28 pharma-apis: Corona anchor in the cold open and callbacks, 1991 as 'the year India opened up its economy'; docs: anchor dates in lived memory (owner, 2026-10-28), lessons on outside script reviews
+a9816bd 2026-10-28 vo_blocks.py: plain f-string for older Pythons
+214279a 2026-10-28 vo_blocks.py: report block sizes the same way the file does
+811c85e 2026-10-28 Recording file: full narration plus click-to-copy blocks in one Markdown file (owner, 2026-10-28); scripts/vo_blocks.py, rule in CLAUDE.md and PLAYBOOK §4a-2; pharma-apis vo_blocks.md rebuilt
+2e4a405 2026-10-28 pharma-apis: roll call gives I.D.P.L. its own Stopped beat, so the voice can't run it into Torrent
+53a657d 2026-10-28 pharma-apis: narration v4 from audience review v2 (new opening, plain shield and anti-dumping lines, six A.P.A. becomes 'the base', explicit 1991 vs today bases, price trade-off), review_audience_v2.md, rebuilt recording blocks; both gates pass
+3487471 2026-10-28 pharma-apis: anti-dumping line before the January 2027 shield date, so 'the date to watch' stays clear
+eaf3ee0 2026-10-28 pharma-apis: narration v3 with the fact-check fixes (13-ingredient order, no blanket safety promise, Lyfius cost attributed, gap 'more than ten years', licence-based floor, parks not running, anti-dumping case), claims.csv + fact-check.md (67 confirmed, 4 attributed; gate passes), 7 Akash recording blocks
+94befa5 2026-10-28 pharma-apis: open loop points at minute eight (Kakinada lands ~7:50 at 150 wpm; recheck on the recorded VO)
+9e8bc29 2026-10-28 pharma-apis: narration v2 from audience review v1 (topic in the first line, early reassurance, fair 1991 comparison, simpler penicillin steps, fewer numbers, plain Indian phrasing); passes spoken_english_check
+16e53f6 2026-10-28 pharma-apis: audience review v1 (not ready: 1991 comparison, early reassurance, jargon, numbers)
+c86ab25 2026-10-28 pharma-apis: narration v1 (1,604 words, passes spoken_english_check), script.tsv, owner's angle answers; checker knows the film's subject words
+42f14d9 2026-10-28 pharma-apis: phase 1 research leads, search terms and treatment (India's Missing Pieces ep 4)
+2feb445 2026-10-24 Merge pull request #54 from mkmk749278/ccr-852e72ef-896dc3
+02ca6ef 2026-10-24 Merge remote-tracking branch 'origin/main' into ccr-852e72ef-896dc3
+844a0e7 2026-10-24 docs: stick-figure characters allowed in documentaries, designed per film (owner, 2026-10-24)
+4a91e8b 2026-10-24 stickman v2: fix wink bell length
+64c3380 2026-10-24 stickman v2: real paper folds, search beat, pop-catch-wink ending, hair tuft, cleaner ground
+be93a60 2026-10-24 Merge pull request #53 from mkmk749278/claude/built-on-bharat-setup-kncuzv
+54b99d1 2026-10-24 Add creative director role, lean-in narration and the YouTube discovery analysis
+3294ab4 2026-10-24 playbook: seek-safe redraw via setter, init after DOM, stick-man capability note
+c47cadb 2026-10-24 stickman: polished 17 s character-animation demo (The Paper Plane)
+4309379 2026-10-24 Merge pull request #52 from mkmk749278/ccr-913270e4-ve22hf
+1ac7361 2026-10-24 jet-engine-bet: final 4K cut delivered (8:37, re-takes spliced), timeline and delivery note
+bca30d8 2026-10-24 jet-engine-bet: chapters mapped through the re-take splices, media manifest refreshed (J-20, LSP-4 photos)
+86f3189 2026-10-24 jet-engine-bet: splice the owner's 4 Akash re-takes (no forty-ton, full power in seconds, MiG-21s have retired, two-thousand crore) with a time map; review v2 fixes (no placeholder, real cockpit insert, J-20 under China, labels clear of burned-in captions, trimmed scene heads, counter trim, CG exposure lift, helicopter-engine DMRL blades, SWiFT, Safran picked 2025 / approval pending)
+5c4825e 2026-10-24 jet-engine-bet: independent review of the 4K cut v2
+52086cd 2026-10-23 jet-engine-bet: opaque cover labels over stale burned-in text
+1332ccd 2026-10-23 jet-engine-bet: film v2 4K timeline
+7b86a34 2026-10-23 jet-engine-bet: 4K cut fixes from my contact-sheet pass (cover stale burned-in labels 120 kN / SELECTED / London bus, trims past black openings, add Rolls-Royce + Reliance label, tighter PIB crop)
+e421de4 2026-10-23 jet-engine-bet: R1v3 empty-exhaust depth disc, camera stops at the nozzle exit
+56f964c 2026-10-23 jet-engine-bet: dark hero tail for the empty-exhaust shot; CG source mtime in the shot cache key
+c88adc9 2026-10-23 jet-engine-bet: shot cache by content key, five shot fixes from the 4K contact sheet (no title card, no PIB caption, no London bus, no placeholder, question over a real Tejas); playbook lessons
+b852459 2026-10-23 jet-engine-bet: thumbnails after the independent click panel (C main with stamp, B honest challenger)
+95767db 2026-10-23 jet-engine-bet: YouTube package draft (title, description, chapters) and phone-feed check of three thumbnails
+95a09c9 2026-10-23 jet-engine-bet: sound builder, media manifest, thumbnail concepts, photo credits in the 4K assembly
+d7854d3 2026-10-23 jet-engine-bet: 4K assembly (real footage first, labels drawn at 4K, duration gate) and R1 v3 CG walk-around on the real Tejas airframe
+743b3b2 2026-10-23 jet-engine-bet: independent review of film v1; Commons HTML fetcher for when the API rate-limits
+b4ddf57 2026-10-23 Merge remote-tracking branch 'origin/ccr-83d8ceb7-0b2vdz' into ccr-913270e4-ve22hf
+3662863 2026-10-23 jet-engine-bet: timeline for film v1
+d88b10f 2026-10-23 jet-engine-bet: assemble plan uses R2 engine journey, drops placeholder scene
+7c2e1ca 2026-10-23 jet-engine-paradox: match on-screen labels to the owner's narration (city bus, 110 kN, offer on the table)
+6cec417 2026-10-23 jet-engine-bet: independent whole-film review v0
+427a27e 2026-10-23 jet-engine-bet: R2 engine journey template and render shards
+ef72012 2026-10-22 Merge pull request #51 from mkmk749278/claude/video-content-india-strategy-k7nosy
+2e6839d 2026-10-22 Rare earth: log thumbnail stock photos (Pixabay 2643160, 1313453) in media_manifest.csv
+f1bf4b1 2026-10-22 Merge pull request #50 from mkmk749278/claude/video-content-india-strategy-k7nosy
+9e37640 2026-10-22 Rare earth thumbnail final (owner's pick, refined: field lines, MAGNET tag, no arrow over text) + challenger H (logo-free scooter)
+8622e19 2026-10-22 Jet engine film: film v0 timeline table
+c1eba60 2026-10-22 PLAYBOOK §13b + CLAUDE.md: curiosity is the most important thing on a thumbnail (owner)
+1c4d0ea 2026-10-22 Thumbnails: retire the navy-card template; PLAYBOOK §13b curiosity rules, CLAUDE.md package rule
+12249c6 2026-10-22 Thumbnails rebuilt for curiosity: real hand + magnet (G, G2, G3), bright scooter callout (H); scripts/thumb_feed.py phone-feed mockups
+c14c4a6 2026-10-22 Jet engine film: assembly script (reuse-first full timeline to the voice-over), independent review of R1 v2, Poly Haven licences
+6a134aa 2026-10-22 Merge pull request #49 from mkmk749278/claude/video-content-india-strategy-k7nosy
+457b10b 2026-10-22 Rare earth final: 4K master, PLAYBOOK §15 lessons (4K memory split, absolute paths, source cuts, independent picture review, caption width)
+b8ea2a4 2026-10-22 Rare earth: pending changes
+42849d2 2026-10-22 Rare earth: date chips clear of the frame edge (4K check), cut 5 contact sheets
+5430b87 2026-10-22 Jet engine film: R1 multiplicative (ESKIL) vignette to remove the halo rings
+188f639 2026-10-22 Jet engine film: R1 cone-removal ring test
+4ac96f4 2026-10-22 Jet engine film: R1 AO-off ring test
+1d43e49 2026-10-22 Jet engine film: R1 v4 (bloom banding, camera clearance, wing glare, bay rail)
+f1ca0d6 2026-10-22 Jet engine film: R1 v3 fixes (light-shaft rims, bay faces, jet lighting, spill)
+ccb9bd7 2026-10-22 Jet engine film: R1 v2 A/B test (vignette and DOF off) while chasing floor halo
+c8d3032 2026-10-22 Jet engine film: R1 v2 realism rebuild (HDRI hangar lighting, scanned floor, AO, DOF, whip, rebuilt jet, nozzle, empty bay, camera path) and independent review v1
+1e55f66 2026-10-22 Ignore split render parts (video/rem/pNa, pNb)
+e7ad223 2026-10-22 Rare earth: SPLIT=N renders a part as two pieces (4K memory), assemble.sh joins pNa+pNb and fails on a missing part
+d1d5712 2026-10-22 Rare earth: 4K render script uses an absolute output path, PARTS/WORKERS overrides
+6ad29a1 2026-10-22 gitignore: HyperFrames render transaction dirs and scene MP4s
+97c5515 2026-10-22 Jet engine film: R1 test frames contact sheet
+41ce1a3 2026-10-22 Jet engine film: R1 tunnel cleaned (empty bay, no pipes)
+aa53cbc 2026-10-22 Jet engine film: R1 framing, torch and tunnel lighting pass
+5882479 2026-10-22 Jet engine film: R1 hangar polish (winding, exposure, intakes, date decal)
+1826333 2026-10-22 Jet engine film: R1 hangar walk-around scene (Three.js, procedural jet and hangar), work in progress
+77e4e48 2026-10-22 wip: gitignore assets, final align
+a702cb3 2026-10-22 Jet engine film: visual plan (reuse map of the 44 existing scenes, gaps, build order)
+c9cca9f 2026-10-22 Jet engine film: remove the 'start span' artefact after 'The Spin' (block 2 re-spliced); alignment refreshed
+463b6f3 2026-10-22 Jet engine film: block 2 'The Spin' replaced with the owner's clean take; alignment refreshed
+aadd1c1 2026-10-22 Jet engine film: screenplay v2 'The Walk-Around': one continuous camera tour, five rooms, timed to the final voice-over
+f1530c6 2026-10-22 Jet engine film: final narration text (owner's version), block 2 'span' glitch removed, sentence-level alignment
+f561e99 2026-10-22 Rare earth: final package (review title, chapters 7:01/10:05, E2 thumbnail, SRT), manifest, cut 5 review notes
+38d3451 2026-10-22 Rare earth: independent review fixes (source wipes/cuts, end card, maps, captions <=2 lines, grid stretches over dimmed footage, plates, numbers); map_china variant
+5849d3e 2026-10-22 Rare earth: native 4K render script, assemble.sh takes PARTS_DIR
+bc18e2b 2026-10-22 Rare earth: cut 4 contact sheets (every 4 s), thumbnails E/F/F2 (sand vs magnet; phone x-ray)
+9d52416 2026-10-22 Jet engine film: narration v11, director's cut (story first, core facts kept, owner direction)
+94f4559 2026-10-22 Jet engine film: owner's Akash take (8:26) text and sentence-level alignment
+13bb9fd 2026-10-22 Jet engine film: VO v10 (filler removed after review v6), narration_v10.md for the owner
+d39ab7a 2026-10-22 Jet engine film: VO v9 final wording
+7cae1e1 2026-10-22 Jet engine film: VO v9 passes checks
+d3ba629 2026-10-22 Jet engine film: audience review v5, VO v9 (friend-style fixes)
+4b33376 2026-10-22 Jet engine film: VO v8, warmer spoken rewrite (owner: first block sounded like a news reader)
+7fdbbd4 2026-10-22 Rare earth cut 4 review notes
+7c41fe7 2026-10-22 Jet engine film: audience review v4 (clarity 6+ for all), VO v7 final blocks
+4b3ee49 2026-10-22 Jet engine film: audience review v3, VO v6 (melting-point clarity, fewer numbers, practical close)
+da6d1e7 2026-10-22 Jet engine film: audience review v2, VO v5 (numbers, temperature paragraph, jargon)
+bbf0afb 2026-10-22 Jet engine film: VO v4 passes spoken-English check, 10 recording blocks
+6f71462 2026-10-22 Jet engine film: VO v4 applies fact-check fixes (hottest place, Celsius, Safran wording, planned F414)
+9e351ac 2026-10-22 Jet engine bet: fact-check updated for VO v3 (93 rows, L17 fix, hole size, rocket line)
+9d1f65f 2026-10-22 Jet engine bet: fact-check of the new science lines (claims.csv, fact-check.md)
+67c6cce 2026-10-22 Rare earth: owner's pickup 'about six minutes in' spliced into block 1 (same length), chip ~6 min in, re-aligned
+167c1e4 2026-10-22 Jet engine film: VO v3 wording fix, checks pass
+7dadaa1 2026-10-22 Jet engine film: VO v3 wording fix
+d47d759 2026-10-22 Jet engine film: audience review v1 and VO v3 fixes (hook, numbers, jargon)
+ed27cd9 2026-10-22 Rare earth cut 3: review notes, v5 chapters, wording fixes for next render
+928ade2 2026-10-22 Jet engine film: visual-first screenplay v1 (hot-gas gauge, five 3D hero shots, everyday-object cutaways)
+db8e4e8 2026-10-22 Jet engine film: narration v2 polish, blocks
+36f6def 2026-10-22 Jet engine film: narration v2 (everyday examples, deeper blade science, no Chandrayaan opener)
+4cc0085 2026-10-22 Jet engine film rebuild: new narration v1 in the magnet-film method, 8 Akash blocks, README
+6869467 2026-10-22 Rare earth v5 cut: new takes aligned, shots retimed through a v4->v5 sentence map, new opening/stairs/second-half shots, sound remapped, media_manifest.csv
+cf8e69b 2026-10-22 Rare earth v5 narration: familiar opening (phone buzz, permanent magnet spec sheet), staircase replaces rice, two audience rounds; buzz and stairs scenes; spec-sheet plates; pinned block boundaries
+47b69d3 2026-10-22 Rare earth cut 2 delivered: assemble.sh makes stereo before measuring loudness; PLAYBOOK §15 audio/crop lessons
+3252042 2026-10-22 Rare earth: cut 2 contact sheets
+79ca6eb 2026-10-22 Rare earth: review.md for cut 1, YouTube package draft
+bdd016f 2026-10-22 Rare earth cut 2: review fixes (dark Chetak shot, burned-in labels cropped, chip overlaps, text-only frames get footage), loudness to -14 LUFS by static gain + limiter
+858529e 2026-10-22 Rare earth film: snapshot fixes (decimal counter, crops, label positions, overlay lifetimes); parts generated
+65d813c 2026-10-22 Rare earth film: assembly and part-render scripts
+72eb91a 2026-10-22 Rare earth film: full cut (99 shots on real footage, plates, scenes), sound bed + SFX, owner's two thumbnail concepts
+9883676 2026-10-22 Rare earth film: scene sources (3D motor/siblings/tanks/grain/rice, maps, magnet line, blueprint bg), plates tool, QA sheets
+0fad596 2026-10-22 Merge pull request #48 from mkmk749278/claude/video-content-india-strategy-k7nosy
+ae0f2bb 2026-10-22 Phone route for footage: one Termux command downloads clips into Drive; gdrive_pull.sh brings them to the session
+3af76c0 2026-10-22 Rare earth film: VO recorded (8 Akash takes, 10:22), sentence-level alignment
+fea2aa7 2026-10-21 Merge pull request #47 from mkmk749278/claude/video-content-india-strategy-k7nosy
+d53d369 2026-10-21 Rare earth film: audience review v2, VO v4 ready to record (8 Akash blocks)
+47ee108 2026-10-21 Rare earth film: audience review v1, VO v3 (clearer dates, numbers, magnet steps), recording blocks
+3239445 2026-10-21 Rare earth film: independent fact-check (83 claims) and VO v2 with its 16 fixes
+88255c3 2026-10-21 Back to documentaries; rare earth magnets film: script v1, screenplay, thumbnail drafts
+9600c06 2026-10-21 Merge pull request #46 from mkmk749278/claude/video-content-india-strategy-k7nosy
+7a7476e 2026-10-21 Research: India content edge, topic gaps and search demand (2026-10-21)
+9242ad7 2026-10-21 Merge pull request #45 from mkmk749278/ccr-f158236b-tx3et5
+255568d 2026-10-21 UPI film 01: hashtags and tags (owner request)
+75439e3 2026-10-21 Merge pull request #44 from mkmk749278/ccr-f158236b-tx3et5
+e23cb89 2026-10-21 UPI film 01 thumbnail: red debit SMS, everyday clock time; description updated
+0b5b86c 2026-10-21 UPI film 01 thumbnail: realistic UPI app screens (failed / processing + bank debit SMS)
+70f5a9f 2026-10-21 Merge pull request #43 from mkmk749278/ccr-f158236b-tx3et5
+7422c58 2026-10-21 UPI film 01: final thumbnail C (bigger status icons), description names it
+0f6b536 2026-10-21 UPI film 01: thumbnail C (debited + failed/processing, refund-rule answer chip)
+8bb33f3 2026-10-21 Film 01: thumbnail B after independent thumbnail review (#42)
+8dd6b04 2026-10-21 Film 01 final: full-film build, five review rounds, real kirana photos, YouTube package (#41)
+0f29ed5 2026-10-20 Film 01: Blender shot system (film.py) and resumable render script (#40)
+a69e35a 2026-10-20 Film 01: processing motion test, Kaggle GPU render path, shopkeeper as silence (#39)
+7c657d9 2026-10-20 Film 01: ₹840 token as status, call screen, outcome lamps, bank fronts; bp_fail red for FAILED (#38)
+c147f9b 2026-10-20 Film 01: paced VO, sentence timing, lookdev, visual-plan review (plan v2) (#37)
+49a5b31 2026-10-20 Film 01: align the final VO, audio audience review, edit-room fixes (#36)
+c188186 2026-10-20 Merge pull request #35 from mkmk749278/ccr-f158236b-tx3et5
+ce90ac4 2026-10-20 Merge main
+1fd277d 2026-10-20 Film 01 VO v16 (recording version): audience review 9 'almost ready, fix 1-3' applied; screenplay rebuilt for the final VO; review_audience_v9.md
+24af11f 2026-10-20 Film 01 VO v15: audience review 8 fixes (deadline only for money that didn't arrive, plain failed line, quoted call, counter script, wait-or-raise, Ombudsman named); review_audience_v8.md
+b54397c 2026-10-20 Film 01 VO v14: audience review 7 fixes (only-when-failed retry, SMS debited vs app processing hook, deadlines repeated, Ombudsman plain first, 15 s to screen); review_audience_v7.md
+691feea 2026-10-20 Film 01 VO v13: audience review 6 fixes (settlement detail moved to picture, clear money answer, Ombudsman explained, simpler hook); narrator-voice rule now a note; review_audience_v6.md
+37c67ff 2026-10-20 Film 01 VO v12: audience review 5 fixes (settlement without contradiction, ₹840 twice, fewer numbered lists, finished counter advice, Ombudsman step); review_audience_v5.md
+8d8b805 2026-10-20 Film 01 VO v11: review 4 fixes, written without a word cap (owner: narration quality first); word count is a guide in rules and checker; review_audience_v4.md
+dcfb859 2026-10-20 Film 01 VO v10: audience review 3 fixes ('approved' dropped from VO, clear money answer, wait times in summary, UPI Help steps, failed is final); review_audience_v3.md
+f8f73d3 2026-10-20 Film 01 VO v9: audience review 2 fixes (approved-for-now explained, answer slowed, deadline clarified, safe-retry line, acronym breaths); review_audience_v2.md
+b2cebe5 2026-10-20 Film 01 screenplay: audio and visuals updated to VO v8
+eaca65e 2026-10-20 Film 01 VO v8: audience review 1 fixes (pending label, no lorry, soundbox, UPI Help path, duplicate payment); review_audience_v1.md
+097646c 2026-10-20 Film 01 VO v7 hook names UPI and the shop; independent audience review rule
+9f74c8c 2026-10-20 Merge pull request #34 from mkmk749278/ccr-f158236b-tx3et5
+082d7de 2026-10-20 Film 01 VO v6: UPI flow first, success / failed / processing as a phone call (440 words)
+05206cf 2026-10-20 Merge pull request #33 from mkmk749278/ccr-f158236b-tx3et5
+88a680b 2026-10-20 Film 01 VO v5: real mechanism answering the viewer's three questions
+884ef37 2026-10-20 Merge pull request #32 from mkmk749278/ccr-f158236b-tx3et5
+da54303 2026-10-20 Film 01 VO v4: built on the three UPI app statuses (success, failed, processing)
+1f5b8dd 2026-10-20 Merge pull request #31 from mkmk749278/ccr-f158236b-tx3et5
+739f25c 2026-10-20 Owner's narration blueprint (Part H) folded into §4a-10; checker and film 01 VO v3
+df4ea0a 2026-10-20 Merge pull request #30 from mkmk749278/ccr-f158236b-tx3et5
+f6b3ae1 2026-10-20 Spoken-English rule for Indian listeners (§4a-10), checker, and film 01 VO v2
+fdaa605 2026-10-20 Merge pull request #29 from mkmk749278/ccr-f158236b-tx3et5
+028f69a 2026-10-20 Film 01 (UPI failed but money deducted): HUD spec, VO, storyboard, sourced claims
+24f0646 2026-10-20 Merge pull request #28 from mkmk749278/ccr-f158236b-tx3et5
+f2699b5 2026-10-20 Engines for the 180-second films: HyperFrames 2D + Blender Cycles hero cutaways
+59521f7 2026-10-20 Merge pull request #27 from mkmk749278/ccr-f158236b-tx3et5
+5b01ba2 2026-10-20 Owner directive 2026-10-20: 180-second hyper-visual explainer format
+36f85c2 2026-10-17 Merge pull request #26 from mkmk749278/ccr-a206f834-jo91xy
+05b9cef 2026-10-17 Merge remote-tracking branch 'origin/claude/ai-character-video-presenter-0k0zny' into ccr-a206f834-jo91xy
+b9161e5 2026-10-17 Merge remote-tracking branch 'origin/ccr-26d9f2d1-31zk6g' into ccr-a206f834-jo91xy
+9fc4c60 2026-10-17 Owner decisions 2026-10-17: channel named only at the end, thumbnail subject first, title suffix kept, India-capability topics first
+331d9c0 2026-10-17 Playbook §4a-7: Studio retention data — recommended, but 2/3 of losses in the first 45 s
+6bbe9c4 2026-10-17 Playbook: Indian audience psychology, sentence architecture, channel growth snapshot (owner, 2026-10-17)
+c94d1ca 2026-10-17 Merge pull request #25 from mkmk749278/ccr-fcdf685d-f899pb
+9b94885 2026-10-17 Rule: YouTube description is a simple description and timestamps only (owner, 2026-10-17)
+1d5c369 2026-10-17 Merge pull request #24 from mkmk749278/ccr-fcdf685d-f899pb
+407fb4e 2026-10-17 Kavach YouTube chapters: match reel v2 (8:34), keep full-film chapters for later
+a3be866 2026-10-17 Merge pull request #23 from mkmk749278/ccr-fcdf685d-f899pb
+c71bd83 2026-10-17 YouTube packages: Kavach and insurance-ombudsman (health insurance part 2)
+30f1c01 2026-10-17 Merge insurance-ombudsman v3 (ccr-2fb9b69d-2ph5zo) into the delivery branch
+11c84c3 2026-10-17 Merge pull request #22 from mkmk749278/ccr-5beade47-wm6y7r
+aaa71d8 2026-10-17 Rule: YouTube package and PR close-out after every final video
+b54d757 2026-10-17 insurance-ombudsman v3: review.md (independent review + 4K), consumables push and end-card blur fixes
+d37d8c0 2026-10-17 split_4k: preset medium (slow was too slow for 4K re-cuts)
+466f116 2026-10-17 gitignore the 4K render log
+1593d9b 2026-10-17 insurance-ombudsman: fetch_scenes.sh pulls scenes4k first and never overwrites existing clips
+d32f5b2 2026-10-16 insurance-ombudsman v3: independent review fixes and native 4K pipeline
+66686aa 2026-10-16 Merge remote-tracking branch 'origin/scenes-io-c' into ccr-2fb9b69d-2ph5zo
+b8bbe01 2026-10-16 Merge remote-tracking branch 'origin/scenes-io-b' into ccr-2fb9b69d-2ph5zo
+eae2345 2026-10-16 Merge remote-tracking branch 'origin/scenes-io-a' into ccr-2fb9b69d-2ph5zo
+4ddf206 2026-10-17 Merge pull request #21 from mkmk749278/ccr-a4eda1f4-iuege1
+7684200 2026-10-16 Kavach: 4K reel v2 delivered (link in README)
+37d7a80 2026-10-16 Kavach: 4K render lessons in PLAYBOOK §9.4, README status
+c570f33 2026-10-16 Kavach: make the 4K render queue resumable (.done markers)
+c556fee 2026-10-16 Kavach: viewer review 3 fixes and native 4K render tool
+c8f76d2 2026-10-16 Kavach E5: stamp fits the post card
+4972b66 2026-10-16 Kavach README: scene status
+a455a1e 2026-10-16 Kavach E7, E8, E9 (15 km/h depends on set-up; three questions; pinned route question)
+0dbdd50 2026-10-16 Kavach E4, E5 (not an app; SIL-4 half the story)
+811f596 2026-10-16 Kavach E1, E2, E3, E6, E10-E14 (phone chat, forwards, cracks into a 3D night track bed, title, chapter cards); PLAYBOOK 9.4 3D lessons
+b7acbe2 2026-10-16 Kavach A scenes: sync kav3d.js into every A folder
+ce09360 2026-10-16 Kavach A7, A8, A9 3D scenes (info arrow, brake pipe wave, links relight)
+e1d7aee 2026-10-16 Kavach A4, A5, A6 3D scenes; kav3d: fresh camera matrices for DOM pins, cutaway room option
+9de6182 2026-10-16 Kavach A2, A3 3D scenes; kav3d: rig, RFID tag, Kawase bloom + AgX + smooth vignette (no dark halos on SwiftShader)
+a6ccd91 2026-10-16 Kavach B scenes: review 2 fixes (Vande Bharat profile, ≈650 m, signal on the left with red at the bottom, cab desk, DMI lamp order, brakes-applied beat, B5 impact, B6 Indian signal and count timing)
+e7cc726 2026-10-16 Kavach D scenes: review 2 fixes (D5 lights only the commissioned sections from the PIB table, D7 to-scale bars incl. version 3.2, D8 no false count-up, D4/D1/D3/D9 pacing and size)
+607c2ac 2026-10-16 Kavach C scenes: review 2 fixes (Coromandel label, goods wagons, faulty circuit input, label placement, impact sync, rule box)
+14237b2 2026-10-16 Kavach A1: 3D railway world (kav3d.js) and the ATP scene; viewer review 2 triage
+74b2214 2026-10-16 Kavach C scenes: Indian signal heads, review fixes (C1-C8)
+36eca46 2026-10-16 Kavach: stop tracking render queue logs
+ae11072 2026-10-16 Kavach: D6 counter fade under the enlarged grid
+ce67f9b 2026-10-16 Kavach: review fixes from the independent viewer review (B1-B6 real cab + DMI, B5 payoff, D1/D3/D4-D9 fixes, D7 real PIB lines); playbook: CPU-only guide mapping
+42980ca 2026-10-16 Kavach: real-photo design reference (DMI, RFID tag, Kavach units, Indian signals, liveries, Balasore layout); B3/B4/B5 redesign start; rule: design from real photos first
+8fb7724 2026-10-16 Playbook: independent viewer review by a repo-less session (owner, 2026-10-16)
+38cf9b5 2026-10-16 Kavach: accurate India map (official India-POV boundary, DataMeet CC0 rail network, whole country in frame) for D4-D6
+b74842c 2026-10-16 Kavach: D1 tag motion as a pure function of time (render-seek fix), D7 counter timing
+26ce580 2026-10-16 Kavach: replace whiteboard maths with to-scale animations (D1, D2, D3, D6); owner rule: maths is animated, never written
+a51d30b 2026-10-16 Kavach: B scenes B2-B6 and D scenes D4-D9 (map, corridors, under-a-tenth board, funnel, budget, commissioning loop)
+098c02d 2026-10-16 kavach-railway-reality: crash-forensics scenes C1-C8 (Balasore and Kanchanjunga schematics, simulation, comparison) built in this session; scene shell, build and render-queue tools; cues from VO timing
+ff90330 2026-10-16 Merge remote-tracking branch 'origin/kavach-scenes-D' into ccr-a4eda1f4-iuege1
+227769d 2026-10-16 kavach-railway-reality: manifest rows for 19 news clips (2022 trial, Balasore and Rangapani sites, fog) from the news-video sourcing pass
+02dfb2f 2026-10-15 insurance-ombudsman v2: review notes; slow push on the A6 O029 hold
+0ff8d2b 2026-10-15 insurance-ombudsman: owner's Canva video templates in (IO-1 helpdesk, IO-2 laptop with the real cioins page on screen, IO-3 loading, IO-5 doctor crop); IO-4 back to Hyderabad street; Canva licence rows
+b8c0e95 2026-10-15 insurance-ombudsman: session A revision v2 (readable SIMULATION documents, new A6 GRO email)
+062d0f1 2026-10-15 insurance-ombudsman v2 shot list: religious-marker and video-call stock removed, A6 GRO email + C6 hearing scenes, Canva template slots IO-1..IO-5, court lines on real Bombay HC photos only
+99c0f45 2026-10-15 C1 O048 and C3: real readable SIMULATION texts instead of placeholder lines (owner: no blank paper)
+da9c444 2026-10-15 insurance-ombudsman B scenes: README note for v2
+6720827 2026-10-15 C6: gentler push on the In person / Online toggle, keep all three tiles in frame
+fb63a91 2026-10-15 Session C revision v2: readable D5/D6/D7 documents in C4, new C6_hearing
+28e63e2 2026-10-15 insurance-ombudsman B scenes v2: readable SIMULATION documents (D2, D5–D8) instead of grey bars
+f5925d7 2026-10-15 insurance-ombudsman: revision v2 brief from the owner's notes (readable documents, no religious markers, new GRO-email and hearing scenes, Canva illustrations)
+2548ba8 2026-10-15 insurance-ombudsman: English SRT from the VO timing; 1080p + 720p preview delivered to Drive English/insurance-ombudsman
+8e9f06b 2026-10-15 kavach-railway-reality: asset needs, Pixabay B-roll and document proofs logged, music candidates, proof/sfx tools; PLAYBOOK: Freesound CDN 403, usage-limit lesson
+cdc81aa 2026-10-15 insurance-ombudsman: review.md for the 1080p preview; renderer-versioned shot cache, English banner, glimpse push-in
+449f718 2026-10-15 kavach D: India rail map builder (Natural Earth land + rails), whiteboard ≈ glyph
+f906249 2026-10-15 kavach-railway-reality: program timeline (11:13), 46 scene specs for five sessions, session brief, shared Signal Room css
+de78a60 2026-10-15 kavach-railway-reality: Akash VO (3 blocks, 10:49) and script alignment
+1c5bbd5 2026-10-15 insurance-ombudsman: review fixes (atomic shot cache, % labels, glimpse overlays, GRO page with names blurred, thumbnail framing); lessons in PLAYBOOK §15
+b7dd199 2026-10-15 kavach-railway-reality: v2 fact-check (81 claims, gate passes) and its fixes: V048 wording, V052 attribution, eight cite tags
+5a5454a 2026-10-15 insurance-ombudsman: EDL regenerated for the full build
+35b53a4 2026-10-15 insurance-ombudsman: O036 uses session C's gazette magnifier (real G.S.R. 828(E) wording) instead of a web still
+0f5ac3b 2026-10-15 insurance-ombudsman: A1 O009 door-from-step-4 beat, F07 kept to two uses, shots-only mode, faster final pass
+c4ced0c 2026-10-15 insurance-ombudsman: session A scenes (A1 staircase + corner, A2 three doors, A3 claim cut, A4 email/RETURNED, A5 Bima Bharosa tracker)
+f52fbf9 2026-10-15 Episode 02 session C scenes: filing stepper, offices board, document slots, binding award, proof magnifier
+e6422c1 2026-10-15 kavach-railway-reality: script v2 rebuilt from the author helper (61 lines, ~11 min), fair open-loop wording
+61f490d 2026-10-15 Owner's production guide for English films (2026-10-15): PLAYBOOK §4a-4 + Part F verbatim, CLAUDE.md, 3.5-5 s cadence; Kavach script v2 in the new voice with screenplay view and phonetic/rhythm lint
+3f355c4 2026-10-15 insurance-ombudsman: fetch_scenes.sh pulls the sessions' scene clips from Drive
+cad7cde 2026-10-15 insurance-ombudsman: coordinator build (shot list/EDL for 134 sentences, assembler, soundtrack at -14 LUFS, media manifest, web captures script)
+1f15482 2026-10-15 insurance-ombudsman: session B scenes (B1 fee split, B2 two-step clock, B3 penalty meter, B4 time stats) on a shared desk-world kit
+c5b29b4 2026-10-15 kavach-railway-reality: README summary matches v1.1 braking anchor
+aeb61de 2026-10-15 kavach-railway-reality: fact-check (82 claims, gate passes), script v1.1 with all required fixes and verified fallbacks
+6c0e77b 2026-10-15 kavach-railway-reality: project setup, owner brief and audits, script v1 (128 lines, 3 blocks), changes from brief
+4d12195 2026-10-15 insurance-ombudsman: film timing table, 14 scene specs on the real VO windows, parallel-session brief (A/B/C + coordinator)
+54c7a9e 2026-10-15 insurance-ombudsman: Akash VO (ch1 2:11, ch2-4 7:09 in one take) and script timing (134 sentences, 125 high confidence)
+d2a42a7 2026-10-15 Rule: recording blocks pasted in the chat as copyable code blocks (owner, 2026-10-15)
+9eb862b 2026-10-15 insurance-ombudsman: Episode 01 glimpses (7 shots from the owner's v5 cut) wired into O001-O002; cut_glimpses.sh
+89f2fa9 2026-10-15 insurance-ombudsman: fact-check v1.3 re-check (claims rows match the script; 37/37)
+fe06c33 2026-10-15 insurance-ombudsman v1.3: fact-check applied (37/37 confirmed); 1,715 restored from CIO Statement H8
+5e1777b 2026-10-15 insurance-ombudsman v1.2: stands alone without Episode 01 (owner, 2026-10-15); Akash, faceless
+c220d28 2026-10-15 insurance-ombudsman v1.1: series continuity with Episode 01 (same family and bill, step-4 framing, no contradiction of Bima Bharosa advice)
+bd0b386 2026-10-15 Drive layout per channel/video; insurance-ombudsman phase 1: script v1 from the owner's directive
+4b0c5fb 2026-10-14 health-claim-trap: 2560x1440 thumbnail PNG masters
+c256a4c 2026-10-14 health-claim-trap: YouTube package (two themed thumbnails, titles, v5 timestamps)
+7b96629 2026-10-14 Merge origin/main into ccr-bd92b213-qhh6r0
+960b196 2026-10-14 health-claim-trap v5: printer in-point and bill framing fixes, review.md for v5, EDL
+07b5920 2026-10-14 Merge pull request #19 from mkmk749278/ccr-aabf4b35-yglcu1
+3aad6e0 2026-10-14 jet-engine-paradox: owner review fixes, licensed soundtrack, YouTube package
+e0bfcfe 2026-10-14 health-claim-trap v5: four-tower bill guillotine (-37.5% on room, doctor, nursing; medicines protected) and analog 3-hour stopwatch dial with overtime ring
+25e50a2 2026-10-14 health-claim-trap v5 edit: real clips through the first minute (night waiting hall, counter, printer, letter, panic call), OPD line held on real clinic footage, e24 replaces the table scan; manifest logs every Coverr clip
+ef7e41c 2026-10-14 health-claim-trap v5: fill the voids (letter under the stamp, titanium 60-month shield, TPA arrow shatter, burden icons, room-rent excuse, reimbursement checklist), e24 India results map with 76% gauge and penalty meter, blurred hospital backdrop under every engine scene
+5226185 2026-10-14 health-claim-trap v4: manifest + credits for SFX, map data, cutaway, web captures
+ac81d52 2026-10-14 health-claim-trap v4: India map (DataMeet), browser clips for both portals, cutaway opening, sound design mixer, native 4K render script
+ec822ec 2026-10-14 health-claim-trap v3: swap two weak-fit clips; preview contact sheet
+849a3fa 2026-10-14 health-claim-trap v3: real clips on emotional beats (hybrid with v2 engines)
+4a77c1a 2026-10-14 health-claim-trap v2: review fixes (blank frames, overstamp, pillars, war-room camera), review.md
+c0c7ab0 2026-10-14 Merge pull request #18 from mkmk749278/ccr-aabf4b35-yglcu1
+65520d5 2026-10-14 jet-engine-paradox: J-20 photo in D15 (CC BY-SA 4.0, credited); 4K assembly: lanczos scene upscale, 40 Mbps master
+bd7223d 2026-10-14 Merge remote-tracking branch 'origin/jep-scenes-d' into ccr-aabf4b35-yglcu1
+79df89f 2026-10-14 health-claim-trap v2: programmatic visual engines (owner's upgrade spec), doc rig, v2 shot list, claims, lessons
+e117c2b 2026-10-14 jep D: all 15 scenes rendered and on Drive; READMEs, previews
+601bafb 2026-10-14 jet-engine-paradox: J028 pushes into India on the engine-club globe and dissolves into the blueprint (new dissolve shot kind)
+3d7e8e7 2026-10-14 health-claim-trap: preview v1 review, contact sheet
+3432fd2 2026-10-14 jep D: D3 D4 rendered
+cb20209 2026-10-14 health-claim-trap: review fixes (Indian/hospital-fit stand-ins, board timing), review.md
+2439b90 2026-10-14 jet-engine-paradox: INS Arihant (PMO, GODL-India) in J003
+b90b41f 2026-10-14 health-claim-trap: EDL, media manifest, subtitles, description draft
+367a963 2026-10-14 health-claim-trap: VO timing, scenes, boards, proofs, sims, assembly (WIP)
+434c777 2026-10-14 jep D: D14 rendered
+e4bf882 2026-10-14 jet-engine-paradox: Kaveri prototype still for the test-bench line (J035)
+bdc0137 2026-10-14 jet-engine-paradox: Pokhran line on the GoI 1998 paper laid in Parliament (pdf_proof.py renders PDF proof frames)
+83b901b 2026-10-14 jet-engine-paradox: Kaveri display photo (CC BY 3.0) in J030; manifest rows for the proof pages
+deeeecc 2026-10-14 jep D: ignore render status
+7af2d51 2026-10-14 jep D: README generator, library row, PLAYBOOK lessons
+fabeb4e 2026-10-14 jep D: D2 D5 rendered; D11 D13 D15 authored
+2f99c2b 2026-10-14 jep D: D7 rendered; D6 D8 D9 D10 D12 authored
+b34067f 2026-10-14 jet-engine-paradox: Bloomberg, CRS and PIB 2021 proof shots and the DMRL blade photo replace three pending slots
+8132e3b 2026-10-14 jep D: D1 rendered; FXAA own pass; D3 D4
+6363928 2026-10-14 jep D: globe + kit, D1 D2 D5 D7 D14 wip
+d7dfee2 2026-10-14 Merge pull request #17 from mkmk749278/ccr-aabf4b35-yglcu1
+9abdd25 2026-10-14 health-claim-trap: v2 re-check applied (50 claims, gate passes), chapter blocks final
+746058f 2026-10-14 health-claim-trap: README for script v2 (owner's sentences changed and why)
+067fc67 2026-10-14 health-claim-trap: script v2 from the owner's handoff fixes (4 chapter files), 16 sourced corrections
+93e6714 2026-10-14 health-claim-trap: fact-check (45 claims, gate passes), script v1.1 with the 12 fixes
+32dd08e 2026-10-14 jet-engine-paradox: ISRO landing telecast in the hook and C2 title split; v3 cut
+fd27a1e 2026-10-14 jet-engine-paradox: real photos in C1 (HAL Nashik Mk1A jig) and C7 (SPS Aviation 2008 delinking line); v2 cut
+b51c7e3 2026-10-14 Merge remote-tracking branch 'origin/main' into jep-scenes-d
+a4eccee 2026-10-14 jep D: shared core + land SDF (wip)
+ca9676f 2026-10-14 Merge pull request #16 from mkmk749278/jep-scenes-c
+a31ce31 2026-10-14 Merge pull request #15 from mkmk749278/ccr-aabf4b35-yglcu1
+924f727 2026-10-14 jet-engine-paradox: owner-fetched official clips in the cut (crops, credits); v1 cut uploaded
+578af78 2026-10-14 health-claim-trap: project setup, English VO script v1 from the owner's handoff, draft claims
+b4966a8 2026-10-14 jep scenes C: C6_split_blueprint (all nine C scenes rendered and on Drive)
+dd4e6c1 2026-10-14 jep scenes C: C5_thrust_target
+c4631c5 2026-10-14 jep scenes C: C9_amca_engines
+2b6443e 2026-10-14 jep scenes C: C8_dry_kaveri
+0c8760f 2026-10-14 jep scenes C: C7_blueprint_tear; keepcase labels for kN
+d7bd31d 2026-10-14 jep scenes C: C4_kaveri_blueprint; stamp z-index, paper canvas exposed
+4d7ada8 2026-10-14 jep scenes C: C3_sanctions_wireframe
+f6d8bfa 2026-10-14 jep scenes C: C2_title_split
+e94370f 2026-10-14 Merge pull request #14 from mkmk749278/ccr-aabf4b35-yglcu1
+0f39e33 2026-10-14 jet-engine-paradox: one-paste Termux footage fetch (phone IP) on the copy page
+7aa6983 2026-10-14 jep scenes C: C1_empty_bay (photo slot, blueprint fighter, empty glowing bay)
+ef65e54 2026-10-14 Merge remote-tracking branch 'origin/main' into jep-scenes-c
+e06fce2 2026-10-14 jep scenes C: shared blueprint renderer (_bp.js), scene CSS, sync script
+9d8acc8 2026-10-14 Merge pull request #13 from mkmk749278/jep-scenes-a
+fb53e5b 2026-10-13 Merge remote-tracking branch 'origin/main' into jep-scenes-a
+cb978a8 2026-10-13 gitignore Session A upload log
+2423d5a 2026-10-13 jet-engine-paradox: A7 recap rendered; Session A render log
+7bb10bd 2026-10-13 jet-engine-paradox: A2 engine dive rendered (preview)
+7a8592e 2026-10-13 jet-engine-paradox: A1 title rendered (preview)
+febd74a 2026-10-13 jet-engine-paradox: A3 blade rise rendered (preview)
+3c9c7e6 2026-10-13 jet-engine-paradox: A4 combustor rendered (preview)
+1c1c1f9 2026-10-13 jet-engine-paradox: A7 panel crops
+76aa9bd 2026-10-13 jet-engine-paradox: A8 verdict rendered (preview)
+0b78876 2026-10-13 jet-engine-paradox: A5 thermal reveal rendered (preview)
+f6417d7 2026-10-13 Merge pull request #12 from mkmk749278/ccr-aabf4b35-yglcu1
+c786543 2026-10-13 jet-engine-paradox: keep QA contact sheets out of git
+8f39c23 2026-10-13 jet-engine-paradox: assembler (scenes + footage + proofs + pending plates, tags, logo, VO breaks, -14 LUFS) and proof screenshots
+f087f41 2026-10-13 Merge origin/jep-scenes-a (coordinator's main merge) into jep-scenes-a
+7ebdbc6 2026-10-13 jet-engine-paradox: A6 rendered (preview), capped delivery encode
+6a4bea3 2026-10-13 Merge pull request #11 from mkmk749278/jep-scenes-a
+aefab42 2026-10-13 Merge remote-tracking branch 'origin/main' into jep-scenes-a
+54e59f0 2026-10-13 Merge pull request #10 from mkmk749278/ccr-aabf4b35-yglcu1
+2b06295 2026-10-13 Merge remote-tracking branch 'origin/jep-scenes-b' into ccr-aabf4b35-yglcu1
+4b56f14 2026-10-13 jet-engine-paradox: Session A library README, finish/upload script
+be608b6 2026-10-13 jet-engine-paradox: Session A 3D scenes (shared blade/disc/combustor/turbofan library, A1-A8 compositions)
+a01437c 2026-10-13 B2, B3: previews from final renders
+7f9814c 2026-10-13 Session B scenes: previews and measured render times
+d2e6353 2026-10-13 B3: tighter, centred framing for phone readability
+f93a801 2026-10-13 B2: finish MANY CRYSTALS fade before WEAK BORDERS lands
+d9c3b38 2026-10-13 Jet Engine Paradox: Session B scenes B1-B8 (metallurgy and cooling, Three.js)
+eed04f2 2026-10-13 cant-pay-minimum: 4K master delivery note
+782e746 2026-10-13 jet-engine-paradox: keep VO mp3s out of git (stored in Drive)
+7b26a02 2026-10-13 jet-engine-paradox: working asset manifest (B-roll vetted)
+182290c 2026-10-13 PLAYBOOK §3: shared usage limit hit by 4 parallel scene sessions in ~10 min; run 2 at a time
+2906785 2026-10-13 Merge cantpay-4k-c (4K scene shard URLs)
+e64632b 2026-10-13 Merge cantpay-4k-b (4K scene shard URLs)
+aed4c37 2026-10-13 Merge cantpay-4k-a (4K scene shard URLs)
+9b1feb0 2026-10-13 cant-pay-minimum: 4K d02_call uploaded (Litterbox 72h)
+3bcb4fb 2026-10-13 cant-pay-minimum: 4K p06_cibil uploaded (Litterbox 72h)
+3b3c1ec 2026-10-13 cant-pay-minimum: 4K d01_night uploaded (Litterbox 72h)
+75d7f5a 2026-10-13 cant-pay-minimum: 4K p12_court (3840x2160, 61.200000s) on Litterbox
+1997276 2026-10-13 cant-pay-minimum: 4K p16_chain uploaded (Litterbox 72h)
+34dc218 2026-10-13 cant-pay-minimum: 4K p24_step5 uploaded (Litterbox 72h)
+a83bd9c 2026-10-13 cant-pay-minimum: 4K p18_writeoff (3840x2160, 24.733333s) on Litterbox
+57423d9 2026-10-13 cant-pay-minimum: 4K p10_agency uploaded (Litterbox 72h)
+3eb4881 2026-10-13 Merge remote-tracking branch 'origin/ccr-26d9f2d1-31zk6g' into cantpay-4k-b
+4b0c5cb 2026-10-13 cant-pay-minimum: 4K d04_truth (3840x2160, 6.233333s) on Litterbox
+de30357 2026-10-13 cant-pay-minimum: 4K p02_two_stories (3840x2160, 10.166667s) on Litterbox
+2e2d9fe 2026-10-13 cant-pay-minimum: 4K p04_provision (3840x2160, 14.700000s) on Litterbox
+3b4e18e 2026-10-13 cant-pay-minimum: 4K p14_setoff uploaded (Litterbox 72h)
+03f2b7e 2026-10-13 cant-pay-minimum: 4K scene p09_dials uploaded (Litterbox 72h)
+6c9d580 2026-10-13 cant-pay-minimum: 4K p15_borrower (3840x2160, 16.800000s) on Litterbox
+7130a8a 2026-10-13 cant-pay-minimum: 4K scene p05_myth uploaded (Litterbox 72h)
+2e15813 2026-10-13 cant-pay-minimum: 4K scene p22_step3 uploaded (Litterbox 72h)
+54261ac 2026-10-13 cant-pay-minimum: 4K d05_recap (3840x2160, 19.700000s) on Litterbox
+4ba0036 2026-10-13 cant-pay-minimum: 4K scene p20_step2 uploaded (Litterbox 72h)
+2483d54 2026-10-13 cant-pay-minimum p18: SOLD CHEAP caption and recovery box inside the frame (shard B report)
+9023a5b 2026-10-13 cant-pay-minimum: 4K scene p23_step4 uploaded (Litterbox 72h)
+0af08d5 2026-10-13 cant-pay-minimum: 4K p12_court (3840x2160, 61.200000s) on Litterbox
+d4f2541 2026-10-13 doodle kit: pin label chip fits JetBrains Mono with tracking (last letter no longer outside)
+896955a 2026-10-13 cant-pay-minimum: 4K scene p21_complain uploaded (Litterbox 72h)
+a1fa49c 2026-10-13 cant-pay-minimum: 4K scene p08_ravi_sunita uploaded (Litterbox 72h)
+5b556e7 2026-10-13 cant-pay-minimum: background options sheet (owner picked navy)
+27337d7 2026-10-13 cant-pay-minimum: 4K parts fetcher, assembler --skip-scenes
+0aab2af 2026-10-13 cant-pay-minimum: navy calm look (owner's pick), light ink palette, paper notes kept readable, entry sounds removed (soft ticks only), native 4K render script
+319003f 2026-10-13 cant-pay-minimum: review pass 2 fixes (commute clip for two traps, moving end card); 720p preview delivered
+30c7380 2026-10-13 jet-engine-paradox: owner fetch list (official YouTube clips), copy page update, patient Commons fetcher
+504e78f 2026-10-13 jet-engine-paradox: VO aligned (9:22 program), scene specs for 4 parallel sessions, shared look; Drive upload fixed
+cda843b 2026-10-13 jet-engine-paradox: click-to-copy voice block page
+7265957 2026-10-13 jet-engine-paradox: fact-check (66 claims, gate passes), script v2 with fixes; PLAYBOOK lesson
+e26cad7 2026-10-13 jet-engine-paradox: project, script v1 from owner's brief, writer's claims; deliver via Google Drive
+cd22a5f 2026-10-13 cant-pay-minimum claims: HDFC MITC tag OCT 2026; CP-030 lists all six AP/TG agency places (Tirupati included)
+0b4417e 2026-10-13 cant-pay-minimum: review pass 1 fixes (readable proof push-ins above the lower-third, real-footage cutaways to break long boards, Part 1 callback frame, police stand-in, empty openings filled, 112/1930 phone props, label collisions, desk tag below the logo bug)
+90fad07 2026-10-13 cant-pay-minimum: footage picks and manifest rows (31 assets, licences logged)
+d5d98cc 2026-10-13 cant-pay-minimum: low thud at -7 dB on each reveal after the 1.5 s music silence
+7556e01 2026-10-13 cant-pay-minimum: assembler (scenes + footage/proof cutaways at the word, scene SFX bus, tension bed with pre-reveal silences, Dreamer for Act 4, -14 LUFS) and audio-synced review; first 720p preview (11:28)
+9bc1d76 2026-10-13 PLAYBOOK §15: first parallel 4K run (times, Litterbox handoff, 4K root fill, frame-exact shots, shared usage limit)
+1e8e50e 2026-10-13 Merge minimum-due-4k-assemble (4K master shard outputs)
+1a62039 2026-10-13 Merge minimum-due-4k-r3 (4K master shard outputs)
+8e3017c 2026-10-13 Merge minimum-due-4k-r2 (4K master shard outputs)
+e70c3e8 2026-10-13 Merge minimum-due-4k-r1 (4K master shard outputs)
+24789d9 2026-10-13 cant-pay-minimum: Act 3-4 scenes (set-off, borrower NPA, card chain, not a crime, criminal triggers, write-off, five steps, complaint path, notices, settlement, order, desk recap) after audio-synced review
+8b5a689 2026-10-13 minimum-due: 4K master delivered (Gofile link, numbers, checks)
+f525476 2026-10-13 cant-pay-minimum: Act 2b scenes (call, chase dials, agency economics, AP/Telangana agency map from Natural Earth, court/Lok Adalat/arbitration/DRT, desk slab walk, per-bank page), ID card and app-screen props, versioned prop cache
+27b1686 2026-10-13 cant-pay-minimum: Act 2 pages after audio-synced review (no empty openings, collisions fixed, no question-mark graphic), review_scene.py
+7a9f8a8 2026-10-13 cant-pay-minimum: Act 1-2 scenes (desk plates + photoreal prop pages), props studio desk mode with DOF and anchors, plates kit, counter/split items, buzz/tick SFX, proof shots list, sourcing progress
+7960181 2026-10-13 minimum-due: board/scene shots get their exact frame count (-frames:v only, no -t)
+2ce4bbe 2026-10-13 minimum-due: hold the last frame when a board/scene window runs past its render's end
+a76226b 2026-10-13 minimum-due 4K shard R1: s02_timeline native 3840x2160 (Litterbox URL + md5)
+f55a588 2026-10-13 minimum-due 4K R3: b13_recap native 4K render URL
+63079c0 2026-10-13 minimum-due 4K R3: b12_emi native 4K render URL
+1a42285 2026-10-13 minimum-due 4K R2: b14_next Litterbox handoff
+5bd62ee 2026-10-13 minimum-due 4K R3: b11_steps12 native 4K render URL
+60b0f3f 2026-10-13 minimum-due 4K R2: b01_how Litterbox handoff
+a757f1c 2026-10-13 minimum-due 4K R2: s01_pay Litterbox handoff
+d17e82a 2026-10-13 cant-pay-minimum: word timing (3 blocks), visual plan; props studio for photoreal card/bill/phone/notice/cheque stills; doodle kit photo items
+c66158f 2026-10-13 minimum-due 4K R2: b02_numbers Litterbox handoff
+aed1afc 2026-10-13 minimum-due 4K R3: b10_postpone native 4K render URL
+d9a2c95 2026-10-13 minimum-due 4K R3: b09_loop native 4K render URL
+9a6d978 2026-10-13 minimum-due: --skip-boards also skips money scenes whose 4K render has not arrived yet
+7c78a1e 2026-10-13 minimum-due 4K R3: b08_maths native 4K render URL
+ec91975 2026-10-13 minimum-due 4K R3: b07_crif native 4K render URL
+9d70ab6 2026-10-13 minimum-due 4K R2: s03_allocation Litterbox handoff
+39a6df2 2026-10-13 minimum-due 4K R3: b05_newswipe native 4K render URL
+f3ec037 2026-10-13 minimum-due 4K: render only the 14 animations the refined cut uses, IDS shards, root fill fix for doodle pages; PLAYBOOK §3 Litterbox handoff between sessions
+4bd810c 2026-10-12 minimum-due: safety net on 'So remember this' (no empty page)
+66a0fe8 2026-10-12 cant-pay-minimum: owner's VO (Akash, eleven_v4, 3 blocks, 11:21) and line alignment
+4149866 2026-10-12 minimum-due review pass 2: no empty pages (items from page start), CRIF bars in spoken order, ₹0 late fee on return from cutaway
+5af2795 2026-10-12 Ignore audio-synced review sheets (regenerated per cut, large)
+115bf7e 2026-10-12 minimum-due review fixes: % labels rendered empty (expansion=none), end card in the new fonts with CAN'T, petrol photo instead of road clip at 3:56, LAST DATE pin label on a chip
+3770ae7 2026-10-12 minimum-due: word-level VO timing, doodle items on their words, per-page camera push (no static pages), audio-synced frame review tool; PLAYBOOK §14 rule (owner)
+2d3c4c7 2026-10-12 minimum-due: Phase 2 (doodle boards, modern labels, SFX) preview built and reviewed; changelog and review sheets
+d47f91b 2026-10-12 minimum-due doodle scenes: paper texture from vendor/doodle
+54d6369 2026-10-12 minimum-due: preview stand-ins for two Commons photos while rate-limited; scene render script
+039e7d6 2026-10-12 minimum-due: whiteboards replaced by doodle scenes (doodle kit engine, 11 scene designs timed to the VO), modern labels and doodle SFX bus in assemble.py, asset re-fetch, label fonts
+d45786f 2026-10-12 cant-pay-minimum: fact-check complete (92 claims, gate passes), script v1.1 fixes; PLAYBOOK usage-limit note
+b0e68cc 2026-10-12 cant-pay-minimum: fact-check part 2 (C041-C085) done, script fixes applied (slab walk labelled estimate, arbitration line, salary/court order, set-off notice, NCDRC order tag)
+f79b53c 2026-10-12 cant-pay-minimum: fact-check partial rows (stopped at usage limit)
+0299c32 2026-10-12 cant-pay-minimum: script v1 (85 lines, ~12:20, English VO), growth calculator, README
+64f7cf8 2026-10-12 cant-pay-minimum: rules research B done (recovery conduct, not a crime, notices vs summons, complaints)
+8955d39 2026-10-12 cant-pay-minimum: rules research C done (set-off, settlement, borrower-wise NPA)
+7969d10 2026-10-12 cant-pay-minimum: rules research in progress (A NPA/CIBIL, B recovery/police, C set-off/settlement)
+d8d8104 2026-10-12 PLAYBOOK lesson: parallel narrow research that saves after each item
+74a0187 2026-10-12 cant-pay-minimum: hopeful bed picked from Incompetech (Dreamer; backup Promises to Keep), credits and manifest rows
+4552c5b 2026-10-12 PLAYBOOK: correct music check count
+7a1a0a6 2026-10-12 Look decision: desk for big moments + doodle for explaining (owner); music plan and Content-ID-free Pixabay shortlist
+ecff4c7 2026-10-12 Doodle mode sample (video/lib/doodle): Rough.js sketched objects drawn on, pop-in with sound cues, synthesised SFX (make_sfx.py)
+957a0de 2026-10-12 cant-pay-minimum: practical-reality research notes (work in progress)
+5e5cc9c 2026-10-12 PLAYBOOK 4a-4: cover multi-card and same-bank combinations (owner)
+f7700e6 2026-10-12 PLAYBOOK 4a-4: practical reality over paper rules (owner)
+e4c9fa2 2026-10-12 Money Table: photoreal desk look proposal (research of 200 frames, PLAYBOOK 5.6), proof scene video/lib/moneytable, fonts Bricolage/Inter Tight/JetBrains Mono, CC0 walnut + HDRI
+7866631 2026-10-12 AI presenter: LatentSync lip-sync test on Kaggle works (30 s in 46 min on T4)
+b3ff413 2026-10-12 AI presenter: Flow agent brief batch 2 (close-ups, 8 new gestures, 1080p)
+6987029 2026-10-12 AI presenter: review owner's Flow library v1, map clips to gestures
+f20682d 2026-10-12 AI presenter: lock look to owner's reference, one-paste Flow agent brief
+097f5b0 2026-10-12 Merge pull request #9 from mkmk749278/claude/serene-goodall-3dl7jo
+eb28a8b 2026-10-12 minimum-due: 4K master built and verified (native 4K animation), links in the upload checklist
+09d6666 2026-10-12 Rules: detach renders with setsid; PLAYBOOK 4K-master lessons
+cc58f27 2026-10-12 Add AI presenter trial: character bible, Flow prompts, gesture map
+5004573 2026-10-12 minimum-due: YouTube package (description, chapters, tags, SRT, upload checklist, thumbnails A/B) and 4K build scripts
+97fd5e8 2026-10-12 minimum-due: visual refinement Phase 1 (owner's brief) - money-mechanics scenes
+770558f 2026-10-11 minimum-due: per-shot review rounds 1-3 -> v3 preview
+aed3a89 2026-10-11 minimum-due: split long stills, fix board overlaps, fast final mux (pre-scaled logo, two-pass loudnorm)
+56735ec 2026-10-11 minimum-due: 720p assembly script, 14 whiteboard scenes, proof and sim shots
+21a8dd6 2026-10-11 Reusable whiteboard engine (video/lib/whiteboard): stroke-by-stroke marker handwriting from single-line pen fonts, shapes, duster, params.js; Minimum Amount Due sample v2 on it
+6019345 2026-10-11 Minimum Amount Due: Indian-first sourcing (owner): Indian friends, ₹500 notes, Indian town aerial; vetting sheets
+0c2aab0 2026-10-11 Minimum Amount Due: no character (owner); real-clip plan v2, 15 more vetted clips (Pixabay + Coverr), whiteboard style sample, Kalam handwriting font vendored
+8c51ab7 2026-10-11 Minimum Amount Due: drop wedding clips (owner), card-payment B-roll instead, simple smooth character; PLAYBOOK §4a-3 review notes
+62abae3 2026-10-11 Minimum Amount Due: sourcing pass 1 (14 Pixabay clips + 2 Commons photos vetted), media_manifest.csv, asset-manifest.md, contact sheets
+e10a0a9 2026-10-11 Minimum Amount Due: Akash VO (2 takes, 7:59) aligned; visual plan with REAL/BOARD/TOON/PROOF modes; PLAYBOOK §4a-3
+5ebc616 2026-10-11 Minimum Amount Due v3.2: no emotion cues, interest free period explained, 'still pending' instead of owe
+797a0ad 2026-10-11 Minimum Amount Due v3.1: simpler English (bill, last date, free days, loan), Indian-voice audition guide in PLAYBOOK §4a-2
+18afb4a 2026-10-11 English narration by default (owner): simple Indian English VO for Minimum Amount Due, English lint in build_script, rule in CLAUDE.md and PLAYBOOK §4a-2
+665ab84 2026-10-11 Minimum Amount Due v2: heavier Tenglish pass (owner request)
+2e5bf58 2026-10-11 Minimum Amount Due v2: clarity fixes (subject for 'emergency brake', repeated పైగా)
+1b36a9e 2026-10-11 Minimum Amount Due v2: shorter, simpler script (8:15, two Bunty blocks), claims trimmed to kept lines
+452397f 2026-10-11 Lighter fact-check: re-verify only weak rows, numbers, calculations and changed lines (owner, 2026-10-11)
+5cb5d6e 2026-10-11 Minimum Amount Due v1.1: apply fact-check fixes, bank-method math, gate passes (93/93 confirmed)
+291fcf9 2026-10-11 Minimum Amount Due: partial fact-check claims.csv (95 claims; 18 wrong, 1 unverified; gate not yet passing)
+bb1509b 2026-10-11 Minimum Amount Due: research, Telugu Bunty script v1 and worked-example math (phase 1)
+529aa7f 2026-10-09 Merge pull request #8 from mkmk749278/ccr-dd4afdc4-d7m09ww
+f3834cd 2026-10-09 Digital Arrest v2: grammar, clarity and pronunciation rewrite; v4 emotion tags
+6d9664a 2026-10-09 Digital Arrest v2: fact-check gate passes (112 claims, 107 confirmed, 5 attributed)
+ec833da 2026-10-09 Digital Arrest v2: apply v1 fact-check fixes (58,239; ₹1,935 cr MHA; transfers; Ambala judges' signatures; D.K. Basu scope; tags)
+e7a2170 2026-10-09 Digital Arrest v1 fact-check: claims.csv + fact-check.md (gate fails on 10 fixable rows)
+363607c 2026-10-09 Digital Arrest v2: 'The Digital Arrest Scam Syndicate' investigative script
+001017d 2026-10-09 Digital Arrest: natural-speech pass from the competitor study (WIP, trim pending)
+64a137b 2026-10-09 Competitor study: 18 Telugu videos measured; talk guide refined
+ecd0f50 2026-10-09 Digital Arrest: clearer L68, block break at Stage 2
+613d50c 2026-10-09 Digital Arrest: research, Telugu Bunty script and script builder (phase 1)
+a9c4a4c 2026-10-09 Add estimate_vo.py: Bunty VO length and line timings from text
+66e42d9 2026-10-09 Owner rules: talk-don't-read Telugu, topic-set length, 4-4.5k char blocks
+70d7e58 2026-10-09 Termux study kit: slow Telugu-only captions pass
+6d56c04 2026-10-09 Add Termux competitor study kit for the 18 picks
+e7c2107 2026-10-08 Merge pull request #7 from mkmk749278/ccr-67b2c6e5-nbes59
+925c45a 2026-10-08 Docs: owner skips the competitor-audio measurement; judge from our own retention curves
+3880ec6 2026-10-08 Docs: owner's decisions on numbers, voice and pauses; competitor-audio study script
+d6df060 2026-10-08 Docs: channel, language and audience rules from sourced research (PLAYBOOK §4a, CLAUDE.md)
+88bafc2 2026-10-08 Research notes: Telugu finance channels and SEBI finfluencer rules
+7895237 2026-10-08 Research notes: Telugu explainer channels (Think Deep, V R Raja, NB Show, others)
+ad10ab8 2026-10-08 Research notes: Vox and Johnny Harris craft benchmarks
+e11da56 2026-10-08 Research notes: Telugu language, dialects, sensitive words and TTS
+8137b10 2026-10-08 Research notes (in progress): YouTube retention, packaging and policy for a Telugu documentary channel
+31064d5 2026-10-08 Owner's channel charter: verbatim in PLAYBOOK Part E, mapped in Part B intro and CLAUDE.md
+d1688a3 2026-10-08 PLAYBOOK §15: Fire and Ice lessons
+7705143 2026-10-08 gitignore HyperFrames render temp folders (removed from the tree)
+05d62c1 2026-10-08 Fire and ice: cut 3 preview (fact-check fallbacks), review notes and links
+c30b738 2026-10-08 Fire and ice: apply fact-check (fallbacks for the recorded VO)
+73d61ba 2026-10-08 Fire and ice: fact-check claims table (in progress, from the max-effort checker)
+f5f3ef9 2026-10-08 Fire and ice: cut 2 fixes verified
+aae0077 2026-10-08 Fire and ice: cut 1 review and 13 shot fixes
+5b43704 2026-10-08 gitignore assembler logs
+42a8c9f 2026-10-08 Fire and ice: full VO timing, scenes, EDL and assembler (preview in progress)
+e9cb8ac 2026-10-08 Merge pull request #6 from mkmk749278/ccr-8620ba8b-ejxe5w
+3680779 2026-10-08 align_script: picture slots that cut in the pauses, subtitles bridge short pauses
+63e0e6c 2026-10-08 Merge pull request #5 from mkmk749278/ccr-8620ba8b-ejxe5w
+505e94f 2026-10-08 Fire and ice: hook script, VO and line timings (te/en subtitles)
+2979865 2026-10-08 Merge pull request #4 from mkmk749278/ccr-8620ba8b-ejxe5w
+dfc8e5f 2026-10-08 align_script: ignore ElevenLabs [tags], accept 'te | en' lines
+c308820 2026-10-08 Merge pull request #3 from mkmk749278/ccr-8620ba8b-ejxe5w
+4fe51e5 2026-10-08 Silence-to-script alignment replaces Whisper for VO timing
+c5b4fcd 2026-10-08 Merge pull request #2 from mkmk749278/ccr-8620ba8b-ejxe5w
+4579603 2026-10-08 Playbook: owner setup status (Pixabay verified, Gofile reachable, optional keys)
+486f94e 2026-10-08 Pixabay B-roll: stock_fetch.py with AI-generated filter; scenes built on demand
+a5ba297 2026-10-08 Phase 1 foundations: 3D stack, session hook, QA and fact-check tools, library, skills
+d930791 2026-10-08 Playbook: tested media sources, fallback chains and YouTube options
+5fd642f 2026-10-08 Merge all instructions into CLAUDE.md and docs/PLAYBOOK.md
+bae68bc 2026-10-08 Documentary directives v2: genre looks, anti-static stills, 85% motion, diegetic cuts
+46c33fa 2026-10-08 Merge pull request #1 from mkmk749278/main
+0241246 2026-10-08 Merge ccr-f3a5a1cb-bkax6j into main
+070a5c1 2026-10-08 Merge ccr-1d874d00-tulmv5 into main
+98b0237 2026-10-08 Merge claude/new-session-e4j6bc into main
+913bf32 2026-10-08 Merge ccr-ecd0c362-hvyywe into main
+a300e5e 2026-10-08 Prahlad Jani v5: record 4K and 720p Gofile links
+83fffb9 2026-10-08 Prahlad Jani v5: README status, long-job and cache lessons
+5a55692 2026-10-08 Fix under-exposed stock shots: +lift flag, brighter water segments
+c69169d 2026-10-08 assemble.py: per-shot render cache (re-render only changed shots)
+5800cd6 2026-10-08 Prahlad Jani v5: owner review fixes, HyperFrames/Three.js scenes, 4K pipeline
+02d00cd 2026-10-07 Docs: documentary playbook with lessons from the breath-hold video
+1246f47 2026-10-07 Prahlad Jani: final render delivered (Gofile links), delivery + memory lessons
+2788baf 2026-10-07 Prahlad Jani: real 2010 footage (ITN/Al Jazeera via Dailymotion), 4 LIVE clips, 4:3 fit mode, lessons
+f97b500 2026-10-07 make_bed: keep fades inside short final chord segments
+c4adfeb 2026-10-07 Update v5 asset status report
+394362f 2026-10-07 Breath-hold v5: animated science shots, original-clip pauses, crowd fix
+238bc01 2026-10-07 Prahlad Jani: sourced assets, real-asset EDL, CCTV look, lessons in CLAUDE.md
+40d3995 2026-10-07 v4 contact sheet
+7123a47 2026-10-07 Breath-hold v4: new 4-block voiceover, real event footage, channel branding
+bcde41f 2026-10-07 Prahlad Jani v2: re-timed to the combined 6:08 voiceover with live-clip slots
+44a6cf1 2026-10-07 Drop unused two-person photo that a late download added
+58f2334 2026-10-07 Documentary engine v3: full-screen real media, 145 shots, live conch audio
+6145d64 2026-10-07 Live clips: original footage plays with its own audio, VO resumes after
+07bdee2 2026-10-07 assemble.py: cap bitrate (12M preview / 45M 4K) and soften grain
+df7f47d 2026-10-07 Merge remote-tracking branch 'origin/ccr-ecd0c362-media-science' into ccr-ecd0c362-hvyywe
+5e687e6 2026-10-07 Merge remote-tracking branch 'origin/ccr-ecd0c362-media-history' into ccr-ecd0c362-hvyywe
+0504b6a 2026-10-07 Merge remote-tracking branch 'origin/ccr-ecd0c362-media-people' into ccr-ecd0c362-hvyywe
+59e20c5 2026-10-07 wip: documentary engine
+9175cd4 2026-10-07 media(history): 18 PD/CC items with manifest and contact sheet
+e9fcbe2 2026-10-07 Add science/freediving media for breath-hold v2 (8 CC photos, manifest, contact sheet)
+e4342a5 2026-10-07 media(people): 2 Vidyut Jammwal portraits (CC BY 3.0), manifest, event links
+44fe348 2026-10-07 Documentary engine directives + Prahlad Jani EDL, SRT and assembler
+be95d3a 2026-10-07 media(history): add LACMA yoginis painting (WIP)
+63e4a1e 2026-10-07 media(history): add Charpath Nath manuscript (WIP)
+2387f20 2026-10-07 media(history): first 10 public-domain/CC items for Haridas and Patanjali scenes (WIP)
+c0bc9c0 2026-10-07 Breath-hold v2: photo, footage, split and credits scene types
+9a2aea8 2026-10-07 Breath-hold v2: media sourcing brief for parallel sessions
+7f42534 2026-10-07 Breath-hold documentary v1: Telugu VO, 8 HyperFrames parts, SRT, music bed, final mix
+2a61bb6 2026-10-07 Prahlad Jani documentary: 3D animation prompts and asset/fact-check brief
+e223feb 2026-10-06 Final label fixes for act 1 and regenerated full credits
+b9d3eac 2026-10-06 Build the full-length chip-gamble documentary (hook + acts 1-4)
+8475a87 2026-10-06 Build the hook video for the India chip episode
+7283cbe 2026-10-06 Add India semiconductor episode: script, storyboards, packaging, fact-check
+f2b4532 2026-10-06 Add lip-synced dialogue test scene for the host duo
+f21e57b 2026-10-06 Add fetch-video workflow for studying YouTube videos
+23c940e 2026-10-06 Animate host duo: blinking and waving HyperFrames composition
+fdec05b 2026-10-06 Add anime-style chibi host duo (girl + boy) as vector art
+103f900 2026-10-06 Add plush-toy style of the mascot (5 expressions)
+9491aaa 2026-10-06 Animate mascot: blink and wave HyperFrames composition
+62d514b 2026-10-06 Add chibi channel mascot (4 expressions) as brand-coloured SVGs
+52520ed 2026-10-05 Pixel 11 video v2: eight revised parts, description, hands-on shot list
+46e8168 2026-10-05 Pixel 11 video v2 prep: revised research, script, samples, builder rules
+1cf14b9 2026-10-05 Ignore per-part copies of shared assets
+fea5045 2026-10-05 Pixel 11 video: six part compositions, combine + Gofile upload
+05f2430 2026-10-05 Pixel 11 video: research, two-host script, voice + part tooling
+261f666 2026-10-01 Phase 0: feasibility spike for the consensus review pipeline
