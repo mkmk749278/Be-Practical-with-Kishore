@@ -12,15 +12,15 @@
   exact day is unverified; C41's May 1998 is cut).
 - The channel became a YouTube Partner on 23 NOV (expanded tier); full ads need 1,000 subscribers (§15.6 plan).
 
-## Next, in order
-1. **Step 4, the full fact-check** (`/fact-check`, max effort): the old rows use `verbatim` as a status; move them to
-   the gate's statuses with quotes. Open: C01 RAPP-8 FAC (PIB page 403 from here: try NPCIL or the AERB site), the
-   rest of plan §10 (Chambal, why PHWR, CIRUS/Colombo Plan, India's 1974 reasons, Soviet heavy water, "second in the
-   world" outside NPCIL, KAPP-3/4 delays, uranium mines), and the rupee figure for C37 (else OUR CALCULATION at the
-   period's rate).
-2. **Step 5, narration** (`narration.md` + `vo.txt`): the opening first through the promise check, then the rest,
-   including the two TV asks of §15.6; independent narration review; to the owner.
-3. **Modal estimate to the owner before any spend** (see below), then the Blender heroes.
+## Next, in order (updated 23 NOV, about 6:00 PM IST)
+1. **Fact-check done:** 50 rows, all sourced except **C01** (RAPP-8 cleared 19 Nov; PIB refuses our fetch). The
+   owner can screenshot the PIB page from his phone; until then the narration uses C31 (fuel loading, September).
+   Cut rows are in `claims_cut.csv`.
+2. **Narration v1 written** (`narration.md`, `vo.txt`, 1,762 words, both language gates pass). The independent review
+   is running in session_019NnLekRfFPSKKdyqAtNRdE (no repo). Next: `review_audience_v1.md` + `review_ack_r1.md`, the
+   fixes, archive that session, then **the owner approves the narration**.
+3. Then audio (two takes, split before "In nineteen ninety five"), footage requests, Blender bench on Modal (free
+   credit only, §14.1).
 
 ## Modal: inside the free credit (owner, 23 NOV: the US$20–40 estimate "won't work out")
 Re-planned to PLAYBOOK §14.1 "Zero rupees a film": 4 heroes at 2560×1440 on an L4 with adaptive sampling and the
