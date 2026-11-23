@@ -665,6 +665,14 @@ existing films**. Archived when done.
   working Modal pattern is the course repo's (`mkmk749278/CAIIB`: `tools/modal/render.py`, `modal-render.yml`,
   `modal-status.yml`; a 17-minute lesson at 720p in about 7 minutes for about $0.09). Modal is paid past its monthly
   free credit: state each render's expected cost and ask before going past it.
+- **Zero rupees a film (owner, 2026-11-23: "Modal won't work out with those costs"):** every film's Modal work fits
+  inside the Starter plan's US$30 monthly free credit (2026 rates: L4 GPU about $0.80/h, T4 about $0.59/h, CPU about
+  $0.047 per core-hour). How: Blender heroes at 2560×1440 (upscaled in Remotion to the 4K master), Cycles with
+  adaptive sampling (noise threshold 0.02, at most 128 samples) and the OptiX denoiser, on an L4; a 10-frame bench
+  first, its seconds per frame × frames = the cost, written in the handoff before the full run; a shot that would
+  pass about $2 moves to Eevee or Three.js. The 4K master on CPU (the 720p course lesson cost $0.09; 4K at 60 fps is
+  about 18× the pixels a second, so about $1–3). Budget per film: heroes ≤ $10, master ≤ $5, retries ≤ $5. Anything
+  that would cross the free credit stops and goes to the owner.
 - *Why the limit:* GitHub disabled the old `Creator` repo (about 20 NOV) after heavy 4K and Blender renders on its
   runners (the last: the Arjun hero render on 6 runners, 18 NOV), and its terms allow Actions compute for building and
   testing the repo's own software, not a video farm. So the heavy work never goes back to the runners, and everything

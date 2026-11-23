@@ -22,11 +22,10 @@
    including the two TV asks of §15.6; independent narration review; to the owner.
 3. **Modal estimate to the owner before any spend** (see below), then the Blender heroes.
 
-## Modal cost estimate (to confirm on Modal's pricing page before asking)
-- Blender heroes: 4 shots, about 36 s at 60 fps = about 2,160 frames at 4K on one L4-class GPU, about 30–60 s a
-  frame = 18–36 GPU hours, roughly US$15–30.
-- The 4K master (Remotion, 12 min at 60 fps = 43,200 frames) on CPU containers: roughly US$3–8.
-- Together about US$20–40; Modal's monthly free credit covers part. 720p review cuts stay on GitHub runners.
+## Modal: inside the free credit (owner, 23 NOV: the US$20–40 estimate "won't work out")
+Re-planned to PLAYBOOK §14.1 "Zero rupees a film": 4 heroes at 2560×1440 on an L4 with adaptive sampling and the
+denoiser, benched on 10 frames first (expected about 8–15 s a frame × 2,160 frames = 5–9 GPU hours = US$4–7); the 4K
+master on CPU about US$1–3. Together about US$5–10 of the US$30 monthly credit: no payment.
 
 ## Decisions made on 23 NOV (owner)
 - Alternate rule: one bottleneck film, then one breakthrough or civilian film (PLAYBOOK §1.4).
