@@ -109,7 +109,7 @@ against them, everything else pays that promise. **Decide early, build once.** E
 - Title under 45 characters: a household name, a number and the contradiction where possible. Thumbnail: one bright,
   warm hero recognisable in one second, at most 3 words, bottom-right corner empty, a main and two challengers that keep
   the promise. Description: 2–4 plain lines and chapters, no links. Our own SRT. All in `youtube/metadata.json`.
-- Sunday 11:30 AM IST by default; the film's playlist; the end screen points at the most related film. Pinned comment
+- Upload when ready, usually 3–5 days after the last film (owner picks the slot; never promise a day or time on air); the film's playlist; the end screen points at the most related film. Pinned comment
   in Kishore's own voice, the sources in his first reply. Studio at 24 h, 7 d and 28 d; comments feed the next ledger.
 
 ## Owner and setup (§2)
