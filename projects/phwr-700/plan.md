@@ -128,7 +128,7 @@ allegations (contested and a detour), Nehru's "new temples", Fukushima compariso
 figure, any "the world is shocked" framing.
 
 ## 10. Still to source before the narration
-Pressure-cooker operating pressure; a Canadian government record of the 1974 suspension; the Nucleonics Week
+~~Pressure-cooker pressure~~ (C32: 1 kgf/cm², Hawkins, BIS); ~~KAPP-3 in the lockdown~~ (C33); Nucleonics Week is 25 MAY 1995 p.3; a Canadian government record of the 1974 suspension; the Nucleonics Week
 1 JUN 1995 text (second source); a named engineer from the RAPS-2 job; KAPP-3 during the lockdown (date of the
 lockdown extension in Gujarat vs 22 JUL 2020); the NPCIL/PIB release text for RAPP-8; Canadian archive images of
 Pickering (licence).
