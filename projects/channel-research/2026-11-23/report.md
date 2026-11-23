@@ -42,3 +42,11 @@ record.
 Sources: pib.gov.in PRID 2339225; theprint.in (EAC-PM grid paper, 2026); armscontrol.org (Aridhaman, Jul 2026);
 dae.gov.in (PFBR criticality); world-nuclear-news.org (Kakrapar, Rajasthan); business-standard.com (RAPS-3, Kakrapar);
 powerline.net.in (Kaiga-1, 17 SEP 2026); nonproliferation.org/npr/bratt53.pdf.
+
+## Owner decisions, 23 NOV
+- **Next film: the 700 MW reactors** (`projects/phwr-700/`).
+- **The film after it: the 7 PM grid,** with the AI data-centre boom as its hook (the US licence rule of 16 NOV 2026 on
+  AI chips for data centres in Singapore, Malaysia, Thailand and Indonesia; ET, ~21 NOV: "Nvidia's fallout is a gift
+  to Ambani and Adani"). The angle: can India's power and water carry the AI factories? A data centre is a heat
+  machine. The business angle alone was turned down: billionaire and AI films didn't travel for us, it's a "the US
+  decides" story, and the ET headline was speculation. Re-check the facts when that film starts.
