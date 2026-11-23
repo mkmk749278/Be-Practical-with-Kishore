@@ -90,7 +90,7 @@ The two 50,000-view films won on their words. So every film has:
 9. **The closing line (owner, 2026-11-11):** the subscribe line tied to a real promise, one real question for the
    comments, then "This is Be Practical with Kishore. Stay practical." on the logo sting.
 10. **The subscribe ask is built for the family TV (§15.6):** once in the middle, at the first payoff, and once at the
-   end, each telling the viewer how (the phone in his hand and the code on the screen), and the Sunday appointment.
+   end, each telling the viewer how (the phone in his hand and the code on the screen), and a reason (the next machine).
 And in the picture: real Indian people at work in every chapter; no run of diagrams over about 20 s; every comparison
 from Indian life; never open on an object in a void.
 
@@ -750,8 +750,8 @@ draws the viewers who stay. Misleading packaging is against the rules and costs 
   script. Title and description also go in the chat as click-to-copy blocks.
 
 ### 15.4 Release
-- **One film a week:** Sunday 11:30 AM IST by default, Thursday 6:30 PM IST if QA clears early; the owner may choose
-  another slot (the AIP film went out Tuesday 10 NOV, 11:00 AM IST). Upload and schedule as soon as the final passes;
+- **When it is ready (owner, 2026-11-23: "don't commit a time"):** a film goes up when it passes, usually 3–5 days
+  after the last (10, 13, 17, 22 NOV); the owner picks the day and time (the AIP film went out Tuesday 10 NOV, 11:00 AM IST). Upload and schedule as soon as the final passes;
   45 minutes ahead at the least (4K60 processing can take hours; under 3 hours is a risk).
 - **Before the slot:** the fresh-facts gate (§8) done and logged; Content ID and ad-suitability checks finished; the
   AI-use answer (§8); title, thumbnail and challengers in Test & Compare; description and chapters; the film's playlist
@@ -785,12 +785,11 @@ with a reason.
   TV photo at 3 metres before the cut goes out.
 - **Two asks, both earned:** the first after the film's first climax and its saying, at a chapter break (about 60%
   in), never inside an open loop (*why:* phwr-700 review, 23 NOV: an ask at 2:55 broke the cliffhanger and four of
-  five panel viewers drifted), 8–12 s, tied to what was just given ("If that made sense of something the news never explained, this is what we do
-  every Sunday"); the code shows only there and at the end. The second in the landing (§1.3 item 9). Never in the first
+  five panel viewers drifted), 8–12 s, tied to what was just given ("If you want the next machine opened like this, subscribe"); the code shows only there and at the end. The second in the landing (§1.3 item 9). Never in the first
   two minutes, never twice in one chapter, never begging.
-- **The appointment:** "A new film every Sunday, eleven thirty in the morning" in the landing, the pinned comment,
-  the description's last plain line and the channel banner. *Why:* this audience grew up with Sunday-morning television;
-  a fixed time is a reason to subscribe that a single film is not.
+- **No fixed day or time, ever (owner, 2026-11-23):** films go up when ready, usually 3–5 days apart, so no VO,
+  comment, description or banner promises "every Sunday" or a clock time. *Why:* a promise the schedule can't keep
+  costs trust with exactly the viewers we want to keep.
 - **A reason, not a request:** each ask names the next thing the viewer gets (the next film's subject or the date to
   watch), never "support the channel".
 - **Leave the caring viewer feeling respected:** a title that reads as "India can't" draws mockers, and they don't

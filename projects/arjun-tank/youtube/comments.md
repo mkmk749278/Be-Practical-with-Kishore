@@ -9,7 +9,7 @@ protection, so v1 is taken down and this goes up.
 > in 2010, it was found a little more accurate than the T-90; the auditor's report says so. This film is about one
 > thing only: a good Indian tank kept waiting by one foreign engine line. And the answer is Indian too: the new
 > 1,500 horsepower engine and the Datran gearbox. When their trials report, we will open that steel room again.
-> A new film every Sunday, 11:30 in the morning. Stay practical. Kishore
+> Stay practical. Kishore
 
 ## Reply to @sukhdevsinghrawat9707 (second reply; then stop)
 No subscribe line in a disagreement (PLAYBOOK §15.6).

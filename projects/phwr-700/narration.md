@@ -11,7 +11,7 @@ The owner records the two takes himself (blocks sent in the chat). Split: take 1
 so the narration says only what C31 confirms: unit eight began loading fuel in September. If the owner sends the PIB
 page, the open loop can say "the reactor India cleared to start this November".
 
-**Length:** about 12 minutes with pauses; about 9,800 characters, so **two takes**, split before "In nineteen ninety five, a
+**Length:** about 12 minutes with pauses; about 9,800 characters, so **one take** (owner, 23 NOV: under his 10,000-character limit); formerly split before "In nineteen ninety five, a
 trade weekly reported India's decision." (about 4,000 and 5,700 characters).
 
 **The owner's locks, where they land:** the Canadian restriction ("Canada's export rules kept Canadian firms from
@@ -36,7 +36,7 @@ CALCULATION at the 1996 RBI rate, C55); no prime ministers' names anywhere (the 
 | Plants and payoffs | the dew (ch.2 the crack → ch.5 the dew point is the alarm) · the radio (ch.3 → landing) · the saying (ch.3 climax → landing) · "the same lake" (open loop → unit eight) · Canada (walk-out → trading again) |
 | One device per chapter | then-and-now on one ground · the withheld answer (what breaks a tube?) · one object followed through (one old tube) · a plain confession (Kakrapar) · the honest arithmetic (3%, ten years late) |
 | The lines they will repeat | "A machine is truly yours only when you can open it, and mend it." · "So India had the same disease. And no doctor would come." · "Here, the dew is the alarm." · "The fuel, India can buy. The skill to open its own reactor, nobody could sell." |
-| The TV asks (§15.6) | after the ch.3 climax and the saying (~7:45, QR on the desk; moved there after the review: at 2:55 it broke the cliffhanger) and in the landing, both with "Every Sunday, eleven thirty in the morning" and the reason (the next film) |
+| The TV asks (§15.6) | after the ch.3 climax and the saying (~7:45, QR on the desk; moved there after the review: at 2:55 it broke the cliffhanger) and in the landing, each with the reason (the next machine, the next film); no fixed day or time (owner, 23 NOV) |
 | Attributions | Business India 1996 (halfway, denied knowledge, the cost); the trade weekly 1995 (with or without help); N-P-C-I-L (second in the world); Bhabha Atomic Research Centre (1,100 crore); the regulator (Kakrapar); a former N-P-C-I-L chief (heart transplant) |
 
 ## Pronunciation to add before recording
@@ -152,7 +152,7 @@ You remember how we never threw away a broken radio? We opened it. That is the l
 
 A machine is truly yours only when you can open it, and mend it.
 
-If you want the next machine opened like this, subscribe. A new film every Sunday, eleven thirty in the morning. Watching on the T-V? Take your mobile phone, open its camera, and point it at the code on the screen.
+If you want the next machine opened like this, subscribe, so the next one comes to you. Watching on the T-V? Take your mobile phone, open its camera, and point it at the code on the screen.
 
 But I must be fair with you. You may have heard people say these tubes are dangerous. Is it safe to live near one? Let me show you the worst day.
 
