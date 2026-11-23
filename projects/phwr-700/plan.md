@@ -3,6 +3,19 @@
 v2 applies the independent plan review (`review_plan_v1.md`: package 6 → 8, plan 7 → 8–9). Research:
 `research/landscape.md`, `claims.csv` (41 rows). Facts marked **[to source]** are found before the narration or cut.
 
+## 0. Approved by the owner (23 NOV 2026, about 4:30 PM IST) with four locks
+1. **Title locked:** "Canada Walked Out of India's Nuclear Reactor". **Test & Compare:** main "1974" against
+   challenger 1 "LEFT HALF-BUILT" (replaces "306 TUBES"); both on the same 306-port Blender face, the yellow shielded
+   flask and the engineer for scale. Challenger 2 ("THEY LEFT.") is dropped.
+2. **The Canadian restriction, said precisely (ch.2, ch.3):** after 1974, Canada's export rules barred Canadian firms
+   from supplying the retubing tools or running the job. Never imply that no technical contact ever existed (the COG
+   link is part of the record, C25).
+3. **Rupees, not dollars:** the ch.3 cost comparison in crores, spelled out in words for Akash; its conversion is an
+   OUR CALCULATION row with the year's rate unless a rupee figure is found. **No prime ministers' names**, including for
+   the March 2026 Cameco deal.
+4. **The owner's Section 10 facts** go into `claims.csv` (C42–C48), each checked against its primary source before
+   the narration uses it (§4 of the playbook: the Gemini sweep is a lead sweep).
+
 ## 1. Angles (chosen: C)
 - A · The record (Kaiga-1, 962 days): a scoreboard. Used once, to open chapter 2.
 - B · The scale-up (220 → 700 MW, 100 GW by 2047): a brochure. Kept to 90 seconds, with the delays.
@@ -14,7 +27,7 @@ v2 applies the independent plan review (`review_plan_v1.md`: package 6 → 8, pl
   is the cryogenic-engine and NavIC story everyone has seen.
 - D · Thorium hype: one line (these reactors make what Kalpakkam's breeder burns).
 
-## 2. The promise (for the owner to lock)
+## 2. The promise (locked 23 NOV, see §0)
 **Promise:** in 1974 Canada walked out of a half-built nuclear reactor in Rajasthan. India finished it. Then its 306
 tubes began to wear out, and the only country that had ever replaced them all was Canada, whose rules wouldn't let it
 help. You'll see how Indian engineers rebuilt the heart of that same reactor by remote control, what it taught them,
