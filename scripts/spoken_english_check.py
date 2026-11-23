@@ -34,7 +34,11 @@ INDIAN_OK = {"rupee", "rupees", "lakh", "lakhs", "crore", "crores", "kirana", "c
              # india-own-ai film subject words and names, said and shown (2026-11-03)
              "deepseek", "chatbot", "chatbots", "chopper", "chopping", "chops", "datasets", "nvidia", "sarvam",
              "bharatgen", "bharat", "mandapam", "telugu", "odia", "kosh", "navic", "ashwini", "vaishnaw", "openai",
-             "raghavan", "pratyush", "meta", "dials", "gpu", "gps"}
+             "raghavan", "pratyush", "meta", "dials", "gpu", "gps",
+             # phwr-700 film subject words and names, said and shown (2026-11-23)
+             "rawatbhata", "chambal", "kota", "rana", "pratap", "sagar", "pokhran", "kaiga", "kakrapar", "pickering",
+             "toronto", "chaturvedi", "arya", "bhabha", "cooker", "flask", "blisters", "brittle", "zirconium", "niobium",
+             "plutonium", "uranium", "megawatt", "alloy", "centimetre", "millimetres", "coiled", "coldest"}
 # Fancy words that make narration sound like a textbook; say the plain word instead.
 FANCY = {"utilize": "use", "utilise": "use", "commence": "start", "facilitate": "help", "subsequently": "then",
          "approximately": "about", "numerous": "many", "regarding": "about", "phenomenon": "thing", "conundrum": "puzzle",
