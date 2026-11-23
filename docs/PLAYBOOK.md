@@ -88,7 +88,7 @@ from Indian life; never open on an object in a void.
 | 5 | The Gas Turbine at Sea | salt-spray sulfidation, hot-section metallurgy |
 | 6 | The 2,000 °C Nose Cone | plasma sheath, hafnium carbide ceramics |
 | 7 | ISRO's Imported Carbon Fibre | T1000 fibre, PAN precursor spinning |
-| 8 | The Arjun Tank (in progress) | the engine; Kanchan armour vs a 68-tonne tank |
+| 8 | The Arjun Tank (released 22 NOV) | the engine; Kanchan armour vs a 68-tonne tank |
 | 9 | The CE-20 Cryogenic Injector | combustion at −253 °C |
 | 10 | The Astra Mk-3 Ramjet Intake | SFDR intake shockwaves, flameout |
 | 11 | The 160 km/h Railway Wheel | forging vs cast-steel fracture |
@@ -735,6 +735,9 @@ draws the viewers who stay. Misleading packaging is against the rules and costs 
 Only lessons that fit no rule above; the October log is in `docs/archive/PLAYBOOK_2026-11-05.md`.
 - **2026-11-23:** `Creator` was disabled and rebuilt from a 05 NOV bundle, Drive and the sessions' logs; three tools
   (`yt_audience.py`, `vo_rejoin.py`, `yt_upload.py`) were lost and must be rebuilt. Hence §14.1 and §14.3.
+- **2026-11-23, the channel on YouTube:** 548 subscribers, 174,492 views. Catapult 22,774 views and 101 comments in six
+  days; Arjun 4,572 in one; AIP 9,520; Matsya 959. A one-minute Tejas Short went public on 16 NOV (871 views), and a
+  1:09 channel trailer sits unlisted, so §1's "No Shorts" needs the owner's word.
 - **2026-11-17:** the carrier-catapult film went public (`7n1ECxfW-2o`); the Arjun film was chosen after the channel
   research (`projects/channel-research/2026-11-17/`).
 - **2026-11-14:** Matsya's title changed by the owner to "How India Built a Submarine to Survive 6,000 Meters"; an

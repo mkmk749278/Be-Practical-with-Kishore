@@ -10,10 +10,10 @@ stage is done, the numbers and the reason behind every rule (section numbers bel
 the playbook rule they belong to, with the reason; never a new doc file. `docs/archive/` is history, not instructions.
 
 ## Current work (read first when the owner says "continue")
-- **Released:** AIP submarines (10 NOV), Matsya 6000 (13 NOV), carrier catapult (17 NOV). Their `handoff.md` files list
-  the open after-release items.
-- **Arjun tank film (in progress):** plan, facts, narration and audio approved (10:27); footage vetted, Blender heroes
-  started 18 NOV, a mix made 20 NOV (Drive `mix/`). Start at `projects/arjun-tank/handoff.md`.
+- **Released:** AIP submarines (10 NOV), Matsya 6000 (13 NOV), carrier catapult (17 NOV), Arjun tank (22 NOV,
+  `A2mxbj2LoJI`, "Why India's ₹7,500 Cr Arjun Tanks Have No Engine"). The Arjun film was finished after the last
+  recovered session (18 NOV), so its repo folder stops at the Blender stage; the channel itself is the record.
+- **Next:** the owner picks the next film (§1.4). Read the four new films' comments into §1.2 first.
 - **Rebuilt 2026-11-23** after GitHub disabled the old `Creator` repo: what is missing is in
   `docs/RECOVERY_2026-11-23.md`. To rebuild before they are needed: `scripts/yt_audience.py`, `scripts/vo_rejoin.py`,
   `scripts/yt_upload.py`, the `drive-backup.yml` secret (below), and the Modal port for heavy renders (§14.1).
