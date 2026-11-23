@@ -1,0 +1,6 @@
+id,claim,on_screen,timecode,status,source_url,source_quote,note
+C20,"Cameco 2015 contract ~3,000 tU over 2015-2020",no,,unverified,https://www.canada.ca/en/news/archive/2015/04/pm-welcomes-cameco-announcement-uranium-contract-india-energy-program.html,,
+C21,Heavy Water Board: India is the largest producer of high-quality heavy water and exports,no,,unverified,https://hwb.gov.in/historical-background,,attribute to HWB
+C29,"V.K. Jain, Station Director KAPS: 612 coolant channels in both units will be changed",no,,unverified,https://www.business-standard.com/article/news-ians/kakrapar-nuclear-reactors-to-get-new-coolant-channels-117013101325_1.html,In all 612 coolant channels in both the units will be changed,snippet quote; confirm on page
+C34,KAPP-3 first synchronised with the grid on 10 Jan 2021,no,,unverified,https://cercind.gov.in/2021/orders/115-MP-2021.pdf,synchronized with the grid on 10.1.2021,CERC order
+C41,RAPS-2 reached criticality again in May 1998 after the replacement,no,,unverified,https://www.deccanherald.com/national/kakrapar-nuclear-plant-lease-of-life-693197.html,,"UNVERIFIED day; use C44 ('by 1998') instead, cut May 1998"
