@@ -783,9 +783,9 @@ with a reason.
   Kishore's desk, a page in a notebook, never a floating card), with a quiet "SCAN TO SUBSCRIBE" at ≥ 44 px. Size: at
   least 300 px tall mid-film and 420 px at the end, high contrast, 4-module quiet zone, checked by scanning a 55-inch
   TV photo at 3 metres before the cut goes out.
-- **Two asks, both earned:** the first right after the first real payoff (about a quarter to under half way in, after a
-  turn that delivered),
-  8–12 s, tied to what was just given ("If that made sense of something the news never explained, this is what we do
+- **Two asks, both earned:** the first after the film's first climax and its saying, at a chapter break (about 60%
+  in), never inside an open loop (*why:* phwr-700 review, 23 NOV: an ask at 2:55 broke the cliffhanger and four of
+  five panel viewers drifted), 8–12 s, tied to what was just given ("If that made sense of something the news never explained, this is what we do
   every Sunday"); the code shows only there and at the end. The second in the landing (§1.3 item 9). Never in the first
   two minutes, never twice in one chapter, never begging.
 - **The appointment:** "A new film every Sunday, eleven thirty in the morning" in the landing, the pinned comment,
