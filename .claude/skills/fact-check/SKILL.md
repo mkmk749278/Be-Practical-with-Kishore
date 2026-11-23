@@ -29,3 +29,4 @@ a script edit, check only the changed lines. If there is no draft `claims.csv`, 
 5. Write `projects/<slug>/claims.csv` (`id,claim,on_screen,timecode,status,source_url,source_quote,note`), then
    `python3 scripts/claims_check.py projects/<slug>/claims.csv` must pass.
 6. Report the script changes needed, in plain words, before any media work starts.
+

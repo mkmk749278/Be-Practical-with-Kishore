@@ -34,7 +34,7 @@ import ph_assets  # noqa: E402
 YEL = (1.0, 0.62, 0.08)          # caution yellow light (linear)
 SAND = (0.50, 0.33, 0.18)
 # the Army's three-tone desert scheme, sampled from the PIB photos (sRGB -> linear)
-CAMO = [(0.045, 0.17, 0.085), (0.66, 0.56, 0.38), (0.21, 0.065, 0.045)]
+CAMO = [(0.040, 0.15, 0.075), (0.52, 0.43, 0.28), (0.19, 0.06, 0.04)]
 
 # engine bay box (hull coordinates: x forward, y left, z up; ground at z = 0)
 BAY_X0, BAY_X1, BAY_Y, BAY_FLOOR, DECK_Z = -3.70, -1.50, 1.24, 0.60, 1.55
@@ -51,7 +51,7 @@ def camo_mat(name, root, dust=0.55, rough=0.62):
     tc = nt.nodes.new("ShaderNodeTexCoord")
     tc.object = root
     mp = nt.nodes.new("ShaderNodeMapping")
-    mp.inputs["Scale"].default_value = (0.55, 0.9, 0.75)
+    mp.inputs["Scale"].default_value = (1.05, 1.6, 1.4)
     nt.links.new(tc.outputs["Object"], mp.inputs["Vector"])
     vo = nt.nodes.new("ShaderNodeTexVoronoi")
     vo.distance = "CHEBYCHEV"
@@ -93,6 +93,22 @@ def camo_mat(name, root, dust=0.55, rough=0.62):
         nt.links.new(col, mx.inputs[6])
         mx.inputs[7].default_value = (*SAND, 1)
         col = mx.outputs[2]
+    ao = nt.nodes.new("ShaderNodeAmbientOcclusion")
+    ao.inputs["Distance"].default_value = 0.25
+    ao.samples = 8
+    ar = nt.nodes.new("ShaderNodeMapRange")
+    ar.inputs["To Min"].default_value, ar.inputs["To Max"].default_value = 0.45, 1.0
+    nt.links.new(ao.outputs["AO"], ar.inputs["Value"])
+    gm = nt.nodes.new("ShaderNodeMix")
+    gm.data_type = "RGBA"
+    gm.blend_type = "MULTIPLY"
+    gm.inputs["Factor"].default_value = 1.0
+    nt.links.new(col, gm.inputs[6])
+    gc = nt.nodes.new("ShaderNodeCombineColor")
+    for k in ("Red", "Green", "Blue"):
+        nt.links.new(ar.outputs["Result"], gc.inputs[k])
+    nt.links.new(gc.outputs["Color"], gm.inputs[7])
+    col = gm.outputs[2]
     nt.links.new(col, p.inputs["Base Color"])
     p.inputs["Roughness"].default_value = rough
     p.inputs["Metallic"].default_value = 0.0
@@ -115,7 +131,7 @@ def camo_mat(name, root, dust=0.55, rough=0.62):
 
 def ground_mat():
     """Thar sand, with the tank's own two track ruts running out behind it"""
-    m = pbr("sand", "aerial_sand", scale=3.0, tint=(1.0, 0.82, 0.62), rough=(0.75, 1.0), nor=0.8)
+    m = pbr("sand", "aerial_sand", scale=9.0, tint=(1.0, 0.76, 0.50), rough=(0.75, 1.0), nor=0.5, grime=0.22)
     nt, p = m.node_tree, _bsdf(m)
     tc = nt.nodes.new("ShaderNodeTexCoord")
     sep = nt.nodes.new("ShaderNodeSeparateXYZ")
@@ -193,6 +209,12 @@ def frustum(name, bot, z0, top, z1, m, bevel=0.0):
     return finish(mesh_obj(name, verts, faces, m), bevel)
 
 
+def hide_tree(o, hidden):
+    o.hide_render = hidden
+    for c in o.children:
+        hide_tree(c, hidden)
+
+
 def link_to(objs, root):
     for o in objs:
         if o.parent is None and o is not root:
@@ -232,7 +254,7 @@ def build_arjun(root, bay_open=True):
     """the Arjun Mk1A, parented to `root` (an empty at the hull's origin). Returns dict of parts to animate."""
     paint = camo_mat("camo", root)
     paint_clean = camo_mat("camo_turret", root, dust=0.28)
-    steel = pbr("bay_steel", "metal_plate", scale=1.2, tint=(0.62, 0.64, 0.58), rough=(0.35, 0.7), metal=0.6, nor=0.6)
+    steel = pbr("bay_steel", "metal_plate", scale=1.2, tint=(0.42, 0.44, 0.40), rough=(0.35, 0.7), metal=0.6, nor=0.6)
     dark = mat("dark_steel", (0.035, 0.035, 0.032), 0.55, metal=0.7)
     rubber = mat("rubber", (0.02, 0.02, 0.02), 0.85)
     link_m = camo_mat("track", root, dust=0.9, rough=0.8)
@@ -246,7 +268,7 @@ def build_arjun(root, bay_open=True):
     lower = prism_xz("hull_lower", [(-3.80, 0.50), (3.05, 0.50), (3.80, 1.00), (-3.80, 1.00)], -1.25, 1.25, paint, 0.02)
     upper = prism_xz("hull_upper", [(-3.86, 0.98), (3.72, 0.98), (3.86, 1.08), (2.50, DECK_Z), (-3.86, DECK_Z)],
                      -1.86, 1.86, paint, 0.03)
-    objs += [lower, upper]
+    objs.append(upper)
     if bay_open:
         bpy.ops.object.select_all(action="DESELECT")
         lower.select_set(True)
@@ -271,7 +293,8 @@ def build_arjun(root, bay_open=True):
         b.material_mode = "TRANSFER"
         hull.modifiers.move(len(hull.modifiers) - 1, 0)
         objs.append(c)
-        objs = [o for o in objs if o.name != "hull_lower"]
+    else:
+        objs.append(lower)
     # rear plate details: two exhaust grilles, stowage bins, tow hooks
     for s in (-1, 1):
         objs.append(box(f"exhaust_{s}", (-3.90, s * 1.15, 1.22), (0.05, 0.62, 0.32), dark, bevel=0.01))
@@ -395,6 +418,21 @@ def build_arjun(root, bay_open=True):
         p.parent = tur
         tparts.append(p)
 
+    # stowage basket round the bustle: rails on posts
+    for s in (-1, 1):
+        for x in (-2.8, -2.1, -1.4):
+            pst = cyl(f"post_{s}_{x}", (x, s * 1.72, 0.55), 0.015, 0.4, dark, verts=8)
+            pst.parent = tur
+            tparts.append(pst)
+        for z in (0.42, 0.72):
+            rl = cyl(f"rail_{s}_{z}", (-2.1, s * 1.72, z), 0.015, 1.5, dark, rot=(0, math.pi / 2, 0), verts=8)
+            rl.parent = tur
+            tparts.append(rl)
+        bag = box(f"bag_{s}", (-2.1, s * 1.68, 0.5), (1.3, 0.12, 0.28), mat(f"canvas_{s}", (0.18, 0.15, 0.08), 0.9),
+                  bevel=0.04)
+        bag.parent = tur
+        tparts.append(bag)
+
     # gun: mantlet, sleeved barrel, fume extractor, muzzle reference sensor; on a trunnion for elevation
     gun = bpy.data.objects.new("gun", None)
     bpy.context.collection.objects.link(gun)
@@ -450,6 +488,43 @@ def build_arjun(root, bay_open=True):
         bay.append(box("firewall_rib", (BAY_X1 - 0.03, 0, 1.05), (0.05, 2.3, 0.06), steel))
         bay.append(box("floor_rib", ((BAY_X0 + BAY_X1) / 2, 0, BAY_FLOOR + 0.02), (2.1, 0.08, 0.04), steel))
         objs += bay
+
+    # deck seams and bolts, sponson stowage, lifting eyes
+    for x in (-1.25, 0.9, 2.2):
+        objs.append(box(f"deck_seam_{x}", (x, 0, DECK_Z + 0.004), (0.02, 3.6, 0.012), dark))
+    for s in (-1, 1):
+        objs.append(box(f"deck_edge_{s}", (-0.6, s * 1.52, DECK_Z + 0.004), (6.4, 0.02, 0.012), dark))
+        for k in range(12):
+            objs.append(cyl(f"deck_bolt_{s}_{k}", (-3.6 + k * 0.55, s * 1.62, DECK_Z + 0.01), 0.022, 0.02, dark,
+                            verts=10))
+        # tools on the sponson: a shovel, a crowbar, a tow cable along the hull edge
+        objs.append(box(f"shovel_{s}", (1.2, s * 1.72, DECK_Z + 0.03), (1.1, 0.05, 0.03), dark))
+        objs.append(box(f"shovel_blade_{s}", (1.85, s * 1.72, DECK_Z + 0.03), (0.28, 0.2, 0.025), dark))
+        objs.append(cyl(f"crowbar_{s}", (-0.3, s * 1.76, DECK_Z + 0.03), 0.02, 1.5, dark, rot=(0, math.pi / 2, 0),
+                        verts=10))
+        objs.append(cyl(f"cable_{s}", (0.5, s * 1.81, DECK_Z - 0.06), 0.03, 5.6, dark, rot=(0, math.pi / 2, 0),
+                        verts=10))
+        objs.append(cyl(f"lift_eye_{s}", (2.6, s * 1.4, DECK_Z + 0.05), 0.05, 0.03, dark, rot=(math.pi / 2, 0, 0),
+                        verts=12))
+    if bay_open:
+        n_bay = len(bay)
+        # the room's walls: ribs, a cable tray, coolant lines with clamps along the side walls
+        for s in (-1, 1):
+            for x in (-2.2, -2.9):
+                bay.append(box(f"rib_{s}_{x}", (x, s * (BAY_Y - 0.02), (BAY_FLOOR + DECK_Z) / 2), (0.06, 0.04, 0.9),
+                               steel))
+            bay.append(box(f"tray_{s}", ((BAY_X0 + BAY_X1) / 2, s * (BAY_Y - 0.06), 1.25), (2.0, 0.1, 0.03), steel))
+            for k in range(4):
+                bay.append(cyl(f"wire_{s}_{k}", ((BAY_X0 + BAY_X1) / 2, s * (BAY_Y - 0.05 - k * 0.022), 1.28), 0.011,
+                               2.0, rubber, rot=(0, math.pi / 2, 0), verts=8))
+            bay.append(cyl(f"coolant_{s}", ((BAY_X0 + BAY_X1) / 2 + 0.2, s * (BAY_Y - 0.09), 0.92), 0.045, 1.6,
+                           steel, rot=(0, math.pi / 2, 0), verts=16))
+            for k in range(3):
+                bay.append(cyl(f"clamp_{s}_{k}", (-3.0 + k * 0.6, s * (BAY_Y - 0.09), 0.92), 0.055, 0.04, dark,
+                               rot=(0, math.pi / 2, 0), verts=16))
+            bay.append(cyl(f"coolant_end_{s}", (-1.68 + 0.2 - 2.0 * 0.0, s * (BAY_Y - 0.09), 0.92), 0.032, 0.012,
+                           dark, rot=(0, math.pi / 2, 0), verts=16))
+        objs += bay[n_bay:]
 
     # engine-deck covers: two grille plates over the bay (they lift away in `bayopen`)
     covers = []
@@ -509,7 +584,7 @@ def dunes(ground_m):
 def thar_scene(a, exposure=0.0, sun_elev=18.0, sun_az=-35.0):
     sc, cam = setup(a, exposure)
     world_hdri(sc, "kloofendal_43d_clear_puresky", strength=0.55, rot=math.radians(40), color=(1.0, 0.93, 0.85))
-    sun = light("SUN", (0, 0, 10), None, 4.2, (1.0, 0.80, 0.58), size=math.radians(1.2))
+    sun = light("SUN", (0, 0, 10), None, 4.2, (1.0, 0.74, 0.48), size=math.radians(1.2))
     sun.rotation_euler = (math.radians(90 - sun_elev), 0, math.radians(sun_az))
     root = bpy.data.objects.new("arjun", None)
     bpy.context.collection.objects.link(root)
@@ -520,12 +595,22 @@ def thar_scene(a, exposure=0.0, sun_elev=18.0, sun_az=-35.0):
 
 def bay_light(root, strength):
     """the glow from inside the empty room: an area light on the floor facing up, two low fill points, thin haze"""
-    l1 = light("AREA", (-2.6, 0, BAY_FLOOR + 0.05), (-2.6, 0, 3), strength, YEL, size=1.8)
+    l1 = light("AREA", (-1.75, 0, 0.95), (-3.3, 0, 0.7), strength, YEL, size=1.8)
     l1.data.shape = "RECTANGLE"
-    l1.data.size, l1.data.size_y = 2.0, 2.2
-    l2 = light("POINT", (-2.0, 0.9, 0.85), None, strength * 0.06, YEL, size=0.2)
-    l3 = light("POINT", (-3.3, -0.9, 0.85), None, strength * 0.06, YEL, size=0.2)
-    hz = haze((-2.6, 0, DECK_Z + 0.6), (2.3, 2.6, 2.2), 0.05, (1.0, 0.85, 0.6), name="bay_haze")
+    l1.data.size, l1.data.size_y = 0.5, 2.0
+    l2 = light("POINT", (-3.45, 0.85, 0.75), None, strength * 0.06, YEL, size=0.15)
+    l3 = light("POINT", (-2.6, -0.95, 0.70), None, strength * 0.06, YEL, size=0.15)
+    # light linking: the bay lights reach only the hull and the room's own parts, never the sand
+    rc = bpy.data.collections.new("bay_receivers")
+    for o in bpy.data.objects:
+        if o.type == "MESH" and (o.name == "hull" or o.name.split("_")[0] in (
+                "mount", "mhole", "final", "fd", "intake", "pipe", "cable", "firewall", "floor", "rib", "tray",
+                "wire", "coolant", "clamp", "exhaust", "exh", "rear", "deck", "turret", "wedge", "bustle")):
+            rc.objects.link(o)
+    hz = haze((-2.6, 0, DECK_Z + 0.25), (2.2, 2.5, 1.4), 0.012, (1.0, 0.8, 0.5), name="bay_haze")
+    rc.objects.link(hz)
+    for l in (l1, l2, l3):
+        l.light_linking.receiver_collection = rc
     for o in (l1, l2, l3, hz):
         o.parent = root
     return [l1, l2, l3], hz
@@ -550,11 +635,11 @@ def build_bayopen(a):
             lift = smooth((f - t0) / 150)
             cv.location = (cv.location[0], (0.6 + 2.8 * lift) * (1 if i else -1) * lift, DECK_Z + 0.03 + 3.2 * lift)
             cv.rotation_euler = (math.radians(35) * lift * (1 if i else -1), math.radians(-12) * lift, 0)
-            cv.hide_render = f > t0 + 150
+            hide_tree(cv, f > t0 + 150)
         g = smooth((f - 470) / 120)
         for k, l in enumerate(lights):
-            l.data.energy = (2600 if k == 0 else 160) * g
-        vol.default_value = 0.06 * g
+            l.data.energy = (320 if k == 0 else 25) * g
+        vol.default_value = 0.012 * g
 
     tracked = track_cam(cam) + track_obj(*parts["covers"], props=("location", "rotation_euler"))
     tracked += [(l.data, "energy") for l in lights] + [(vol, "default_value")]
@@ -562,19 +647,19 @@ def build_bayopen(a):
 
 
 def build_thumb(a):
-    sc, cam, root, sun = thar_scene(a, exposure=0.15, sun_elev=14.0, sun_az=-20.0)
+    sc, cam, root, sun = thar_scene(a, exposure=0.1, sun_elev=11.0, sun_az=-55.0)
     parts = build_arjun(root, bay_open=True)
     parts["gun"].rotation_euler = (0, math.radians(-3), 0)
-    parts["turret"].rotation_euler = (0, 0, math.radians(8))
+    parts["turret"].rotation_euler = (0, 0, math.radians(-22))
     for cv in parts["covers"]:
-        cv.hide_render = True
+        hide_tree(cv, True)
     lights, hz = bay_light(root, 1.0)
-    lights[0].data.energy = 3200
+    lights[0].data.energy = 340
     for l in lights[1:]:
-        l.data.energy = 200
+        l.data.energy = 28
 
     def frame(f):
-        aim_cam(cam, (-10.8, 7.0, 4.6), (-1.4, 0.2, 1.0), 30.0, fstop=11.0)
+        aim_cam(cam, (-9.0, 6.6, 4.9), (-1.2, 0.0, 1.0), 27.0, fstop=11.0)
 
     render(sc, a, frame, track_cam(cam))
 

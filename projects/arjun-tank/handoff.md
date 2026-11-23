@@ -1,5 +1,3 @@
-> Recovered 2026-11-23 from the 18 NOV session log (last edit 18 NOV, 08:38 UTC).
-
 # Arjun tank film: handoff
 
 ## State (2026-11-17)
