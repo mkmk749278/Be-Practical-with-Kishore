@@ -53,6 +53,8 @@ def main():
             rows.append({"q": q, "n": k, "id": vid, "title": sn["title"], "channel": sn["channelTitle"],
                          "published": sn["publishedAt"][:10], "duration": dur.get(vid, "")})
         inputs = sum([["-i", str(t)] for t in tiles], [])
+        if len(tiles) == 1:   # xstack needs 2+ inputs: a one-result search keeps its single tile as the sheet
+            tiles[0].rename(out / f"sheet_q{qi:02d}.jpg"); continue
         subprocess.run(["ffmpeg", "-v", "error", "-y", *inputs, "-filter_complex",
                         "".join(f"[{i}]" for i in range(len(tiles))) + f"xstack=inputs={len(tiles)}:layout=" +
                         "|".join(f"{(i % 4) * 320}_{(i // 4) * 180}" for i in range(len(tiles))), str(out / f"sheet_q{qi:02d}.jpg")], check=True)
