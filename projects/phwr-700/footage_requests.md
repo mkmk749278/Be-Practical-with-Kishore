@@ -37,3 +37,6 @@ NPCIL). Ranges merged; short films taken whole. Left out: The Hindu 01:07-01:18 
 lock: no prime ministers), Bruce Power's suppliers film (banners over every shot), NPCIL's two long talks (slides only).
 **To clear with the owner before use:** `T8FbAuXiCFQ`, a re-upload of a 1983 Toronto TV news report (real footage
 inside Pickering, workers at the reactor face, a 09-05-83 timestamp); short, credited news excerpt.
+```bash
+curl -sL https://raw.githubusercontent.com/mkmk749278/Be-Practical-with-Kishore/main/scripts/termux_fetch_to_drive.sh | bash -s -- English/phwr-700 "https://www.youtube.com/watch?v=FJ2bCPWhFwU@00:04-00:13" "https://www.youtube.com/watch?v=7SPi-ILktNA@00:18-00:42" "https://www.youtube.com/watch?v=7SPi-ILktNA@01:45-02:00" "https://www.youtube.com/watch?v=bUa3IuHUpqI" "https://www.youtube.com/watch?v=-Gr_INAyHZI" "https://www.youtube.com/watch?v=T8FbAuXiCFQ" "https://www.youtube.com/watch?v=uoREvUJz97o" "https://www.youtube.com/watch?v=loyIS9aOHW0@11:29-13:03" "https://www.youtube.com/watch?v=loyIS9aOHW0@13:43-14:09" "https://www.youtube.com/watch?v=eSnFaa5jl74"
+```
