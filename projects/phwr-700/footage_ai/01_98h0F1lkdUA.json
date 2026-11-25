@@ -1,0 +1,240 @@
+{
+ "summary": "This corporate documentary segment from NPCIL highlights the refurbishment and life extension (En-Masse Coolant Channel Replacement - EMCCR and En-Masse Feeder Replacement - EMFR) of Rajasthan Atomic Power Station Unit 3 (RAPS-3) at Rawatbhata, Rajasthan. It features plant exteriors by the Rana Pratap Sagar lake, footage of OSART inspection, reactor core maintenance, automated retubing tools, fuel loading, control room operations, and statements by NPCIL leadership.",
+ "language": "English",
+ "spans": [
+  {
+   "start": "00:00",
+   "end": "00:06",
+   "shows": "Title screen reading 'REFURBISHMENT OF RAPS - 3', followed by a view from a moving bus traveling along a green country road towards Rawatbhata.",
+   "place_people": "Rawatbhata road, Rajasthan",
+   "onscreen_text": "REFURBISHMENT OF RAPS - 3, YET ANOTHER TESTAMENT TO NPCIL'S TECHNOLOGICAL EXCELLENCE",
+   "speech": "Located in the serene landscapes of Rawatbhata, Rajasthan...",
+   "fits": "Rawatbhata town and the plant on the Rana Pratap Sagar lake / Chambal river",
+   "problems": "burned-in subtitles, logo bug"
+  },
+  {
+   "start": "00:06",
+   "end": "00:18",
+   "shows": "Drive past a roundabout monument towards the entrance gate of the Rawatbhata site, showing views of the lake landscape.",
+   "place_people": "Rawatbhata, Rajasthan",
+   "onscreen_text": "RAWATBHATA RAJASTHAN SITE",
+   "speech": "...about 50 kilometers from Kota, stands a beacon of India's nuclear power prowess: Rawatbhata Rajasthan site.",
+   "fits": "Rawatbhata town and the plant on the Rana Pratap Sagar lake / Chambal river",
+   "problems": "burned-in subtitles, logo bug"
+  },
+  {
+   "start": "00:18",
+   "end": "00:35",
+   "shows": "Wide scenic shots of the Rawatbhata nuclear power plant across the lake/river, high-voltage electrical grid, and reactor containment structures.",
+   "place_people": "Rawatbhata Rajasthan Site",
+   "onscreen_text": "RAWATBHATA RAJASTHAN SITE",
+   "speech": "Rajasthan Atomic Power Station Unit 3 of Rawatbhata Rajasthan site, also known as RAPS 3, began its operations on June 1st, 2000, and has been a cornerstone of India's nuclear energy sector, driving progress and sustainability.",
+   "fits": "Rawatbhata town and the plant on the Rana Pratap Sagar lake / Chambal river",
+   "problems": "burned-in subtitles, logo bug"
+  },
+  {
+   "start": "00:35",
+   "end": "01:00",
+   "shows": "Garden pathways around the administration complex, cooling towers, and a monument commemorating 777 days of continuous operation.",
+   "place_people": "RAPS 3 facility",
+   "onscreen_text": "RAPS-3 777 days continuous operation landmark sign",
+   "speech": "RAPS 3 has been a trailblazer in many ways, from setting a record 777 days of continuous operation to running for more than a year on three separate occasions, this unit exemplifies operational excellence.",
+   "fits": "Kaiga (Karnataka) and long continuous runs (records)",
+   "problems": "burned-in subtitles, logo bug"
+  },
+  {
+   "start": "01:00",
+   "end": "01:24",
+   "shows": "Cooling towers, IAEA logo graphic, and international OSART inspectors walking through plant premises and consulting with Indian engineers.",
+   "place_people": "IAEA OSART mission inspectors and Indian engineers at RAPS-3",
+   "onscreen_text": "IAEA logo, Impressions quote from Mark Kearney and Miroslav Lipar",
+   "speech": "In 2012, RAPS 3 made history by hosting India's first ever OSART mission, conducted by the International Atomic Energy Agency. The mission, which reviewed the operational safety of RAPS 3 and 4, was a grand success, bringing global recognition to India's nuclear capabilities.",
+   "fits": "Indian engineers and workers at work (control rooms, protective suits, workshops, meetings)",
+   "problems": "burned-in subtitles, logo bug"
+  },
+  {
+   "start": "01:24",
+   "end": "01:35",
+   "shows": "Delegates visiting the control room and walking outside the turbine building.",
+   "place_people": "OSART team and Indian plant engineers",
+   "onscreen_text": "TURBINE BUILDING",
+   "speech": "With an impeccable safety record, RAPS 3 has produced a staggering 35,621 million units of clean electricity...",
+   "fits": "Indian engineers and workers at work (control rooms, protective suits, workshops, meetings)",
+   "problems": "burned-in subtitles, logo bug"
+  },
+  {
+   "start": "01:35",
+   "end": "01:59",
+   "shows": "Exterior views of turbine buildings, cooling towers against clouds, and scenic lake reflections near the plant.",
+   "place_people": "RAPS 3 site",
+   "onscreen_text": "TURBINE BUILDING",
+   "speech": "...before undergoing a comprehensive renovation and modernization program on October 27th, 2022. This massive contribution has averted over 30 million metric tons of carbon dioxide equivalent emissions to the environment, playing a crucial role in India's fight against climate change.",
+   "fits": "Rawatbhata town and the plant on the Rana Pratap Sagar lake / Chambal river",
+   "problems": "burned-in subtitles, logo bug"
+  },
+  {
+   "start": "01:59",
+   "end": "02:23",
+   "shows": "Plant glass corridors, electrical transformer yard, and switchyard structure during R&M activities.",
+   "place_people": "RAPS 3 facility",
+   "onscreen_text": "R&M activities (EMCCR)",
+   "speech": "After over 22 years of reliable operation, RAPS 3 underwent a comprehensive renovation and modernization program, also known as R&M, starting on October 27th, 2022. The R&M activities, majorly En-Masse Coolant Channel Replacement (EMCCR) and En-Masse Feeder Replacement (EMFR)...",
+   "fits": "Indian engineers and workers at work (control rooms, protective suits, workshops, meetings)",
+   "problems": "burned-in subtitles, logo bug"
+  },
+  {
+   "start": "02:23",
+   "end": "02:35",
+   "shows": "3D CGI animation showing the complex grid of feeder pipes and end fittings of the PHWR reactor face.",
+   "place_people": "none",
+   "onscreen_text": "CGI animation of reactor core components",
+   "speech": "...were completed using indigenous advanced robotic tools and technologies.",
+   "fits": "The reactor face: the grid of end fittings and feeder pipes; a fuelling machine or shielded flask on the face",
+   "problems": "CGI, burned-in subtitles, logo bug"
+  },
+  {
+   "start": "02:35",
+   "end": "02:41",
+   "shows": "3D CGI animation showing defueling of fuel assemblies from reactor core into the spent fuel storage bay.",
+   "place_people": "none",
+   "onscreen_text": "SPENT FUEL",
+   "speech": "These includes defueling of reactor core and spent fuel discharge to spent fuel storage bay...",
+   "fits": "Fuel bundles; uranium; heavy water",
+   "problems": "CGI, burned-in subtitles, logo bug"
+  },
+  {
+   "start": "02:41",
+   "end": "02:59",
+   "shows": "Engineers examining small components in a workshop, close-ups of end-fitting mockups, automated remote pressure tube cutting and inspection equipment, workers in yellow suits.",
+   "place_people": "Indian engineers and technicians in protective suits/workshops",
+   "onscreen_text": "Hindi captions",
+   "speech": "...systems draining and drying, removal of feeders including insulation cabinet, cutting, removal, and disposal of coolant channel components, inspection of bellows and calandria tube to ensure their healthiness...",
+   "fits": "Remote tools cutting, pulling or fitting a coolant channel / pressure tube; a removed tube; engineers watching screens",
+   "problems": "burned-in subtitles, logo bug"
+  },
+  {
+   "start": "02:59",
+   "end": "03:14",
+   "shows": "Technicians wearing yellow anti-contamination suits working on fuel channel mockup face, sliding fuel bundles, engineers in white coats checking alignment and instrumentation.",
+   "place_people": "Indian engineers and technicians",
+   "onscreen_text": "ATL",
+   "speech": "...reinstallation of coolant channels, feeders reinstallation, new fuel loading in reactor core, primary heat transport system air hold and helium leak test...",
+   "fits": "Remote tools cutting, pulling or fitting a coolant channel / pressure tube; a removed tube; engineers watching screens",
+   "problems": "burned-in subtitles, logo bug"
+  },
+  {
+   "start": "03:14",
+   "end": "03:24",
+   "shows": "CGI animation of heat transport piping flow followed by an engineer pointing out parameters on a screen to colleagues.",
+   "place_people": "Indian engineers",
+   "onscreen_text": "CGI graphics, screen display",
+   "speech": "...systems filling and hydro test, primary heat transport system hot conditioning.",
+   "fits": "Indian engineers and workers at work (control rooms, protective suits, workshops, meetings)",
+   "problems": "CGI, burned-in subtitles, logo bug"
+  },
+  {
+   "start": "03:24",
+   "end": "03:31",
+   "shows": "Panoramic shot of the RAPS plant site bordering the lake.",
+   "place_people": "Rawatbhata, Rajasthan",
+   "onscreen_text": "Hindi captions",
+   "speech": "Within a record time, the unit was back online on July 24th, 2024...",
+   "fits": "Rawatbhata town and the plant on the Rana Pratap Sagar lake / Chambal river",
+   "problems": "burned-in subtitles, logo bug"
+  },
+  {
+   "start": "03:31",
+   "end": "03:49",
+   "shows": "Engineers working at computerized console desks inside the modern plant control room.",
+   "place_people": "Indian control room operators",
+   "onscreen_text": "Hindi captions",
+   "speech": "...showcasing the efficiency and expertise of Indian engineers. This R&M effort not only enhanced the safety standards, but also extended the life of RAPS 3 by an impressive three decades.",
+   "fits": "Indian engineers and workers at work (control rooms, protective suits, workshops, meetings)",
+   "problems": "burned-in subtitles, logo bug"
+  },
+  {
+   "start": "03:49",
+   "end": "04:12",
+   "shows": "Large group of control room engineers and technicians raising hands and cheering to celebrate successful recommissioning.",
+   "place_people": "RAPS-3 control room team",
+   "onscreen_text": "Hindi captions",
+   "speech": "India's commitment to self-reliance, Atmanirbhar Bharat, is evident in the successful execution of the R&M activities using advanced robotic tools and techniques. This not only minimized radiation exposure, but also demonstrated India's ability to perform intricate core jobs at a fraction of the cost incurred internationally.",
+   "fits": "Indian engineers and workers at work (control rooms, protective suits, workshops, meetings)",
+   "problems": "burned-in subtitles, logo bug"
+  },
+  {
+   "start": "04:12",
+   "end": "04:24",
+   "shows": "Wide shot of control room panels and exterior shot of cooling towers at plant entrance.",
+   "place_people": "RAPS plant",
+   "onscreen_text": "ESCADA control panels",
+   "speech": "This capability positions India as a global leader in nuclear technology services, with the potential to export these skills worldwide.",
+   "fits": "Rawatbhata town and the plant on the Rana Pratap Sagar lake / Chambal river",
+   "problems": "burned-in subtitles, logo bug"
+  },
+  {
+   "start": "04:24",
+   "end": "04:32",
+   "shows": "Talking head interview shot of Shri Dasari Subba Rao, Station Director, RAPS 3&4.",
+   "place_people": "Shri Dasari Subba Rao (Station Director - RAPS 3&4)",
+   "onscreen_text": "SHRI DASARI SUBBA RAO, STATION DIRECTOR - RAPS 3&4",
+   "speech": "Rajasthan 3 EMCCR activity has been matured enough. We are much much advanced...",
+   "fits": "none",
+   "problems": "talking head, burned-in subtitles, logo bug"
+  },
+  {
+   "start": "04:32",
+   "end": "04:41",
+   "shows": "Engineers meeting around a table discussing engineering designs and project timelines.",
+   "place_people": "Indian engineers in conference room",
+   "onscreen_text": "Hindi captions",
+   "speech": "...compared to other nuclear stations which are undergoing EMCCR in terms of completing in very fast, very less time...",
+   "fits": "Indian engineers and workers at work (control rooms, protective suits, workshops, meetings)",
+   "problems": "burned-in subtitles, logo bug"
+  },
+  {
+   "start": "04:41",
+   "end": "04:58",
+   "shows": "Senior management and technical review meetings in progress, cut to talking head of Station Director.",
+   "place_people": "Shri Dasari Subba Rao and senior engineers",
+   "onscreen_text": "SHRI DASARI SUBBA RAO, STATION DIRECTOR - RAPS 3&4",
+   "speech": "...and then it is more economically viable to go for this EMCCR program and operating it for the next 25 to 30 years with very less amount of expenditure in this entire upgradation life extension programs.",
+   "fits": "Indian engineers and workers at work (control rooms, protective suits, workshops, meetings)",
+   "problems": "talking head, burned-in subtitles, logo bug"
+  },
+  {
+   "start": "04:58",
+   "end": "05:12",
+   "shows": "Exterior of RAPS cooling towers with green foliage and tranquil reservoir water view.",
+   "place_people": "Rawatbhata, Rajasthan",
+   "onscreen_text": "Hindi captions",
+   "speech": "Back online, Rajasthan Atomic Power Station Unit 3 is a testament to India's nuclear strength, a symbol of our commitment to sustainable energy, and a shining example of technological excellence.",
+   "fits": "Rawatbhata town and the plant on the Rana Pratap Sagar lake / Chambal river",
+   "problems": "burned-in subtitles, logo bug"
+  },
+  {
+   "start": "05:12",
+   "end": "06:05",
+   "shows": "Talking head interview shot of Shri Bhuwan Chandra Pathak, Chairman & Managing Director, NPCIL.",
+   "place_people": "Shri Bhuwan Chandra Pathak (CMD, NPCIL)",
+   "onscreen_text": "SHRI BHUWAN CHANDRA PATHAK, CHAIRMAN & MANAGING DIRECTOR, NPCIL",
+   "speech": "Nuclear power reactors based on pressurized heavy water technology are required to undergo a major refurbishment program after certain years of operation...",
+   "fits": "none",
+   "problems": "talking head, burned-in subtitles, logo bug"
+  },
+  {
+   "start": "06:05",
+   "end": "06:23",
+   "shows": "Wide vista of RAPS plant on Rana Pratap Sagar lake, transitioning to closing graphic card with NPCIL logo and social media channels.",
+   "place_people": "Rawatbhata site",
+   "onscreen_text": "NPCIL logo, www.npcil.nic.in, RAPS-3 A BRIGHTER, CLEANER FUTURE",
+   "speech": "As we continue to power the nation, RAPS 3 stands tall, lighting the way to a brighter, cleaner future.",
+   "fits": "Rawatbhata town and the plant on the Rana Pratap Sagar lake / Chambal river",
+   "problems": "burned-in subtitles, logo bug"
+  }
+ ],
+ "clip": "01_98h0F1lkdUA.mp4",
+ "duration_s": 383.5,
+ "frame_every_s": 2,
+ "model": "gemini-3.6-flash"
+}
