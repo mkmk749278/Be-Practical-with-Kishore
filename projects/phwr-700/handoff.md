@@ -29,6 +29,11 @@
   (4,111 chars, cold open → "What would you have done?") and `vo_block2.txt` (5,651 chars, "In nineteen ninety
   five…" → "Stay practical."). Block 1 of the 23 NOV take already matches the text, so only block 2 is needed.
   When it arrives: raw to Drive `vo/raw/`, `modal-enhance`, join at chapter 3 (gap ~1.0 s), take check, owner approval.
+- **25 NOV, about 12:00 PM IST:** block 2 recorded (`phwr_b2_raw.mp3`, 5:49) and enhanced, then **retired before
+  approval**: the owner dropped the QR/phone ask ("fatigue for the audience; make it even simple"). The mid-film ask
+  is now "On the T-V? Just press Subscribe with your remote."; the landing keeps only "Subscribe, so you are there
+  with me." (PLAYBOOK §15.6). `vo_block2.txt` rebuilt (5,535 chars): the owner records block 2 again; block 1
+  (`phwr_b1_enh.wav`, cut at 262.72 s of the enhanced 23 NOV take) stands.
 
 ## Next, in order (session closed 23 NOV 2026, about 6:30 PM IST)
 1. **Narration v2 APPROVED** (owner, 23 NOV). **The owner recorded the takes (see Audio above)** on Eleven v4 (Akash,

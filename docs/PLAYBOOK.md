@@ -90,7 +90,8 @@ The two 50,000-view films won on their words. So every film has:
 9. **The closing line (owner, 2026-11-11):** the subscribe line tied to a real promise, one real question for the
    comments, then "This is Be Practical with Kishore. Stay practical." on the logo sting.
 10. **The subscribe ask is built for the family TV (§15.6):** once in the middle, at the first payoff, and once at the
-   end, each telling the viewer how (the phone in his hand and the code on the screen), and a reason (the next machine).
+   end, with a reason (the next machine); the TV viewer gets one plain line, "On the T-V? Just press Subscribe with
+   your remote." No QR code and no phone steps (owner, 2026-11-25).
 And in the picture: real Indian people at work in every chapter; no run of diagrams over about 20 s; every comparison
 from Indian life; never open on an object in a void.
 
@@ -781,15 +782,17 @@ draws the viewers who stay. Misleading packaging is against the rules and costs 
 signed in to a son's account or none, and our one ask came at the end, after about two thirds had left. Our viewer is
 over 45 with a phone in his hand or on the table beside him. So the ask moves to the phone, comes earlier and comes
 with a reason.
-- **The phone bridge:** a QR code on screen that opens the channel with the subscribe prompt
-  (`youtube.com/@BePracticalWithKishore?sub_confirmation=1`). Kishore says it plainly, once: "If you're watching on the
-  big TV, pick up your phone and point the camera at the screen." The code sits on a physical base (a brass plate on
-  Kishore's desk, a page in a notebook, never a floating card), with a quiet "SCAN TO SUBSCRIBE" at ≥ 44 px. Size: at
-  least 300 px tall mid-film and 420 px at the end, high contrast, 4-module quiet zone, checked by scanning a 55-inch
-  TV photo at 3 metres before the cut goes out.
+- **The remote, not the phone (owner, 2026-11-25: "the QR code to scan is fatigue for the audience; make it even
+  simple"):** one plain line in the mid-film ask, "On the T-V? Just press Subscribe with your remote." On screen, a
+  small TV remote on a physical base (Kishore's desk) beside a quiet SUBSCRIBE pill at ≥ 44 px in the lower right,
+  growing in on "Subscribe" and gone after 4–5 s. The landing ask is the subscribe line alone, with its reason. Never
+  tell the viewer which arrow to press: the Subscribe button sits in a different place in different TVs' YouTube apps.
+  *Why:* telling a man on the sofa to unlock his phone, open the camera and scan the screen is four steps he will not
+  take, and it was said twice in one film; the remote is already in his hand. (The 23 NOV phone bridge, a QR code to
+  `?sub_confirmation=1`, is retired.)
 - **Two asks, both earned:** the first after the film's first climax and its saying, at a chapter break (about 60%
   in), never inside an open loop (*why:* phwr-700 review, 23 NOV: an ask at 2:55 broke the cliffhanger and four of
-  five panel viewers drifted), 8–12 s, tied to what was just given ("If you want the next machine opened like this, subscribe"); the code shows only there and at the end. The second in the landing (§1.3 item 9). Never in the first
+  five panel viewers drifted), 8–12 s, tied to what was just given ("If you want the next machine opened like this, subscribe"); the remote graphic shows only there. The second in the landing (§1.3 item 9). Never in the first
   two minutes, never twice in one chapter, never begging.
 - **No fixed day or time, ever (owner, 2026-11-23):** films go up when ready, usually 3–5 days apart, so no VO,
   comment, description or banner promises "every Sunday" or a clock time. *Why:* a promise the schedule can't keep
