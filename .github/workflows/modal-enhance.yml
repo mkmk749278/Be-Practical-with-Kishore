@@ -1,0 +1,50 @@
+# Resemble Enhance on a Modal T4 GPU (PLAYBOOK §7, §14.1). A light job: the runner pulls the raw takes from Drive,
+# launches tools/modal/enhance.py on Modal, and puts the enhanced WAVs back in Drive. About US$0.05 a film.
+# Needs repo secrets MODAL_TOKEN_ID, MODAL_TOKEN_SECRET (modal.com → Settings → API Tokens) and GDRIVE_RCLONE_TOKEN.
+name: modal-enhance
+on:
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: film folder, e.g. phwr-700 (reads Creator/English/<slug>/vo/raw, writes vo/enhanced)
+        required: true
+      nfe:
+        description: solver steps (Resemble default 64)
+        default: "64"
+      lambd:
+        description: denoise strength 0–1 (0.1 for clean ElevenLabs takes)
+        default: "0.1"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: modal-enhance-${{ inputs.slug }}
+  cancel-in-progress: false
+
+jobs:
+  enhance:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    env:
+      MODAL_TOKEN_ID: ${{ secrets.MODAL_TOKEN_ID }}
+      MODAL_TOKEN_SECRET: ${{ secrets.MODAL_TOKEN_SECRET }}
+      GDRIVE_RCLONE_TOKEN: ${{ secrets.GDRIVE_RCLONE_TOKEN }}
+    steps:
+      - name: Secrets present
+        run: |
+          for s in MODAL_TOKEN_ID MODAL_TOKEN_SECRET GDRIVE_RCLONE_TOKEN; do
+            [ -n "${!s}" ] || { echo "::error::repo secret $s is missing"; miss=1; }
+          done
+          [ -z "${miss:-}" ]
+      - uses: actions/checkout@v4.2.2
+      - uses: actions/setup-python@v5.3.0
+        with:
+          python-version: "3.11"
+      - run: pip install modal==1.6.4
+      - name: Pull raw takes from Drive
+        run: scripts/gdrive_pull.sh "English/${{ inputs.slug }}/vo/raw" in && ls -la in
+      - name: Enhance on Modal
+        run: modal run tools/modal/enhance.py --indir in --outdir out --nfe ${{ inputs.nfe }} --lambd ${{ inputs.lambd }}
+      - name: Put enhanced takes in Drive
+        run: scripts/upload_gdrive.sh --sub "English/${{ inputs.slug }}/vo/enhanced" out/*.wav
