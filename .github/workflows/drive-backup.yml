@@ -1,6 +1,7 @@
 # Back up the whole repo to Google Drive after every push to main (owner, 2026-11-23: "even if we lose the repo we
 # should not lose anything"; PLAYBOOK §14.3). A light job: it bundles every branch and commit (about a minute) and
-# uploads two files to Drive Creator/_Backups/Be-Practical-with-Kishore/: a dated bundle and latest.bundle.
+# uploads two files to Drive Creator/_Backups/Be-Practical-with-Kishore/: a dated bundle and latest.bundle. Then it
+# copies each film's facts and narration text to Creator/English/<slug>/repo/ (scripts/drive_text_backup.sh).
 # Restore anywhere with: git clone latest.bundle
 # Needs the repo secret GDRIVE_RCLONE_TOKEN (Settings → Secrets and variables → Actions).
 name: drive-backup
@@ -42,3 +43,5 @@ jobs:
           ls -la out
       - name: Upload to Drive
         run: scripts/upload_gdrive.sh --sub _Backups/Be-Practical-with-Kishore out/*.bundle
+      - name: Copy each film's facts and narration to its Drive folder
+        run: scripts/drive_text_backup.sh

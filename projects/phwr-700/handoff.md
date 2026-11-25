@@ -12,8 +12,19 @@
   exact day is unverified; C41's May 1998 is cut).
 - The channel became a YouTube Partner on 23 NOV (expanded tier); full ads need 1,000 subscribers (§15.6 plan).
 
+## Audio (25 NOV 2026, about 11:00 AM IST)
+- **Takes received** (in Drive `Creator/English/phwr-700/vo/raw/`): `phwr_t1_raw.mp3` (23 NOV, 600.27 s, the app's
+  10-minute cap; cold open → "…point your phone's camera at the code on the screen.") and `phwr_t2_raw.mp3` (25 NOV,
+  8.36 s; "And tell me in the comments…" → "Stay practical."). So two takes joined at a paragraph break (no splice).
+  T1's last word tapers to silence at 600.0 s (not cut); T1 −23.2 LUFS, T2 −21.9 LUFS: match levels at the join.
+- **Resemble Enhance on Modal** (owner, 25 NOV): `modal-enhance` workflow (T4, nfe 64, lambd 0.1, tau 0.5) writes
+  `vo/enhanced/phwr_t1_enh.wav`, `phwr_t2_enh.wav`. Then: compare raw vs enhanced (artefacts, sibilance, loudness),
+  `vo_take_check.py`, join (rebuild `scripts/vo_rejoin.py`), one MP3 to the owner for audio approval.
+- **Blocked (25 NOV):** run 1 stopped at the secrets check: repo secrets `MODAL_TOKEN_ID` and `MODAL_TOKEN_SECRET`
+  are missing (the Drive secret is there). Once the owner adds them, start `modal-enhance` with slug `phwr-700`.
+
 ## Next, in order (session closed 23 NOV 2026, about 6:30 PM IST)
-1. **Narration v2 APPROVED** (owner, 23 NOV). **The owner is recording the two takes himself** on Eleven v4 (Akash,
+1. **Narration v2 APPROVED** (owner, 23 NOV). **The owner recorded the takes (see Audio above)** on Eleven v4 (Akash,
    Creative 0.0, similarity 50%). When the files arrive: `scripts/vo_take_check.py` on each, then the owner approves
    the audio (step 6).
 2. C01 (RAPP-8 cleared 19 Nov) is still unverified: ask the owner for a PIB screenshot, else keep C31 wording.
