@@ -40,7 +40,7 @@ CALCULATION at the 1996 RBI rate, C55); no prime ministers' names anywhere (the 
 | Attributions | Business India 1996 (halfway, denied knowledge, the cost); the trade weekly 1995 (with or without help); N-P-C-I-L (second in the world); Bhabha Atomic Research Centre (1,100 crore); the regulator (Kakrapar); a former N-P-C-I-L chief (heart transplant) |
 
 ## Pronunciation to add before recording
-Sigh-rus (CIRUS, written respelt in `vo.txt`) · Rawatbhata (check by ear: raa-wut-BHAA-taa) · Kakrapar (KAAK-ruh-paar)
+Cyrus (CIRUS, written as the name in `vo.txt`; "Sigh-rus" came out "Sig-rus", 25 NOV) · Rawatbhata (check by ear: raa-wut-BHAA-taa) · Kakrapar (KAAK-ruh-paar)
 · Chaturvedi · N-P-C-I-L (in the list). "T-V" is written with a hyphen.
 
 ## What changed after the independent review (`review_audience_v1.md`, `review_ack_r1.md`)
@@ -82,7 +82,7 @@ And in reactors of this family, the wall of that tube is only about four millime
 
 Then came May nineteen seventy four. You remember it. Pokhran.
 
-Why did Canada care so much? India called its test peaceful. Canada saw plutonium from a research reactor near Mumbai, called Sigh-rus, which Canada had helped design.
+Why did Canada care so much? India called its test peaceful. Canada saw plutonium from a research reactor near Mumbai, called Cyrus, which Canada had helped design.
 
 So Canada stopped its nuclear help. The engineers packed up and went home.
 

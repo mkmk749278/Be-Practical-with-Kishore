@@ -67,3 +67,9 @@ on 23 NOV).
   clean (only digit and name spellings); no artefacts added by the enhance (three flags were a raw mouth click
   and word tails). Alignment in `align/` (17 lines to check by ear before the lock).
 - **Next:** the owner approves the audio → `vo_lock.py`, then footage and the build.
+- **25 NOV, about 1:00 PM IST, outside audio review (owner's PDF):** CIRUS at 2:09 is said "Sig-rus" (our transcript
+  agrees). Tested three spellings on Akash v4 (about 90 characters): "Cyrus" reads right; "Sigh rus" reads "Segrus".
+  `config/pronunciation.csv`, `vo.txt`, `narration.md` and `vo_block1.txt` (4,108 chars) now say "Cyrus". The review
+  suggested splicing one sentence; our rule is never to splice words into a take, so the owner re-records block 1.
+  Block 2 (`phwr_b2v2`, enhanced) stands. Not taken from the review: "press Up" on screen (we never name an arrow) and
+  "Sunday's drop" (no fixed day).
