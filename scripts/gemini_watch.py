@@ -61,8 +61,8 @@ def ask(model, content):
         try:
             r = json.load(urllib.request.urlopen(req, timeout=600))
             return r["choices"][0]["message"]["content"]
-        except urllib.error.HTTPError as e:   # 429 (free-tier rate) and 503 (busy) are retried
-            if e.code not in (429, 500, 503) or k == 4:
+        except urllib.error.HTTPError as e:   # 429 (free-tier rate) and 5xx (busy) are retried
+            if e.code not in (429, 500, 502, 503, 504) or k == 4:
                 raise
             time.sleep(30 * (k + 1))
 
