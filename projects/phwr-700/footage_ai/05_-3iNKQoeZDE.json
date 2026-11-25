@@ -1,0 +1,240 @@
+{
+ "summary": "Documentary PR featurette celebrating the dedication of Kakrapar Atomic Power Station (KAPP-3 and KAPP-4) 700 MW PHWR units to the nation by Prime Minister Narendra Modi. Includes plant exterior views, control room footage, historical archive reference to RAPP 1973, reactor interior details, safety systems, and interviews with AEC/NPCIL leadership.",
+ "language": "Hindi, English",
+ "spans": [
+  {
+   "start": "00:00",
+   "end": "00:18",
+   "shows": "Title intro graphics, Kakrapar plant gate, cooling towers, and turbine hall exterior",
+   "place_people": "Kakrapar Atomic Power Station, Gujarat",
+   "onscreen_text": "700 मेगावॉट का स्वर्णिम सफर..., MAKE IN INDIA",
+   "speech": "",
+   "fits": "Kakrapar (Gujarat): KAPP-3/4 700 MW units",
+   "problems": "burned-in text, logo bug, CGI"
+  },
+  {
+   "start": "00:18",
+   "end": "00:36",
+   "shows": "Kakrapar plant engineers and workers waving and giving thumbs-up outside plant entrance gate",
+   "place_people": "Kakrapar Atomic Power Station, Gujarat",
+   "onscreen_text": "22 F",
+   "speech": "",
+   "fits": "Indian engineers and workers at work (control rooms, protective suits, workshops, meetings)",
+   "problems": "logo bug"
+  },
+  {
+   "start": "00:36",
+   "end": "01:18",
+   "shows": "Prime Minister Narendra Modi walking with nuclear plant officials and unveiling the dedication plaque",
+   "place_people": "Prime Minister Narendra Modi, Kakrapar Atomic Power Station, Gujarat",
+   "onscreen_text": "Kakrapar Atomic Power Station Unit-3 & 4 Dedicated to the Nation Shri Narendra Modi",
+   "speech": "",
+   "fits": "Kakrapar (Gujarat): KAPP-3/4 700 MW units",
+   "problems": "talking head, burned-in text, logo bug"
+  },
+  {
+   "start": "01:18",
+   "end": "01:32",
+   "shows": "Engineers working at computer consoles inside the modern plant control room",
+   "place_people": "Kakrapar Atomic Power Station control room",
+   "onscreen_text": "",
+   "speech": "",
+   "fits": "Indian engineers and workers at work (control rooms, protective suits, workshops, meetings)",
+   "problems": "logo bug"
+  },
+  {
+   "start": "01:32",
+   "end": "01:44",
+   "shows": "Archive clip of early reactor containment dome at Rawatbhata",
+   "place_people": "RAPP 1 & 2, Rawatbhata, Rajasthan",
+   "onscreen_text": "16TH DEC 1973, RAPP 1 & 2",
+   "speech": "",
+   "fits": "1960s-70s archive: Canadian and Indian engineers, CIRUS reactor at Trombay, early RAPS construction",
+   "problems": "burned-in text, logo bug"
+  },
+  {
+   "start": "01:44",
+   "end": "01:52",
+   "shows": "Control room engineers at work, plant entrance gate, exterior cooling towers view",
+   "place_people": "Kakrapar Atomic Power Station, Gujarat",
+   "onscreen_text": "",
+   "speech": "",
+   "fits": "Kakrapar (Gujarat): KAPP-3/4 700 MW units",
+   "problems": "logo bug"
+  },
+  {
+   "start": "01:52",
+   "end": "02:16",
+   "shows": "Graphics of India map, fuel bundle animation, plant exterior, screenshot of PM Narendra Modi's tweet",
+   "place_people": "Narendra Modi",
+   "onscreen_text": "LET THERE BE LIGHT, Narendra Modi @narendramodi",
+   "speech": "",
+   "fits": "Kakrapar (Gujarat): KAPP-3/4 700 MW units",
+   "problems": "CGI, burned-in text, logo bug"
+  },
+  {
+   "start": "02:16",
+   "end": "02:36",
+   "shows": "Engineers cheering, route map showing distances from Surat, entrance sign arch to Kakrapar Atomic Power Station",
+   "place_people": "Kakrapar Atomic Power Station, Gujarat",
+   "onscreen_text": "45 KM, 65 KM, KAKRAPAR ATOMIC POWER STATION",
+   "speech": "",
+   "fits": "Kakrapar (Gujarat): KAPP-3/4 700 MW units",
+   "problems": "logo bug"
+  },
+  {
+   "start": "02:36",
+   "end": "02:58",
+   "shows": "Plant campus driveway, cooling towers, control room desk, DAE/NPCIL logo, Aatmanirbhar Bharat graphic, digital grid monitor",
+   "place_people": "Kakrapar Atomic Power Station, Gujarat",
+   "onscreen_text": "DAE, NPCIL, AATMA-NIRBHAR BHARAT, 700.23 MW 50.14 HZ",
+   "speech": "",
+   "fits": "Kakrapar (Gujarat): KAPP-3/4 700 MW units",
+   "problems": "CGI, logo bug"
+  },
+  {
+   "start": "02:58",
+   "end": "03:22",
+   "shows": "Control panels, animated map of nuclear power plant sites in India, total installed capacity graphic, plant interior hall",
+   "place_people": "India",
+   "onscreen_text": "TOTAL NUMBERS OF PLANTS IN INDIA - 24, TOTAL INSTALLED CAPACITY - 8180 MW",
+   "speech": "",
+   "fits": "Kakrapar (Gujarat): KAPP-3/4 700 MW units",
+   "problems": "CGI, logo bug"
+  },
+  {
+   "start": "03:22",
+   "end": "03:44",
+   "shows": "Black-and-white stylized interior footage of reactor structure, end fitting grid face, feeder piping assemblies",
+   "place_people": "Kakrapar Atomic Power Station, Gujarat",
+   "onscreen_text": "",
+   "speech": "",
+   "fits": "The reactor face: the grid of end fittings and feeder pipes; a fuelling machine or shielded flask on the face",
+   "problems": "monochrome stylization, logo bug"
+  },
+  {
+   "start": "03:44",
+   "end": "03:58",
+   "shows": "AERB logo graphics, cooling towers exterior, animated atomic fission",
+   "place_people": "",
+   "onscreen_text": "AERB, ATOMIC ENERGY REGULATORY BOARD",
+   "speech": "",
+   "fits": "none",
+   "problems": "CGI, logo bug"
+  },
+  {
+   "start": "03:58",
+   "end": "04:14",
+   "shows": "Atomic fission animation, night city aerial view, electrical switchyard, turbine hall overhead wide shot",
+   "place_people": "Kakrapar Atomic Power Station, Gujarat",
+   "onscreen_text": "",
+   "speech": "",
+   "fits": "Kakrapar (Gujarat): KAPP-3/4 700 MW units",
+   "problems": "CGI, logo bug"
+  },
+  {
+   "start": "04:14",
+   "end": "04:36",
+   "shows": "Yellow reactor face plug grid, fuelling machine operator at work station, engineers walking on upper gantry catwalks",
+   "place_people": "Kakrapar 700 MW reactor face",
+   "onscreen_text": "",
+   "speech": "",
+   "fits": "The reactor face: the grid of end fittings and feeder pipes; a fuelling machine or shielded flask on the face",
+   "problems": "logo bug"
+  },
+  {
+   "start": "04:36",
+   "end": "05:08",
+   "shows": "Flexible hoses, cable carrier trays, safety system text list overlays, exterior shot of double containment reactor domes",
+   "place_people": "Kakrapar Atomic Power Station, Gujarat",
+   "onscreen_text": "PASSIVE DECAY HEAT REMOVAL SYSTEM, PASSIVE AUTOCATALYTIC RECOMBINERS, AIR COOLED DIESEL GENERATOR, CONTAINMENT SPRAY SYSTEM",
+   "speech": "",
+   "fits": "Kakrapar (Gujarat): KAPP-3/4 700 MW units",
+   "problems": "burned-in text, logo bug"
+  },
+  {
+   "start": "05:08",
+   "end": "05:30",
+   "shows": "Piping hall, turbine generator deck overhead view, large steam pipes, electrical panel interior",
+   "place_people": "Kakrapar Atomic Power Station, Gujarat",
+   "onscreen_text": "",
+   "speech": "",
+   "fits": "Kakrapar (Gujarat): KAPP-3/4 700 MW units",
+   "problems": "logo bug"
+  },
+  {
+   "start": "05:30",
+   "end": "05:58",
+   "shows": "Control room desks and screens, exterior plant graphics showing capacity numbers, engineers celebrating group photo",
+   "place_people": "Kakrapar Atomic Power Station control room",
+   "onscreen_text": "INSTALLED CAPACITY 440 MW, 1840 MW",
+   "speech": "",
+   "fits": "Kakrapar (Gujarat): KAPP-3/4 700 MW units",
+   "problems": "burned-in text, logo bug"
+  },
+  {
+   "start": "06:00",
+   "end": "06:24",
+   "shows": "Dr. A.K. Mohanty giving an interview in front of the control room",
+   "place_people": "Dr. A.K. Mohanty (Chairman, AEC & Secretary, DAE)",
+   "onscreen_text": "DR. A.K. MOHANTY (CHAIRMAN, AEC & SECRETARY, DAE)",
+   "speech": "This is a historical achievement. I congratulate our scientists and engineers in this remarkable journey.",
+   "fits": "Kakrapar (Gujarat): KAPP-3/4 700 MW units",
+   "problems": "talking head, burned-in text, logo bug"
+  },
+  {
+   "start": "06:24",
+   "end": "06:52",
+   "shows": "Cooling towers viewed through grass, engineer watching reactor face monitoring screens in control room, electrical switchyard window",
+   "place_people": "Kakrapar Atomic Power Station, Gujarat",
+   "onscreen_text": "",
+   "speech": "",
+   "fits": "Kakrapar (Gujarat): KAPP-3/4 700 MW units",
+   "problems": "logo bug"
+  },
+  {
+   "start": "06:52",
+   "end": "07:46",
+   "shows": "B.C. Pathak giving an interview in front of a wooden carved backdrop",
+   "place_people": "B.C. Pathak (Chairman & Managing Director, NPCIL)",
+   "onscreen_text": "B.C. PATHAK (CHAIRMAN & MANAGING DIRECTOR, NPCIL)",
+   "speech": "As we know, the 700 MW reactor is the upgraded version of 540 MW, and 540 MW has been upgraded from 220 MW. This has been done by our own engineers in NPCIL.",
+   "fits": "Kakrapar (Gujarat): KAPP-3/4 700 MW units",
+   "problems": "talking head, burned-in text, logo bug"
+  },
+  {
+   "start": "07:46",
+   "end": "08:16",
+   "shows": "Grid layout graphics showing 220 MW, 540 MW, 700 MW plants, plant access road, switchyard transformers, cooling towers with Net Zero text",
+   "place_people": "Kakrapar Atomic Power Station, Gujarat",
+   "onscreen_text": "220 MW, 540 MW, 700 MW, NET ZERO BY - 2070",
+   "speech": "",
+   "fits": "Kakrapar (Gujarat): KAPP-3/4 700 MW units",
+   "problems": "CGI, burned-in text, logo bug"
+  },
+  {
+   "start": "08:16",
+   "end": "09:03",
+   "shows": "S.K. Roy speaking in an office setting with award trophies",
+   "place_people": "S.K. Roy (Ex. Site Director, KAPS)",
+   "onscreen_text": "S.K. ROY (Ex. SITE DIRECTOR, KAPS)",
+   "speech": "",
+   "fits": "Kakrapar (Gujarat): KAPP-3/4 700 MW units",
+   "problems": "talking head, burned-in text, logo bug"
+  },
+  {
+   "start": "09:03",
+   "end": "09:47",
+   "shows": "Montage grid of community CSR programs, eye checkup, computer training, plant gardens, city night lights, car factory, plane landing, sunset over plant, ending NPCIL logo card",
+   "place_people": "NPCIL",
+   "onscreen_text": "NPCIL, Nuclear Power Corporation of India Limited",
+   "speech": "",
+   "fits": "Kakrapar (Gujarat): KAPP-3/4 700 MW units",
+   "problems": "grid montage, non-nuclear stock video, logo card, logo bug"
+  }
+ ],
+ "clip": "05_-3iNKQoeZDE.mp4",
+ "duration_s": 588.5,
+ "frame_every_s": 2,
+ "model": "gemini-3.6-flash"
+}
