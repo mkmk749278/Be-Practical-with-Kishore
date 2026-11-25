@@ -73,3 +73,8 @@ on 23 NOV).
   suggested splicing one sentence; our rule is never to splice words into a take, so the owner re-records block 1.
   Block 2 (`phwr_b2v2`, enhanced) stands. Not taken from the review: "press Up" on screen (we never name an arrow) and
   "Sunday's drop" (no fixed day).
+- **25 NOV, about 12:45 PM IST, final candidate `phwr_vo_full_v3.mp3`** (Drive `vo/`; `phwr_vo_full.wav` beside it):
+  block 1 re-recorded with "Cyrus" (`phwr_b1v2`, 4:21) + block 2 (`phwr_b2v2`, remote ask), both enhanced on Modal,
+  joined at chapter 3 with a 1.0 s gap at 4:22. 10:08, −22.3 LUFS, −0.9 dBTP. `vo_take_check.py` OK (190 sentences);
+  word-by-word diff clean (CIRUS heard as "Cyrus"); no enhance artefacts. Waiting for the owner's audio approval, then
+  `vo_lock.py`.
