@@ -20,8 +20,15 @@
 - **Resemble Enhance on Modal** (owner, 25 NOV): `modal-enhance` workflow (T4, nfe 64, lambd 0.1, tau 0.5) writes
   `vo/enhanced/phwr_t1_enh.wav`, `phwr_t2_enh.wav`. Then: compare raw vs enhanced (artefacts, sibilance, loudness),
   `vo_take_check.py`, join (rebuild `scripts/vo_rejoin.py`), one MP3 to the owner for audio approval.
-- **Blocked (25 NOV):** run 1 stopped at the secrets check: repo secrets `MODAL_TOKEN_ID` and `MODAL_TOKEN_SECRET`
-  are missing (the Drive secret is there). Once the owner adds them, start `modal-enhance` with slug `phwr-700`.
+- **25 NOV, 11:30 AM IST:** Modal secrets added (owner, via Termux `gh secret set`); `modal-enhance` run 3 passed in
+  8 min (first image build). Enhanced vs raw: same length, +1 dB, +7.5 dB above 14 kHz (air back), +2 dB 5–14 kHz,
+  pause floor unchanged, no clicks. Joined (`vo_rejoin.py`, 0.7 s gap); `vo_take_check.py` OK on 191 sentences.
+- **Problem found:** the 23 NOV take says the dropped line "A new film every Sunday, eleven thirty in the morning"
+  (at 6:32; recorded 6:25 PM IST, ten minutes before the text changed). Owner chose to re-record, not cut.
+  The app caps a take at 10:00 and the text runs ~10:09, so two blocks split at chapter 3: `vo_block1.txt`
+  (4,111 chars, cold open → "What would you have done?") and `vo_block2.txt` (5,651 chars, "In nineteen ninety
+  five…" → "Stay practical."). Block 1 of the 23 NOV take already matches the text, so only block 2 is needed.
+  When it arrives: raw to Drive `vo/raw/`, `modal-enhance`, join at chapter 3 (gap ~1.0 s), take check, owner approval.
 
 ## Next, in order (session closed 23 NOV 2026, about 6:30 PM IST)
 1. **Narration v2 APPROVED** (owner, 23 NOV). **The owner recorded the takes (see Audio above)** on Eleven v4 (Akash,
