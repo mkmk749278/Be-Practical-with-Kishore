@@ -48,7 +48,7 @@ for s in "${slugs[@]}"; do
   "$RCLONE" copy "projects/$s" "gd:English/$s/repo" --retries 4 --low-level-retries 10 \
     --filter "- assets/**" --filter "- node_modules/**" --filter "- remotion/**" --filter "- *.py" \
     --filter "+ claims*.csv" --filter "+ fact-check*.md" --filter "+ research/**" \
-    --filter "+ narration*.md" --filter "+ vo.txt" --filter "+ vo_blocks*.md" \
+    --filter "+ narration*.md" --filter "+ vo.txt" --filter "+ vo_blocks*.md" --filter "+ vo_block*.txt" \
     --filter "+ recovered-from-drive/vo/**" --filter "+ recovered-from-drive/youtube/**" --filter "+ *.srt" \
     --filter "+ youtube/**" --filter "+ vo/*.tsv" --filter "- *"
   echo "$s → Creator/English/$s/repo/: $("$RCLONE" lsf -R --files-only "gd:English/$s/repo" | wc -l) files"
