@@ -78,3 +78,14 @@ on 23 NOV).
   joined at chapter 3 with a 1.0 s gap at 4:22. 10:08, −22.3 LUFS, −0.9 dBTP. `vo_take_check.py` OK (190 sentences);
   word-by-word diff clean (CIRUS heard as "Cyrus"); no enhance artefacts. Waiting for the owner's audio approval, then
   `vo_lock.py`.
+
+## AUDIO APPROVED AND LOCKED (owner, 25 NOV 2026, about 12:55 PM IST)
+- `phwr_vo_full_v3.mp3` (Drive `vo/`), lock `ecbfc8f52df9`, 608.42 s voice + 15 s end card (YouTube end screen to
+  the next film). `vo/timing.json` (190 sentences, 1,753 words, 60 fps), `vo/chapters.tsv` (7 chapters: 0:00 Canada
+  walks out · 0:39 306 pressure cookers · 2:26 What breaks a tube · 4:21 India opens the heart itself · 6:37
+  Kakrapar: the worst day · 7:45 From 306 to 392 · 9:29 What it means today), `vo/captions.en.srt` (voice spellings:
+  the YouTube SRT is made at §15 with CIRUS, CANDU, NPCIL, TV and numerals), `vo/timing.md` (sentences to check).
+- **Next:** footage requests (NPCIL/DAE/PIB photos of Rawatbhata, the retubing machine, Kakrapar; Films Division
+  archive), the Blender hero bench on Modal (10 frames first, free credit only), then the word-by-word build.
+- C01 (RAPP-8 cleared 19 NOV) is still unverified; the narration uses C31's wording ("began taking in its fuel"), so
+  nothing waits on it.
