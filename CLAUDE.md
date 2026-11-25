@@ -13,12 +13,12 @@ the playbook rule they belong to, with the reason; never a new doc file. `docs/a
 - **Released:** AIP submarines (10 NOV), Matsya 6000 (13 NOV), carrier catapult (17 NOV), Arjun tank (22 NOV,
   `A2mxbj2LoJI`, "Why India's ₹7,500 Cr Arjun Tanks Have No Engine"). The Arjun film was finished after the last
   recovered session (18 NOV), so its repo folder stops at the Blender stage; the channel itself is the record.
-- **Open film: `phwr-700`** (India's own 700 MW reactors; "Canada Walked Out of India's Nuclear Reactor"). Research
-  done, plan v2 waits for the owner's approval; the owner's Gemini sweep is running. Read
+- **Open film: `phwr-700`** (India's own 700 MW reactors; "Canada Walked Out of India's Nuclear Reactor"). Plan,
+  narration and audio approved; audio locked 25 NOV (`ecbfc8f52df9`, 10:08). Next: footage and the build. Read
   `projects/phwr-700/handoff.md` first. **After it:** the 7 PM grid film with the AI data-centre hook (owner, 23 NOV).
 - **Rebuilt 2026-11-23** after GitHub disabled the old `Creator` repo: what is missing is in
-  `docs/RECOVERY_2026-11-23.md`. To rebuild before they are needed: `scripts/yt_audience.py`, `scripts/vo_rejoin.py`,
-  `scripts/yt_upload.py`, the `drive-backup.yml` secret (below), and the Modal port for heavy renders (§14.1).
+  `docs/RECOVERY_2026-11-23.md`. To rebuild before they are needed: `scripts/yt_audience.py`, `scripts/yt_upload.py`, and the Modal
+  port for heavy renders (§14.1; `tools/modal/enhance.py` is its first piece). `vo_rejoin.py` was rebuilt on 25 NOV.
 
 ## Every session
 1. Read the channel's latest numbers and comments against §1.2, then the open film's `handoff.md`.

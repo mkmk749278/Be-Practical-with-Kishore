@@ -1,0 +1,1902 @@
+[
+ {
+  "line": 1,
+  "start": 0.0,
+  "end": 6.328,
+  "te": "In nineteen seventy four, Canada walked out of a half built nuclear reactor on the Chambal river, in Rajasthan.",
+  "en": "",
+  "speech_vs_text": 1.01,
+  "boundary_margin": 0.281,
+  "confidence": "high"
+ },
+ {
+  "line": 2,
+  "start": 6.842,
+  "end": 7.885,
+  "te": "India finished it.",
+  "en": "",
+  "speech_vs_text": 0.88,
+  "boundary_margin": 0.281,
+  "confidence": "high"
+ },
+ {
+  "line": 3,
+  "start": 8.288,
+  "end": 11.246,
+  "te": "But twenty years later, its heart was wearing out.",
+  "en": "",
+  "speech_vs_text": 1.0,
+  "boundary_margin": 0.565,
+  "confidence": "high"
+ },
+ {
+  "line": 4,
+  "start": 11.708,
+  "end": 14.082,
+  "te": "Three hundred and six thin metal tubes.",
+  "en": "",
+  "speech_vs_text": 1.05,
+  "boundary_margin": 0.538,
+  "confidence": "high"
+ },
+ {
+  "line": 5,
+  "start": 14.45,
+  "end": 17.352,
+  "te": "Only one country had ever replaced tubes like these.",
+  "en": "",
+  "speech_vs_text": 1.03,
+  "boundary_margin": 0.538,
+  "confidence": "high"
+ },
+ {
+  "line": 6,
+  "start": 17.866,
+  "end": 18.222,
+  "te": "Canada.",
+  "en": "",
+  "speech_vs_text": 0.9,
+  "boundary_margin": 9.9,
+  "confidence": "high"
+ },
+ {
+  "line": 7,
+  "start": 18.639,
+  "end": 21.613,
+  "te": "And Canada's export rules kept its companies from helping.",
+  "en": "",
+  "speech_vs_text": 0.94,
+  "boundary_margin": 9.9,
+  "confidence": "high"
+ },
+ {
+  "line": 8,
+  "start": 22.049,
+  "end": 25.995,
+  "te": "So how do you rebuild the heart of a machine that nobody will teach you to open?",
+  "en": "",
+  "speech_vs_text": 0.95,
+  "boundary_margin": 0.149,
+  "confidence": "high"
+ },
+ {
+  "line": 9,
+  "start": 26.456,
+  "end": 32.186,
+  "te": "By the end, you will see Indian engineers pull those tubes out, one by one, into a steel flask.",
+  "en": "",
+  "speech_vs_text": 1.03,
+  "boundary_margin": 0.149,
+  "confidence": "high"
+ },
+ {
+  "line": 10,
+  "start": 32.557,
+  "end": 38.596,
+  "te": "And you will see why it matters for the new reactor that began taking in fuel this September, on the same lake.",
+  "en": "",
+  "speech_vs_text": 1.0,
+  "boundary_margin": 0.197,
+  "confidence": "high"
+ },
+ {
+  "line": 11,
+  "start": 39.105,
+  "end": 40.626,
+  "te": "Let me take you to Rawatbhata.",
+  "en": "",
+  "speech_vs_text": 0.96,
+  "boundary_margin": 0.394,
+  "confidence": "high"
+ },
+ {
+  "line": 12,
+  "start": 41.023,
+  "end": 45.527,
+  "te": "A small town on the Rana Pratap Sagar lake, about sixty four kilometres from Kota.",
+  "en": "",
+  "speech_vs_text": 1.0,
+  "boundary_margin": 0.615,
+  "confidence": "high"
+ },
+ {
+  "line": 13,
+  "start": 46.004,
+  "end": 52.193,
+  "te": "If you had come here in the nineteen sixties, you would have seen Canada and India building a nuclear power station together.",
+  "en": "",
+  "speech_vs_text": 0.89,
+  "boundary_margin": 0.615,
+  "confidence": "high"
+ },
+ {
+  "line": 14,
+  "start": 52.6,
+  "end": 54.188,
+  "te": "Its design came from Canada.",
+  "en": "",
+  "speech_vs_text": 1.05,
+  "boundary_margin": 2.873,
+  "confidence": "high"
+ },
+ {
+  "line": 15,
+  "start": 54.547,
+  "end": 55.653,
+  "te": "And why that design?",
+  "en": "",
+  "speech_vs_text": 1.05,
+  "boundary_margin": 0.614,
+  "confidence": "high"
+ },
+ {
+  "line": 16,
+  "start": 55.998,
+  "end": 58.188,
+  "te": "India had picked it for one simple reason.",
+  "en": "",
+  "speech_vs_text": 0.9,
+  "boundary_margin": 0.614,
+  "confidence": "high"
+ },
+ {
+  "line": 17,
+  "start": 58.515,
+  "end": 60.5,
+  "te": "It needs no enriched uranium.",
+  "en": "",
+  "speech_vs_text": 1.26,
+  "boundary_margin": 1.111,
+  "confidence": "high"
+ },
+ {
+  "line": 18,
+  "start": 60.856,
+  "end": 65.243,
+  "te": "You can run it on natural uranium, with the same mix of atoms you find in nature.",
+  "en": "",
+  "speech_vs_text": 1.01,
+  "boundary_margin": 0.885,
+  "confidence": "high"
+ },
+ {
+  "line": 19,
+  "start": 65.568,
+  "end": 67.576,
+  "te": "And Indian factories could build it.",
+  "en": "",
+  "speech_vs_text": 0.9,
+  "boundary_margin": 0.245,
+  "confidence": "high"
+ },
+ {
+  "line": 20,
+  "start": 67.961,
+  "end": 72.206,
+  "te": "Now, you have probably seen a reactor drawn as one giant steel pot.",
+  "en": "",
+  "speech_vs_text": 1.22,
+  "boundary_margin": 0.245,
+  "confidence": "high"
+ },
+ {
+  "line": 21,
+  "start": 72.585,
+  "end": 74.654,
+  "te": "Most reactors in the world are just that.",
+  "en": "",
+  "speech_vs_text": 0.95,
+  "boundary_margin": 0.338,
+  "confidence": "high"
+ },
+ {
+  "line": 22,
+  "start": 75.019,
+  "end": 76.349,
+  "te": "This one is different.",
+  "en": "",
+  "speech_vs_text": 0.94,
+  "boundary_margin": 0.338,
+  "confidence": "high"
+ },
+ {
+  "line": 23,
+  "start": 76.761,
+  "end": 80.137,
+  "te": "Imagine a tank, pierced by three hundred and six tubes.",
+  "en": "",
+  "speech_vs_text": 1.07,
+  "boundary_margin": 0.431,
+  "confidence": "high"
+ },
+ {
+  "line": 24,
+  "start": 80.494,
+  "end": 83.434,
+  "te": "Each tube, if you like, is its own small pressure cooker.",
+  "en": "",
+  "speech_vs_text": 1.02,
+  "boundary_margin": 1.317,
+  "confidence": "high"
+ },
+ {
+  "line": 25,
+  "start": 83.877,
+  "end": 85.166,
+  "te": "Think of the cooker in your kitchen.",
+  "en": "",
+  "speech_vs_text": 0.68,
+  "boundary_margin": 0.555,
+  "confidence": "check"
+ },
+ {
+  "line": 26,
+  "start": 85.494,
+  "end": 87.726,
+  "te": "You know that whistle, you have heard it all your life.",
+  "en": "",
+  "speech_vs_text": 0.71,
+  "boundary_margin": 0.195,
+  "confidence": "high"
+ },
+ {
+  "line": 27,
+  "start": 88.199,
+  "end": 92.56,
+  "te": "Inside, the steam pushes at about one kilo on every square centimetre.",
+  "en": "",
+  "speech_vs_text": 1.11,
+  "boundary_margin": 0.195,
+  "confidence": "high"
+ },
+ {
+  "line": 28,
+  "start": 92.933,
+  "end": 95.954,
+  "te": "Now jump ahead to India's newest reactors for a moment.",
+  "en": "",
+  "speech_vs_text": 0.99,
+  "boundary_margin": 0.083,
+  "confidence": "high"
+ },
+ {
+  "line": 29,
+  "start": 96.287,
+  "end": 102.217,
+  "te": "There, the water in each tube is pushed a hundred times harder, at three hundred and ten degrees.",
+  "en": "",
+  "speech_vs_text": 1.04,
+  "boundary_margin": 0.083,
+  "confidence": "high"
+ },
+ {
+  "line": 30,
+  "start": 102.563,
+  "end": 107.629,
+  "te": "And in reactors of this family, the wall of that tube is only about four millimetres thick.",
+  "en": "",
+  "speech_vs_text": 0.97,
+  "boundary_margin": 0.254,
+  "confidence": "high"
+ },
+ {
+  "line": 31,
+  "start": 108.063,
+  "end": 108.86,
+  "te": "Think of a pencil.",
+  "en": "",
+  "speech_vs_text": 0.87,
+  "boundary_margin": 1.337,
+  "confidence": "high"
+ },
+ {
+  "line": 32,
+  "start": 109.151,
+  "end": 110.675,
+  "te": "The wall is thinner than that.",
+  "en": "",
+  "speech_vs_text": 0.97,
+  "boundary_margin": 9.9,
+  "confidence": "high"
+ },
+ {
+  "line": 33,
+  "start": 111.07,
+  "end": 113.096,
+  "te": "Then came May nineteen seventy four.",
+  "en": "",
+  "speech_vs_text": 1.03,
+  "boundary_margin": 9.9,
+  "confidence": "high"
+ },
+ {
+  "line": 34,
+  "start": 113.44,
+  "end": 114.123,
+  "te": "You remember it.",
+  "en": "",
+  "speech_vs_text": 0.8,
+  "boundary_margin": 9.9,
+  "confidence": "high"
+ },
+ {
+  "line": 35,
+  "start": 114.416,
+  "end": 114.796,
+  "te": "Pokhran.",
+  "en": "",
+  "speech_vs_text": 0.83,
+  "boundary_margin": 9.9,
+  "confidence": "high"
+ },
+ {
+  "line": 36,
+  "start": 115.217,
+  "end": 116.748,
+  "te": "Why did Canada care so much?",
+  "en": "",
+  "speech_vs_text": 1.06,
+  "boundary_margin": 1.39,
+  "confidence": "high"
+ },
+ {
+  "line": 37,
+  "start": 117.085,
+  "end": 118.877,
+  "te": "India called its test peaceful.",
+  "en": "",
+  "speech_vs_text": 0.93,
+  "boundary_margin": 0.203,
+  "confidence": "high"
+ },
+ {
+  "line": 38,
+  "start": 119.244,
+  "end": 125.102,
+  "te": "Canada saw plutonium from a research reactor near Mumbai, called Cyrus, which Canada had helped design.",
+  "en": "",
+  "speech_vs_text": 0.95,
+  "boundary_margin": 0.184,
+  "confidence": "high"
+ },
+ {
+  "line": 39,
+  "start": 125.471,
+  "end": 127.433,
+  "te": "So Canada stopped its nuclear help.",
+  "en": "",
+  "speech_vs_text": 1.03,
+  "boundary_margin": 0.184,
+  "confidence": "high"
+ },
+ {
+  "line": 40,
+  "start": 127.733,
+  "end": 129.71,
+  "te": "The engineers packed up and went home.",
+  "en": "",
+  "speech_vs_text": 0.89,
+  "boundary_margin": 0.354,
+  "confidence": "high"
+ },
+ {
+  "line": 41,
+  "start": 130.044,
+  "end": 131.473,
+  "te": "The first unit was running.",
+  "en": "",
+  "speech_vs_text": 0.86,
+  "boundary_margin": 0.312,
+  "confidence": "high"
+ },
+ {
+  "line": 42,
+  "start": 131.826,
+  "end": 137.259,
+  "te": "The second, as an Indian magazine put it in nineteen ninety six, the Canadians abandoned halfway.",
+  "en": "",
+  "speech_vs_text": 0.94,
+  "boundary_margin": 0.312,
+  "confidence": "high"
+ },
+ {
+  "line": 43,
+  "start": 137.752,
+  "end": 141.783,
+  "te": "Now you might ask me, Kishore, so what happened to your half built reactor?",
+  "en": "",
+  "speech_vs_text": 0.93,
+  "boundary_margin": 0.394,
+  "confidence": "high"
+ },
+ {
+  "line": 44,
+  "start": 142.205,
+  "end": 144.303,
+  "te": "Indian engineers finished it on their own.",
+  "en": "",
+  "speech_vs_text": 0.91,
+  "boundary_margin": 1.603,
+  "confidence": "high"
+ },
+ {
+  "line": 45,
+  "start": 144.646,
+  "end": 146.488,
+  "te": "It went to work in nineteen eighty one.",
+  "en": "",
+  "speech_vs_text": 0.9,
+  "boundary_margin": 0.487,
+  "confidence": "high"
+ },
+ {
+  "line": 46,
+  "start": 146.789,
+  "end": 148.48,
+  "te": "And for a while, all was well.",
+  "en": "",
+  "speech_vs_text": 0.94,
+  "boundary_margin": 0.309,
+  "confidence": "high"
+ },
+ {
+  "line": 47,
+  "start": 148.746,
+  "end": 156.097,
+  "te": "At Kaiga in Karnataka, a reactor of this family once ran for nine hundred and sixty two days without stopping.",
+  "en": "",
+  "speech_vs_text": 1.13,
+  "boundary_margin": 0.309,
+  "confidence": "high"
+ },
+ {
+  "line": 48,
+  "start": 156.584,
+  "end": 157.437,
+  "te": "A world record.",
+  "en": "",
+  "speech_vs_text": 1.08,
+  "boundary_margin": 0.343,
+  "confidence": "high"
+ },
+ {
+  "line": 49,
+  "start": 158.08,
+  "end": 160.071,
+  "te": "So what stops a machine like that?",
+  "en": "",
+  "speech_vs_text": 1.03,
+  "boundary_margin": 0.343,
+  "confidence": "high"
+ },
+ {
+  "line": 50,
+  "start": 160.61,
+  "end": 162.022,
+  "te": "You might guess the fuel.",
+  "en": "",
+  "speech_vs_text": 0.91,
+  "boundary_margin": 0.642,
+  "confidence": "high"
+ },
+ {
+  "line": 51,
+  "start": 162.631,
+  "end": 163.626,
+  "te": "It is not the fuel.",
+  "en": "",
+  "speech_vs_text": 1.08,
+  "boundary_margin": 0.642,
+  "confidence": "high"
+ },
+ {
+  "line": 52,
+  "start": 164.049,
+  "end": 166.336,
+  "te": "You can feed fresh fuel in while it runs.",
+  "en": "",
+  "speech_vs_text": 1.09,
+  "boundary_margin": 0.434,
+  "confidence": "high"
+ },
+ {
+  "line": 53,
+  "start": 166.876,
+  "end": 168.735,
+  "te": "What wears out is the tubes.",
+  "en": "",
+  "speech_vs_text": 1.09,
+  "boundary_margin": 0.434,
+  "confidence": "high"
+ },
+ {
+  "line": 54,
+  "start": 169.261,
+  "end": 171.98,
+  "te": "The early tubes were made of an older metal mix.",
+  "en": "",
+  "speech_vs_text": 1.09,
+  "boundary_margin": 0.328,
+  "confidence": "high"
+ },
+ {
+  "line": 55,
+  "start": 172.384,
+  "end": 174.547,
+  "te": "Over the years they soaked up hydrogen.",
+  "en": "",
+  "speech_vs_text": 0.88,
+  "boundary_margin": 0.145,
+  "confidence": "high"
+ },
+ {
+  "line": 56,
+  "start": 175.094,
+  "end": 181.826,
+  "te": "N-P-C-I-L, the company that runs India's nuclear plants, says they lasted only ten to twelve years.",
+  "en": "",
+  "speech_vs_text": 1.18,
+  "boundary_margin": 0.145,
+  "confidence": "high"
+ },
+ {
+  "line": 57,
+  "start": 182.277,
+  "end": 186.874,
+  "te": "In August nineteen eighty three, near Toronto, the world saw what that means.",
+  "en": "",
+  "speech_vs_text": 1.0,
+  "boundary_margin": 0.221,
+  "confidence": "high"
+ },
+ {
+  "line": 58,
+  "start": 187.399,
+  "end": 190.686,
+  "te": "At the Pickering station, one tube broke at full power.",
+  "en": "",
+  "speech_vs_text": 1.04,
+  "boundary_margin": 0.308,
+  "confidence": "high"
+ },
+ {
+  "line": 59,
+  "start": 191.189,
+  "end": 193.029,
+  "te": "Just one, out of hundreds.",
+  "en": "",
+  "speech_vs_text": 1.12,
+  "boundary_margin": 0.067,
+  "confidence": "high"
+ },
+ {
+  "line": 60,
+  "start": 193.547,
+  "end": 195.184,
+  "te": "But that is all it takes.",
+  "en": "",
+  "speech_vs_text": 0.97,
+  "boundary_margin": 0.067,
+  "confidence": "high"
+ },
+ {
+  "line": 61,
+  "start": 195.781,
+  "end": 197.721,
+  "te": "How does a tube just break?",
+  "en": "",
+  "speech_vs_text": 1.27,
+  "boundary_margin": 0.273,
+  "confidence": "high"
+ },
+ {
+  "line": 62,
+  "start": 198.262,
+  "end": 200.824,
+  "te": "Each hot tube sits inside a cooler tube.",
+  "en": "",
+  "speech_vs_text": 1.22,
+  "boundary_margin": 0.273,
+  "confidence": "high"
+ },
+ {
+  "line": 63,
+  "start": 201.187,
+  "end": 204.663,
+  "te": "Small coiled springs, wrapped around it, keep the two apart.",
+  "en": "",
+  "speech_vs_text": 1.04,
+  "boundary_margin": 0.336,
+  "confidence": "high"
+ },
+ {
+  "line": 64,
+  "start": 205.112,
+  "end": 208.189,
+  "te": "In that one channel, a spring had slipped out of place.",
+  "en": "",
+  "speech_vs_text": 0.98,
+  "boundary_margin": 0.228,
+  "confidence": "high"
+ },
+ {
+  "line": 65,
+  "start": 208.641,
+  "end": 210.673,
+  "te": "Slowly, the hot tube sagged.",
+  "en": "",
+  "speech_vs_text": 0.96,
+  "boundary_margin": 0.143,
+  "confidence": "high"
+ },
+ {
+  "line": 66,
+  "start": 211.06,
+  "end": 212.791,
+  "te": "Then it touched the cold one.",
+  "en": "",
+  "speech_vs_text": 0.81,
+  "boundary_margin": 0.143,
+  "confidence": "high"
+ },
+ {
+  "line": 67,
+  "start": 213.338,
+  "end": 215.958,
+  "te": "Now think of a glass of cold water on a hot day.",
+  "en": "",
+  "speech_vs_text": 1.04,
+  "boundary_margin": 0.196,
+  "confidence": "high"
+ },
+ {
+  "line": 68,
+  "start": 216.443,
+  "end": 219.485,
+  "te": "You have seen the drops gather on the outside, on the cold glass.",
+  "en": "",
+  "speech_vs_text": 0.85,
+  "boundary_margin": 0.196,
+  "confidence": "high"
+ },
+ {
+  "line": 69,
+  "start": 220.047,
+  "end": 223.976,
+  "te": "Inside the metal, hydrogen did something like the drops you just pictured.",
+  "en": "",
+  "speech_vs_text": 0.9,
+  "boundary_margin": 0.137,
+  "confidence": "high"
+ },
+ {
+  "line": 70,
+  "start": 224.382,
+  "end": 226.076,
+  "te": "It crept to the coldest spot.",
+  "en": "",
+  "speech_vs_text": 0.86,
+  "boundary_margin": 0.129,
+  "confidence": "high"
+ },
+ {
+  "line": 71,
+  "start": 226.684,
+  "end": 229.569,
+  "te": "And there it hardened into brittle blisters.",
+  "en": "",
+  "speech_vs_text": 1.05,
+  "boundary_margin": 0.129,
+  "confidence": "high"
+ },
+ {
+  "line": 72,
+  "start": 230.021,
+  "end": 231.274,
+  "te": "The blisters cracked.",
+  "en": "",
+  "speech_vs_text": 0.71,
+  "boundary_margin": 0.082,
+  "confidence": "high"
+ },
+ {
+  "line": 73,
+  "start": 231.634,
+  "end": 235.186,
+  "te": "And the crack kept growing, until the tube split.",
+  "en": "",
+  "speech_vs_text": 0.93,
+  "boundary_margin": 0.082,
+  "confidence": "high"
+ },
+ {
+  "line": 74,
+  "start": 235.529,
+  "end": 239.375,
+  "te": "The operators, I should tell you, brought the reactor safely to a stop.",
+  "en": "",
+  "speech_vs_text": 0.93,
+  "boundary_margin": 0.123,
+  "confidence": "high"
+ },
+ {
+  "line": 75,
+  "start": 239.803,
+  "end": 243.619,
+  "te": "But every reactor of this kind now had a question to answer.",
+  "en": "",
+  "speech_vs_text": 0.98,
+  "boundary_margin": 0.123,
+  "confidence": "high"
+ },
+ {
+  "line": 76,
+  "start": 244.043,
+  "end": 247.784,
+  "te": "India's tubes at Rawatbhata were made of the same older metal.",
+  "en": "",
+  "speech_vs_text": 1.06,
+  "boundary_margin": 0.319,
+  "confidence": "high"
+ },
+ {
+  "line": 77,
+  "start": 248.245,
+  "end": 255.079,
+  "te": "And as Business India reported, Indian engineers were denied detailed knowledge of the accident, its cause and the remedy.",
+  "en": "",
+  "speech_vs_text": 0.9,
+  "boundary_margin": 0.121,
+  "confidence": "high"
+ },
+ {
+  "line": 78,
+  "start": 255.63,
+  "end": 257.727,
+  "te": "So India had the same disease.",
+  "en": "",
+  "speech_vs_text": 1.15,
+  "boundary_margin": 0.121,
+  "confidence": "high"
+ },
+ {
+  "line": 79,
+  "start": 258.165,
+  "end": 259.415,
+  "te": "And no doctor would come.",
+  "en": "",
+  "speech_vs_text": 0.95,
+  "boundary_margin": 1.889,
+  "confidence": "high"
+ },
+ {
+  "line": 80,
+  "start": 259.976,
+  "end": 260.913,
+  "te": "What would you have done?",
+  "en": "",
+  "speech_vs_text": 0.71,
+  "boundary_margin": 0.658,
+  "confidence": "high"
+ },
+ {
+  "line": 81,
+  "start": 261.94,
+  "end": 266.122,
+  "te": "In nineteen ninety five, a nuclear trade weekly reported India's decision.",
+  "en": "",
+  "speech_vs_text": 0.97,
+  "boundary_margin": 0.432,
+  "confidence": "high"
+ },
+ {
+  "line": 82,
+  "start": 266.554,
+  "end": 271.291,
+  "te": "Rajasthan unit two would get all new tubes, with or without outside help.",
+  "en": "",
+  "speech_vs_text": 1.03,
+  "boundary_margin": 0.187,
+  "confidence": "high"
+ },
+ {
+  "line": 83,
+  "start": 271.74,
+  "end": 276.982,
+  "te": "India was still a member of the Kan-doo Owners Group, the club of countries that run this kind of reactor.",
+  "en": "",
+  "speech_vs_text": 0.88,
+  "boundary_margin": 0.187,
+  "confidence": "high"
+ },
+ {
+  "line": 84,
+  "start": 277.339,
+  "end": 282.44,
+  "te": "But Canada's export rules kept Canadian firms from supplying the tools, or doing the job.",
+  "en": "",
+  "speech_vs_text": 1.03,
+  "boundary_margin": 0.42,
+  "confidence": "high"
+ },
+ {
+  "line": 85,
+  "start": 282.966,
+  "end": 284.321,
+  "te": "So the job came home.",
+  "en": "",
+  "speech_vs_text": 1.08,
+  "boundary_margin": 0.337,
+  "confidence": "high"
+ },
+ {
+  "line": 86,
+  "start": 284.789,
+  "end": 287.762,
+  "te": "The project director at Rawatbhata was V K Chaturvedi.",
+  "en": "",
+  "speech_vs_text": 1.01,
+  "boundary_margin": 0.337,
+  "confidence": "high"
+ },
+ {
+  "line": 87,
+  "start": 288.218,
+  "end": 291.538,
+  "te": "The team that would change the tubes was led by R C Arya.",
+  "en": "",
+  "speech_vs_text": 1.09,
+  "boundary_margin": 0.594,
+  "confidence": "high"
+ },
+ {
+  "line": 88,
+  "start": 292.001,
+  "end": 293.487,
+  "te": "Can you picture the hardest part?",
+  "en": "",
+  "speech_vs_text": 0.84,
+  "boundary_margin": 0.594,
+  "confidence": "high"
+ },
+ {
+  "line": 89,
+  "start": 293.873,
+  "end": 298.974,
+  "te": "Every one of the three hundred and six tubes had been inside a running reactor for years.",
+  "en": "",
+  "speech_vs_text": 1.08,
+  "boundary_margin": 9.9,
+  "confidence": "high"
+ },
+ {
+  "line": 90,
+  "start": 299.366,
+  "end": 300.683,
+  "te": "You cannot stand near it.",
+  "en": "",
+  "speech_vs_text": 1.0,
+  "boundary_margin": 9.9,
+  "confidence": "high"
+ },
+ {
+  "line": 91,
+  "start": 300.968,
+  "end": 301.926,
+  "te": "Not for a minute.",
+  "en": "",
+  "speech_vs_text": 1.12,
+  "boundary_margin": 0.337,
+  "confidence": "high"
+ },
+ {
+  "line": 92,
+  "start": 302.301,
+  "end": 307.039,
+  "te": "So every cut, every pull, every weld had to be done by machines.",
+  "en": "",
+  "speech_vs_text": 1.11,
+  "boundary_margin": 0.12,
+  "confidence": "high"
+ },
+ {
+  "line": 93,
+  "start": 307.383,
+  "end": 309.573,
+  "te": "Machines that did not exist yet.",
+  "en": "",
+  "speech_vs_text": 1.13,
+  "boundary_margin": 0.12,
+  "confidence": "high"
+ },
+ {
+  "line": 94,
+  "start": 309.902,
+  "end": 311.347,
+  "te": "Indian engineers designed them.",
+  "en": "",
+  "speech_vs_text": 0.81,
+  "boundary_margin": 0.889,
+  "confidence": "high"
+ },
+ {
+  "line": 95,
+  "start": 311.807,
+  "end": 313.68,
+  "te": "Now picture one old tube with me.",
+  "en": "",
+  "speech_vs_text": 1.1,
+  "boundary_margin": 9.9,
+  "confidence": "high"
+ },
+ {
+  "line": 96,
+  "start": 314.084,
+  "end": 316.088,
+  "te": "A tool reaches in and cuts it free.",
+  "en": "",
+  "speech_vs_text": 1.13,
+  "boundary_margin": 0.298,
+  "confidence": "high"
+ },
+ {
+  "line": 97,
+  "start": 316.485,
+  "end": 320.248,
+  "te": "The tube is drawn, slowly, into a heavy steel flask.",
+  "en": "",
+  "speech_vs_text": 1.18,
+  "boundary_margin": 0.139,
+  "confidence": "high"
+ },
+ {
+  "line": 98,
+  "start": 320.55,
+  "end": 322.703,
+  "te": "The flask carries it away to a vault.",
+  "en": "",
+  "speech_vs_text": 1.13,
+  "boundary_margin": 0.139,
+  "confidence": "high"
+ },
+ {
+  "line": 99,
+  "start": 323.048,
+  "end": 325.44,
+  "te": "You will not see a single person beside it.",
+  "en": "",
+  "speech_vs_text": 1.07,
+  "boundary_margin": 9.9,
+  "confidence": "high"
+ },
+ {
+  "line": 100,
+  "start": 325.808,
+  "end": 327.586,
+  "te": "Everything is done from a distance.",
+  "en": "",
+  "speech_vs_text": 0.93,
+  "boundary_margin": 0.2,
+  "confidence": "high"
+ },
+ {
+  "line": 101,
+  "start": 327.945,
+  "end": 330.585,
+  "te": "Then, as you watch, a new tube goes in.",
+  "en": "",
+  "speech_vs_text": 1.19,
+  "boundary_margin": 0.2,
+  "confidence": "high"
+ },
+ {
+  "line": 102,
+  "start": 330.895,
+  "end": 334.552,
+  "te": "This time, made of a stronger mix, zirconium with niobium.",
+  "en": "",
+  "speech_vs_text": 1.13,
+  "boundary_margin": 0.37,
+  "confidence": "high"
+ },
+ {
+  "line": 103,
+  "start": 334.931,
+  "end": 335.776,
+  "te": "And then the next.",
+  "en": "",
+  "speech_vs_text": 0.92,
+  "boundary_margin": 0.983,
+  "confidence": "high"
+ },
+ {
+  "line": 104,
+  "start": 336.075,
+  "end": 337.874,
+  "te": "Three hundred and six times.",
+  "en": "",
+  "speech_vs_text": 1.19,
+  "boundary_margin": 9.9,
+  "confidence": "high"
+ },
+ {
+  "line": 105,
+  "start": 338.293,
+  "end": 339.479,
+  "te": "And what did all this cost?",
+  "en": "",
+  "speech_vs_text": 0.86,
+  "boundary_margin": 0.562,
+  "confidence": "high"
+ },
+ {
+  "line": 106,
+  "start": 339.784,
+  "end": 346.683,
+  "te": "Going by Business India's figures, turned into rupees at that year's rate, India planned to spend about two hundred and fifty crore.",
+  "en": "",
+  "speech_vs_text": 0.89,
+  "boundary_margin": 0.314,
+  "confidence": "high"
+ },
+ {
+  "line": 107,
+  "start": 347.017,
+  "end": 350.564,
+  "te": "Canada had spent more than a thousand crore on the same kind of job.",
+  "en": "",
+  "speech_vs_text": 1.0,
+  "boundary_margin": 0.314,
+  "confidence": "high"
+ },
+ {
+  "line": 108,
+  "start": 351.007,
+  "end": 351.445,
+  "te": "Was it quick?",
+  "en": "",
+  "speech_vs_text": 0.67,
+  "boundary_margin": 9.9,
+  "confidence": "check"
+ },
+ {
+  "line": 109,
+  "start": 351.921,
+  "end": 352.162,
+  "te": "No.",
+  "en": "",
+  "speech_vs_text": 1.83,
+  "boundary_margin": 4.925,
+  "confidence": "check"
+ },
+ {
+  "line": 110,
+  "start": 352.521,
+  "end": 357.116,
+  "te": "The reactor made no power in nineteen ninety five, ninety six or ninety seven.",
+  "en": "",
+  "speech_vs_text": 1.0,
+  "boundary_margin": 0.129,
+  "confidence": "high"
+ },
+ {
+  "line": 111,
+  "start": 357.419,
+  "end": 362.519,
+  "te": "By nineteen ninety eight, if you drove past Rawatbhata, you would have seen unit two running again.",
+  "en": "",
+  "speech_vs_text": 0.89,
+  "boundary_margin": 0.129,
+  "confidence": "high"
+ },
+ {
+  "line": 112,
+  "start": 362.912,
+  "end": 367.885,
+  "te": "N-P-C-I-L calls it the first such job in India, and only the second in the world.",
+  "en": "",
+  "speech_vs_text": 1.2,
+  "boundary_margin": 0.66,
+  "confidence": "high"
+ },
+ {
+  "line": 113,
+  "start": 368.216,
+  "end": 369.947,
+  "te": "The first was in Canada itself.",
+  "en": "",
+  "speech_vs_text": 1.05,
+  "boundary_margin": 0.66,
+  "confidence": "high"
+ },
+ {
+  "line": 114,
+  "start": 370.4,
+  "end": 374.608,
+  "te": "Bhabha Atomic Research Centre later counted what tools like these gave back.",
+  "en": "",
+  "speech_vs_text": 0.96,
+  "boundary_margin": 0.415,
+  "confidence": "high"
+ },
+ {
+  "line": 115,
+  "start": 374.955,
+  "end": 378.745,
+  "te": "About one thousand one hundred crore rupees of extra electricity.",
+  "en": "",
+  "speech_vs_text": 1.0,
+  "boundary_margin": 0.244,
+  "confidence": "high"
+ },
+ {
+  "line": 116,
+  "start": 379.075,
+  "end": 381.642,
+  "te": "You remember how we never threw away a broken radio?",
+  "en": "",
+  "speech_vs_text": 0.93,
+  "boundary_margin": 0.145,
+  "confidence": "high"
+ },
+ {
+  "line": 117,
+  "start": 381.992,
+  "end": 382.828,
+  "te": "We opened it.",
+  "en": "",
+  "speech_vs_text": 1.04,
+  "boundary_margin": 0.145,
+  "confidence": "high"
+ },
+ {
+  "line": 118,
+  "start": 383.151,
+  "end": 385.001,
+  "te": "That is the lesson of Rawatbhata.",
+  "en": "",
+  "speech_vs_text": 0.95,
+  "boundary_margin": 0.27,
+  "confidence": "high"
+ },
+ {
+  "line": 119,
+  "start": 385.29,
+  "end": 389.28,
+  "te": "A machine is truly yours only when you can open it, and mend it.",
+  "en": "",
+  "speech_vs_text": 1.06,
+  "boundary_margin": 0.038,
+  "confidence": "check"
+ },
+ {
+  "line": 120,
+  "start": 389.732,
+  "end": 394.505,
+  "te": "If you want the next machine opened like this, subscribe, so the next one comes to you.",
+  "en": "",
+  "speech_vs_text": 0.87,
+  "boundary_margin": 0.038,
+  "confidence": "check"
+ },
+ {
+  "line": 121,
+  "start": 394.847,
+  "end": 395.412,
+  "te": "On the T-V?",
+  "en": "",
+  "speech_vs_text": 1.23,
+  "boundary_margin": 0.493,
+  "confidence": "high"
+ },
+ {
+  "line": 122,
+  "start": 395.781,
+  "end": 397.416,
+  "te": "Just press Subscribe with your remote.",
+  "en": "",
+  "speech_vs_text": 0.78,
+  "boundary_margin": 9.9,
+  "confidence": "high"
+ },
+ {
+  "line": 123,
+  "start": 397.742,
+  "end": 399.022,
+  "te": "But I must be fair with you.",
+  "en": "",
+  "speech_vs_text": 0.93,
+  "boundary_margin": 9.9,
+  "confidence": "high"
+ },
+ {
+  "line": 124,
+  "start": 399.317,
+  "end": 402.261,
+  "te": "You may have heard people say these tubes are dangerous.",
+  "en": "",
+  "speech_vs_text": 0.97,
+  "boundary_margin": 9.9,
+  "confidence": "high"
+ },
+ {
+  "line": 125,
+  "start": 402.62,
+  "end": 404.004,
+  "te": "Is it safe to live near one?",
+  "en": "",
+  "speech_vs_text": 1.0,
+  "boundary_margin": 9.9,
+  "confidence": "high"
+ },
+ {
+  "line": 126,
+  "start": 404.385,
+  "end": 405.928,
+  "te": "Let me show you the worst day.",
+  "en": "",
+  "speech_vs_text": 1.02,
+  "boundary_margin": 1.066,
+  "confidence": "high"
+ },
+ {
+  "line": 127,
+  "start": 406.354,
+  "end": 408.364,
+  "te": "The eleventh of March, twenty sixteen.",
+  "en": "",
+  "speech_vs_text": 0.91,
+  "boundary_margin": 0.501,
+  "confidence": "high"
+ },
+ {
+  "line": 128,
+  "start": 408.683,
+  "end": 409.915,
+  "te": "Kakrapar, in Gujarat.",
+  "en": "",
+  "speech_vs_text": 0.91,
+  "boundary_margin": 0.501,
+  "confidence": "high"
+ },
+ {
+  "line": 129,
+  "start": 410.319,
+  "end": 413.065,
+  "te": "At about nine in the morning, a tube began to leak.",
+  "en": "",
+  "speech_vs_text": 0.99,
+  "boundary_margin": 0.575,
+  "confidence": "high"
+ },
+ {
+  "line": 130,
+  "start": 413.38,
+  "end": 416.29,
+  "te": "The reactor shut itself down, the way you would want it to.",
+  "en": "",
+  "speech_vs_text": 0.89,
+  "boundary_margin": 0.575,
+  "confidence": "high"
+ },
+ {
+  "line": 131,
+  "start": 416.631,
+  "end": 418.045,
+  "te": "There was no fuel failure.",
+  "en": "",
+  "speech_vs_text": 1.02,
+  "boundary_margin": 0.272,
+  "confidence": "high"
+ },
+ {
+  "line": 132,
+  "start": 418.374,
+  "end": 424.56,
+  "te": "The regulator said there was no radiation harm to the workers, to the people outside, or to the land around it.",
+  "en": "",
+  "speech_vs_text": 0.93,
+  "boundary_margin": 0.07,
+  "confidence": "high"
+ },
+ {
+  "line": 133,
+  "start": 424.944,
+  "end": 426.561,
+  "te": "So how serious was it?",
+  "en": "",
+  "speech_vs_text": 1.25,
+  "boundary_margin": 0.07,
+  "confidence": "high"
+ },
+ {
+  "line": 134,
+  "start": 426.966,
+  "end": 430.097,
+  "te": "The international scale rated it two, out of seven.",
+  "en": "",
+  "speech_vs_text": 0.95,
+  "boundary_margin": 0.196,
+  "confidence": "high"
+ },
+ {
+  "line": 135,
+  "start": 430.512,
+  "end": 432.84,
+  "te": "An incident, not an accident.",
+  "en": "",
+  "speech_vs_text": 1.33,
+  "boundary_margin": 0.196,
+  "confidence": "high"
+ },
+ {
+  "line": 136,
+  "start": 433.274,
+  "end": 434.089,
+  "te": "What went wrong?",
+  "en": "",
+  "speech_vs_text": 0.95,
+  "boundary_margin": 0.822,
+  "confidence": "high"
+ },
+ {
+  "line": 137,
+  "start": 434.447,
+  "end": 437.373,
+  "te": "A wrong chemical had got into the gas around the tubes.",
+  "en": "",
+  "speech_vs_text": 1.01,
+  "boundary_margin": 9.9,
+  "confidence": "high"
+ },
+ {
+  "line": 138,
+  "start": 437.665,
+  "end": 440.347,
+  "te": "It had eaten small spots into their outer walls.",
+  "en": "",
+  "speech_vs_text": 1.05,
+  "boundary_margin": 0.207,
+  "confidence": "high"
+ },
+ {
+  "line": 139,
+  "start": 440.693,
+  "end": 442.045,
+  "te": "And was it everywhere?",
+  "en": "",
+  "speech_vs_text": 1.01,
+  "boundary_margin": 0.207,
+  "confidence": "high"
+ },
+ {
+  "line": 140,
+  "start": 442.445,
+  "end": 442.743,
+  "te": "No.",
+  "en": "",
+  "speech_vs_text": 2.27,
+  "boundary_margin": 2.335,
+  "confidence": "check"
+ },
+ {
+  "line": 141,
+  "start": 443.099,
+  "end": 446.179,
+  "te": "The regulator found it only in Kakrapar's two units.",
+  "en": "",
+  "speech_vs_text": 1.12,
+  "boundary_margin": 0.208,
+  "confidence": "high"
+ },
+ {
+  "line": 142,
+  "start": 446.49,
+  "end": 450.554,
+  "te": "So, as you might expect, Kakrapar did what Rawatbhata had taught.",
+  "en": "",
+  "speech_vs_text": 1.03,
+  "boundary_margin": 0.208,
+  "confidence": "high"
+ },
+ {
+  "line": 143,
+  "start": 450.925,
+  "end": 452.276,
+  "te": "Every tube came out.",
+  "en": "",
+  "speech_vs_text": 1.28,
+  "boundary_margin": 1.891,
+  "confidence": "high"
+ },
+ {
+  "line": 144,
+  "start": 452.513,
+  "end": 454.596,
+  "te": "Three hundred and six in each reactor.",
+  "en": "",
+  "speech_vs_text": 1.02,
+  "boundary_margin": 9.9,
+  "confidence": "high"
+ },
+ {
+  "line": 145,
+  "start": 454.931,
+  "end": 458.783,
+  "te": "A former chief of N-P-C-I-L put it in words you will not forget.",
+  "en": "",
+  "speech_vs_text": 1.25,
+  "boundary_margin": 9.9,
+  "confidence": "high"
+ },
+ {
+  "line": 146,
+  "start": 459.114,
+  "end": 462.32,
+  "te": "Replacing them is like a heart transplant for a human being.",
+  "en": "",
+  "speech_vs_text": 1.0,
+  "boundary_margin": 0.103,
+  "confidence": "high"
+ },
+ {
+  "line": 147,
+  "start": 462.719,
+  "end": 465.313,
+  "te": "And that was the start of a bigger story.",
+  "en": "",
+  "speech_vs_text": 1.11,
+  "boundary_margin": 0.103,
+  "confidence": "high"
+ },
+ {
+  "line": 148,
+  "start": 465.663,
+  "end": 468.834,
+  "te": "Now look at the reactor face with me, and count with your eyes.",
+  "en": "",
+  "speech_vs_text": 0.9,
+  "boundary_margin": 0.439,
+  "confidence": "high"
+ },
+ {
+  "line": 149,
+  "start": 469.158,
+  "end": 472.538,
+  "te": "Three hundred and six circles grow to three hundred and ninety two.",
+  "en": "",
+  "speech_vs_text": 0.94,
+  "boundary_margin": 0.439,
+  "confidence": "high"
+ },
+ {
+  "line": 150,
+  "start": 472.889,
+  "end": 477.363,
+  "te": "This is India's own seven hundred megawatt reactor, designed here.",
+  "en": "",
+  "speech_vs_text": 1.13,
+  "boundary_margin": 0.15,
+  "confidence": "high"
+ },
+ {
+  "line": 151,
+  "start": 477.694,
+  "end": 480.074,
+  "te": "Around each tube flows a dry gas.",
+  "en": "",
+  "speech_vs_text": 1.3,
+  "boundary_margin": 0.15,
+  "confidence": "high"
+ },
+ {
+  "line": 152,
+  "start": 480.363,
+  "end": 485.753,
+  "te": "If even a drop of water leaks in, the gas turns damp, like the dew on your cold glass.",
+  "en": "",
+  "speech_vs_text": 1.09,
+  "boundary_margin": 0.113,
+  "confidence": "high"
+ },
+ {
+  "line": 153,
+  "start": 486.076,
+  "end": 486.895,
+  "te": "Remember that glass?",
+  "en": "",
+  "speech_vs_text": 0.73,
+  "boundary_margin": 0.022,
+  "confidence": "check"
+ },
+ {
+  "line": 154,
+  "start": 487.281,
+  "end": 489.308,
+  "te": "Here, the dew is the alarm.",
+  "en": "",
+  "speech_vs_text": 1.21,
+  "boundary_margin": 0.022,
+  "confidence": "check"
+ },
+ {
+  "line": 155,
+  "start": 489.637,
+  "end": 493.643,
+  "te": "The first one, at Kakrapar, went critical in July twenty twenty.",
+  "en": "",
+  "speech_vs_text": 1.06,
+  "boundary_margin": 0.227,
+  "confidence": "high"
+ },
+ {
+  "line": 156,
+  "start": 493.967,
+  "end": 494.414,
+  "te": "Critical?",
+  "en": "",
+  "speech_vs_text": 0.85,
+  "boundary_margin": 2.119,
+  "confidence": "high"
+ },
+ {
+  "line": 157,
+  "start": 494.769,
+  "end": 495.842,
+  "te": "That is good news here.",
+  "en": "",
+  "speech_vs_text": 0.91,
+  "boundary_margin": 1.99,
+  "confidence": "high"
+ },
+ {
+  "line": 158,
+  "start": 496.116,
+  "end": 499.359,
+  "te": "It means the chain reaction has started, and holds steady.",
+  "en": "",
+  "speech_vs_text": 0.98,
+  "boundary_margin": 0.326,
+  "confidence": "high"
+ },
+ {
+  "line": 159,
+  "start": 499.64,
+  "end": 502.009,
+  "te": "Many of its tests were done during the lockdown.",
+  "en": "",
+  "speech_vs_text": 0.92,
+  "boundary_margin": 0.326,
+  "confidence": "high"
+ },
+ {
+  "line": 160,
+  "start": 502.303,
+  "end": 505.381,
+  "te": "And Rawatbhata, where this story began, got its own.",
+  "en": "",
+  "speech_vs_text": 0.99,
+  "boundary_margin": 0.26,
+  "confidence": "high"
+ },
+ {
+  "line": 161,
+  "start": 505.695,
+  "end": 512.276,
+  "te": "Unit seven joined the grid in March twenty twenty five, and was running at full power by February twenty twenty six.",
+  "en": "",
+  "speech_vs_text": 0.99,
+  "boundary_margin": 0.173,
+  "confidence": "high"
+ },
+ {
+  "line": 162,
+  "start": 512.521,
+  "end": 519.482,
+  "te": "And this September, on the same lake you saw at the start, where Canada walked out, unit eight began taking in its fuel.",
+  "en": "",
+  "speech_vs_text": 1.01,
+  "boundary_margin": 0.173,
+  "confidence": "high"
+ },
+ {
+  "line": 163,
+  "start": 519.753,
+  "end": 524.67,
+  "te": "About four thousand seven hundred bundles, for three hundred and ninety two tubes.",
+  "en": "",
+  "speech_vs_text": 1.04,
+  "boundary_margin": 0.479,
+  "confidence": "high"
+ },
+ {
+  "line": 164,
+  "start": 524.985,
+  "end": 527.106,
+  "te": "Now the honest part, which you deserve.",
+  "en": "",
+  "speech_vs_text": 0.91,
+  "boundary_margin": 0.398,
+  "confidence": "high"
+ },
+ {
+  "line": 165,
+  "start": 527.5,
+  "end": 534.396,
+  "te": "After all these years, out of every hundred units of electricity India makes, only about three come from nuclear.",
+  "en": "",
+  "speech_vs_text": 1.06,
+  "boundary_margin": 0.398,
+  "confidence": "high"
+ },
+ {
+  "line": 166,
+  "start": 534.759,
+  "end": 536.623,
+  "te": "And were the new units on time?",
+  "en": "",
+  "speech_vs_text": 1.18,
+  "boundary_margin": 0.796,
+  "confidence": "high"
+ },
+ {
+  "line": 167,
+  "start": 536.926,
+  "end": 537.225,
+  "te": "No.",
+  "en": "",
+  "speech_vs_text": 2.27,
+  "boundary_margin": 9.9,
+  "confidence": "check"
+ },
+ {
+  "line": 168,
+  "start": 537.563,
+  "end": 540.608,
+  "te": "Kakrapar's first concrete was poured in twenty ten.",
+  "en": "",
+  "speech_vs_text": 1.1,
+  "boundary_margin": 0.507,
+  "confidence": "high"
+ },
+ {
+  "line": 169,
+  "start": 540.92,
+  "end": 542.83,
+  "te": "It went critical ten years later.",
+  "en": "",
+  "speech_vs_text": 0.96,
+  "boundary_margin": 0.371,
+  "confidence": "high"
+ },
+ {
+  "line": 170,
+  "start": 543.117,
+  "end": 546.721,
+  "te": "You may have read that the government has approved ten more, as one fleet.",
+  "en": "",
+  "speech_vs_text": 0.83,
+  "boundary_margin": 0.217,
+  "confidence": "high"
+ },
+ {
+  "line": 171,
+  "start": 546.983,
+  "end": 551.521,
+  "te": "It said about seventy thousand crore rupees of orders would go to Indian industry.",
+  "en": "",
+  "speech_vs_text": 1.02,
+  "boundary_margin": 0.217,
+  "confidence": "high"
+ },
+ {
+  "line": 172,
+  "start": 551.808,
+  "end": 554.676,
+  "te": "And here is the quiet ending to the old fight.",
+  "en": "",
+  "speech_vs_text": 1.21,
+  "boundary_margin": 0.279,
+  "confidence": "high"
+ },
+ {
+  "line": 173,
+  "start": 554.949,
+  "end": 561.614,
+  "te": "Earlier this year, a Canadian company signed to sell India nearly twenty two million pounds of uranium concentrate.",
+  "en": "",
+  "speech_vs_text": 1.02,
+  "boundary_margin": 0.108,
+  "confidence": "high"
+ },
+ {
+  "line": 174,
+  "start": 561.859,
+  "end": 566.234,
+  "te": "That is about ten thousand tonnes, from twenty twenty seven to twenty thirty five.",
+  "en": "",
+  "speech_vs_text": 0.9,
+  "boundary_margin": 0.108,
+  "confidence": "high"
+ },
+ {
+  "line": 175,
+  "start": 566.591,
+  "end": 567.343,
+  "te": "Not revenge.",
+  "en": "",
+  "speech_vs_text": 1.14,
+  "boundary_margin": 0.896,
+  "confidence": "high"
+ },
+ {
+  "line": 176,
+  "start": 567.63,
+  "end": 569.335,
+  "te": "Two countries, trading again.",
+  "en": "",
+  "speech_vs_text": 0.9,
+  "boundary_margin": 0.607,
+  "confidence": "high"
+ },
+ {
+  "line": 177,
+  "start": 569.642,
+  "end": 570.848,
+  "te": "So what does it tell you?",
+  "en": "",
+  "speech_vs_text": 0.97,
+  "boundary_margin": 0.116,
+  "confidence": "high"
+ },
+ {
+  "line": 178,
+  "start": 571.159,
+  "end": 573.104,
+  "te": "The fuel, India can buy.",
+  "en": "",
+  "speech_vs_text": 1.23,
+  "boundary_margin": 0.116,
+  "confidence": "high"
+ },
+ {
+  "line": 179,
+  "start": 573.359,
+  "end": 576.599,
+  "te": "The skill to open its own reactor, nobody could sell.",
+  "en": "",
+  "speech_vs_text": 1.09,
+  "boundary_margin": 0.123,
+  "confidence": "high"
+ },
+ {
+  "line": 180,
+  "start": 577.016,
+  "end": 578.378,
+  "te": "India had to grow it.",
+  "en": "",
+  "speech_vs_text": 1.15,
+  "boundary_margin": 0.232,
+  "confidence": "high"
+ },
+ {
+  "line": 181,
+  "start": 578.787,
+  "end": 580.253,
+  "te": "So here is your date to watch.",
+  "en": "",
+  "speech_vs_text": 0.97,
+  "boundary_margin": 0.727,
+  "confidence": "high"
+ },
+ {
+  "line": 182,
+  "start": 580.611,
+  "end": 583.46,
+  "te": "The day Rajasthan unit eight goes critical.",
+  "en": "",
+  "speech_vs_text": 1.13,
+  "boundary_margin": 0.142,
+  "confidence": "high"
+ },
+ {
+  "line": 183,
+  "start": 583.882,
+  "end": 587.399,
+  "te": "When it does, it will stand on the same ground Canada left.",
+  "en": "",
+  "speech_vs_text": 0.98,
+  "boundary_margin": 0.118,
+  "confidence": "high"
+ },
+ {
+  "line": 184,
+  "start": 587.749,
+  "end": 591.844,
+  "te": "A machine is truly yours only when you can open it, and mend it.",
+  "en": "",
+  "speech_vs_text": 1.12,
+  "boundary_margin": 0.1,
+  "confidence": "high"
+ },
+ {
+  "line": 185,
+  "start": 592.299,
+  "end": 598.393,
+  "te": "Next, I will take you to seven in the evening, when India's lights come on and the grid holds its breath.",
+  "en": "",
+  "speech_vs_text": 0.96,
+  "boundary_margin": 0.1,
+  "confidence": "high"
+ },
+ {
+  "line": 186,
+  "start": 598.803,
+  "end": 600.552,
+  "te": "Subscribe, so you are there with me.",
+  "en": "",
+  "speech_vs_text": 0.87,
+  "boundary_margin": 0.19,
+  "confidence": "high"
+ },
+ {
+  "line": 187,
+  "start": 600.932,
+  "end": 602.008,
+  "te": "And tell me in the comments.",
+  "en": "",
+  "speech_vs_text": 0.74,
+  "boundary_margin": 0.837,
+  "confidence": "high"
+ },
+ {
+  "line": 188,
+  "start": 602.309,
+  "end": 605.016,
+  "te": "Would you have waited for help, or opened it yourself?",
+  "en": "",
+  "speech_vs_text": 0.85,
+  "boundary_margin": 0.748,
+  "confidence": "high"
+ },
+ {
+  "line": 189,
+  "start": 605.498,
+  "end": 607.068,
+  "te": "This is Be Practical with Kishore.",
+  "en": "",
+  "speech_vs_text": 0.85,
+  "boundary_margin": 0.748,
+  "confidence": "high"
+ },
+ {
+  "line": 190,
+  "start": 607.494,
+  "end": 608.37,
+  "te": "Stay practical.",
+  "en": "",
+  "speech_vs_text": 1.03,
+  "boundary_margin": 9.9,
+  "confidence": "high"
+ }
+]

@@ -1,0 +1,8 @@
+{
+ "audio": "phwr_vo_full_v3.mp3",
+ "sha256": "ecbfc8f52df99d48d3c48bdeeefe3d51e6c191532436022f1f3678e6dd7d20b1",
+ "duration": 608.418,
+ "approved": "owner, 2026-11-25 (Approve the audio); block 1 phwr_b1v2 + block 2 phwr_b2v2, both Resemble Enhance on Modal, joined with vo_rejoin.py (gap 1.0 s at chapter 3)",
+ "wav": "vo_full.wav",
+ "wav_duration": 608.37
+}
