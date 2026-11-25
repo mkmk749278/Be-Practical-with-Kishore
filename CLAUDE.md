@@ -24,8 +24,9 @@ the playbook rule they belong to, with the reason; never a new doc file. `docs/a
 1. Read the channel's latest numbers and comments against §1.2, then the open film's `handoff.md`.
 2. Work on a branch; **commit and push at least every 30–45 minutes** and at every stage's end; merge to `main` through
    a PR the same day; tell the owner which branches to delete.
-3. **Back up so losing the repo loses nothing (§14.3):** every merge to `main` sends a full bundle to Drive; each film's
-   text folder is copied to its Drive folder at every stage's end; all media lives only in Drive.
+3. **Back up so losing the repo loses nothing (§14.3):** every merge to `main` sends a full bundle to Drive; every film's
+   facts and narration go to its Drive `repo/` folder after every change (`scripts/drive_text_backup.sh`; owner,
+   25 NOV), so comments can be answered without the repo; all media lives only in Drive.
 4. **Times in the chat are in IST** ("11:00 AM IST", never UTC alone; IST = UTC + 5:30).
 
 ## Your role: creative director

@@ -700,8 +700,12 @@ existing films**. Archived when done.
 - **After every merge to `main`, a full `git bundle --all` goes to Drive** (`Creator/_Backups/Be-Practical-with-Kishore/`:
   the dated bundle and `latest.bundle`), by the `drive-backup.yml` workflow (repo secret `GDRIVE_RCLONE_TOKEN`). A
   bundle restores every commit and branch: `git clone latest.bundle`.
-- **Every film's working files are in its Drive folder too:** at each stage's end, the session copies the film's text
-  folder (`projects/<slug>/` without `assets/`) to Drive `Creator/English/<slug>/repo/`, beside the media.
+- **Every film's facts and narration are in its Drive folder, always** (owner, 2026-11-25: "even if we lose the repo
+  connection, we can reply to comments"): `scripts/drive_text_backup.sh [slug]` copies `claims*.csv`, `fact-check*.md`,
+  `research/`, `narration*.md`, `vo.txt`, VO blocks, transcripts, captions and `youtube/` text to Drive
+  `Creator/English/<slug>/repo/` (a copy, never a sync, so Drive never loses a file). The session runs it after every
+  change to these files and at each stage's end; `drive-backup.yml` runs it for every film on every merge to `main`.
+  Films before 25 NOV were copied on 25 NOV (Matsya has only its recovered transcript; its facts file was lost).
 - **Every take, render, clip and music file lives in Drive already** (§2). Nothing important exists only in a
   container, a workflow artifact or git.
 - *Why:* when GitHub disabled `Creator`, the only copy was a 05 NOV bundle; two weeks were rebuilt from the sessions'
