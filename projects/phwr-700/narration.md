@@ -36,7 +36,7 @@ CALCULATION at the 1996 RBI rate, C55); no prime ministers' names anywhere (the 
 | Plants and payoffs | the dew (ch.2 the crack → ch.5 the dew point is the alarm) · the radio (ch.3 → landing) · the saying (ch.3 climax → landing) · "the same lake" (open loop → unit eight) · Canada (walk-out → trading again) |
 | One device per chapter | then-and-now on one ground · the withheld answer (what breaks a tube?) · one object followed through (one old tube) · a plain confession (Kakrapar) · the honest arithmetic (3%, ten years late) |
 | The lines they will repeat | "A machine is truly yours only when you can open it, and mend it." · "So India had the same disease. And no doctor would come." · "Here, the dew is the alarm." · "The fuel, India can buy. The skill to open its own reactor, nobody could sell." |
-| The TV asks (§15.6) | after the ch.3 climax and the saying (~7:45, QR on the desk; moved there after the review: at 2:55 it broke the cliffhanger) and in the landing, each with the reason (the next machine, the next film); no fixed day or time (owner, 23 NOV) |
+| The TV asks (§15.6) | one remote ask after the ch.3 climax and the saying (~7:45): "On the T-V? Just press Subscribe with your remote.", with a small remote on Kishore's desk and a SUBSCRIBE pill for 4–5 s; the landing keeps only "Subscribe, so you are there with me." No QR code, no phone steps (owner, 25 NOV: the phone-and-camera ask tires the viewer); no fixed day or time (owner, 23 NOV) |
 | Attributions | Business India 1996 (halfway, denied knowledge, the cost); the trade weekly 1995 (with or without help); N-P-C-I-L (second in the world); Bhabha Atomic Research Centre (1,100 crore); the regulator (Kakrapar); a former N-P-C-I-L chief (heart transplant) |
 
 ## Pronunciation to add before recording
@@ -45,7 +45,7 @@ Sigh-rus (CIRUS, written respelt in `vo.txt`) · Rawatbhata (check by ear: raa-w
 
 ## What changed after the independent review (`review_audience_v1.md`, `review_ack_r1.md`)
 The heart is named in line 2 (306 thin metal tubes); the flask is promised in the open loop; the first TV ask moved
-from 2:55 to after the saying (~7:45) with plain steps ("take your mobile phone, open its camera…"); formulaic
+from 2:55 to after the saying (~7:45) with plain steps (since 25 NOV a one-line remote ask, no QR); formulaic
 questions and any-video lines cut; N-P-C-I-L and "critical" explained; the fan line became "out of every hundred units
 of electricity, about three"; the springs "wrapped around" (not rings on a finger); "we never threw away a broken
 radio" (the viewer is the father); the jump to the newest reactors said aloud; the club named; one currency in the VO
@@ -152,7 +152,7 @@ You remember how we never threw away a broken radio? We opened it. That is the l
 
 A machine is truly yours only when you can open it, and mend it.
 
-If you want the next machine opened like this, subscribe, so the next one comes to you. Watching on the T-V? Take your mobile phone, open its camera, and point it at the code on the screen.
+If you want the next machine opened like this, subscribe, so the next one comes to you. On the T-V? Just press Subscribe with your remote.
 
 But I must be fair with you. You may have heard people say these tubes are dangerous. Is it safe to live near one? Let me show you the worst day.
 
@@ -200,7 +200,7 @@ So here is your date to watch. The day Rajasthan unit eight goes critical. When 
 
 A machine is truly yours only when you can open it, and mend it.
 
-Next, I will take you to seven in the evening, when India's lights come on and the grid holds its breath. Subscribe, so you are there with me. On the T-V, point your phone's camera at the code on the screen.
+Next, I will take you to seven in the evening, when India's lights come on and the grid holds its breath. Subscribe, so you are there with me.
 
 And tell me in the comments. Would you have waited for help, or opened it yourself?
 
