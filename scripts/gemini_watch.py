@@ -18,6 +18,7 @@ import subprocess
 import sys
 import tempfile
 import time
+import urllib.error
 import urllib.request
 from pathlib import Path
 
@@ -62,6 +63,9 @@ def ask(model, content):
             r = json.load(urllib.request.urlopen(req, timeout=600))
             return r["choices"][0]["message"]["content"]
         except urllib.error.HTTPError as e:   # 429 (free-tier rate) and 5xx (busy) are retried
+            msg = e.read().decode(errors="replace")
+            if e.code == 429 and "per day" in msg:   # the free tier's daily cap (20 a model): retrying wastes nothing
+                raise SystemExit(f"daily free-tier limit reached for {model}; try another model or tomorrow")
             if e.code not in (429, 500, 502, 503, 504) or k == 4:
                 raise
             time.sleep(30 * (k + 1))

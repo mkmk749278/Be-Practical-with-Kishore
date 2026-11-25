@@ -1,0 +1,20 @@
+{
+ "summary": "Engineers and NPCIL CMD Bhuwan Chandra Pathak manually load fuel bundles into the reactor face during initial fuel loading activities for Kakrapar Unit 4 (KAPP-4).",
+ "language": "English",
+ "spans": [
+  {
+   "start": "00:00",
+   "end": "00:11",
+   "shows": "Engineers and officials wearing hard hats and yellow protective coats handling a nuclear fuel bundle and inserting it into a reactor face grid",
+   "place_people": "Bhuwan Chandra Pathak (CMD, NPCIL) at KAPP-4",
+   "onscreen_text": "Shri Bhuwan Chandra Pathak, CMD, NPCIL participates in Initial Fuel Loading activities of KAPP-4",
+   "speech": "",
+   "fits": "Kakrapar (Gujarat): the 2016 shutdown news; KAPP-3/4 700 MW units, criticality July 2020, the 700 MW reactor face",
+   "problems": "burned-in text captions"
+  }
+ ],
+ "clip": "12_6Z1yMdXO38g.mp4",
+ "duration_s": 12.7,
+ "frame_every_s": 2,
+ "model": "gemini-3.6-flash"
+}

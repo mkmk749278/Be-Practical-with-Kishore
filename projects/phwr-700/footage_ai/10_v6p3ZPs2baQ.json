@@ -1,0 +1,110 @@
+{
+ "summary": "This video is a 3D animated educational film produced by NPCIL explaining the structure, components, working principles, fuel cycle, power generation, and safety systems of a 540 MW Pressurised Heavy Water Reactor (PHWR) in India, intercut with live footage of plant exteriors, fuel handling, and environmental monitoring.",
+ "language": "Hindi",
+ "spans": [
+  {
+   "start": "00:00",
+   "end": "01:27",
+   "shows": "CGI graphics of outer space, Earth, atomic structures, orbiting electrons, and title graphics",
+   "place_people": "none",
+   "onscreen_text": "ATOM, ELECTRICITY, PROTONS, NEUTRONS, ELECTRONS",
+   "speech": "Is duniya mein har ek cheez bani hai sookshma kanon se jinhe parmanu kehte hain.",
+   "fits": "none",
+   "problems": "CGI/animation, logo bug"
+  },
+  {
+   "start": "01:27",
+   "end": "01:36",
+   "shows": "Real footage of a nuclear power station exterior with cooling tower and palm trees",
+   "place_people": "nuclear power plant exterior",
+   "onscreen_text": "none",
+   "speech": "Kya aap jaante hain ki yeh parmanu kis cheez ka bana hua hai?",
+   "fits": "none",
+   "problems": "logo bug"
+  },
+  {
+   "start": "03:40",
+   "end": "04:00",
+   "shows": "Real footage of nuclear power station exterior buildings near water and heavy construction excavators at work",
+   "place_people": "nuclear power plant site",
+   "onscreen_text": "none",
+   "speech": "Aise kendra nadi ya samudra jaise bade jalashayon ke samip sthapit kiye jaate hain.",
+   "fits": "Rawatbhata town and the plant on the Rana Pratap Sagar lake / Chambal river (exteriors, the lake, birds)",
+   "problems": "logo bug"
+  },
+  {
+   "start": "04:00",
+   "end": "09:08",
+   "shows": "CGI 3D structural model of a 540 MW PHWR reactor building, containment structure dimensions, calandria, pressure tubes, fuelling machine, and fuel loading process",
+   "place_people": "540 MW PHWR reactor model",
+   "onscreen_text": "Ref: 540 MW Pressurized Heavy Water Reactor (PHWR), 50 meters, 56 meters, CALANDRIA, ALLOY OF ZIRCONIUM AND NIOBIUM, Calandria Tube, Coolant Tube / Pressure Tube",
+   "speech": "Thermal power plants yani taapiya vidyut kendron mein koyle jaise jivashm indhan ka istemal kiya jaata hai.",
+   "fits": "none",
+   "problems": "CGI/animation, logo bug"
+  },
+  {
+   "start": "09:08",
+   "end": "09:24",
+   "shows": "Real archive video of nuclear fuel manufacturing: worker opening a yellowcake drum and using tweezers to pick up a uranium fuel pellet",
+   "place_people": "nuclear fuel workshop",
+   "onscreen_text": "NATURAL URANIUM",
+   "speech": "Khanij avastha se nikale gaye uranium se yellowcake banaye jaate hain.",
+   "fits": "Fuel bundles; uranium; heavy water",
+   "problems": "logo bug"
+  },
+  {
+   "start": "09:24",
+   "end": "15:56",
+   "shows": "CGI animations explaining nuclear fission chain reaction, control rods, primary heat transport system, steam generators, turbines, generator grid connection, safety shutoff systems, suppression pool, and animated control room",
+   "place_people": "540 MW PHWR system model",
+   "onscreen_text": "U235, U238, Fission, CADMIUM / COBALT, HPT, LPT 1, LPT 2, DEFENCE IN DEPTH, FAIL SAFE REDUNDANCY DIVERSITY",
+   "speech": "Is tarah parmanu reactor mein ek niyantrit parantu aatmanirbhar shrinkhla prakriya ki jaati hai.",
+   "fits": "none",
+   "problems": "CGI/animation, logo bug"
+  },
+  {
+   "start": "15:56",
+   "end": "16:24",
+   "shows": "Real shots of environmental monitoring around the nuclear plant: technician sampling soil and water, butterfly on a flower, kingfisher bird, cranes near water, and nilgai deer in wild grass",
+   "place_people": "environmental monitoring zone near nuclear plant",
+   "onscreen_text": "none",
+   "speech": "Har parmanu kendra ke aaspas ke paryavaran par vishesh dhyan diya jaata hai.",
+   "fits": "Rawatbhata town and the plant on the Rana Pratap Sagar lake / Chambal river (exteriors, the lake, birds)",
+   "problems": "logo bug"
+  },
+  {
+   "start": "16:24",
+   "end": "16:44",
+   "shows": "CGI graphics of the 540 MW PHWR campus layout, atom graphic, and spinning Earth model",
+   "place_people": "540 MW PHWR plant model",
+   "onscreen_text": "none",
+   "speech": "Is prakar se yeh hara-bhara kshetra anek jaati-prajaati ke jaanwaron tatha panchhiyon ke liye ek khushhal niwas ban jaata hai.",
+   "fits": "none",
+   "problems": "CGI/animation, logo bug"
+  },
+  {
+   "start": "16:44",
+   "end": "16:56",
+   "shows": "Real footage of a nuclear power plant exterior with cooling towers and landscaped gardens",
+   "place_people": "nuclear power plant exterior",
+   "onscreen_text": "none",
+   "speech": "Parmanu oorja ke bahut saare fayde hain. Isme sabse mahatvapurna baat yeh hai ki yeh ek carbon-mukt oorja ka srot hai.",
+   "fits": "none",
+   "problems": "logo bug"
+  },
+  {
+   "start": "16:56",
+   "end": "17:20",
+   "shows": "CGI night cityscape, grid photo collage of Indian citizens, power line pylon, and NPCIL corporate logo graphics",
+   "place_people": "NPCIL logo",
+   "onscreen_text": "NPCIL",
+   "speech": "Parmanu oorja ke upayog se na keval vartaman mein bijli sankat se nijaat paaya ja sakta hai, balki desh samriddhi ke maarg par prasashth hoga.",
+   "fits": "none",
+   "problems": "CGI/animation, logo bug"
+  }
+ ],
+ "clip": "10_v6p3ZPs2baQ.mp4",
+ "duration_s": 1041.8,
+ "frame_every_s": 4,
+ "model": "gemini-3.6-flash"
+}

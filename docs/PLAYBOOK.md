@@ -581,6 +581,9 @@ frame read at 480p size. No dense HUD clutter: few, warm words in the narration'
   to Drive, not as PDFs in the chat); the session reads it there. Gemini's moments are leads: each is checked on our own
   contact sheet before it enters the EDL. Downloaded clips are vetted by `scripts/gemini_watch.py` (frames + audio
   through the API key saved as a network secret; free tier, so only public footage goes to it).
+  **Free tier = 20 requests a day per model** (measured 25 NOV: gemini-3.6-flash said "limit: 20", reset at midnight
+  Pacific, 1:30 PM IST); one clip is one request, so a film's clips are spread over models (3.6 Flash, 3.5
+  Flash-Lite, 3.1 Flash-Lite); busy-server 5xx retries count against the cap.
 - **Everything else blocked: Cowork** on the owner's home laptop (owner, 2026-11-05), one click-to-copy request:
   ```text
   Download these files and save them to Google Drive, folder Creator/English/<slug>/footage/cowork/
