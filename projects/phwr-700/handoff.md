@@ -58,3 +58,12 @@ master on CPU about US$1–3. Together about US$5–10 of the US$30 monthly cred
 ## Backup
 Text is in git. Copy this folder to Drive `Creator/English/phwr-700/` at the next session (no Drive upload was done
 on 23 NOV).
+
+## Audio for approval (25 NOV 2026, about 12:20 PM IST)
+- Block 2 re-recorded with the remote ask (`phwr_b2v2_raw.mp3`, 5:47; earlier raws moved to Drive `vo/raw_done/`),
+  enhanced on Modal (4 min), joined to block 1 (`phwr_b1_enh.wav`) with a 1.0 s room-tone gap at chapter 3:
+  `phwr_vo_full_v2.mp3` / `phwr_vo_full.wav` in Drive `vo/`, 10:10, −22.5 LUFS, −1.1 dBTP.
+- Checks: `vo_take_check.py` OK (190 sentences, 0.297 s a word); word-by-word transcript diff against `vo.txt`
+  clean (only digit and name spellings); no artefacts added by the enhance (three flags were a raw mouth click
+  and word tails). Alignment in `align/` (17 lines to check by ear before the lock).
+- **Next:** the owner approves the audio → `vo_lock.py`, then footage and the build.

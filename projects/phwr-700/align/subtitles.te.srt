@@ -1,0 +1,760 @@
+1
+00:00:00,000 --> 00:00:07,322
+In nineteen seventy four, Canada walked out of a half built nuclear reactor on the Chambal river, in Rajasthan.
+
+2
+00:00:07,322 --> 00:00:08,893
+India finished it.
+
+3
+00:00:08,893 --> 00:00:12,386
+But twenty years later, its heart was wearing out.
+
+4
+00:00:12,386 --> 00:00:15,325
+Three hundred and six thin metal tubes.
+
+5
+00:00:15,325 --> 00:00:18,596
+Only one country had ever replaced tubes like these.
+
+6
+00:00:18,596 --> 00:00:19,506
+Canada.
+
+7
+00:00:19,506 --> 00:00:23,302
+And Canada's export rules kept its companies from helping.
+
+8
+00:00:23,302 --> 00:00:28,240
+So how do you rebuild the heart of a machine that nobody will teach you to open?
+
+9
+00:00:28,240 --> 00:00:34,677
+By the end, you will see Indian engineers pull those tubes out, one by one, into a steel flask.
+
+10
+00:00:34,677 --> 00:00:41,476
+And you will see why it matters for the new reactor that began taking in fuel this September, on the same lake.
+
+11
+00:00:41,476 --> 00:00:43,537
+Let me take you to Rawatbhata.
+
+12
+00:00:43,537 --> 00:00:48,835
+A small town on the Rana Pratap Sagar lake, about sixty four kilometres from Kota.
+
+13
+00:00:48,835 --> 00:00:55,637
+If you had come here in the nineteen sixties, you would have seen Canada and India building a nuclear power station together.
+
+14
+00:00:55,637 --> 00:00:57,673
+Its design came from Canada.
+
+15
+00:00:57,673 --> 00:00:59,153
+And why that design?
+
+16
+00:00:59,153 --> 00:01:01,801
+India had picked it for one simple reason.
+
+17
+00:01:01,801 --> 00:01:04,122
+It needs no enriched uranium.
+
+18
+00:01:04,122 --> 00:01:09,012
+You can run it on natural uranium, with the same mix of atoms you find in nature.
+
+19
+00:01:09,012 --> 00:01:11,523
+And Indian factories could build it.
+
+20
+00:01:11,523 --> 00:01:16,215
+Now, you have probably seen a reactor drawn as one giant steel pot.
+
+21
+00:01:16,215 --> 00:01:18,684
+Most reactors in the world are just that.
+
+22
+00:01:18,684 --> 00:01:20,655
+This one is different.
+
+23
+00:01:20,655 --> 00:01:24,402
+Imagine a tank, pierced by three hundred and six tubes.
+
+24
+00:01:24,402 --> 00:01:28,095
+Each tube, if you like, is its own small pressure cooker.
+
+25
+00:01:28,095 --> 00:01:29,799
+Think of the cooker in your kitchen.
+
+26
+00:01:29,799 --> 00:01:32,590
+You know that whistle, you have heard it all your life.
+
+27
+00:01:32,590 --> 00:01:37,409
+Inside, the steam pushes at about one kilo on every square centimetre.
+
+28
+00:01:37,409 --> 00:01:40,799
+Now jump ahead to India's newest reactors for a moment.
+
+29
+00:01:40,799 --> 00:01:47,558
+There, the water in each tube is pushed a hundred times harder, at three hundred and ten degrees.
+
+30
+00:01:47,558 --> 00:01:53,229
+And in reactors of this family, the wall of that tube is only about four millimetres thick.
+
+31
+00:01:53,229 --> 00:01:54,413
+Think of a pencil.
+
+32
+00:01:54,413 --> 00:01:56,482
+The wall is thinner than that.
+
+33
+00:01:56,482 --> 00:01:58,953
+Then came May nineteen seventy four.
+
+34
+00:01:58,953 --> 00:02:00,002
+You remember it.
+
+35
+00:02:00,002 --> 00:02:01,049
+Pokhran.
+
+36
+00:02:01,049 --> 00:02:03,075
+Why did Canada care so much?
+
+37
+00:02:03,075 --> 00:02:05,360
+India called its test peaceful.
+
+38
+00:02:05,360 --> 00:02:12,026
+Canada saw plutonium from a research reactor near Mumbai, called Sigh-rus, which Canada had helped design.
+
+39
+00:02:12,026 --> 00:02:14,365
+So Canada stopped its nuclear help.
+
+40
+00:02:14,365 --> 00:02:16,706
+The engineers packed up and went home.
+
+41
+00:02:16,706 --> 00:02:18,643
+The first unit was running.
+
+42
+00:02:18,643 --> 00:02:24,925
+The second, as an Indian magazine put it in nineteen ninety six, the Canadians abandoned halfway.
+
+43
+00:02:24,925 --> 00:02:29,499
+Now you might ask me, Kishore, so what happened to your half built reactor?
+
+44
+00:02:29,499 --> 00:02:32,083
+Indian engineers finished it on their own.
+
+45
+00:02:32,083 --> 00:02:34,350
+It went to work in nineteen eighty one.
+
+46
+00:02:34,350 --> 00:02:36,296
+And for a while, all was well.
+
+47
+00:02:36,296 --> 00:02:44,211
+At Kaiga in Karnataka, a reactor of this family once ran for nine hundred and sixty two days without stopping.
+
+48
+00:02:44,211 --> 00:02:45,439
+A world record.
+
+49
+00:02:45,439 --> 00:02:47,934
+So what stops a machine like that?
+
+50
+00:02:47,934 --> 00:02:49,801
+You might guess the fuel.
+
+51
+00:02:49,801 --> 00:02:51,182
+It is not the fuel.
+
+52
+00:02:51,182 --> 00:02:53,889
+You can feed fresh fuel in while it runs.
+
+53
+00:02:53,889 --> 00:02:56,083
+What wears out is the tubes.
+
+54
+00:02:56,083 --> 00:02:59,081
+The early tubes were made of an older metal mix.
+
+55
+00:02:59,081 --> 00:03:01,627
+Over the years they soaked up hydrogen.
+
+56
+00:03:01,627 --> 00:03:08,516
+N-P-C-I-L, the company that runs India's nuclear plants, says they lasted only ten to twelve years.
+
+57
+00:03:08,516 --> 00:03:13,465
+In August nineteen eighty three, near Toronto, the world saw what that means.
+
+58
+00:03:13,465 --> 00:03:17,198
+At the Pickering station, one tube broke at full power.
+
+59
+00:03:17,198 --> 00:03:19,402
+Just one, out of hundreds.
+
+60
+00:03:19,402 --> 00:03:21,316
+But that is all it takes.
+
+61
+00:03:21,316 --> 00:03:23,376
+How does a tube just break?
+
+62
+00:03:23,376 --> 00:03:26,234
+Each hot tube sits inside a cooler tube.
+
+63
+00:03:26,234 --> 00:03:30,077
+Small coiled springs, wrapped around it, keep the two apart.
+
+64
+00:03:30,077 --> 00:03:33,463
+In that one channel, a spring had slipped out of place.
+
+65
+00:03:33,463 --> 00:03:35,752
+Slowly, the hot tube sagged.
+
+66
+00:03:35,752 --> 00:03:37,874
+Then it touched the cold one.
+
+67
+00:03:37,874 --> 00:03:40,731
+Now think of a glass of cold water on a hot day.
+
+68
+00:03:40,731 --> 00:03:44,278
+You have seen the drops gather on the outside, on the cold glass.
+
+69
+00:03:44,278 --> 00:03:48,484
+Inside the metal, hydrogen did something like the drops you just pictured.
+
+70
+00:03:48,484 --> 00:03:50,650
+It crept to the coldest spot.
+
+71
+00:03:50,650 --> 00:03:53,861
+And there it hardened into brittle blisters.
+
+72
+00:03:53,861 --> 00:03:56,151
+The blisters cracked.
+
+73
+00:03:56,151 --> 00:03:59,039
+And the crack kept growing, until the tube split.
+
+74
+00:03:59,039 --> 00:04:03,086
+The operators, I should tell you, brought the reactor safely to a stop.
+
+75
+00:04:03,086 --> 00:04:06,912
+But every reactor of this kind now had a question to answer.
+
+76
+00:04:06,912 --> 00:04:10,713
+India's tubes at Rawatbhata were made of the same older metal.
+
+77
+00:04:10,713 --> 00:04:17,742
+And as Business India reported, Indian engineers were denied detailed knowledge of the accident, its cause and the remedy.
+
+78
+00:04:17,742 --> 00:04:19,977
+So India had the same disease.
+
+79
+00:04:19,977 --> 00:04:21,562
+And no doctor would come.
+
+80
+00:04:21,562 --> 00:04:22,852
+What would you have done?
+
+81
+00:04:23,560 --> 00:04:28,174
+In nineteen ninety five, a nuclear trade weekly reported India's decision.
+
+82
+00:04:28,174 --> 00:04:33,360
+Rajasthan unit two would get all new tubes, with or without outside help.
+
+83
+00:04:33,360 --> 00:04:38,959
+India was still a member of the Kan-doo Owners Group, the club of countries that run this kind of reactor.
+
+84
+00:04:38,959 --> 00:04:44,586
+But Canada's export rules kept Canadian firms from supplying the tools, or doing the job.
+
+85
+00:04:44,586 --> 00:04:46,410
+So the job came home.
+
+86
+00:04:46,410 --> 00:04:49,838
+The project director at Rawatbhata was V K Chaturvedi.
+
+87
+00:04:49,838 --> 00:04:53,621
+The team that would change the tubes was led by R C Arya.
+
+88
+00:04:53,621 --> 00:04:55,493
+Can you picture the hardest part?
+
+89
+00:04:55,493 --> 00:05:00,986
+Every one of the three hundred and six tubes had been inside a running reactor for years.
+
+90
+00:05:00,986 --> 00:05:02,588
+You cannot stand near it.
+
+91
+00:05:02,588 --> 00:05:03,921
+Not for a minute.
+
+92
+00:05:03,921 --> 00:05:09,003
+So every cut, every pull, every weld had to be done by machines.
+
+93
+00:05:09,003 --> 00:05:11,522
+Machines that did not exist yet.
+
+94
+00:05:11,522 --> 00:05:13,427
+Indian engineers designed them.
+
+95
+00:05:13,427 --> 00:05:15,704
+Now picture one old tube with me.
+
+96
+00:05:15,704 --> 00:05:18,105
+A tool reaches in and cuts it free.
+
+97
+00:05:18,105 --> 00:05:22,170
+The tube is drawn, slowly, into a heavy steel flask.
+
+98
+00:05:22,170 --> 00:05:24,668
+The flask carries it away to a vault.
+
+99
+00:05:24,668 --> 00:05:27,428
+You will not see a single person beside it.
+
+100
+00:05:27,428 --> 00:05:29,565
+Everything is done from a distance.
+
+101
+00:05:29,565 --> 00:05:32,515
+Then, as you watch, a new tube goes in.
+
+102
+00:05:32,515 --> 00:05:36,551
+This time, made of a stronger mix, zirconium with niobium.
+
+103
+00:05:36,551 --> 00:05:37,695
+And then the next.
+
+104
+00:05:37,695 --> 00:05:39,914
+Three hundred and six times.
+
+105
+00:05:39,914 --> 00:05:41,404
+And what did all this cost?
+
+106
+00:05:41,404 --> 00:05:48,637
+Going by Business India's figures, turned into rupees at that year's rate, India planned to spend about two hundred and fifty crore.
+
+107
+00:05:48,637 --> 00:05:52,628
+Canada had spent more than a thousand crore on the same kind of job.
+
+108
+00:05:52,628 --> 00:05:53,541
+Was it quick?
+
+109
+00:05:53,541 --> 00:05:54,141
+No.
+
+110
+00:05:54,141 --> 00:05:59,039
+The reactor made no power in nineteen ninety five, ninety six or ninety seven.
+
+111
+00:05:59,039 --> 00:06:04,532
+By nineteen ninety eight, if you drove past Rawatbhata, you would have seen unit two running again.
+
+112
+00:06:04,532 --> 00:06:09,836
+N-P-C-I-L calls it the first such job in India, and only the second in the world.
+
+113
+00:06:09,836 --> 00:06:12,020
+The first was in Canada itself.
+
+114
+00:06:12,020 --> 00:06:16,577
+Bhabha Atomic Research Centre later counted what tools like these gave back.
+
+115
+00:06:16,577 --> 00:06:20,695
+About one thousand one hundred crore rupees of extra electricity.
+
+116
+00:06:20,695 --> 00:06:23,612
+You remember how we never threw away a broken radio?
+
+117
+00:06:23,612 --> 00:06:24,771
+We opened it.
+
+118
+00:06:24,771 --> 00:06:26,910
+That is the lesson of Rawatbhata.
+
+119
+00:06:26,910 --> 00:06:31,352
+A machine is truly yours only when you can open it, and mend it.
+
+120
+00:06:31,352 --> 00:06:36,467
+If you want the next machine opened like this, subscribe, so the next one comes to you.
+
+121
+00:06:36,467 --> 00:06:37,401
+On the T-V?
+
+122
+00:06:37,401 --> 00:06:39,362
+Just press Subscribe with your remote.
+
+123
+00:06:39,362 --> 00:06:40,937
+But I must be fair with you.
+
+124
+00:06:40,937 --> 00:06:44,240
+You may have heard people say these tubes are dangerous.
+
+125
+00:06:44,240 --> 00:06:46,005
+Is it safe to live near one?
+
+126
+00:06:46,005 --> 00:06:47,974
+Let me show you the worst day.
+
+127
+00:06:47,974 --> 00:06:50,303
+The eleventh of March, twenty sixteen.
+
+128
+00:06:50,303 --> 00:06:51,939
+Kakrapar, in Gujarat.
+
+129
+00:06:51,939 --> 00:06:55,000
+At about nine in the morning, a tube began to leak.
+
+130
+00:06:55,000 --> 00:06:58,251
+The reactor shut itself down, the way you would want it to.
+
+131
+00:06:58,251 --> 00:06:59,994
+There was no fuel failure.
+
+132
+00:06:59,994 --> 00:07:06,564
+The regulator said there was no radiation harm to the workers, to the people outside, or to the land around it.
+
+133
+00:07:06,564 --> 00:07:08,586
+So how serious was it?
+
+134
+00:07:08,586 --> 00:07:12,132
+The international scale rated it two, out of seven.
+
+135
+00:07:12,132 --> 00:07:14,894
+An incident, not an accident.
+
+136
+00:07:14,894 --> 00:07:16,067
+What went wrong?
+
+137
+00:07:16,067 --> 00:07:19,285
+A wrong chemical had got into the gas around the tubes.
+
+138
+00:07:19,285 --> 00:07:22,313
+It had eaten small spots into their outer walls.
+
+139
+00:07:22,313 --> 00:07:24,065
+And was it everywhere?
+
+140
+00:07:24,065 --> 00:07:24,719
+No.
+
+141
+00:07:24,719 --> 00:07:28,110
+The regulator found it only in Kakrapar's two units.
+
+142
+00:07:28,110 --> 00:07:32,545
+So, as you might expect, Kakrapar did what Rawatbhata had taught.
+
+143
+00:07:32,545 --> 00:07:34,133
+Every tube came out.
+
+144
+00:07:34,133 --> 00:07:36,551
+Three hundred and six in each reactor.
+
+145
+00:07:36,551 --> 00:07:40,734
+A former chief of N-P-C-I-L put it in words you will not forget.
+
+146
+00:07:40,734 --> 00:07:44,339
+Replacing them is like a heart transplant for a human being.
+
+147
+00:07:44,339 --> 00:07:47,283
+And that was the start of a bigger story.
+
+148
+00:07:47,283 --> 00:07:50,778
+Now look at the reactor face with me, and count with your eyes.
+
+149
+00:07:50,778 --> 00:07:54,509
+Three hundred and six circles grow to three hundred and ninety two.
+
+150
+00:07:54,509 --> 00:07:59,314
+This is India's own seven hundred megawatt reactor, designed here.
+
+151
+00:07:59,314 --> 00:08:01,984
+Around each tube flows a dry gas.
+
+152
+00:08:01,984 --> 00:08:07,696
+If even a drop of water leaks in, the gas turns damp, like the dew on your cold glass.
+
+153
+00:08:07,696 --> 00:08:08,901
+Remember that glass?
+
+154
+00:08:08,901 --> 00:08:11,257
+Here, the dew is the alarm.
+
+155
+00:08:11,257 --> 00:08:15,587
+The first one, at Kakrapar, went critical in July twenty twenty.
+
+156
+00:08:15,587 --> 00:08:16,389
+Critical?
+
+157
+00:08:16,389 --> 00:08:17,736
+That is good news here.
+
+158
+00:08:17,736 --> 00:08:21,260
+It means the chain reaction has started, and holds steady.
+
+159
+00:08:21,260 --> 00:08:23,923
+Many of its tests were done during the lockdown.
+
+160
+00:08:23,923 --> 00:08:27,315
+And Rawatbhata, where this story began, got its own.
+
+161
+00:08:27,315 --> 00:08:34,141
+Unit seven joined the grid in March twenty twenty five, and was running at full power by February twenty twenty six.
+
+162
+00:08:34,141 --> 00:08:41,373
+And this September, on the same lake you saw at the start, where Canada walked out, unit eight began taking in its fuel.
+
+163
+00:08:41,373 --> 00:08:46,605
+About four thousand seven hundred bundles, for three hundred and ninety two tubes.
+
+164
+00:08:46,605 --> 00:08:49,120
+Now the honest part, which you deserve.
+
+165
+00:08:49,120 --> 00:08:56,379
+After all these years, out of every hundred units of electricity India makes, only about three come from nuclear.
+
+166
+00:08:56,379 --> 00:08:58,546
+And were the new units on time?
+
+167
+00:08:58,546 --> 00:08:59,183
+No.
+
+168
+00:08:59,183 --> 00:09:02,540
+Kakrapar's first concrete was poured in twenty ten.
+
+169
+00:09:02,540 --> 00:09:04,737
+It went critical ten years later.
+
+170
+00:09:04,737 --> 00:09:08,603
+You may have read that the government has approved ten more, as one fleet.
+
+171
+00:09:08,603 --> 00:09:13,428
+It said about seventy thousand crore rupees of orders would go to Indian industry.
+
+172
+00:09:13,428 --> 00:09:16,569
+And here is the quiet ending to the old fight.
+
+173
+00:09:16,569 --> 00:09:23,479
+Earlier this year, a Canadian company signed to sell India nearly twenty two million pounds of uranium concentrate.
+
+174
+00:09:23,479 --> 00:09:28,211
+That is about ten thousand tonnes, from twenty twenty seven to twenty thirty five.
+
+175
+00:09:28,211 --> 00:09:29,250
+Not revenge.
+
+176
+00:09:29,250 --> 00:09:31,262
+Two countries, trading again.
+
+177
+00:09:31,262 --> 00:09:32,779
+So what does it tell you?
+
+178
+00:09:32,779 --> 00:09:34,979
+The fuel, India can buy.
+
+179
+00:09:34,979 --> 00:09:38,636
+The skill to open its own reactor, nobody could sell.
+
+180
+00:09:38,636 --> 00:09:40,407
+India had to grow it.
+
+181
+00:09:40,407 --> 00:09:42,231
+So here is your date to watch.
+
+182
+00:09:42,231 --> 00:09:45,502
+The day Rajasthan unit eight goes critical.
+
+183
+00:09:45,502 --> 00:09:49,369
+When it does, it will stand on the same ground Canada left.
+
+184
+00:09:49,369 --> 00:09:53,919
+A machine is truly yours only when you can open it, and mend it.
+
+185
+00:09:53,919 --> 00:10:00,423
+Next, I will take you to seven in the evening, when India's lights come on and the grid holds its breath.
+
+186
+00:10:00,423 --> 00:10:02,552
+Subscribe, so you are there with me.
+
+187
+00:10:02,552 --> 00:10:03,930
+And tell me in the comments.
+
+188
+00:10:03,930 --> 00:10:07,118
+Would you have waited for help, or opened it yourself?
+
+189
+00:10:07,118 --> 00:10:09,114
+This is Be Practical with Kishore.
+
+190
+00:10:09,114 --> 00:10:09,990
+Stay practical.
+
