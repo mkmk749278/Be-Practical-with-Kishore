@@ -29,3 +29,11 @@ What each is for:
 Not requested: Rana Pratap Sagar and Rawatbhata town clips on YouTube are personal shorts (not official or news); the
 lake comes from the NPCIL films, Commons or Blender. The 1983 Pickering failure has no official footage found; it is
 the Blender ILLUSTRATION (hero 3).
+
+# Footage requests r2 (25 NOV 2026): from the owner's two Gemini scouting reports
+
+Reports: `research/gemini_scout_r1_a.txt` (Pokhran, Canada) and `research/gemini_scout_r1_b.txt` (Films Division,
+NPCIL). Ranges merged; short films taken whole. Left out: The Hindu 01:07-01:18 (a prime minister on screen; plan
+lock: no prime ministers), Bruce Power's suppliers film (banners over every shot), NPCIL's two long talks (slides only).
+**To clear with the owner before use:** `T8FbAuXiCFQ`, a re-upload of a 1983 Toronto TV news report (real footage
+inside Pickering, workers at the reactor face, a 09-05-83 timestamp); short, credited news excerpt.

@@ -574,6 +574,13 @@ frame read at 480p size. No dense HUD clutter: few, warm words in the narration'
     English/<slug> "URL" "URL@01:10-01:40"
   ```
   Only short, credited excerpts of official or news footage.
+- **Gemini scouts long videos first (owner, 2026-11-25; two Gemini Pro accounts):** the session writes one
+  click-to-copy prompt per account (the film's picture needs, the URLs, "only moments you saw, exact timestamps, say
+  animation, never guess names", one line per moment, a final `TERMUX:` line of `URL@MM:SS-MM:SS`). **The prompt ends
+  by asking Gemini to save its report as a Google Doc in Drive `Creator/English/<slug>/research/`** (owner: reports go
+  to Drive, not as PDFs in the chat); the session reads it there. Gemini's moments are leads: each is checked on our own
+  contact sheet before it enters the EDL. Downloaded clips are vetted by `scripts/gemini_watch.py` (frames + audio
+  through the API key saved as a network secret; free tier, so only public footage goes to it).
 - **Everything else blocked: Cowork** on the owner's home laptop (owner, 2026-11-05), one click-to-copy request:
   ```text
   Download these files and save them to Google Drive, folder Creator/English/<slug>/footage/cowork/
