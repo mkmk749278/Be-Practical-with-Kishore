@@ -33,7 +33,7 @@ export type ChannelKeys = {
 const X0 = 230;
 const X1 = 1690;
 const MID = 960;
-export const Channel: React.FC<ChannelKeys> = ({labelsAt = 0, springsAt = 0, slipA = 1e9, slipB = 1e9, sagA = 1e9, sagB = 1e9, coldAt = 1e9, hA = 1e9, hB = 1e9, blisterAt = 1e9, crackA = 1e9, crackB = 1e9, splitAt = 1e9}) => {
+export const Channel: React.FC<ChannelKeys> = ({labelsAt = 0, springsAt = 0, slipA = 1e9, slipB = 1e9 + 1, sagA = 1e9, sagB = 1e9 + 1, coldAt = 1e9, hA = 1e9, hB = 1e9 + 1, blisterAt = 1e9, crackA = 1e9, crackB = 1e9 + 1, splitAt = 1e9}) => {
 	const f = useCurrentFrame();
 	const lb = tw(f, labelsAt, labelsAt + 20, 0, 1, ez.arrive);
 	const sp = tw(f, springsAt, springsAt + 20, 0, 1, ez.arrive);
@@ -113,9 +113,9 @@ export const Channel: React.FC<ChannelKeys> = ({labelsAt = 0, springsAt = 0, sli
 			{/* the crack, up through the wall, then the split */}
 			{crack > 0 ? (
 				<path
-					d={`M${MID - 8} ${contactY}l10 -${10 * crack}l-12 -${8 * crack}l14 -${9 * crack}l-6 -${8 * crack}`}
+					d={`M${MID - 8} ${contactY + 4}l10 -${12 * crack}l-12 -${10 * crack}l14 -${12 * crack}l-8 -${10 * crack}`}
 					stroke={C.fail}
-					strokeWidth={5}
+					strokeWidth={4}
 					fill="none"
 					strokeLinejoin="round"
 				/>
@@ -131,11 +131,11 @@ export const Channel: React.FC<ChannelKeys> = ({labelsAt = 0, springsAt = 0, sli
 			{/* labels: what the voice names */}
 			{lab(X0, OT - 50, 'COOL TUBE', '#b9c6d1', lb)}
 			{lab(X0, IT + W + 70, 'HOT TUBE', C.amber, lb)}
-			{lab(springs[1], OB + 90, 'SPRING', C.ink, sp * (slip > 0.02 ? 1 : 0.0), 44, 'middle')}
-			{lab(MID, contactY + 140, 'COLD SPOT', C.water, cold, 46, 'middle')}
-			{lab(MID, OT - 50, 'HYDROGEN', '#e9f4ff', tw(f, hA, hA + 20, 0, 1) * (1 - blister), 46, 'middle')}
-			{lab(MID, OT - 50, 'BRITTLE BLISTERS', C.stress, blister * (1 - crack), 46, 'middle')}
-			{lab(MID, OT - 50, 'CRACK', C.fail, crack, 52, 'middle')}
+			{lab(springs[1], OB + 90, 'SPRING', C.ink, sp * (slip > 0.02 ? 1 : 0.0) * (1 - tw(f, hA - 20, hA, 0, 1)), 44, 'middle')}
+			{lab(MID, contactY + 120, 'COLD SPOT', C.water, cold * (1 - blister), 44, 'middle')}
+			{lab(MID, contactY - 90, 'HYDROGEN', '#e9f4ff', tw(f, hA, hA + 20, 0, 1) * (1 - blister), 34, 'middle')}
+			{lab(MID, contactY - 90, 'BRITTLE BLISTERS', C.stress, blister * (1 - crack), 34, 'middle')}
+			{lab(MID, contactY - 90, 'CRACK', C.fail, crack, 40, 'middle')}
 		</svg>
 	);
 };
@@ -239,7 +239,7 @@ export const SafeStop: React.FC<{stopA: number; stopB: number}> = ({stopA, stopB
 				<path d="M954 560L960 300L966 560Z" fill={C.fail} />
 			</g>
 			<circle cx={960} cy={560} r={22} fill="#2a3036" />
-			{lab(960, 950, 'SAFELY STOPPED', C.green, ok, 60, 'middle')}
+			{lab(960, 200, 'SAFELY STOPPED', C.green, ok, 64, 'middle')}
 		</svg>
 	);
 };

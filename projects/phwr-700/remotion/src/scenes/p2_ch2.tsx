@@ -93,7 +93,7 @@ export const p2: Part = {
 				crackB={at(w0(72, 'growing'), S(68), l) + 20}
 				splitAt={at(w0(72, 'split'), S(68), l)}
 			/>
-		), 'ILLUSTRATION', [1.06, 0, -40], [1.22, 0, -120]),
+		), 'ILLUSTRATION', [1.7, 0, -250], [2.3, 0, -380]),   // close on the contact point: TV-readable
 		// S73: the operators brought it safely to a stop
 		draw(S(73), 'safe-stop', (d, l) => <SafeStop stopA={at(w0(73, 'brought'), S(73), l)} stopB={at(w0(73, 'stop'), S(73), l)} />, 'ILLUSTRATION'),
 		// S74: every reactor of this kind had a question: the face pulses
