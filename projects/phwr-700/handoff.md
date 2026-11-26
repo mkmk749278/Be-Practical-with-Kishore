@@ -158,3 +158,21 @@ on 23 NOV).
   render the 720p review cut on ≤ 15 runners; (4) our own review (§13.1), then the Gemini `cut-audit` handoff.
 - **Still open from before:** footage r3 (kitchen cooker whistling, a sweating steel tumbler); C01 (RAPP-8 cleared
   19 NOV) unverified, not used on screen.
+
+## 27 NOV 2026, about 12:50 AM IST: review cut r2 rendered, our review passed, Gemini cut audit sent
+- **H1 done:** the full runner render (300 frames, 15 runners) joined to `H1_face.mp4` (60 fps, 9.95 s); stills at all
+  seven uses checked.
+- **Sound:** 24 real CC0 recordings (Freesound, licence checked on each page; `media_manifest.csv`), 51 cues in
+  `sound/sfx.json`; music from the library placed by Gemini's ear-checked map (`review/gemini_second_opinion_check.md`:
+  The Boardroom in the cold open, The Verdict left out). Mix −14.1 LUFS, −2.5 dBTP (`scripts/score_mix.py`,
+  oversampled limiter).
+- **r1 → r2:** r1 had 28 single-frame jumps, mostly cuts inside source clips, plus KAPP-4 camera flashes. Every clip is
+  now trimmed to one continuous shot (`media/clips.tsv`), with flash-free spans. **r2** (run 45879178046): 10:23, 720p
+  60 fps, −14.2 LUFS, −2.2 dBTP, 0 flash frames, 5 jumps, all of them on purpose (the 1:54 Pokhran hard cut; the 962-day
+  counter at 2:33–2:35). Drive: `renders/phwr_review_r2_720p.mp4`
+  (https://drive.google.com/file/d/1i5DC82-fvYIOYdaqCczcrMaW8vgU9lJO/view).
+- **Gemini `cut-audit` sent** at 12:45 AM IST (with a 360p proxy, 9.4 MB, in `handoff/`). Next: `gemini_handoff.sh pull
+  phwr-700` → `review/gemini_cut-audit_check.md` (CONFIRMED / PARTLY / NOT CONFIRMED) → fixes → r3 if needed → the
+  owner approves the cut → 4K master once → the package.
+- **Open, optional:** hero 2 pot drawing is weak; a real Indian cooker whistle (owner asked for a 3 s phone recording);
+  footage r3 (cooker, tumbler); C01 unverified (not on screen).
