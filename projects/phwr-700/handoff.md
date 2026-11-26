@@ -115,7 +115,15 @@ on 23 NOV).
   (`word_map.md` S12, S16–18): NP 00:50 is an NPCIL slideshow with burned-in years; FD80 25:20 is thorium beach sand.
 - **Avoid in FDA (02/03_loy):** 00:08–00:14 and 03_loy 00:03–00:05, 00:12–00:13 show leaders (plan lock: no PMs).
 - **Next footage request (r3):** a real Indian kitchen pressure cooker whistling (S24–25; Pixabay has none; drawn for now).
-- **Hero 1 bench on Modal** started 26 NOV, 6:20 PM IST (`modal-blender` run 45823267785: `face`, frames 0–599 step 60,
-  2560×1440, L4). Read its seconds per frame, write the cost here, look at the 10 frames (engineer placement), then the
-  full 600-frame run if it fits the free credit. Part 1 needs `H1_face` (prepared 60 fps clip) before its 720p part.
+- **Renders moved to the GitHub runners, at most 15 at once (owner, 26 NOV, 6:42 PM IST)** after the Modal bench failed
+  twice (a launcher path bug, fixed; then OptiX's denoiser weights missing in the container). `blender-render.yml`:
+  bpy 5.2.2, 15-shard cap, frames to Drive `renders/<shot>/`.
+- **Hero 1 bench on the runners** (run 45827156257, 10 frames, 2560×1440, 64 samples, OIDN): **about 12.3 min a frame
+  on one runner**. The full 600 frames at that setting would need about 8 h a runner on 15 runners: over the 340-min job
+  limit. Plan: 1920×1080 (upscaled at the master), 32 samples, every 2nd frame interpolated to 60 fps, and only the
+  frames the cut uses (render 0–200 and 240–590): about 4 min a frame, about 75 min a runner on 15.
+- **The look fails the art direction (our check of frames 0, 60, 240, 480):** a flat, bright grey room and a matte
+  orange flask that reads as plastic, not the dim vault with a warm key; no engineer in frame. Before any full run:
+  darken the world, a warm hard key with haze shafts, darker end shield, worn paint and grime on the flask, place the
+  engineer; test 4 stills at 640 px locally (`pip install bpy==5.2.2` in `.venv-blender`).
 - **Then:** parts 2–3 (ch.2–5, landing, end card), `cues.ts`, the 720p review cut on the runners.
