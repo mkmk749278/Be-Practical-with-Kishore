@@ -341,7 +341,7 @@ export const Insert: React.FC<{name: string; dur: number; startAt?: number; aspe
  * Archive on the drafting table (art direction): a 4:3 archive clip (prepared 1440×1080) as a warm monochrome print
  * lying on the steel table, a small title tab beside it (year · maker). `mono` false keeps the source's colour.
  */
-export const Archive: React.FC<{name: string; dur: number; startAt?: number; year?: string; maker?: string; mono?: boolean; aspect?: number; tilt?: number; mask?: number}> = ({
+export const Archive: React.FC<{name: string; dur: number; startAt?: number; year?: string; maker?: string; mono?: boolean; aspect?: number; tilt?: number; mask?: number; punch?: boolean}> = ({
 	name,
 	dur,
 	startAt = 0,
@@ -351,6 +351,7 @@ export const Archive: React.FC<{name: string; dur: number; startAt?: number; yea
 	aspect = 4 / 3,
 	tilt = -2.5,
 	mask = 0,
+	punch = false,
 }) => {
 	const f = useCurrentFrame();
 	const h = 860;
@@ -366,7 +367,7 @@ export const Archive: React.FC<{name: string; dur: number; startAt?: number; yea
 							startFrom={Math.round(startAt * 60)}
 							playbackRate={rate}
 							muted
-							style={{width: '100%', height: '100%', objectFit: 'cover', filter: mono ? 'grayscale(1) sepia(0.35) contrast(1.08) brightness(0.95)' : 'contrast(1.04) saturate(0.9)'}}
+							style={{width: '100%', height: '100%', objectFit: 'cover', filter: mono ? `grayscale(1) sepia(0.35) contrast(${punch ? 2.2 : 1.08}) brightness(${punch ? 1.05 : 0.95})` : 'contrast(1.04) saturate(0.9)'}}
 						/>
 						{mask > 0 ? <div style={{position: 'absolute', left: 0, right: 0, top: 0, height: `${50 * mask}%`, background: 'repeating-linear-gradient(135deg, #5a6068 0 14px, #464b52 14px 28px)', opacity: 0.92}} /> : null}
 					</div>
@@ -386,7 +387,7 @@ export const Archive: React.FC<{name: string; dur: number; startAt?: number; yea
 export const ChapterCard: React.FC<{text: string; n: number}> = ({text, n}) => {
 	const p = useSpring(0, 120, 18);
 	return (
-		<div style={{position: 'absolute', left: 140, top: 560, opacity: p, transform: `translateX(${(1 - p) * -40}px)`}}>
+		<div style={{position: 'absolute', left: 140, top: 150, opacity: p, transform: `translateX(${(1 - p) * -40}px)`}}>
 			<div style={{fontFamily: F.label, fontWeight: 700, fontSize: 34, letterSpacing: 6, color: C.flask, textShadow: '0 2px 12px rgba(0,0,0,0.9)'}}>CHAPTER {n}</div>
 			<div style={{width: 120 * p, height: 6, background: C.flask, margin: '12px 0 16px'}} />
 			<div style={{fontFamily: F.label, fontWeight: 800, fontSize: 78, letterSpacing: 2, color: C.ink, textShadow: '0 4px 24px rgba(0,0,0,0.9)', whiteSpace: 'nowrap'}}>{text}</div>

@@ -67,13 +67,13 @@ const ch1: Part = {
 		clip(S(11), 'RAPS_lake', CR.npcil, 2.2),
 		shot(pre(w0(11, 'sixty')), 'map-kota', (d, l) => <RajMap dur={d} mode="kota" roadA={at(w0(11, 'sixty'), pre(w0(11, 'sixty')), l)} roadB={at(w0(11, 'kota'), pre(w0(11, 'sixty')), l)} kmAt={at(w0(11, 'kilometres'), pre(w0(11, 'sixty')), l)} />, {tag: 'MAP: NATURAL EARTH'}),
 		// S12: the 1960s: the plan on the map, then the engineers' drawing hall
-		arch(S(12), 'FD80_map', CR.fd80, '1960s'),
-		arch(pre(w0(12, 'canada and india')), 'FD80_dae', CR.fd80, 'DEPARTMENT OF ATOMIC ENERGY'),
+		arch(S(12), 'FD80_map', CR.fd80, '1960s', 2.6),
+		arch(pre(w0(12, 'canada and india')), 'FD80_dae', CR.fd80, 'DEPARTMENT OF ATOMIC ENERGY', 2.0),
 		arch(pre(w0(12, 'building')), 'FD80_draw', CR.fd80, '1970s'),
 		// S13–14: the design sheet slides in; the lamp warms on the question
 		draw(S(13), 'design-sheet', (d, l) => <DesignSheet lampAt={at(S(14), S(13), l)} />, 'ILLUSTRATION'),
 		// S15: Trombay, where the choice was made
-		arch(S(15), 'FDB_trombay', CR.fd, 'TROMBAY · 1960s'),
+		arch(S(15), 'FDB_trombay', CR.fd, 'TROMBAY · 1960s', 1.6),
 		// S16–18: no enriched uranium; natural uranium in fuel bundles; Indian factories
 		arch(S(16), 'FD80_uplant', CR.fd80, 'URANIUM OXIDE PLANT'),
 		arch(S(17), 'FD80_bundle', CR.fd80, 'NATURAL URANIUM FUEL'),
@@ -103,7 +103,7 @@ const ch1: Part = {
 		// S32–33: May 1974
 		draw(S(32), 'may-1974', () => <MayPage />),
 		// S34: Pokhran
-		shot(pre(S(34)), 'TH74_blast', (d) => <Archive name="TH74_blast" dur={d} year="18 MAY 1974" aspect={1290 / 900} />, {credit: CR.fdTH, hard: true}),
+		shot(pre(S(34)), 'TH74_blast', (d) => <Archive name="TH74_blast" dur={d} startAt={1.6} year="18 MAY 1974" aspect={1290 / 900} punch />, {credit: CR.fdTH, hard: true}),
 		// S35–36: the test site after
 		arch(S(35), 'FDA_pokhran', CR.fd, 'POKHRAN · 1974'),
 		// S37: CIRUS at Trombay
@@ -160,8 +160,8 @@ const CookerScene: React.FC<{whistleAt: number; small?: boolean}> = ({whistleAt,
 	return (
 		<AbsoluteFill>
 			<svg width={1920} height={1080} style={{position: 'absolute'}}>
-				<g transform={`translate(${small ? 1420 : 960} ${small ? 700 : 640})`}>
-					<Cooker whistle={lift} scale={small ? 0.7 : 1.3} />
+				<g transform={`translate(${small ? 1420 : 860} ${small ? 700 : 560})`}>
+					<Cooker whistle={lift} scale={small ? 0.9 : 1.7} />
 				</g>
 			</svg>
 			{steam > 0 ? (
