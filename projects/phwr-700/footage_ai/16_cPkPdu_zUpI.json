@@ -1,0 +1,80 @@
+{
+ "summary": "NDTV news report on the achievement of Rawatbhata nuclear plant in Rajasthan for continuous power generation.",
+ "language": "hi",
+ "spans": [
+  {
+   "start": "00:00",
+   "end": "00:18",
+   "shows": "Anchor talking in the studio with news channel graphics, transitioning to exterior shots of Rawatbhata nuclear power plant cooling towers.",
+   "place_people": "Anchor, Rawatbhata, Rajasthan",
+   "onscreen_text": "NDTV, परमाणु संयंत्र की कामयाबी, रिपोर्ट: पल्लव बागला",
+   "speech": "Rajasthan ke Rawatbhata sthit nuclear plant ne aitihasik kamyabi hasil ki hai.",
+   "fits": "Rawatbhata town and the plant on the Rana Pratap Sagar lake / Chambal river (exteriors, the lake, birds)",
+   "problems": "logo bug, burned-in subtitles"
+  },
+  {
+   "start": "00:18",
+   "end": "00:32",
+   "shows": "Exterior shots of the nuclear power plant and cooling towers.",
+   "place_people": "Rawatbhata, Rajasthan",
+   "onscreen_text": "EXCLUSIVE, परमाणु संयंत्र की कामयाबी",
+   "speech": "Ye nuclear plant desh ke paramanu karyakram ka hero ban gaya hai.",
+   "fits": "Rawatbhata town and the plant on the Rana Pratap Sagar lake / Chambal river (exteriors, the lake, birds)",
+   "problems": "logo bug, burned-in subtitles"
+  },
+  {
+   "start": "00:32",
+   "end": "01:06",
+   "shows": "Exterior shots of the nuclear power plant, cooling towers, and plant buildings.",
+   "place_people": "Rawatbhata, Rajasthan",
+   "onscreen_text": "EXCLUSIVE, राजस्थान परमाणु बिजलीघर, 765 दिन तक लगातार बिजली पैदा की",
+   "speech": "Lekin aaj is nuclear plant ne zyatar videshi nuclear planto ko piche chhor diya hai.",
+   "fits": "Rawatbhata town and the plant on the Rana Pratap Sagar lake / Chambal river (exteriors, the lake, birds)",
+   "problems": "logo bug, burned-in subtitles"
+  },
+  {
+   "start": "01:06",
+   "end": "01:31",
+   "shows": "An official (Chairman and Managing Director) speaking outdoors in front of plant structures.",
+   "place_people": "Rawatbhata, Rajasthan",
+   "onscreen_text": "EXCLUSIVE, चेयरमैन और एमडी, न्यूक्लियर पावर कॉर्पोरेशन ऑफ इंडिया",
+   "speech": "Jab hum dekhte hain ki nuclear power corporation ke bahut sare plants jo ki ek saal se zyada lagatar operate karte rahe hain...",
+   "fits": "Indian engineers and workers at work (control rooms, protective suits, workshops, meetings)",
+   "problems": "logo bug, burned-in subtitles, talking head"
+  },
+  {
+   "start": "01:31",
+   "end": "02:01",
+   "shows": "Reporter talking on camera in front of the plant, showing Unit-5 exterior and plant grounds.",
+   "place_people": "Rawatbhata, Rajasthan",
+   "onscreen_text": "EXCLUSIVE, यूनिट-5, राजस्थान एटॉमिक पावर स्टेशन",
+   "speech": "Main Rajasthan Atomic Power Station ke andar hun. Mere piche hai unit-5...",
+   "fits": "Rawatbhata town and the plant on the Rana Pratap Sagar lake / Chambal river (exteriors, the lake, birds)",
+   "problems": "logo bug, burned-in subtitles, talking head"
+  },
+  {
+   "start": "02:01",
+   "end": "02:14",
+   "shows": "Control room interior with engineers/operators working at control panels and desks.",
+   "place_people": "Rawatbhata, Rajasthan",
+   "onscreen_text": "EXCLUSIVE, UNIT-5",
+   "speech": "Pichle 765 dino mein is plant ki 220 megawatt unit ne 25 lakh logo ki zaroorat ke mutabiq bijli paida ki hai.",
+   "fits": "Indian engineers and workers at work (control rooms, protective suits, workshops, meetings)",
+   "problems": "logo bug, burned-in subtitles"
+  },
+  {
+   "start": "02:14",
+   "end": "02:48",
+   "shows": "Exterior shots of the nuclear power plant and cooling towers.",
+   "place_people": "Rawatbhata, Rajasthan",
+   "onscreen_text": "EXCLUSIVE, NDTV INDIA",
+   "speech": "Rawatbhata se Pallav Bagla ki report, NDTV India.",
+   "fits": "Rawatbhata town and the plant on the Rana Pratap Sagar lake / Chambal river (exteriors, the lake, birds)",
+   "problems": "logo bug, burned-in subtitles"
+  }
+ ],
+ "clip": "16_cPkPdu_zUpI.mp4",
+ "duration_s": 168.5,
+ "frame_every_s": 2,
+ "model": "gemini-3.5-flash-lite"
+}

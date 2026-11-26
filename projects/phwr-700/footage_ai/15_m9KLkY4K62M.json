@@ -1,0 +1,340 @@
+{
+ "summary": "An archival documentary in English about India's atomic energy program, focusing on the history of the Bhabha Atomic Research Centre (BARC) at Trombay, early nuclear facilities like CIRUS and Apsara, and the development of nuclear power plants across India.",
+ "language": "en",
+ "spans": [
+  {
+   "start": "00:00",
+   "end": "00:06",
+   "shows": "A title card with Hindi text and symbols on a dark textured background",
+   "place_people": "",
+   "onscreen_text": "फ़िल्म्स डिवीज़न की भेंट, भाभा परमाणु अनुसंधान केंद्र",
+   "speech": "",
+   "fits": "none",
+   "problems": "burned-in subtitles"
+  },
+  {
+   "start": "00:06",
+   "end": "00:23",
+   "shows": "Archival footage of bullock carts and traditional Indian street scenes in black and white",
+   "place_people": "India",
+   "onscreen_text": "",
+   "speech": "",
+   "fits": "none",
+   "problems": ""
+  },
+  {
+   "start": "00:23",
+   "end": "00:58",
+   "shows": "Archival footage of early industrial construction, steam engines, and construction workers",
+   "place_people": "India",
+   "onscreen_text": "",
+   "speech": "",
+   "fits": "1960s-70s archive: Canadian and Indian engineers, CIRUS reactor at Trombay, early RAPS construction",
+   "problems": ""
+  },
+  {
+   "start": "00:58",
+   "end": "01:20",
+   "shows": "Archival footage of a crowd and industrial plants, followed by a speaker at a podium",
+   "place_people": "Dr. Homi J. Bhabha",
+   "onscreen_text": "",
+   "speech": "Couple with a doubling of the world's population within the next 100 years...",
+   "fits": "1960s-70s archive: Canadian and Indian engineers, CIRUS reactor at Trombay, early RAPS construction",
+   "problems": ""
+  },
+  {
+   "start": "01:20",
+   "end": "01:33",
+   "shows": "Archival portrait of Dr. Homi J. Bhabha and a speaker at a podium addressing an audience",
+   "place_people": "Dr. Homi J. Bhabha",
+   "onscreen_text": "",
+   "speech": "Dr. Homi J. Bhabha, President of the First United Nations Conference on the Peaceful Uses of Atomic Energy...",
+   "fits": "1960s-70s archive: Canadian and Indian engineers, CIRUS reactor at Trombay, early RAPS construction",
+   "problems": ""
+  },
+  {
+   "start": "01:33",
+   "end": "02:10",
+   "shows": "Archival footage of industrial pollution, chimneys, and cities",
+   "place_people": "",
+   "onscreen_text": "",
+   "speech": "It shows that our presently known reserves of coal and oil are insufficient...",
+   "fits": "1960s-70s archive: Canadian and Indian engineers, CIRUS reactor at Trombay, early RAPS construction",
+   "problems": ""
+  },
+  {
+   "start": "02:10",
+   "end": "02:35",
+   "shows": "An animated globe and maps of India highlighting states like Bihar and Kerala",
+   "place_people": "",
+   "onscreen_text": "BIHAR, KERALA, URANIUM, THORIUM, ZIRCONIUM, BERYLLIUM",
+   "speech": "Fortunately, our land is rich in this new source of immense energy...",
+   "fits": "CGI/animation",
+   "problems": "CGI/animation"
+  },
+  {
+   "start": "02:35",
+   "end": "02:47",
+   "shows": "Archival footage of workers mining or handling materials in a quarry setting",
+   "place_people": "Indian workers",
+   "onscreen_text": "",
+   "speech": "Thorium in the monazite sands of Kerala and uranium in the mines of Jaduguda in Bihar...",
+   "fits": "Indian engineers and workers at work (control rooms, protective suits, workshops, meetings)",
+   "problems": ""
+  },
+  {
+   "start": "02:47",
+   "end": "03:09",
+   "shows": "Animated diagrams of a nuclear reactor and fission process",
+   "place_people": "",
+   "onscreen_text": "",
+   "speech": "When uranium undergoes fission in a reactor, enormous heat is produced...",
+   "fits": "CGI/animation",
+   "problems": "CGI/animation"
+  },
+  {
+   "start": "03:09",
+   "end": "03:32",
+   "shows": "Scientists and technicians working in chemistry and metallurgical laboratories",
+   "place_people": "Indian scientists and technicians",
+   "onscreen_text": "",
+   "speech": "Chemical and metallurgical laboratories were established...",
+   "fits": "Indian engineers and workers at work (control rooms, protective suits, workshops, meetings)",
+   "problems": ""
+  },
+  {
+   "start": "03:32",
+   "end": "03:59",
+   "shows": "Archival exterior shot of Trombay establishment near Bombay, with a sculpture and buildings",
+   "place_people": "Trombay, Bombay",
+   "onscreen_text": "",
+   "speech": "The Tata Institute of Fundamental Research in Bombay was asked to train scientists...",
+   "fits": "1960s-70s archive: Canadian and Indian engineers, CIRUS reactor at Trombay, early RAPS construction",
+   "problems": ""
+  },
+  {
+   "start": "03:59",
+   "end": "04:36",
+   "shows": "Fountains and exterior grounds of a research facility, followed by control room operators at panels",
+   "place_people": "Indian engineers and operators",
+   "onscreen_text": "",
+   "speech": "Apsara, our first nuclear reactor, the result of a daring decision...",
+   "fits": "Indian engineers and workers at work (control rooms, protective suits, workshops, meetings)",
+   "problems": ""
+  },
+  {
+   "start": "04:36",
+   "end": "04:56",
+   "shows": "Archival footage of control room panels and interior reactor hall, text overlay 'REACTOR ON'",
+   "place_people": "",
+   "onscreen_text": "REACTOR ON",
+   "speech": "This pool-type reactor on a memorable day in 1956 became critical...",
+   "fits": "1960s-70s archive: Canadian and Indian engineers, CIRUS reactor at Trombay, early RAPS construction",
+   "problems": ""
+  },
+  {
+   "start": "04:56",
+   "end": "05:19",
+   "shows": "Historical photographs and documentary footage of dignitaries shaking hands, signing documents",
+   "place_people": "Dr. Homi J. Bhabha, Jawaharlal Nehru",
+   "onscreen_text": "",
+   "speech": "On the 20th of January 1957, Apsara and the Atomic Energy Establishment Trombay...",
+   "fits": "1960s-70s archive: Canadian and Indian engineers, CIRUS reactor at Trombay, early RAPS construction",
+   "problems": ""
+  },
+  {
+   "start": "05:19",
+   "end": "05:41",
+   "shows": "Archival footage of a heavy industrial plant and fuel fabrication workshop",
+   "place_people": "Indian engineers and workers",
+   "onscreen_text": "FUEL FABRICATION",
+   "speech": "Another reactor at Trombay, this one built with Canadian collaboration...",
+   "fits": "1960s-70s archive: Canadian and Indian engineers, CIRUS reactor at Trombay, early RAPS construction",
+   "problems": ""
+  },
+  {
+   "start": "05:41",
+   "end": "06:12",
+   "shows": "Workers in industrial settings, handling machinery, portraits of Dr. Homi J. Bhabha, and a talking head interview",
+   "place_people": "Indian engineers",
+   "onscreen_text": "",
+   "speech": "Canada was to supply the fuel elements for the initial fuel charge...",
+   "fits": "Indian engineers and workers at work (control rooms, protective suits, workshops, meetings)",
+   "problems": "talking head"
+  },
+  {
+   "start": "06:12",
+   "end": "06:45",
+   "shows": "Industrial workshop scenes, machinery processing metal rods, and gauges",
+   "place_people": "Indian workers",
+   "onscreen_text": "",
+   "speech": "As far back as 1948, far-sighted persons like Dr. Bhabha had realized the importance of thorium...",
+   "fits": "Indian engineers and workers at work (control rooms, protective suits, workshops, meetings)",
+   "problems": ""
+  },
+  {
+   "start": "06:45",
+   "end": "07:11",
+   "shows": "Engineers checking instrument panels, fuel fabrication trays, and quality control testing",
+   "place_people": "Indian technicians",
+   "onscreen_text": "",
+   "speech": "In nuclear pure uranium, impurities can only be permitted in quantities less than one half of one part per million...",
+   "fits": "Indian engineers and workers at work (control rooms, protective suits, workshops, meetings)",
+   "problems": ""
+  },
+  {
+   "start": "07:11",
+   "end": "07:36",
+   "shows": "Industrial equipment, water cooling sprays, and uranium fuel bundles",
+   "place_people": "",
+   "onscreen_text": "",
+   "speech": "In spite of all these complexities, and the fact that no such plant had ever been built in India...",
+   "fits": "Fuel bundles; uranium; heavy water",
+   "problems": ""
+  },
+  {
+   "start": "07:36",
+   "end": "07:59",
+   "shows": "Workers inspecting uranium fuel rods in trays, and exterior views of industrial installations",
+   "place_people": "Indian workers",
+   "onscreen_text": "",
+   "speech": "The fuel elements, meticulously made at the fabrication plant, go to the reactor Cyrus...",
+   "fits": "Fuel bundles; uranium; heavy water",
+   "problems": ""
+  },
+  {
+   "start": "07:59",
+   "end": "08:32",
+   "shows": "Aerial and ground exterior views of a large nuclear research establishment with a spherical dome building",
+   "place_people": "Trombay",
+   "onscreen_text": "",
+   "speech": "Cyrus is India's biggest research reactor and one of the world's most powerful...",
+   "fits": "1960s-70s archive: Canadian and Indian engineers, CIRUS reactor at Trombay, early RAPS construction",
+   "problems": ""
+  },
+  {
+   "start": "08:32",
+   "end": "09:00",
+   "shows": "Control room operators working at complex analog control panels with dials and switches",
+   "place_people": "Indian control room operators",
+   "onscreen_text": "",
+   "speech": "Attention, main floor operator, sample the reactrol sump...",
+   "fits": "Indian engineers and workers at work (control rooms, protective suits, workshops, meetings)",
+   "problems": ""
+  },
+  {
+   "start": "09:00",
+   "end": "09:32",
+   "shows": "Exterior architectural shots of modern institutional buildings and research facilities",
+   "place_people": "",
+   "onscreen_text": "",
+   "speech": "To be self-sufficient in reactor technology, a third reactor, Zerlina, was designed and built at Trombay...",
+   "fits": "1960s-70s archive: Canadian and Indian engineers, CIRUS reactor at Trombay, early RAPS construction",
+   "problems": ""
+  },
+  {
+   "start": "09:32",
+   "end": "09:52",
+   "shows": "Industrial interior showing heavy machinery, reactor components, and laboratories",
+   "place_people": "",
+   "onscreen_text": "",
+   "speech": "Another monument of self-reliance and self-sufficiency is the plutonium plant...",
+   "fits": "Indian engineers and workers at work (control rooms, protective suits, workshops, meetings)",
+   "problems": ""
+  },
+  {
+   "start": "09:52",
+   "end": "10:20",
+   "shows": "Studio interview with an Indian scientist speaking to the camera, interspersed with laboratory control panels",
+   "place_people": "Indian scientist",
+   "onscreen_text": "",
+   "speech": "When the Trombay Plutonium Plant was commissioned in 1964...",
+   "fits": "Indian engineers and workers at work (control rooms, protective suits, workshops, meetings)",
+   "problems": "talking head"
+  },
+  {
+   "start": "10:20",
+   "end": "10:47",
+   "shows": "Industrial piping, control panels, and technicians working in protective suits inside a sealed facility",
+   "place_people": "Indian technicians in protective suits",
+   "onscreen_text": "",
+   "speech": "The plutonium laboratory where the plutonium is converted into the metal is designed for total containment...",
+   "fits": "Indian engineers and workers at work (control rooms, protective suits, workshops, meetings)",
+   "problems": ""
+  },
+  {
+   "start": "10:47",
+   "end": "11:35",
+   "shows": "Wide angle interior of a large control room with multiple operators and exterior aerial views of institutional campus",
+   "place_people": "Indian engineers",
+   "onscreen_text": "",
+   "speech": "Such self-reliance and confidence formed the keystnotes of all the achievements of the Atomic Energy Establishment Trombay...",
+   "fits": "Indian engineers and workers at work (control rooms, protective suits, workshops, meetings)",
+   "problems": ""
+  },
+  {
+   "start": "11:35",
+   "end": "12:02",
+   "shows": "Close-up of instrumentation gauges, experimental apparatus, and a scientist working in a lab",
+   "place_people": "Indian scientist",
+   "onscreen_text": "",
+   "speech": "",
+   "fits": "Indian engineers and workers at work (control rooms, protective suits, workshops, meetings)",
+   "problems": ""
+  },
+  {
+   "start": "12:02",
+   "end": "12:36",
+   "shows": "Lab worker examining samples, maps of India, plants, and animated atomic diagrams",
+   "place_people": "Indian technician",
+   "onscreen_text": "GEB 24",
+   "speech": "But power from the atom is our main goal...",
+   "fits": "CGI/animation",
+   "problems": "CGI/animation"
+  },
+  {
+   "start": "12:36",
+   "end": "13:07",
+   "shows": "Animated nuclear model, maps of India showing nuclear sites, and construction site of a power plant",
+   "place_people": "",
+   "onscreen_text": "राणा प्रताप सागर RANAPRATAPSAGAR, तारापुर TARAPUR, कलपक्कम KALPAKKAM",
+   "speech": "Three sites have been chosen for nuclear power stations: Tarapur near Bombay, Rana Pratap Sagar in Rajasthan, and Kalpakkam near Madras...",
+   "fits": "Rawatbhata town and the plant on the Rana Pratap Sagar lake / Chambal river (exteriors, the lake, birds)",
+   "problems": "CGI/animation"
+  },
+  {
+   "start": "13:07",
+   "end": "13:34",
+   "shows": "Engineers reviewing blueprints, control room operators at work, and construction progress",
+   "place_people": "Indian engineers and workers",
+   "onscreen_text": "",
+   "speech": "The Tarapur power station is nearing completion...",
+   "fits": "Indian engineers and workers at work (control rooms, protective suits, workshops, meetings)",
+   "problems": ""
+  },
+  {
+   "start": "13:34",
+   "end": "13:59",
+   "shows": "Exterior architectural models or buildings of nuclear power stations, and group portrait of scientists",
+   "place_people": "Indian scientists and engineers",
+   "onscreen_text": "",
+   "speech": "Such is the phenomenal progress of nuclear technology at Trombay...",
+   "fits": "Indian engineers and workers at work (control rooms, protective suits, workshops, meetings)",
+   "problems": ""
+  },
+  {
+   "start": "13:59",
+   "end": "14:55",
+   "shows": "Laboratory equipment, scientific glassware, exterior buildings, flowers, and closing credits with text",
+   "place_people": "",
+   "onscreen_text": "समाप्त, भाभा परमाणु अनुसंधान केंद्र, सहयोगी नरसिंह राव, एच.एस.कापाड़िया, टी.ए.जगन्नाथन, एन.सी.कृष्णमाचारी, एम.वी.मैथ्यू, नूर बागबान, के.के.गर्ग, निशीथ बनर्जी, रमेश गुप्ता",
+   "speech": "",
+   "fits": "none",
+   "problems": "burned-in subtitles"
+  }
+ ],
+ "clip": "15_m9KLkY4K62M.mp4",
+ "duration_s": 897.4,
+ "frame_every_s": 4,
+ "model": "gemini-3.5-flash-lite"
+}

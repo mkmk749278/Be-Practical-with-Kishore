@@ -1,0 +1,150 @@
+{
+ "summary": "Promotional and documentary overview of the Kakrapar Atomic Power Station Unit-4 (KAPP-4) project, detailing its construction scale, statistical highlights, and initial fuel loading ceremony attended by NPCIL chairman Shri Bhuwan Chandra Pathak.",
+ "language": "English / Instrumental Music",
+ "spans": [
+  {
+   "start": "00:00",
+   "end": "00:05",
+   "shows": "NPCIL logo animation with text against a gradient background",
+   "place_people": "NPCIL",
+   "onscreen_text": "NPCIL Another Feather In It's Cap",
+   "speech": "",
+   "fits": "none",
+   "problems": "CGI/animation"
+  },
+  {
+   "start": "00:05",
+   "end": "00:13",
+   "shows": "Aerial pan of Kakrapar Atomic Power Station site with reactor buildings and surrounding greenery",
+   "place_people": "Kakrapar Gujarat Site",
+   "onscreen_text": "Kakrapar Atomic Power Station KAPP-3&4 (2 x 700 MW, PHWR)",
+   "speech": "",
+   "fits": "Kakrapar (Gujarat): KAPP-3/4 700 MW units",
+   "problems": ""
+  },
+  {
+   "start": "00:13",
+   "end": "00:21",
+   "shows": "Close-up aerial view of Kakrapar site buildings and heavy construction layout",
+   "place_people": "Kakrapar Gujarat Site",
+   "onscreen_text": "Achieves First Criticality Unit - 4 (700 MW, PHWR) @ 01:17 hrs December 17, 2023",
+   "speech": "",
+   "fits": "Kakrapar (Gujarat): criticality July 2020",
+   "problems": ""
+  },
+  {
+   "start": "00:21",
+   "end": "00:30",
+   "shows": "Graphic map of India highlighting Gujarat state and Kakrapar location",
+   "place_people": "Kakrapar Gujarat Site",
+   "onscreen_text": "Kakrapar Gujarat Site comprises of Units-1&2 (2 x 220 MW, PHWR)",
+   "speech": "",
+   "fits": "none",
+   "problems": "CGI/animation"
+  },
+  {
+   "start": "00:30",
+   "end": "00:37",
+   "shows": "Map animation indicating KAPP-3 and KAPP-4 operational status and national nuclear capacity statistics",
+   "place_people": "Kakrapar",
+   "onscreen_text": "KAPP-3 is operational KAPP-4 achieved First Criticality",
+   "speech": "",
+   "fits": "Kakrapar (Gujarat): KAPP-3/4 700 MW units",
+   "problems": "CGI/animation"
+  },
+  {
+   "start": "00:37",
+   "end": "00:43",
+   "shows": "Construction timelapse of the Kakrapar Unit 4 reactor building frame and containment structure",
+   "place_people": "KAPP-3&4 Project",
+   "onscreen_text": "KAPP-3&4 Project 21000 MT structural steel used",
+   "speech": "",
+   "fits": "Kakrapar (Gujarat): KAPP-3/4 700 MW units",
+   "problems": "timelapse"
+  },
+  {
+   "start": "00:43",
+   "end": "00:51",
+   "shows": "Wide exterior shots of the nuclear containment dome and civil construction work with cranes",
+   "place_people": "KAPP-3&4 Project",
+   "onscreen_text": "1.4 million cubic meter concrete poured - 4 times used to build Burj Khalifa",
+   "speech": "",
+   "fits": "Kakrapar (Gujarat): KAPP-3/4 700 MW units",
+   "problems": ""
+  },
+  {
+   "start": "00:51",
+   "end": "00:58",
+   "shows": "Interior assembly and heavy engineering fabrication workshops for nuclear components",
+   "place_people": "KAPP-3&4 Project",
+   "onscreen_text": "1271 inch Km pipe erected ~ 2 times Mumbai - Ahmedabad distance",
+   "speech": "",
+   "fits": "Indian engineers and workers at work (workshops)",
+   "problems": ""
+  },
+  {
+   "start": "00:58",
+   "end": "01:05",
+   "shows": "Detailed views of heavy pipe fabrication and industrial manufacturing floors",
+   "place_people": "KAPP-4",
+   "onscreen_text": "180 Km tubing laid.... 1.1 million inch dia pipe fabrication...",
+   "speech": "",
+   "fits": "Indian engineers and workers at work (workshops)",
+   "problems": ""
+  },
+  {
+   "start": "01:05",
+   "end": "01:14",
+   "shows": "Engineers and officials in protective gear conducting initial fuel loading operations inside the reactor building",
+   "place_people": "Shri Bhuwan Chandra Pathak, Chairman & Managing Director, NPCIL",
+   "onscreen_text": "Initial Fuel Loading... Shri Bhuwan Chandra Pathak Participated in Initial Fuel Loading of KAPP-4",
+   "speech": "",
+   "fits": "Fuel bundles; uranium; heavy water",
+   "problems": ""
+  },
+  {
+   "start": "01:14",
+   "end": "01:21",
+   "shows": "Group of engineers and dignitaries observing fuel loading milestones and monitoring control screens",
+   "place_people": "Shri Bhuwan Chandra Pathak and NPCIL officials",
+   "onscreen_text": "a recent, successfully completed milestone... witnessed First Approach to Criticality",
+   "speech": "",
+   "fits": "Indian engineers and workers at work (control rooms, meetings)",
+   "problems": ""
+  },
+  {
+   "start": "01:21",
+   "end": "01:29",
+   "shows": "Wide group photo of project staff and leadership celebrating at the Kakrapar site",
+   "place_people": "NPCIL engineers and officials",
+   "onscreen_text": "Gearing up further... Momentous occasion captured through the lens...",
+   "speech": "",
+   "fits": "Indian engineers and workers at work (meetings)",
+   "problems": ""
+  },
+  {
+   "start": "01:29",
+   "end": "01:36",
+   "shows": "Exterior daytime view of Kakrapar Unit 4 reactor containment building",
+   "place_people": "Kakrapar Gujarat Site",
+   "onscreen_text": "Poised for subsequent milestones... AND The Journey Continues...",
+   "speech": "",
+   "fits": "Kakrapar (Gujarat): KAPP-3/4 700 MW units",
+   "problems": ""
+  },
+  {
+   "start": "01:36",
+   "end": "01:43",
+   "shows": "Closing title screen with NPCIL social media handles and corporate logo",
+   "place_people": "NPCIL",
+   "onscreen_text": "Connect with us... Facebook.com/npcilofficial Instagram.com/npcilofficial YouTube.com/npcilofficial",
+   "speech": "",
+   "fits": "none",
+   "problems": "CGI/animation"
+  }
+ ],
+ "clip": "06_RsbnxerNWr4.mp4",
+ "duration_s": 104.2,
+ "frame_every_s": 2,
+ "model": "gemini-3.5-flash-lite"
+}

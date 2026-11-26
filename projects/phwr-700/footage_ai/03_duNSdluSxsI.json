@@ -1,0 +1,70 @@
+{
+ "summary": "An informational video by NPCIL showcasing performance data and continuous run records of Indian Pressurised Heavy Water Reactors (PHWRs) across various nuclear power stations.",
+ "language": "English",
+ "spans": [
+  {
+   "start": "00:00",
+   "end": "00:04",
+   "shows": "An exterior animation of a nuclear power plant near a body of water with clouds moving in the sky.",
+   "place_people": "",
+   "onscreen_text": "A Saga of Splendid Performance of Indian Pressurised Heavy Water Reactors (PHWRs)",
+   "speech": "",
+   "fits": "none",
+   "problems": "CGI/animation"
+  },
+  {
+   "start": "00:04",
+   "end": "00:17",
+   "shows": "A title card animation displaying text about Indian PHWRs against a blue, cloudy background with nuclear power plant silhouettes.",
+   "place_people": "",
+   "onscreen_text": "A Saga of Splendid Performance of Indian Pressurised Heavy Water Reactors (PHWRs)",
+   "speech": "",
+   "fits": "none",
+   "problems": "CGI/animation"
+  },
+  {
+   "start": "00:17",
+   "end": "00:25",
+   "shows": "An informational list of nuclear power plant legends on a blue background.",
+   "place_people": "",
+   "onscreen_text": "Legends: TAPS :: Tarapur Atomic Power Station RAPS :: Rajasthan Atomic Power Station MAPS :: Madras Atomic Power Station NAPS :: Narora Atomic Power Station KAPS :: Kakrapar Atomic Power Station KGS :: Kaiga Generating Station",
+   "speech": "",
+   "fits": "none",
+   "problems": "CGI/animation, text overlay"
+  },
+  {
+   "start": "00:25",
+   "end": "01:27",
+   "shows": "Animated bar charts showing continuous run records (number of days) for various Indian PHWR plants over time.",
+   "place_people": "",
+   "onscreen_text": "Indian PHWRs, Number of Days, TAPS-1, TAPS-2, RAPS-1, RAPS-2, MAPS-1, MAPS-2, NAPS-1, NAPS-2, KAPS-1, KAPS-2, KGS-1, KGS-2, KGS-3, KGS-4",
+   "speech": "",
+   "fits": "Kaiga (Karnataka) and long continuous runs (records)",
+   "problems": "CGI/animation, text overlay"
+  },
+  {
+   "start": "01:27",
+   "end": "01:36",
+   "shows": "An animated bar chart highlighting records exceeding a year by Indian Nuclear Power Plants.",
+   "place_people": "",
+   "onscreen_text": "Exceeding A Year By Indian Nuclear Power Plants (NPPs), 46 TIMES",
+   "speech": "",
+   "fits": "Kaiga (Karnataka) and long continuous runs (records)",
+   "problems": "CGI/animation, text overlay"
+  },
+  {
+   "start": "01:36",
+   "end": "01:45",
+   "shows": "Outro screen with social media handles and NPCIL branding against a blue background.",
+   "place_people": "",
+   "onscreen_text": "Do not forget to follow us for more information..., Connect with us..., NPCIL, Facebook.com/NpcilOfficial, Instagram.com/npcilofficial, YouTube.com/@Npcil-Official, npcil.nic.in | npcilcareers.co.in contactus@npcil.co.in",
+   "speech": "",
+   "fits": "none",
+   "problems": "CGI/animation, text overlay"
+  }
+ ],
+ "clip": "03_duNSdluSxsI.mp4",
+ "duration_s": 106.9,
+ "frame_every_s": 2,
+ "model": "gemini-3.5-flash-lite"
+}

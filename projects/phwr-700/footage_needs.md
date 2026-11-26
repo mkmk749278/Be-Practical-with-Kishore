@@ -1,0 +1,11 @@
+- Rawatbhata town and the plant on the Rana Pratap Sagar lake / Chambal river (exteriors, the lake, birds)
+- The reactor face: the grid of end fittings and feeder pipes; a fuelling machine or shielded flask on the face
+- Remote tools cutting, pulling or fitting a coolant channel / pressure tube; a removed tube; engineers watching screens
+- Indian engineers and workers at work (control rooms, protective suits, workshops, meetings)
+- 1960s-70s archive: Canadian and Indian engineers, CIRUS reactor at Trombay, early RAPS construction
+- Pokhran, May 1974 (archive only)
+- Kaiga (Karnataka) and long continuous runs (records)
+- Kakrapar (Gujarat): the 2016 shutdown news; KAPP-3/4 700 MW units, criticality July 2020, the 700 MW reactor face
+- RAPP-7 / RAPP-8 (Rawatbhata 700 MW units): construction, grid connection, fuel bundles and fuel loading
+- Fuel bundles; uranium; heavy water
+- Canadian CANDU reactors: Pickering, Bruce, Darlington; pressure tube removal and retubing in Canada

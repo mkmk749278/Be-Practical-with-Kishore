@@ -1,0 +1,219 @@
+{
+ "summary": "NPCIL promotional video highlighting the history, achievements, and future growth of India's nuclear power program, specifically focusing on PHWRs, safety, operational milestones, and leadership.",
+ "language": "English",
+ "spans": [
+  {
+   "start": "00:00",
+   "end": "00:06",
+   "shows": "CGI digital network animation with NPCIL logo",
+   "place_people": "",
+   "onscreen_text": "NPCIL A voyage of dedication & competence",
+   "speech": "NPCIL. A voyage of dedication and competence that began",
+   "fits": "none",
+   "problems": "CGI/animation"
+  },
+  {
+   "start": "00:06",
+   "end": "00:13",
+   "shows": "Calendar pages flipping showing years 1980 and 1987",
+   "place_people": "",
+   "onscreen_text": "17th September 1980 17th September 1987",
+   "speech": "on 17th September 1987, and continues till date.",
+   "fits": "none",
+   "problems": "CGI/animation"
+  },
+  {
+   "start": "00:13",
+   "end": "00:19",
+   "shows": "CGI animation of NPCIL and Department of Atomic Energy branding",
+   "place_people": "",
+   "onscreen_text": "NPCIL DEPARTMENT OF ATOMIC ENERGY",
+   "speech": "NPCIL, a public sector undertaking formed under the Department of Atomic Energy",
+   "fits": "none",
+   "problems": "CGI/animation"
+  },
+  {
+   "start": "00:19",
+   "end": "00:29",
+   "shows": "CGI animation of nuclear power plant structures and cooling towers",
+   "place_people": "",
+   "onscreen_text": "",
+   "speech": "has mastered the entire gamut of nuclear power generation,",
+   "fits": "none",
+   "problems": "CGI/animation"
+  },
+  {
+   "start": "00:29",
+   "end": "00:50",
+   "shows": "CGI graphics illustrating siting, designing, commissioning, operation, modernization, safety upgrades, and waste management",
+   "place_people": "",
+   "onscreen_text": "SITING DESIGNING COMMISSIONING OPERATION & MAINTENANCE RENOVATION & MODERNIZATION SAFETY UPGRADATION WASTE MANAGEMENT",
+   "speech": "be it siting, designing, construction, commissioning, operation and maintenance, renovation and modernization, safety upgradation, quality assurance, life extension, waste management, etc.",
+   "fits": "none",
+   "problems": "CGI/animation"
+  },
+  {
+   "start": "00:50",
+   "end": "01:04",
+   "shows": "Archival footage of heavy equipment transport and construction, 1969",
+   "place_people": "Tarapur Atomic Power Station",
+   "onscreen_text": "TAPS 1&2 1969",
+   "speech": "Nuclear power generation in India began in 1969 when the first two units of boiling water reactor at Tarapur Atomic Power Station became operational.",
+   "fits": "1960s-70s archive: Canadian and Indian engineers, CIRUS reactor at Trombay, early RAPS construction",
+   "problems": ""
+  },
+  {
+   "start": "01:04",
+   "end": "01:23",
+   "shows": "Map of India highlighting Tarapur, then Rawatbhata, Rajasthan",
+   "place_people": "Tarapur, Rawatbhata Rajasthan",
+   "onscreen_text": "TARAIPUR RAWATBHATA RAJASTHAN",
+   "speech": "Empowered by nuclear power generation in Tarapur, Maharashtra, India entered the field of pressurized heavy water reactor and established the country's first PHWR at Rawatbhata, Rajasthan.",
+   "fits": "Rawatbhata town and the plant on the Rana Pratap Sagar lake / Chambal river (exteriors, the lake, birds)",
+   "problems": "CGI/animation"
+  },
+  {
+   "start": "01:23",
+   "end": "01:54",
+   "shows": "Archival photographs and portraits of Dr. Homi Jehangir Bhabha alongside graphics of the three-stage nuclear power program",
+   "place_people": "Dr. Homi Jehangir Bhabha",
+   "onscreen_text": "Dr. Homi Jehangir Bhabha Nuclear Power - Sustainable for Centuries India's 3-Stage Nuclear Power Programme Multiplies Power Generation by Expanding the Nuclear Fuel Base",
+   "speech": "In fact, the seed of nuclear energy was sown on Indian soil at the same time when Dr. Homi Jehangir Bhabha was born on 30th October 1909. The far-reaching thinking of that great scientist laid the foundation of India's three-stage nuclear power program.",
+   "fits": "1960s-70s archive: Canadian and Indian engineers, CIRUS reactor at Trombay, early RAPS construction",
+   "problems": ""
+  },
+  {
+   "start": "01:54",
+   "end": "02:15",
+   "shows": "CGI graphics of nuclear fuel cycles and power plant construction sites",
+   "place_people": "",
+   "onscreen_text": "INDIGINIZATION OF PHWR TECHNOLOGY",
+   "speech": "Following this program, India has now gained expertise in PHWR technology and has paved the way for its indigenization. Apart from the three-phase program for rapid expansion of capacity, we are also setting up nuclear power plants with international cooperation.",
+   "fits": "none",
+   "problems": "CGI/animation"
+  },
+  {
+   "start": "02:15",
+   "end": "02:34",
+   "shows": "Map of India highlighting various nuclear power plant locations: Tarapur, Kakrapar, Rawatbhata, Narora, Kaiga",
+   "place_people": "Tarapur, Kakrapar, Rawatbhata, Narora, Kaiga",
+   "onscreen_text": "NARORA UTTAR PRADESH RAWATBHATA RAJASTHAN KAKRAPAR GUJARAT",
+   "speech": "Soon this family of NPCIL is expanding from Tarapur, Kakrapar, Rawatbhata, Narora, Kaiga, Kalpakkam, Kudankulam, and building projects in other parts of the country.",
+   "fits": "Kaiga (Karnataka) and long continuous runs (records)",
+   "problems": "CGI/animation"
+  },
+  {
+   "start": "02:34",
+   "end": "03:04",
+   "shows": "Statistical graphics displaying reactor counts, installed capacity, and under-construction units on the map of India",
+   "place_people": "",
+   "onscreen_text": "09 Reactors, Under Construction (7500 MWe)",
+   "speech": "In 1987, NPCIL was operating a total of six reactors with the capacity of 1060 megawatt, and today is operating 23 reactors in different areas of the country with a total installed capacity of 7480 megawatt.",
+   "fits": "none",
+   "problems": "CGI/animation"
+  },
+  {
+   "start": "03:04",
+   "end": "03:25",
+   "shows": "Map of India showing pre-project activities and new proposed sites for nuclear reactors",
+   "place_people": "",
+   "onscreen_text": "10 Reactors in Fleet Mode, Under Pre-Project Activities (7000 MWe) 05 New Sites, Accorded In-Principle Approval (28 Reactors)",
+   "speech": "Additionally, nine different units with a total capacity of 7500 megawatt are under construction. Also pre-project work at the 10 fleet mode...",
+   "fits": "none",
+   "problems": "CGI/animation"
+  },
+  {
+   "start": "03:25",
+   "end": "03:49",
+   "shows": "Industrial and turbine hall footage, reactor cutaway diagrams, and capacity growth bar charts",
+   "place_people": "",
+   "onscreen_text": "NPCIL ACQUIRED COMPETENCE IN PHWR TECHNOLOGY SCALABILITY 220 megawatt 540 megawatt 700 megawatt",
+   "speech": "NPCIL has expanded the capacity by mastering PHWR technology and has also increased the size of PHWR starting at 220 megawatt, enhancing to 540 megawatt and then to 700 megawatt.",
+   "fits": "Kakrapar (Gujarat): the 2016 shutdown news; KAPP-3/4 700 MW units, criticality July 2020, the 700 MW reactor face",
+   "problems": ""
+  },
+  {
+   "start": "03:49",
+   "end": "04:15",
+   "shows": "Industrial facilities, turbine halls, and performance milestone graphs featuring a photograph of Narendra Modi and tweets",
+   "place_people": "Narendra Modi",
+   "onscreen_text": "SPLENDID PERFORMANCE 2018 Unit-1 of Kaiga Generating Station 962 Days non-stop Running",
+   "speech": "During this journey, NPCIL has set many records at national and international level demonstrating highest performance, such as on 31st December 2018, the first unit of Kaiga power generating station created a world record for longest continuous operation by operating continuously for 962 days.",
+   "fits": "Kaiga (Karnataka) and long continuous runs (records)",
+   "problems": ""
+  },
+  {
+   "start": "04:15",
+   "end": "04:35",
+   "shows": "Exterior shots of Tarapur Atomic Power Station and operational graphs",
+   "place_people": "",
+   "onscreen_text": "TAPS, Units-1&2 Longest Operational Reactors in the World",
+   "speech": "Apart from this, Tarapur Atomic Power Station unit one and two has become the longest operating plant in the world.",
+   "fits": "Kaiga (Karnataka) and long continuous runs (records)",
+   "problems": ""
+  },
+  {
+   "start": "04:35",
+   "end": "04:58",
+   "shows": "Compilation of charts and photographs showing continuous operation milestones and reactor facilities",
+   "place_people": "",
+   "onscreen_text": "Indian Nuclear Power Plants testifies Operation and maintenance practices of NPCIL",
+   "speech": "All NPCIL reactors have recorded continuous operation of more than one year on 42 occasions, including five times continuous operation of more than 700 days.",
+   "fits": "Kaiga (Karnataka) and long continuous runs (records)",
+   "problems": ""
+  },
+  {
+   "start": "04:58",
+   "end": "05:29",
+   "shows": "Graphic titles and award certificates representing safety, environmental management, and occupational health systems",
+   "place_people": "",
+   "onscreen_text": "SAFETY One of the Foremost Priorities 5 Decades of Operation ENVIRONMENT MANAGEMENT OCCUPATIONAL HEALTH & SAFETY SYSTEMS",
+   "speech": "Safety is given top priority, be it at the time of construction, operation, maintenance. More than 5 decades of impeccable operations, environmental friendliness, occupational health and safety systems, environmental management programs, etc.",
+   "fits": "Indian engineers and workers at work (control rooms, protective suits, workshops, meetings)",
+   "problems": ""
+  },
+  {
+   "start": "05:29",
+   "end": "05:48",
+   "shows": "Award plaques, financial credit rating badges (AAA), and NPCIL company branding",
+   "place_people": "",
+   "onscreen_text": "National / International Awards COMPANY'S BONDS HAVE BEEN ACCREDITED WITH AAA CRISIL & CARE",
+   "speech": "have earned NPCIL awards and recognition at national and international levels. The company's bonds being consistently rated AAA by CRISIL and CARE institute, attest to our highest level of safety and capability.",
+   "fits": "none",
+   "problems": ""
+  },
+  {
+   "start": "05:48",
+   "end": "06:16",
+   "shows": "Portrait inset of Shri Bhuwan Chandra Pathak (Chairman & Managing Director) over animated sunburst and NPCIL logo backgrounds",
+   "place_people": "Shri Bhuwan Chandra Pathak",
+   "onscreen_text": "Shri Bhuwan Chandra Pathak Chairman & Managing Director",
+   "speech": "The sun called NPCIL is shining with its mission to meet the increasing demand of electricity in the country. We are confident that under the capable hands and able leadership of Shri Bhuwan Chandra Pathak, Chairman and Managing Director of NPCIL,",
+   "problems": "talking head"
+  },
+  {
+   "start": "06:16",
+   "end": "06:38",
+   "shows": "Night time-lapse shots of Mumbai cityscape, traffic light trails, and the Bandra-Worli Sea Link bridge",
+   "place_people": "Mumbai",
+   "onscreen_text": "",
+   "speech": "this sun of nuclear power will continue to shine and illuminate the world. And this journey continues.",
+   "fits": "none",
+   "problems": ""
+  },
+  {
+   "start": "06:38",
+   "end": "07:00",
+   "shows": "Children smiling, a CGI hand holding a glowing atom symbol, animated nuclear plant vector graphics, and NPCIL branding",
+   "place_people": "",
+   "onscreen_text": "Clean, Green and Safe NPCIL Connect with Us",
+   "speech": "A golden dawn is set to arrive, lighting the path ahead and bringing sustainable development. The strong team of NPCIL is striving continuously to brighten the nation's future with determination.",
+   "fits": "Rawatbhata town and the plant on the Rana Pratap Sagar lake / Chambal river (exteriors, the lake, birds)",
+   "problems": "CGI/animation"
+  }
+ ],
+ "clip": "04_aPKZE_jkwpU.mp4",
+ "duration_s": 420.7,
+ "frame_every_s": 2,
+ "model": "gemini-3.5-flash-lite"
+}

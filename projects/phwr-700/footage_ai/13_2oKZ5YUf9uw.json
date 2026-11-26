@@ -1,0 +1,20 @@
+{
+ "summary": "A video displaying bar charts of reactor operating records with the title NPCIL's Pursuit of Excellence.",
+ "language": "English",
+ "spans": [
+  {
+   "start": "00:00",
+   "end": "00:15",
+   "shows": "A blue-toned graphic showing bar charts and reactor names representing continuous operating records, with text overlays.",
+   "place_people": "",
+   "onscreen_text": "NPCIL's Pursuit of Excellence, 50 times and counting!",
+   "speech": "",
+   "fits": "Kaiga (Karnataka) and long continuous runs (records)",
+   "problems": "CGI/animation"
+  }
+ ],
+ "clip": "13_2oKZ5YUf9uw.mp4",
+ "duration_s": 16.3,
+ "frame_every_s": 2,
+ "model": "gemini-3.5-flash-lite"
+}

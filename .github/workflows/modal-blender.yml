@@ -1,0 +1,63 @@
+# Blender Cycles hero shots on Modal L4 GPUs (PLAYBOOK §10.3, §14.1): the runner only launches, Modal renders, the
+# frames go to Drive Creator/English/<slug>/renders/<shot>/. Bench 10 frames first; state the cost before a full run.
+# Needs repo secrets MODAL_TOKEN_ID, MODAL_TOKEN_SECRET and GDRIVE_RCLONE_TOKEN.
+name: modal-blender
+on:
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: film folder, e.g. phwr-700
+        required: true
+      script:
+        description: scripts/blender/<name>.py
+        default: phwr_hero
+      shot:
+        description: shot name
+        default: face
+      frames:
+        description: first-last frame
+        default: "0-9"
+      step:
+        description: render every Nth frame
+        default: "1"
+      shards:
+        description: L4 containers in parallel (1-10)
+        default: "1"
+      extra:
+        description: extra args for the scene script
+        default: "--w 2560 --h 1440 --samples 128 --noise 0.02 --bounces 8"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: modal-blender-${{ inputs.slug }}-${{ inputs.shot }}
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 360
+    env:
+      MODAL_TOKEN_ID: ${{ secrets.MODAL_TOKEN_ID }}
+      MODAL_TOKEN_SECRET: ${{ secrets.MODAL_TOKEN_SECRET }}
+      GDRIVE_RCLONE_TOKEN: ${{ secrets.GDRIVE_RCLONE_TOKEN }}
+    steps:
+      - name: Secrets present
+        run: |
+          for s in MODAL_TOKEN_ID MODAL_TOKEN_SECRET GDRIVE_RCLONE_TOKEN; do
+            [ -n "${!s}" ] || { echo "::error::repo secret $s is missing"; miss=1; }
+          done
+          [ -z "${miss:-}" ]
+      - uses: actions/checkout@v4.2.2
+      - uses: actions/setup-python@v5.3.0
+        with:
+          python-version: "3.13"
+      - run: pip install modal==1.6.4
+      - name: Render on Modal
+        run: >
+          modal run tools/modal/blender.py --script "${{ inputs.script }}" --shot "${{ inputs.shot }}"
+          --frames "${{ inputs.frames }}" --step ${{ inputs.step }} --shards ${{ inputs.shards }}
+          --extra "${{ inputs.extra }}" --outdir out
+      - name: Frames to Drive
+        run: scripts/upload_gdrive.sh --sub "English/${{ inputs.slug }}/renders/${{ inputs.shot }}" out/*.png

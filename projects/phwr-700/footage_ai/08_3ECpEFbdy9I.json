@@ -1,0 +1,170 @@
+{
+ "summary": "An informational video presenting a tour of operational nuclear power plants in India, detailing plant locations, reactor types, power capacities, commissioning dates, and electricity generation statistics.",
+ "language": "English",
+ "spans": [
+  {
+   "start": "00:00",
+   "end": "00:05",
+   "shows": "Title screen with NPCIL logo and text 'Quick Tour of Our Operational Nuclear Power Plants'",
+   "place_people": "NPCIL",
+   "onscreen_text": "NPCIL, Quick Tour of Our Operational Nuclear Power Plants",
+   "speech": "",
+   "fits": "none",
+   "problems": "CGI/animation"
+  },
+  {
+   "start": "00:05",
+   "end": "00:11",
+   "shows": "Graphic overview of Narora Atomic Power Station (NAPS) with cooling towers and reactor buildings",
+   "place_people": "Narora Atomic Power Station (NAPS), Uttar Pradesh",
+   "onscreen_text": "STATION (NAPS), UNITS-1 & 2 (2 x 220 MW)",
+   "speech": "",
+   "fits": "none",
+   "problems": "CGI/animation"
+  },
+  {
+   "start": "00:11",
+   "end": "00:17",
+   "shows": "Information overlay detailing NAPS specifications and beneficiaries",
+   "place_people": "Uttar Pradesh",
+   "onscreen_text": "Power Capacity, Start of Commercial Operation, Salient Beneficiaries",
+   "speech": "",
+   "fits": "none",
+   "problems": "CGI/animation"
+  },
+  {
+   "start": "00:17",
+   "end": "00:23",
+   "shows": "Transition to Kaiga Generating Station site overview",
+   "place_people": "Kaiga, Karnataka",
+   "onscreen_text": "STATION (MAPS), UNITS-1 & 2 (2 x 220 MW)",
+   "speech": "",
+   "fits": "none",
+   "problems": "CGI/animation"
+  },
+  {
+   "start": "00:23",
+   "end": "00:39",
+   "shows": "Aerial-style CGI view of Kaiga Generating Station units 1 & 2 and units 3 & 4 with surrounding landscape",
+   "place_people": "Kaiga, Karnataka",
+   "onscreen_text": "KAIGA KARNATAKA SITE, UNITS-1 & 2, UNITS-3 & 4",
+   "speech": "",
+   "fits": "Kaiga (Karnataka)",
+   "problems": "CGI/animation"
+  },
+  {
+   "start": "00:39",
+   "end": "00:53",
+   "shows": "Panoramic view of Kaiga site with reactor domes and turbine buildings",
+   "place_people": "Kaiga, Karnataka",
+   "onscreen_text": "KAIGA KARNATAKA SITE (Overview)",
+   "speech": "",
+   "fits": "Kaiga (Karnataka)",
+   "problems": "CGI/animation"
+  },
+  {
+   "start": "00:53",
+   "end": "01:06",
+   "shows": "Detailed plant statistics overlay for Kaiga units",
+   "place_people": "Uttara Kannada, Karnataka",
+   "onscreen_text": "District: Uttara Kannada, State: Karnataka, Pressurised Heavy Water Reactor",
+   "speech": "",
+   "fits": "Kaiga (Karnataka)",
+   "problems": "CGI/animation"
+  },
+  {
+   "start": "01:06",
+   "end": "01:25",
+   "shows": "Kakrapar Atomic Power Station (KAPS) site overview with cooling towers near water",
+   "place_people": "Kakrapar, Gujarat",
+   "onscreen_text": "STATION (KAPS), UNITS-3 & 4 (2 x 700 MW)",
+   "speech": "",
+   "fits": "Kakrapar (Gujarat): KAPP-3/4 700 MW units",
+   "problems": "CGI/animation"
+  },
+  {
+   "start": "01:25",
+   "end": "01:42",
+   "shows": "Close-up of KAPS 700 MW units with plant specs and operational status",
+   "place_people": "Surat, Gujarat",
+   "onscreen_text": "District: Surat, State: Gujarat, 700 MW indigenous PHWR",
+   "speech": "",
+   "fits": "Kakrapar (Gujarat): KAPP-3/4 700 MW units",
+   "problems": "CGI/animation"
+  },
+  {
+   "start": "01:42",
+   "end": "02:05",
+   "shows": "Tarapur Atomic Power Station (TAPS) units overview",
+   "place_people": "Tarapur, Maharashtra",
+   "onscreen_text": "STATION (TAPS), UNITS-1 & 2 (2 x 160 MW)",
+   "speech": "",
+   "fits": "none",
+   "problems": "CGI/animation"
+  },
+  {
+   "start": "02:05",
+   "end": "02:19",
+   "shows": "Tarapur units 3 & 4 overview with reactor specifications",
+   "place_people": "Tarapur, Maharashtra",
+   "onscreen_text": "STATION (TAPS), UNITS-3 & 4 (2 x 540 MW)",
+   "speech": "",
+   "fits": "none",
+   "problems": "CGI/animation"
+  },
+  {
+   "start": "02:19",
+   "end": "02:35",
+   "shows": "Rawatbhata Rajasthan Site (RAPS) overview showing lake and reactor buildings",
+   "place_people": "Rawatbhata, Rajasthan",
+   "onscreen_text": "RAJASTHAN ATOMIC POWER STATION (RAPS), UNITS-1 & 2",
+   "speech": "",
+   "fits": "Rawatbhata town and the plant on the Rana Pratap Sagar lake / Chambal river",
+   "problems": "CGI/animation"
+  },
+  {
+   "start": "02:35",
+   "end": "02:53",
+   "shows": "RAPS units 3 & 4 and units 5 & 6 exterior CGI view by the water reservoir",
+   "place_people": "Rawatbhata, Rajasthan",
+   "onscreen_text": "STATION (RAPS), UNITS-5 & 6 (2 x 220 MW)",
+   "speech": "",
+   "fits": "Rawatbhata town and the plant on the Rana Pratap Sagar lake / Chambal river",
+   "problems": "CGI/animation"
+  },
+  {
+   "start": "02:53",
+   "end": "03:09",
+   "shows": "Wide exterior shot of Rawatbhata Rajasthan Site overview near lake",
+   "place_people": "Rawatbhata, Rajasthan",
+   "onscreen_text": "RAWATBHATA RAJASTHAN SITE (Overview)",
+   "speech": "",
+   "fits": "Rawatbhata town and the plant on the Rana Pratap Sagar lake / Chambal river",
+   "problems": "CGI/animation"
+  },
+  {
+   "start": "03:09",
+   "end": "03:25",
+   "shows": "Koodankulam Nuclear Power Plant site overview in Tamil Nadu",
+   "place_people": "Koodankulam, Tamil Nadu",
+   "onscreen_text": "STATION (KKNPS), UNITS-1 & 2 (2 x 1000 MW)",
+   "speech": "",
+   "fits": "none",
+   "problems": "CGI/animation"
+  },
+  {
+   "start": "03:25",
+   "end": "03:44",
+   "shows": "Concluding summary graphic showing total electricity generated and CO2 emission saved by NPCIL",
+   "place_people": "NPCIL",
+   "onscreen_text": "Total Electricity Generated From Nuclear Power: 829 Billion Units, Total CO2 Emission Saved To Environment: 713 Million Tons",
+   "speech": "",
+   "fits": "none",
+   "problems": "CGI/animation"
+  }
+ ],
+ "clip": "08_3ECpEFbdy9I.mp4",
+ "duration_s": 225.0,
+ "frame_every_s": 2,
+ "model": "gemini-3.5-flash-lite"
+}

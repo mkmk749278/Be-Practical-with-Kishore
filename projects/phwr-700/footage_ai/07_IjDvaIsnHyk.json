@@ -1,0 +1,80 @@
+{
+ "summary": "A promotional clip celebrating Kakrapar Unit 3 (KAPP-3) 700 MW indigenous Pressurised Heavy Water Reactor starting power generation, featuring exterior views of the plant inside a decorative framed overlay with congratulatory slogans.",
+ "language": "English",
+ "spans": [
+  {
+   "start": "00:00",
+   "end": "00:09",
+   "shows": "graphic title slide with congratulatory text over a decorative frame displaying exterior shots of the nuclear power plant",
+   "place_people": null,
+   "onscreen_text": "Heartiest Congratulations to all the Nuclear Engineers, Scientists And Employees of NPCIL, DAE",
+   "speech": null,
+   "fits": "Kakrapar (Gujarat): the 2016 shutdown news; KAPP-3/4 700 MW units, criticality July 2020, the 700 MW reactor face",
+   "problems": "graphic frame overlay, onscreen text, promotional card layout"
+  },
+  {
+   "start": "00:09",
+   "end": "00:16",
+   "shows": "exterior view of Kakrapar Unit 3 nuclear power plant framed in a graphic template",
+   "place_people": "Kakrapar, Gujarat",
+   "onscreen_text": "The largest indigenous Nuclear Power Reactor at Kakrapar (Unit - 3) in Gujarat starts generating 700 MW of power",
+   "speech": null,
+   "fits": "Kakrapar (Gujarat): the 2016 shutdown news; KAPP-3/4 700 MW units, criticality July 2020, the 700 MW reactor face",
+   "problems": "graphic frame overlay, onscreen text"
+  },
+  {
+   "start": "00:16",
+   "end": "00:26",
+   "shows": "wide exterior view of the Kakrapar atomic power station reactor structures and cooling towers",
+   "place_people": "Kakrapar, Gujarat",
+   "onscreen_text": "Harbinger of 700 MW Series of PHWRs",
+   "speech": null,
+   "fits": "Kakrapar (Gujarat): the 2016 shutdown news; KAPP-3/4 700 MW units, criticality July 2020, the 700 MW reactor face",
+   "problems": "graphic frame overlay, onscreen text"
+  },
+  {
+   "start": "00:26",
+   "end": "00:36",
+   "shows": "exterior shots of Kakrapar plant buildings and cooling towers",
+   "place_people": "Kakrapar, Gujarat",
+   "onscreen_text": "Exemplary Safety Features",
+   "speech": null,
+   "fits": "Kakrapar (Gujarat): the 2016 shutdown news; KAPP-3/4 700 MW units, criticality July 2020, the 700 MW reactor face",
+   "problems": "graphic frame overlay, onscreen text"
+  },
+  {
+   "start": "00:36",
+   "end": "00:44",
+   "shows": "exterior view of Kakrapar nuclear power plant containment structures and cooling towers",
+   "place_people": "Kakrapar, Gujarat",
+   "onscreen_text": "Reflecting the proud spirit of \"Atma Nirbhar Bharat\"",
+   "speech": null,
+   "fits": "Kakrapar (Gujarat): the 2016 shutdown news; KAPP-3/4 700 MW units, criticality July 2020, the 700 MW reactor face",
+   "problems": "graphic frame overlay, onscreen text"
+  },
+  {
+   "start": "00:44",
+   "end": "00:54",
+   "shows": "exterior view of Kakrapar nuclear power plant site",
+   "place_people": "Kakrapar, Gujarat",
+   "onscreen_text": "A Proud Moment for the Entire Nation",
+   "speech": null,
+   "fits": "Kakrapar (Gujarat): the 2016 shutdown news; KAPP-3/4 700 MW units, criticality July 2020, the 700 MW reactor face",
+   "problems": "graphic frame overlay, onscreen text"
+  },
+  {
+   "start": "00:54",
+   "end": "01:00",
+   "shows": "closing graphics with the NPCIL corporate logo and tagline",
+   "place_people": null,
+   "onscreen_text": "NPCIL, Fueling a clean energy future",
+   "speech": null,
+   "fits": "none",
+   "problems": "logo bug, graphic endcard"
+  }
+ ],
+ "clip": "07_IjDvaIsnHyk.mp4",
+ "duration_s": 60.9,
+ "frame_every_s": 2,
+ "model": "gemini-3.6-flash"
+}

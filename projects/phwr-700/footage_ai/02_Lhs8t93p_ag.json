@@ -1,0 +1,130 @@
+{
+ "summary": "NPCIL video report detailing the criticality and grid synchronization of RAPP-7 (Unit 7 of the Rajasthan Atomic Power Project at Rawatbhata), India's third indigenous 700 MW PHWR, including control room celebrations, plant exterior views, Kakrapar references, and an interview segment with Station Director Shri Subrat Das.",
+ "language": "English",
+ "spans": [
+  {
+   "start": "00:00",
+   "end": "00:11",
+   "shows": "Title graphic cards introducing RAPP-7 grid connection",
+   "place_people": "none",
+   "onscreen_text": "RAPP-7: Powers Up / India's Third 700 MW Indigenous PHWR",
+   "speech": "India takes another giant leap towards energy self-reliance...",
+   "fits": "none",
+   "problems": "CGI/animation, logo bug, burned-in subtitles"
+  },
+  {
+   "start": "00:11",
+   "end": "00:26",
+   "shows": "CGI satellite map zoom onto Rajasthan and aerial footage of Rawatbhata plant on the lake",
+   "place_people": "Rawatbhata, Rajasthan",
+   "onscreen_text": "Rawatbhata Rajasthan Site",
+   "speech": "...as unit 7 of Rajasthan Atomic Power Project achieves a historic milestone.",
+   "fits": "Rawatbhata town and the plant on the Rana Pratap Sagar lake / Chambal river (exteriors, the lake, birds)",
+   "problems": "CGI/animation, logo bug, burned-in subtitles"
+  },
+  {
+   "start": "00:26",
+   "end": "00:35",
+   "shows": "Indian engineers in a control room applauding and celebrating in front of screen showing RAPP-7 criticality diagram",
+   "place_people": "Rawatbhata, Rajasthan / NPCIL engineers",
+   "onscreen_text": "RAPP7 CRITICAL / Congratulations!",
+   "speech": "Unit 7 of NPCIL's Rajasthan Atomic Power Project has successfully achieved its first criticality on September 19, 2024...",
+   "fits": "Indian engineers and workers at work (control rooms, protective suits, workshops, meetings)",
+   "problems": "logo bug, burned-in subtitles"
+  },
+  {
+   "start": "00:35",
+   "end": "00:46",
+   "shows": "Atomic Energy Regulatory Board (AERB) building exterior, high-voltage switchyard, power transmission towers",
+   "place_people": "AERB building",
+   "onscreen_text": "AERB logo",
+   "speech": "With a clearance from the Atomic Energy Regulatory Board, AERB, and passing all tests with flying colors...",
+   "fits": "RAPP-7 / RAPP-8 (Rawatbhata 700 MW units): construction, grid connection, fuel bundles and fuel loading",
+   "problems": "logo bug, burned-in subtitles"
+  },
+  {
+   "start": "00:46",
+   "end": "00:54",
+   "shows": "Exterior of 700 MW reactor building containment dome and cooling towers under clear sky",
+   "place_people": "Rawatbhata, Rajasthan",
+   "onscreen_text": "none",
+   "speech": "This is the third 700 megawatt indigenous pressurized heavy water reactor, PHWR, of its kind in India...",
+   "fits": "RAPP-7 / RAPP-8 (Rawatbhata 700 MW units): construction, grid connection, fuel bundles and fuel loading",
+   "problems": "logo bug, burned-in subtitles"
+  },
+  {
+   "start": "00:54",
+   "end": "01:00",
+   "shows": "Entrance sign and perimeter gate of Kakrapar Atomic Power Station",
+   "place_people": "Kakrapar, Gujarat",
+   "onscreen_text": "KAKRAPAR ATOMIC POWER STATION",
+   "speech": "...following the resounding success of the Kakrapar Atomic Power Station 3 and 4 in Gujarat.",
+   "fits": "Kakrapar (Gujarat): the 2016 shutdown news; KAPP-3/4 700 MW units, criticality July 2020, the 700 MW reactor face",
+   "problems": "logo bug, burned-in subtitles"
+  },
+  {
+   "start": "01:00",
+   "end": "01:05",
+   "shows": "Engineers wearing white hardhats walking down a clean facility hallway and standing in a piping gallery",
+   "place_people": "NPCIL plant interior / Indian engineers",
+   "onscreen_text": "none",
+   "speech": "NPCIL has mastered the art of building and operating these reactors.",
+   "fits": "Indian engineers and workers at work (control rooms, protective suits, workshops, meetings)",
+   "problems": "logo bug, burned-in subtitles"
+  },
+  {
+   "start": "01:05",
+   "end": "01:09",
+   "shows": "Close-up grid view of yellow plug caps / end fittings of fuel channels",
+   "place_people": "none",
+   "onscreen_text": "none",
+   "speech": "With Kakrapar's two 700 megawatt PHWRs already operating at their rated power...",
+   "fits": "Fuel bundles; uranium; heavy water",
+   "problems": "logo bug, burned-in subtitles"
+  },
+  {
+   "start": "01:09",
+   "end": "01:15",
+   "shows": "Aerial shot of Kakrapar cooling towers and plant complex",
+   "place_people": "Kakrapar, Gujarat",
+   "onscreen_text": "none",
+   "speech": "...supplying clean, reliable electricity 24/7, RAPP unit 7 now joins the ranks of these high-performing reactors.",
+   "fits": "Kakrapar (Gujarat): the 2016 shutdown news; KAPP-3/4 700 MW units, criticality July 2020, the 700 MW reactor face",
+   "problems": "logo bug, burned-in subtitles"
+  },
+  {
+   "start": "01:15",
+   "end": "01:37",
+   "shows": "Lakeside view of power plant, CGI 3D model of power plant, animated Earth globe with climate text overlays",
+   "place_people": "none",
+   "onscreen_text": "COMBATING CLIMATE CHANGE",
+   "speech": "NPCIL's nuclear power plants not only ensure a reliable supply of electricity, but also avert carbon emissions...",
+   "fits": "none",
+   "problems": "CGI/animation, logo bug, burned-in subtitles"
+  },
+  {
+   "start": "01:37",
+   "end": "02:05",
+   "shows": "Talking head interview with Shri Subrat Das speaking about RAPP-7 & 8 units",
+   "place_people": "Shri Subrat Das (Station Director, RAPP-7&8)",
+   "onscreen_text": "Shri SUBRAT DAS Station Director | RAPP-7&8",
+   "speech": "Rajasthan Atomic Power Project unit number 7 is currently under operation and subsequently Rajasthan Atomic Power Project unit number 8 will be operationalized...",
+   "fits": "none",
+   "problems": "talking head, logo bug, burned-in subtitles"
+  },
+  {
+   "start": "02:05",
+   "end": "02:39",
+   "shows": "Aerial views of reactor buildings, cooling towers, lake, zoom-out CGI globe graphics and NPCIL corporate end screen",
+   "place_people": "Rawatbhata, Rajasthan",
+   "onscreen_text": "TOWARDS NET ZERO BY 2070 / NPCIL / Powering Clean Energy for Today & Tomorrow",
+   "speech": "With this achievement, India is not only advancing its energy needs through a cleaner power source, but also contributing to the nation's mission of reaching net-zero emissions by 2070...",
+   "fits": "RAPP-7 / RAPP-8 (Rawatbhata 700 MW units): construction, grid connection, fuel bundles and fuel loading",
+   "problems": "CGI/animation, logo bug, burned-in subtitles"
+  }
+ ],
+ "clip": "02_Lhs8t93p_ag.mp4",
+ "duration_s": 159.2,
+ "frame_every_s": 2,
+ "model": "gemini-3.6-flash"
+}
