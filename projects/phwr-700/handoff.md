@@ -101,3 +101,21 @@ on 23 NOV).
 - Blender hero 1 (`scripts/blender/phwr_hero.py`): the face reads; still to do: the flask's material, the lock seen
   from the side, an engineer for scale; then the 10-frame Modal bench.
 - `word_map.md` part 1 (cold open + ch.1, S0–S44) written. Next: parts 2–3, then scenes and Remotion.
+
+## The build begins (26 NOV 2026, about 6:45 PM IST)
+- **Remotion project rebuilt** (`remotion/`, pinned 4.0.534; the old entry files were lost with `Creator`): `Film.tsx`
+  (one shot list + overlays, 0.2 s dissolves, grain/vignette, the locked VO), `timing.ts` (`s0/s1/w0/w1` from
+  `vo/timing.json`), `parts/kit.tsx` (the catapult film's proven kit + `Archive` print on the table + `ChapterCard`),
+  `parts/drawings.tsx` (306 face, Rajasthan/Chambal and Kota maps from Natural Earth with India's official boundary,
+  export file, design sheet, pot → tank → cooker, weights, tube wall vs pencil to scale, MAY 1974), `parts/geo.ts`.
+  `public/assets/` links only `assets/media` and the VO wav (bundles stay small). `tsc --noEmit` clean.
+- **Part 1 (cold open + ch.1, S0–S44)** written in `scenes/p1_open_ch1.tsx`; drawn shots checked on stills and fixed.
+  Footage spans checked on our own sheets; clip list `media/clips.tsv` (`tools/prep_clips.py` now crops then keeps a
+  4:3 shape with `,V`, and interpolates to 60 fps before upscaling). Two word-map spans were wrong and are replaced
+  (`word_map.md` S12, S16–18): NP 00:50 is an NPCIL slideshow with burned-in years; FD80 25:20 is thorium beach sand.
+- **Avoid in FDA (02/03_loy):** 00:08–00:14 and 03_loy 00:03–00:05, 00:12–00:13 show leaders (plan lock: no PMs).
+- **Next footage request (r3):** a real Indian kitchen pressure cooker whistling (S24–25; Pixabay has none; drawn for now).
+- **Hero 1 bench on Modal** started 26 NOV, 6:20 PM IST (`modal-blender` run 45823267785: `face`, frames 0–599 step 60,
+  2560×1440, L4). Read its seconds per frame, write the cost here, look at the 10 frames (engineer placement), then the
+  full 600-frame run if it fits the free credit. Part 1 needs `H1_face` (prepared 60 fps clip) before its 720p part.
+- **Then:** parts 2–3 (ch.2–5, landing, end card), `cues.ts`, the 720p review cut on the runners.

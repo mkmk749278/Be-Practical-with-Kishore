@@ -40,7 +40,8 @@ def make(film, row, force):
         vf.append("scale=1920:1080:flags=lanczos,setsar=1")
     fr = fps_of(srcp)
     if abs(60 / fr - round(60 / fr)) > 1e-3:
-        vf.append("minterpolate=fps=60:mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1")
+        # interpolate before the upscale (crop first): same motion, a fraction of the pixels for small archive sources
+        vf.insert(len(vf) - 1, "minterpolate=fps=60:mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1")
     else:
         vf.append("fps=60")
     out.parent.mkdir(parents=True, exist_ok=True)
