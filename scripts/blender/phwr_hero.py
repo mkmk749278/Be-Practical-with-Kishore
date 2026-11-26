@@ -195,7 +195,8 @@ def build_face(a):
     box("console", (ex - 0.7, ey + 0.5, ez + 0.5), (1.2, 0.5, 1.0), mat("console", (0.22, 0.22, 0.21), 0.5), bevel=0.02)
     box("screen", (ex - 0.7, ey + 0.27, ez + 1.25), (0.9, 0.05, 0.5), mat("screen", (0.02, 0.02, 0.02), 0.2,
         emit=(0.55, 0.85, 1.0), strength=0.8))
-    haze((0, -5, 4.5), (14, 10, 9), 0.02, color=(1.0, 0.95, 0.9))
+    # haze density: 0.02 drew the shafts but cost 10–19 min a frame on a runner (26 NOV); PHWR_HAZE tunes it
+    haze((0, -5, 4.5), (14, 10, 9), float(os.environ.get("PHWR_HAZE", "0.02")), color=(1.0, 0.95, 0.9))
 
     SEAT, LOCK = 470, 480
     approach = [(0, -4.0), (240, -4.0), (SEAT, -FIT_L - 0.29), (LOCK, -FIT_L - 0.29)]

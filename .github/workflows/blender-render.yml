@@ -66,6 +66,8 @@ jobs:
           sudo apt-get update -q && sudo apt-get install -y -q libxrender1 libxxf86vm1 libxfixes3 libxi6 libxkbcommon0 libsm6 libgl1 libegl1
           pip install --quiet bpy==5.2.2 pillow==11.3.0
       - name: Render
+        timeout-minutes: 320  # leaves time to upload what was rendered (26 NOV: a timed-out shard lost all its frames)
+        continue-on-error: true
         run: |
           out=out/${{ inputs.shot }}
           python scripts/blender/${{ inputs.script }}.py --shot ${{ inputs.shot }} --frames ${{ matrix.range }} \
@@ -73,12 +75,14 @@ jobs:
           ls "$out" | wc -l
           [ "$(ls "$out" | wc -l)" -gt 0 ]
       - name: Frames to Drive
+        if: always()
         env:
           GDRIVE_RCLONE_TOKEN: ${{ secrets.GDRIVE_RCLONE_TOKEN }}
         run: scripts/upload_gdrive.sh --sub "English/${{ inputs.slug }}/renders/${{ inputs.shot }}" out/${{ inputs.shot }}/*
       # Frames go up as a workflow artifact (kept 90 days, free on a public repo). Litterbox refused the runners'
       # uploads on 2026-10-27 and a whole run's frames were lost, so nothing leaves GitHub any more.
       - name: Upload shard
+        if: always()
         uses: actions/upload-artifact@v4.6.2
         with:
           name: ${{ inputs.shot }}_${{ matrix.range }}

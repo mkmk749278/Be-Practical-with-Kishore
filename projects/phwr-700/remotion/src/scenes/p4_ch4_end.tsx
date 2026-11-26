@@ -78,7 +78,7 @@ export const p4: Part = {
 		// S180–182: the date to watch, on the same ground Canada left
 		clip(S(180), 'RAPS_dusk', CR.npcil),
 		// S183: the saying, over the face with the flask locked
-		hero(S(183), 'H1_face', 540 / 60),
+		hero(S(183), 'H1_face', 7.6),   // the flask locked (render frame 480 on); slowed by fitRate so it never runs out
 		// S184–185: next, 7 PM: India's lights come on; subscribe
 		shot(S(184), 'map-lights', (d, l) => <IndiaPins dur={d} mode="lights" at={at(w0(184, 'lights'), S(184), l)} />, {tag: 'MAP: NATURAL EARTH · INDIA’S OFFICIAL BOUNDARY'}),
 		// S186–187: the question
