@@ -141,3 +141,20 @@ on 23 NOV).
   steel tumbler sweating on a sunlit table (S66–67). Both are drawn until then.
 - **Next:** chapter 3 (S80–, "India opens the heart itself"), chapters 4–5, the landing and end card; `cues.ts`;
   the 720p review cut on the runners (≤ 15 jobs).
+
+## 26 NOV 2026, about 9:30 PM IST: the whole film is built (PRs #19–#21, merged)
+- Compositions `p1` (S0–S44), `p2` (S45–S79), `p3` (S80–S121), `p4` (S122–S189 + 15 s end card), `phwr` (all).
+  Every drawn shot checked on stills and fixed; every word cue checked against `vo/timing.json` (0 missing).
+- **H3 and H4 are drawn** in one section language (decided 26 NOV); the plan's Blender list is now H1 only.
+- **Footage decisions:** K06 unusable (text-covered slideshow); K05 1:16–1:18 (the PM) excluded; NP11 0:22 is Tarapur;
+  Pickering news 6.4 s in all; unnamed plants carry ILLUSTRATIVE FOOTAGE; names (Chaturvedi, Arya) only over places.
+- **Quotes:** the 1995 trade weekly and Business India lines are typed slips "AS QUOTED" (no facsimile pages); the
+  heart-transplant line has no quotation marks ("AS REPORTED", C27 records a likening).
+- **Waiting on:** hero 1 full render (run 45835464493, started 7:35 PM IST, 15 runners) → pull Drive `renders/face/`,
+  interpolate the 30 fps frames to `assets/media/clips/H1_face.mp4` (60 fps), stills of S0, S7, S8, S48, S78, S87, S183.
+- **Next, in order:** (1) H1 clip in, stills; (2) `cues.ts` (the clunk between S7 and S8, the cooker whistle after
+  S25, the stamp, the alarm) and the music bed (§12; `config/music_library.csv`); (3) upload `assets/media` and the VO
+  to Drive `English/phwr-700/render-media`, check `remotion-render.yml` against this project (it predates the rebuild),
+  render the 720p review cut on ≤ 15 runners; (4) our own review (§13.1), then the Gemini `cut-audit` handoff.
+- **Still open from before:** footage r3 (kitchen cooker whistling, a sweating steel tumbler); C01 (RAPP-8 cleared
+  19 NOV) unverified, not used on screen.
