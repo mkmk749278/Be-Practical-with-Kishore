@@ -3,7 +3,7 @@
 
   python3 tools/prep_clips.py projects/<slug> [--only NAME,NAME] [--jobs 3]
 
-Reads projects/<slug>/media/clips.tsv (name, source in assets/footage/, start, end, crop w:h:x:y or V for vertical,
+Reads projects/<slug>/media/clips.tsv (name, source in assets/footage/, start, end, crop w:h:x:y, V (keep the shape, 1080 high) or both as w:h:x:y,V,
 note). Writes assets/media/clips/<name>.mp4: only the seconds used, cropped (watermarks, captions, letterbox), scaled
 to 1920x1080 (vertical sources to 608x1080 x 1.0 height), motion-interpolated to 60 fps when the source is not a
 divisor of 60, H.264 CRF 18 capped at 16 Mb/s, no audio. Skips clips already made unless --force.
@@ -29,9 +29,12 @@ def make(film, row, force):
         return f"{name}: kept"
     srcp = film / "assets/footage" / src
     vf = []
-    if crop and crop != "V":
-        vf.append(f"crop={crop}")
-    if crop == "V":
+    parts = [c for c in crop.split(",") if c]
+    vertical = "V" in parts  # V: keep the source's shape at 1080 high (4:3 archive, vertical phone clips)
+    for c in parts:
+        if c != "V":
+            vf.append(f"crop={c}")
+    if vertical:
         vf.append("scale=-2:1080:flags=lanczos")
     else:
         vf.append("scale=1920:1080:flags=lanczos,setsar=1")

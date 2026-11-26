@@ -1,0 +1,30 @@
+# name	source (assets/footage/)	start	end	crop	note (part 1: cold open + ch.1; spans checked on our own 1 fps sheets, 26 NOV)
+RAPS_face	01_98h0F1lkdUA.mp4	175	179.8	1560:878:180:10	NPCIL RAPS-3: yellow suit at the face (photo, Ken Burns)
+RAPS_tube	01_98h0F1lkdUA.mp4	187.6	190.8	1560:878:180:10	a removed tube held in gloved hands
+RAPS_drive	01_98h0F1lkdUA.mp4	6.2	12.6	1560:878:180:10	the road in, trees, open scrub
+RAPS_gate	01_98h0F1lkdUA.mp4	13	16.8	1560:878:180:10	the roundabout at the plant, a bus
+RAPS_plant	01_98h0F1lkdUA.mp4	30.2	35.8	1560:878:180:10	RAPS-3 turbine hall and dome
+RAPS_lake	01_98h0F1lkdUA.mp4	305.2	312.8	1560:878:180:10	Rana Pratap Sagar lake, the island
+RAPS_road	01_98h0F1lkdUA.mp4	300	304.6	1560:878:180:10	cooling tower over the road, two engineers walking
+K4_fuel	12_6Z1yMdXO38g.mp4	2.5	9.5	1386:780:267:180	KAPP-4 first fuel (captions cropped out); ILLUSTRATIVE FOOTAGE: a sister 700
+R7_dome	02_Lhs8t93p_ag.mp4	48	50.8	1500:844:120:40	RAPP-7, 700 MW, Rawatbhata
+R7_towers	02_Lhs8t93p_ag.mp4	40	43.8	1500:844:120:40	RAPP-7&8 and cooling towers
+PK_station	01_T8FbAuXiCFQ.mp4	19.2	22.6	620:465:18:8,V	Pickering in snow, 1983 TV news (owner cleared 26 NOV)
+PK_face	01_T8FbAuXiCFQ.mp4	38	42.6	620:465:18:8,V	CANDU face, labelled end fittings, close to wide
+FDA_dome	02_loyIS9aOHW0.mp4	3.2	7.6	V	Films Division: a PHWR dome (plant not named)
+FDA_panel	02_loyIS9aOHW0.mp4	41.6	48.6	V	Films Division: Indian operators at a 1980s panel
+FDA_fm	02_loyIS9aOHW0.mp4	37.6	41.2	V	Films Division: fuelling machine rig
+FDA_pokhran	03_loyIS9aOHW0.mp4	14	17.8	V	Films Division: the Pokhran crater site (no leaders in frame)
+FD80_map	14_uoREvUJz97o.mp4	544	549	V	FD 1980: map, Rana Pratap Sagar and Narora
+FD80_dae	14_uoREvUJz97o.mp4	555	559	V	FD 1980: DAE Power Projects Engineering Division sign
+FD80_draw	14_uoREvUJz97o.mp4	564	576	V	FD 1980: the drafting hall, hands on drawings
+FD80_ends	14_uoREvUJz97o.mp4	503	508	V	FD 1980: end fittings close
+FD80_face	14_uoREvUJz97o.mp4	604	613	V	FD 1980: men at the reactor face
+FD80_bundle	14_uoREvUJz97o.mp4	774	784	V	FD 1980: a fuel bundle held up, the bundle rack
+FD80_uplant	14_uoREvUJz97o.mp4	805	809	V	FD 1980: Uranium Oxide Plant
+FD80_tubes	14_uoREvUJz97o.mp4	880	892	V	FD 1980: Indian hands at the fuel and tube benches
+FDB_trombay	15_m9KLkY4K62M.mp4	213	222	600:450:0:15,V	FD: Trombay hills and the establishment model
+FDB_cirus	15_m9KLkY4K62M.mp4	244	250	600:450:0:15,V	FD: CIRUS dome with the fountain, Trombay
+FDB_hall	15_m9KLkY4K62M.mp4	268	278	600:450:0:15,V	FD: operators at the CIRUS console
+TH74_blast	18_FJ2bCPWhFwU.mp4	7	10.6	1290:900:312:50,V	Pokhran 1974 (Films Division via The Hindu)
+STEAM	../broll/pixabay_154406.mp4	0.5	5.5		Pixabay steam (screened over the drawn cooker at the whistle)
