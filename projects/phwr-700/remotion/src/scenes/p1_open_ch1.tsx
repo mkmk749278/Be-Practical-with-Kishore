@@ -68,12 +68,12 @@ const ch1: Part = {
 		shot(pre(w0(11, 'sixty')), 'map-kota', (d, l) => <RajMap dur={d} mode="kota" roadA={at(w0(11, 'sixty'), pre(w0(11, 'sixty')), l)} roadB={at(w0(11, 'kota'), pre(w0(11, 'sixty')), l)} kmAt={at(w0(11, 'kilometres'), pre(w0(11, 'sixty')), l)} />, {tag: 'MAP: NATURAL EARTH'}),
 		// S12: the 1960s: the plan on the map, then the engineers' drawing hall
 		arch(S(12), 'FD80_map', CR.fd80, '1960s', 2.6),
-		arch(pre(w0(12, 'canada and india')), 'FD80_dae', CR.fd80, 'DEPARTMENT OF ATOMIC ENERGY', 2.0),
+		arch(pre(w0(12, 'canada and india')), 'FD80_dae', CR.fd80, 'DEPARTMENT OF ATOMIC ENERGY', 0.2),
 		arch(pre(w0(12, 'building')), 'FD80_draw', CR.fd80, '1970s'),
 		// S13–14: the design sheet slides in; the lamp warms on the question
 		draw(S(13), 'design-sheet', (d, l) => <DesignSheet lampAt={at(S(14), S(13), l)} />, 'ILLUSTRATION'),
 		// S15: Trombay, where the choice was made
-		arch(S(15), 'FDB_trombay', CR.fd, 'TROMBAY · 1960s', 1.6),
+		arch(S(15), 'FDB_trombay', CR.fd, 'TROMBAY · 1960s', 0),
 		// S16–18: no enriched uranium; natural uranium in fuel bundles; Indian factories
 		arch(S(16), 'FD80_uplant', CR.fd80, 'URANIUM OXIDE PLANT'),
 		arch(S(17), 'FD80_bundle', CR.fd80, 'NATURAL URANIUM FUEL'),
@@ -103,7 +103,7 @@ const ch1: Part = {
 		// S32–33: May 1974
 		draw(S(32), 'may-1974', () => <MayPage />, undefined, [1.0, 0, 30], [1.3, 0, -20]),
 		// S34: Pokhran
-		shot(pre(S(34)), 'TH74_blast', (d) => <Archive name="TH74_blast" dur={d} startAt={1.6} year="18 MAY 1974" aspect={1290 / 900} punch />, {credit: CR.fdTH, hard: true}),
+		shot(pre(S(34)), 'TH74_blast', (d) => <Archive name="TH74_blast" dur={d} startAt={1.05} year="18 MAY 1974" aspect={1290 / 900} punch />, {credit: CR.fdTH, hard: true}),
 		// S35–36: the test site after
 		arch(S(35), 'FDA_pokhran', CR.fd, 'POKHRAN · 1974'),
 		// S37: CIRUS at Trombay
@@ -114,12 +114,12 @@ const ch1: Part = {
 		// S39: the dome, empty; the light drops
 		shot(S(39), 'FDA_dome-empty', (d) => (
 			<AbsoluteFill>
-				<Archive name="FDA_dome" dur={d} year="1974" startAt={1.5} />
+				<Archive name="FDA_dome" dur={d} year="1974" startAt={1.42} />
 				<LightDrop dur={d} />
 			</AbsoluteFill>
 		), {credit: CR.fd}),
 		// S40: the first unit was running
-		arch(S(40), 'FDA_panel', CR.fd, 'UNIT 1', 2.4, false),
+		arch(S(40), 'FDA_panel', CR.fd, 'UNIT 1', 1.88, false),
 		// S41: the second, half done: half the face greys out
 		arch(S(41), 'FD80_ends', CR.fd80, 'UNIT 2'),
 		draw(pre(w0(41, 'halfway')), 'face-half', (d, l) => <Face306 greyAt={l} />, 'ILLUSTRATION'),

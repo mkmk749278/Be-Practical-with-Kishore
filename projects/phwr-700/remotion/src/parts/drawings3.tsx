@@ -159,8 +159,12 @@ export const CostStacks: React.FC<{indiaAt: number; canadaAt: number}> = ({india
 			))}
 		</g>
 	);
+	const outline = tw(f, 0, 30, 0, 1, ez.arrive);
 	return (
 		<svg width={1920} height={1080} style={{position: 'absolute'}}>
+			<rect x={560} y={860 - unit} width={240} height={unit} fill="none" stroke={C.green} strokeWidth={3} strokeDasharray="12 8" opacity={0.7 * outline} />
+			<rect x={1120} y={860 - unit * 4.25} width={240} height={unit * 4.25} fill="none" stroke={C.stress} strokeWidth={3} strokeDasharray="12 8" opacity={0.7 * outline} />
+			{lab(960, 200, '?', ink, outline * (1 - a), 120, 'middle')}
 			{stack(560, unit, a, C.green)}
 			{stack(1120, unit * 4.25, b, C.stress)}
 			{lab(680, 860 - unit * a - 30, '₹250 CRORE', C.green, a, 56, 'middle')}

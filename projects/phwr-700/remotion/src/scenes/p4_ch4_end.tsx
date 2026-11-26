@@ -72,8 +72,8 @@ export const p4: Part = {
 		// S171–175: the quiet ending: the file opens again
 		draw(S(171), 'trade', (d, l) => <TradeAgain openAt={at(w0(172, 'canadian'), S(171), l)} sheetAt={at(w0(173, 'ten'), S(171), l)} />, 'ILLUSTRATION'),
 		// S176–179: the fuel can be bought; the skill had to be grown
-		clip(S(176), 'K4_fuel', CR.npcil, 3.0, 'ILLUSTRATIVE FOOTAGE · KAKRAPAR-4'),
-		clip(S(178), 'NP_eng', CR.npcil, 2.0),
+		clip(S(176), 'K4_fuel2', CR.npcil, 0, 'ILLUSTRATIVE FOOTAGE · KAKRAPAR-4'),
+		clip(S(178), 'NP_eng', CR.npcil, 0.5),
 		clip(pre(w0(179, 'grow')), 'RAPS_cheer', CR.npcil, 1.0),
 		// S180–182: the date to watch, on the same ground Canada left
 		clip(S(180), 'RAPS_dusk', CR.npcil),
