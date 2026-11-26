@@ -1,0 +1,90 @@
+{
+ "summary": "An NDTV news broadcast discussing an emergency shutdown at the Kakrapar atomic power station in Gujarat due to a heavy water leak, featuring an interview with former Atomic Energy Commission Chairman M.R. Srinivasan.",
+ "language": "en",
+ "spans": [
+  {
+   "start": "00:00",
+   "end": "00:10",
+   "shows": "An NDTV news studio with a male anchor standing in front of a large screen showing graphics about an emergency shutdown.",
+   "place_people": "NDTV studio, male news anchor",
+   "onscreen_text": "NDTV, EMERGENCY SHUTDOWN OF NUCLEAR REACTOR",
+   "speech": "",
+   "fits": "none",
+   "problems": "logo bug, talking head"
+  },
+  {
+   "start": "00:10",
+   "end": "00:30",
+   "shows": "Anchor gesturing toward a screen displaying news about Kakrapar reactor shutdown.",
+   "place_people": "NDTV studio",
+   "onscreen_text": "NDTV, EMERGENCY SHUTDOWN OF NUCLEAR REACTOR, GUJARAT KAKRAPAR, INDIA'S 220 MW NUCLEAR REACTOR AT KAKRAPAR, GUJARAT SHUTS DOWN",
+   "speech": "",
+   "fits": "Kakrapar (Gujarat): the 2016 shutdown news",
+   "problems": "logo bug, talking head"
+  },
+  {
+   "start": "00:30",
+   "end": "01:00",
+   "shows": "Anchor speaking in front of the studio screen detailing the reactor shutdown and water leakage.",
+   "place_people": "NDTV studio",
+   "onscreen_text": "NDTV, EMERGENCY SHUTDOWN OF NUCLEAR REACTOR, SHUT DOWN AFTER HEAVY WATER LEAKAGE, EMERGENCY DECLARED",
+   "speech": "",
+   "fits": "Kakrapar (Gujarat): the 2016 shutdown news",
+   "problems": "logo bug, talking head"
+  },
+  {
+   "start": "01:00",
+   "end": "02:15",
+   "shows": "Anchor continuing news report about workers, radiation checks, and reactor cooling status.",
+   "place_people": "NDTV studio",
+   "onscreen_text": "NDTV, EMERGENCY SHUTDOWN OF NUCLEAR REACTOR, NO RADIOACTIVE LEAK, HIGH TEMPERATURE HEAVY WATER LEAKS INSIDE THE SEALED REACTOR BUILDING, NUCLEAR REACTOR STILL COOLING DOWN",
+   "speech": "",
+   "fits": "Kakrapar (Gujarat): the 2016 shutdown news",
+   "problems": "logo bug, talking head"
+  },
+  {
+   "start": "02:15",
+   "end": "03:22",
+   "shows": "Anchor talking to M.R. Srinivasan, former chairman of the Atomic Energy Commission, via a video wall link.",
+   "place_people": "NDTV studio, M.R. Srinivasan (Former Chairman, Atomic Energy Commission of India)",
+   "onscreen_text": "NDTV, EMERGENCY IN GUJARAT N-PLANT, 'No radioactive leak', Reactor in Kakrapar plant shut down after major water leak, MR Sreenivasan, Former Chairman, Atomic Energy Commission of India",
+   "speech": "",
+   "fits": "Kakrapar (Gujarat): the 2016 shutdown news",
+   "problems": "logo bug, talking head"
+  },
+  {
+   "start": "03:22",
+   "end": "04:15",
+   "shows": "Split screen of anchor and M.R. Srinivasan discussing safety systems and shutdown procedures.",
+   "place_people": "NDTV studio, M.R. Srinivasan",
+   "onscreen_text": "NDTV, THE BUCK STOPS HERE, EMERGENCY IN GUJARAT N-PLANT, MR Sreenivasan, Former Chairman, Atomic Energy Commission of India",
+   "speech": "",
+   "fits": "Kakrapar (Gujarat): the 2016 shutdown news",
+   "problems": "logo bug, talking head"
+  },
+  {
+   "start": "04:15",
+   "end": "05:00",
+   "shows": "Discussion continues between anchor and M.R. Srinivasan on worker safety and radiation levels.",
+   "place_people": "NDTV studio, M.R. Srinivasan",
+   "onscreen_text": "NDTV, EMERGENCY SHUTDOWN OF NUCLEAR REACTOR, EMERGENCY IN GUJARAT N-PLANT, MR Sreenivasan, Former Chairman, Atomic Energy Commission of India",
+   "speech": "",
+   "fits": "Kakrapar (Gujarat): the 2016 shutdown news",
+   "problems": "logo bug, talking head"
+  },
+  {
+   "start": "05:00",
+   "end": "06:27",
+   "shows": "Anchor and M.R. Srinivasan wrapping up the interview regarding the Kakrapar reactor status and safety measures.",
+   "place_people": "NDTV studio, M.R. Srinivasan",
+   "onscreen_text": "NDTV, EMERGENCY SHUTDOWN OF NUCLEAR REACTOR, EMERGENCY IN GUJARAT N-PLANT, MR Sreenivasan, Former Chairman, Atomic Energy Commission of India",
+   "speech": "",
+   "fits": "Kakrapar (Gujarat): the 2016 shutdown news",
+   "problems": "logo bug, talking head"
+  }
+ ],
+ "clip": "17_7BIQimh7USI.mp4",
+ "duration_s": 387.8,
+ "frame_every_s": 2,
+ "model": "gemini-3.5-flash-lite"
+}

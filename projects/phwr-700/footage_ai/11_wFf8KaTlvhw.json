@@ -1,0 +1,120 @@
+{
+ "summary": "Promotional overview of NPCIL nuclear power plants in India, highlighting Kaiga, Tarapur, and Rawatbhata units, featuring control rooms, construction work, CG animations of coolant channel replacement, and high-voltage power transmission lines.",
+ "language": "en",
+ "spans": [
+  {
+   "start": "00:00",
+   "end": "00:06",
+   "shows": "Sunrise over clouds, interior view looking down into a cylindrical concrete structure (reactor vault/calandria)",
+   "place_people": "",
+   "onscreen_text": "When Momentum Meets Foundation!! First Pour of Concrete of KGS Units-5&6 !!",
+   "speech": "In nuclear power, momentum is earned.",
+   "fits": "Kaiga (Karnataka) and long continuous runs (records)",
+   "problems": "CGI/animation"
+  },
+  {
+   "start": "00:06",
+   "end": "00:21",
+   "shows": "Aerial views of power plants, cooling towers, and switchyards",
+   "place_people": "Rajasthan Nuclear Power Plant",
+   "onscreen_text": "RAJASTHAN NUCLEAR POWER PLANT, Strengthening India's 700MWe Fleet",
+   "speech": "At Rajasthan, unit 7 has entered full power operation, strengthening India's 700 megawatt electric fleet. Unit 8 advances steadily following successful hot conditioning.",
+   "fits": "RAPP-7 / RAPP-8 (Rawatbhata 700 MW units): construction, grid connection, fuel bundles and fuel loading",
+   "problems": ""
+  },
+  {
+   "start": "00:21",
+   "end": "00:35",
+   "shows": "Aerial views of Tarapur and Kaiga nuclear power plants",
+   "place_people": "Tarapur, Kaiga Nuclear Power Plant",
+   "onscreen_text": "TARAPUR, KAIGA NUCLEAR POWER PLANT",
+   "speech": "At Tarapur, unit 1 has been synchronized to the national grid and unit 2 prepares for criticality after comprehensive upgrading and life extension. And at Kaiga, excellence continues.",
+   "fits": "Kaiga (Karnataka) and long continuous runs (records)",
+   "problems": ""
+  },
+  {
+   "start": "00:35",
+   "end": "00:43",
+   "shows": "Control room interior with panels, engineers monitoring screens and walking along desks",
+   "place_people": "Indian control room operators",
+   "onscreen_text": "Unit operated for 962 consecutive days, A World Record in Nuclear Power Generation",
+   "speech": "One of its units once operated for 962 consecutive days, a world record in nuclear power generation across its four operating units.",
+   "fits": "Kaiga (Karnataka) and long continuous runs (records)",
+   "problems": ""
+  },
+  {
+   "start": "00:43",
+   "end": "00:53",
+   "shows": "Aerial exterior views of Kaiga plant and control room operator working",
+   "place_people": "",
+   "onscreen_text": "Continuous Operation beyond one year achieved on 20 occasions",
+   "speech": "Continuous operation beyond one year has been achieved on 20 occasions. This is not an exception, it is a standard.",
+   "fits": "Kaiga (Karnataka) and long continuous runs (records)",
+   "problems": ""
+  },
+  {
+   "start": "00:53",
+   "end": "01:03",
+   "shows": "3D CGI animation of reactor face, end fittings, and En-Masse Coolant Channel & Feeder replacement",
+   "place_people": "",
+   "onscreen_text": "En-Masse Coolant Channel & En-Masse Feeder replacement in progress",
+   "speech": "Even as KGS-1 progresses through En-Masse coolant channel replacement and En-Masse feeder replacement, on schedule, discipline remains uncompromised.",
+   "fits": "Remote tools cutting, pulling or fitting a coolant channel / pressure tube; a removed tube; engineers watching screens",
+   "problems": "CGI/animation"
+  },
+  {
+   "start": "01:03",
+   "end": "01:13",
+   "shows": "Engineers working on computer workstations with technical schematics, 3D simulation of tooling, plaque unveiling ceremony with workers in hardhats",
+   "place_people": "Indian engineers",
+   "onscreen_text": "",
+   "speech": "And today, that proven site takes its next decisive step. The first pour of concrete for Kaiga units 5 and 6,",
+   "fits": "Indian engineers and workers at work (control rooms, protective suits, workshops, meetings)",
+   "problems": ""
+  },
+  {
+   "start": "01:13",
+   "end": "01:22",
+   "shows": "Montage of construction sites, heavy machinery, foundation pouring, and 3D rendering of reactor building",
+   "place_people": "",
+   "onscreen_text": "Two indigenously developed 700 MWe units, Planned for completion within 63 months",
+   "speech": "two indigenously developed 700 megawatts electrical pressurized heavy water reactors, planned for completion within 63 months.",
+   "fits": "RAPP-7 / RAPP-8 (Rawatbhata 700 MW units): construction, grid connection, fuel bundles and fuel loading",
+   "problems": "CGI/animation"
+  },
+  {
+   "start": "01:22",
+   "end": "01:33",
+   "shows": "Construction site progress, rebar grid preparation, concrete pouring, workers on site",
+   "place_people": "",
+   "onscreen_text": "Executed through structured Mega construction packages, Built under stringent Regulatory oversight",
+   "speech": "Executed through structured mega construction packages awarded through a rigorous contracting process, built under stringent regulatory oversight,",
+   "fits": "RAPP-7 / RAPP-8 (Rawatbhata 700 MW units): construction, grid connection, fuel bundles and fuel loading",
+   "problems": ""
+  },
+  {
+   "start": "01:33",
+   "end": "01:47",
+   "shows": "Engineers at control terminals, construction overview, workers monitoring dashboards",
+   "place_people": "Indian engineers",
+   "onscreen_text": "",
+   "speech": "engineered with advanced safety architecture, aligned to contemporary global benchmarks. From a site that has set records in reliability rises the next generation of clean energy capacity,",
+   "fits": "Indian engineers and workers at work (control rooms, protective suits, workshops, meetings)",
+   "problems": ""
+  },
+  {
+   "start": "01:47",
+   "end": "02:22",
+   "shows": "High-voltage transmission towers, exterior pan of Kaiga nuclear power plant, NPCIL corporate logos and branding",
+   "place_people": "",
+   "onscreen_text": "Strengthening the Southern grid, Securing India's Energy future, NUCLEAR POWER CORPORATION OF INDIA LIMITED",
+   "speech": "strengthening the southern grid, advancing sustainable growth, securing India's energy future where excellence has been proven. Expansion is inevitable. Nuclear Power Corporation of India Limited, building the next era of nuclear power.",
+   "fits": "none",
+   "problems": "corporate branding/logo"
+  }
+ ],
+ "clip": "11_wFf8KaTlvhw.mp4",
+ "duration_s": 142.6,
+ "frame_every_s": 2,
+ "model": "gemini-3.5-flash-lite"
+}
