@@ -22,7 +22,7 @@ export const p4: Part = {
 		clip(S(122), 'K05_towers', CR.npcil, 0, ILL),
 		clip(S(124), 'RAPS_road', CR.npcil),
 		// S126–128: 11 MAR 2016, Kakrapar, Gujarat, about nine in the morning
-		draw(S(126), 'mar-2016', () => <CalendarPage month="11 MAR" year="2016" />),
+		draw(S(126), 'mar-2016', () => <CalendarPage month="11 MAR" year="2016" />, undefined, [1.0, 0, 30], [1.3, 0, -20]),
 		shot(S(127), 'map-kakrapar', (d, l) => <IndiaPins dur={d} mode="kakrapar" at={l + 6} />, {tag: 'MAP: NATURAL EARTH · INDIA’S OFFICIAL BOUNDARY'}),
 		// S129: the reactor shut itself down
 		draw(S(129), 'rods', (d, l) => <RodsDrop dropAt={at(w0(129, 'shut'), S(129), l)} />, 'SIMPLIFIED'),

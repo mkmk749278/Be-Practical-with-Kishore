@@ -101,7 +101,7 @@ const ch1: Part = {
 		// S29–31: the wall in section; the pencil; thinner than that
 		draw(S(29), 'tube-wall', (d, l) => <TubeWall pencilAt={at(S(30), S(29), l)} compareAt={at(S(31), S(29), l)} />, 'ILLUSTRATION · TO SCALE', [1.0, 0, 0], [1.18, -60, 0]),
 		// S32–33: May 1974
-		draw(S(32), 'may-1974', () => <MayPage />),
+		draw(S(32), 'may-1974', () => <MayPage />, undefined, [1.0, 0, 30], [1.3, 0, -20]),
 		// S34: Pokhran
 		shot(pre(S(34)), 'TH74_blast', (d) => <Archive name="TH74_blast" dur={d} startAt={1.6} year="18 MAY 1974" aspect={1290 / 900} punch />, {credit: CR.fdTH, hard: true}),
 		// S35–36: the test site after
