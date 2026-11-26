@@ -40,19 +40,19 @@ blue of heavy water only inside the tank. The clunk of the flask lands between s
 |---|---|---|---|---|---|
 | 10 | 0:39.1 | "Let me take you to Rawatbhata." | RAPS3 00:06–00:18 the drive in: the roundabout, the gate; chapter card "306 PRESSURE COOKERS" | RAPS3 | L |
 | 11 | 0:41.0 | "A small town on the Rana Pratap Sagar lake, about sixty four kilometres from Kota." | RAPS3 05:04 the lake → "sixty four kilometres from Kota": R map, Kota to Rawatbhata drawn at road speed, "64 km" | RAPS3 · R | L |
-| 12 | 0:46.0 | "…in the nineteen sixties… Canada and India building a nuclear power station together." | FD80 09:00 the 1980 map with Rana Pratap Sagar → NP 00:50–01:04 heavy equipment on the road, 1969 (ARCHIVE 1969) | FD80 · NP | L |
+| 12 | 0:46.0 | "…in the nineteen sixties… Canada and India building a nuclear power station together." | FD80 09:00 the 1980 map with Rana Pratap Sagar → "Canada and India": FD80 09:15 the DAE Power Projects sign → "building": FD80 09:25 the drafting hall (26 NOV: NP 00:50 is an NPCIL slideshow with burned-in years, dropped) | FD80 | L |
 | 13 | 0:52.6 | "Its design came from Canada." | R: a drawing sheet slides in at 12° on the table, title block "CANADA" | R | L |
 | 14 | 0:54.6 | "And why that design?" | hold on the sheet, the lamp warms | R | — |
 | 15 | 0:56.0 | "India had picked it for one simple reason." | FDB 03:32 Trombay, the 1960s establishment | FDB | L |
-| 16 | 0:58.5 | "It needs no enriched uranium." | FD80 13:00 fuel bundles on the bench | FD80 | L |
-| 17 | 1:00.9 | "You can run it on natural uranium… the same mix of atoms you find in nature." | FD80 25:20 ore carried up the conveyor → "in nature": a handful of rock | FD80 | P |
-| 18 | 1:05.6 | "And Indian factories could build it." | FD80 14:40–15:20 Indian hands on tubes in the factory | FD80 | P |
+| 16 | 0:58.5 | "It needs no enriched uranium." | FD80 13:25 the Uranium Oxide Plant | FD80 | L |
+| 17 | 1:00.9 | "You can run it on natural uranium… the same mix of atoms you find in nature." | FD80 12:55–13:05 a natural-uranium fuel bundle held up, the rack (26 NOV: FD80 25:20 is thorium beach sand, dropped) | FD80 | P |
+| 18 | 1:05.6 | "And Indian factories could build it." | FD80 14:40 Indian hands at the fuel benches | FD80 | P |
 | 19 | 1:08.0 | "Now, you have probably seen a reactor drawn as one giant steel pot." | T hero 2 begins: one solid steel pot | T | L |
 | 20 | 1:12.6 | "Most reactors in the world are just that." | the pot turns slowly | T | — |
 | 21 | 1:15.0 | "This one is different." | the pot dissolves | T | F |
 | 22 | 1:16.8 | "Imagine a tank, pierced by three hundred and six tubes." | a tank, the 306 tubes slide through it on "pierced" | T | P |
 | 23 | 1:20.5 | "Each tube… is its own small pressure cooker." | one tube lifts out of the row and becomes a kitchen cooker on its side | T | F |
-| 24 | 1:23.9 | "Think of the cooker in your kitchen." | a real Indian kitchen, a cooker on the flame (stock, Pixabay; ILLUSTRATIVE FOOTAGE) | STOCK | L |
+| 24 | 1:23.9 | "Think of the cooker in your kitchen." | R: the drawn cooker under a warm lamp (a real Indian kitchen cooker is in the next footage request; Pixabay had none) | R | L |
 | 25 | 1:25.5 | "You know that whistle…" | the whistle lifts; **one cooker whistle** in the gap after the sentence | STOCK | F |
 | 26 | 1:28.2 | "Inside, the steam pushes at about one kilo on every square centimetre." | R: a one-kilo weight on a fingertip-size square | R | P |
 | 27 | 1:32.9 | "Now jump ahead to India's newest reactors for a moment." | RAPP-7, 02 @ 00:46–00:54 the 700 MW dome | 02 | L |

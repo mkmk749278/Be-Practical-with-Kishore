@@ -101,3 +101,30 @@ on 23 NOV).
 - Blender hero 1 (`scripts/blender/phwr_hero.py`): the face reads; still to do: the flask's material, the lock seen
   from the side, an engineer for scale; then the 10-frame Modal bench.
 - `word_map.md` part 1 (cold open + ch.1, S0–S44) written. Next: parts 2–3, then scenes and Remotion.
+
+## The build begins (26 NOV 2026, about 6:45 PM IST)
+- **Remotion project rebuilt** (`remotion/`, pinned 4.0.534; the old entry files were lost with `Creator`): `Film.tsx`
+  (one shot list + overlays, 0.2 s dissolves, grain/vignette, the locked VO), `timing.ts` (`s0/s1/w0/w1` from
+  `vo/timing.json`), `parts/kit.tsx` (the catapult film's proven kit + `Archive` print on the table + `ChapterCard`),
+  `parts/drawings.tsx` (306 face, Rajasthan/Chambal and Kota maps from Natural Earth with India's official boundary,
+  export file, design sheet, pot → tank → cooker, weights, tube wall vs pencil to scale, MAY 1974), `parts/geo.ts`.
+  `public/assets/` links only `assets/media` and the VO wav (bundles stay small). `tsc --noEmit` clean.
+- **Part 1 (cold open + ch.1, S0–S44)** written in `scenes/p1_open_ch1.tsx`; drawn shots checked on stills and fixed.
+  Footage spans checked on our own sheets; clip list `media/clips.tsv` (`tools/prep_clips.py` now crops then keeps a
+  4:3 shape with `,V`, and interpolates to 60 fps before upscaling). Two word-map spans were wrong and are replaced
+  (`word_map.md` S12, S16–18): NP 00:50 is an NPCIL slideshow with burned-in years; FD80 25:20 is thorium beach sand.
+- **Avoid in FDA (02/03_loy):** 00:08–00:14 and 03_loy 00:03–00:05, 00:12–00:13 show leaders (plan lock: no PMs).
+- **Next footage request (r3):** a real Indian kitchen pressure cooker whistling (S24–25; Pixabay has none; drawn for now).
+- **Renders moved to the GitHub runners, at most 15 at once (owner, 26 NOV, 6:42 PM IST)** after the Modal bench failed
+  twice (a launcher path bug, fixed; then OptiX's denoiser weights missing in the container). `blender-render.yml`:
+  bpy 5.2.2, 15-shard cap, frames to Drive `renders/<shot>/`.
+- **Hero 1 bench on the runners** (run 45827156257, 10 frames, 2560×1440, 64 samples, OIDN): **about 12.3 min a frame
+  on one runner**. The full 600 frames at that setting would need about 8 h a runner on 15 runners: over the 340-min job
+  limit. Plan: 1920×1080 (upscaled at the master), 32 samples, every 2nd frame interpolated to 60 fps, and only the
+  frames the cut uses (render 0–200 and 240–590): about 4 min a frame, about 75 min a runner on 15.
+- **The look fails the art direction (our check of frames 0, 60, 240, 480):** a flat, bright grey room and a matte
+  orange flask that reads as plastic, not the dim vault with a warm key; the engineer is in none of the 10 frames
+  (0–540); the flask path and the lock (360–540) read well. Before any full run:
+  darken the world, a warm hard key with haze shafts, darker end shield, worn paint and grime on the flask, place the
+  engineer; test 4 stills at 640 px locally (`pip install bpy==5.2.2` in `.venv-blender`).
+- **Then:** parts 2–3 (ch.2–5, landing, end card), `cues.ts`, the 720p review cut on the runners.

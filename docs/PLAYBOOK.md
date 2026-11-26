@@ -714,6 +714,11 @@ Lyria music are not audits and stay).
 ## 14. Render, backup and deliver
 
 ### 14.1 Where (owner, 2026-11-23)
+- **Changed 26 NOV 2026 (owner: "Render in GitHub runners, don't exceed 15 runners"):** hero plates, review parts and
+  the master render on the GitHub runners, at most 15 jobs at once (`blender-render.yml` caps its shards at 15; set
+  `runners` ≤ 15 on `remotion-render`). The Modal bullets below are history for renders; Modal keeps the voice enhance.
+  *Why:* the Modal hero bench crashed twice (a path bug, then OptiX's denoiser weights missing from the container)
+  and the owner chose the free runners.
 - **GitHub runners render light jobs only:** 720p review parts, media fetches and Remotion stills, started by hand
   (`workflow_dispatch`, never on push), at most 6 jobs at once, a few runs a week. **Modal renders the heavy jobs:** the
   4K master, Blender hero plates and anything over a runner's limits; a GitHub workflow may start the Modal job. The
