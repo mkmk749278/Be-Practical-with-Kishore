@@ -51,7 +51,7 @@ a senior engineer or an elder brother over coffee. **Zero sodhi:** no fluff, che
 ## How we make a film (§3; owner gates in bold)
 **Promise first:** the title and thumbnail concept are locked in the plan, the opening is written first and checked
 against them, everything else pays that promise. **Decide early, build once.** Each step has a checked creative output.
-1. **Topic** (`brief.md`) → 2. **Research** (§4; the owner's Gemini sweep, checked by us): what everyone says vs the primary record, **our edge in one
+1. **Topic** (`brief.md`) → 2. **Research** (§4; the Gemini `research` handoff, checked by us): what everyone says vs the primary record, **our edge in one
    sentence**, the objection ledger, the story bank, search words; no edge, no film → 3. **The plan** (§5): the locked
    promise, cold opens and endings that differ in kind, the creative spine, the beat sheet, the hero shots; independent
    plan review; **the owner approves the plan and the promise** → 4. **Facts** (§8, `claims_check.py`) →
@@ -112,6 +112,17 @@ against them, everything else pays that promise. **Decide early, build once.** E
   the promise. Description: 2–4 plain lines and chapters, no links. Our own SRT. All in `youtube/metadata.json`.
 - Upload when ready, usually 3–5 days after the last film (owner picks the slot; never promise a day or time on air); the film's playlist; the end screen points at the most related film. Pinned comment
   in Kishore's own voice, the sources in his first reply. Studio at 24 h, 7 d and 28 d; comments feed the next ledger.
+
+## The Gemini handoff (§13.3; owner, 2026-11-26)
+- Gemini (the owner's workspace agent: memory, skills, Drive, YouTube; it listens and watches) does the **first pass**
+  at seven gates to save Claude usage: `research`, `narration-review`, `fact-check`, `audio-audit`, `cut-audit` (every
+  720p cut), `fresh-facts`, `analytics-audit`. The no-repo review sessions of §13.2 become the fallback.
+- `scripts/gemini_handoff.sh new <slug> <task>` → fill → `push` → send the printed `[GEMINI-HANDOFF]` email with the
+  Gmail connector to the owner's own Gmail (never write the address in git) → carry on, never wait or poll →
+  `pull <slug>` at the next step (exit 4: search Gmail `[GEMINI-RESULT]`) → `review/gemini_<task>_check.md`
+  (CONFIRMED / PARTLY / NOT CONFIRMED) → fix.
+- Gemini's answer is a list of leads; every fact still gets its primary source opened by us. No 4K before the cut audit
+  is checked and the owner approves the cut. No raw Gemini API calls for audits.
 
 ## Owner and setup (§2)
 - Kishore works **only from an Android phone**; every result opens on a phone (Drive link, contact sheet, SendUserFile,
