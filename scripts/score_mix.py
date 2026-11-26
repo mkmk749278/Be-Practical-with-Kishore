@@ -364,14 +364,28 @@ def main() -> None:
         print(f"  {t0:7.1f}–{t1:7.1f}  {s['track']}")
     for r in score.get("rooms", []):
         t0, t1 = A(r["from"]), A(r["to"])
-        place(bed, synth(r["what"], 7, t1 - t0), t0, db(r["gain_db"] + 20))
+        if r.get("file"):  # a real room recording, looped to length with a crossfade-free tile (pick a steady bed)
+            x = decode(film / r["file"])
+            reps = int(np.ceil((t1 - t0) * SR / len(x)))
+            x = _fade(np.tile(x, (reps, 1))[: int((t1 - t0) * SR)], 1.0)
+            place(bed, x / (np.sqrt(np.mean(x ** 2)) + 1e-9) * db(-20), t0, db(r["gain_db"] + 20))
+        else:
+            place(bed, synth(r["what"], 7, t1 - t0), t0, db(r["gain_db"] + 20))
     bed *= duck[:, None]
 
     # ---- SFX
     sfx = np.zeros((n, 2), np.float32)
     for k, c in enumerate(json.loads((film / "sound/sfx.json").read_text())["cues"]):
         t0 = A(c["at"])
-        x = synth(c["sfx"], 100 + k, (A(c["to"]) - t0) if "to" in c else 0)
+        if c.get("file"):  # a real recording (owner, 26 NOV: realistic machinery sounds): "file", optional "trim": [a, b] s
+            x = decode(film / c["file"])
+            a, b = c.get("trim", [0, len(x) / SR])
+            x = x[int(a * SR): int(b * SR)]
+            if "to" in c:
+                x = x[: int((A(c["to"]) - t0) * SR)]
+            x = _fade(x, min(0.03, len(x) / SR / 4))
+        else:
+            x = synth(c["sfx"], 100 + k, (A(c["to"]) - t0) if "to" in c else 0)
         x = x / (np.max(np.abs(x)) + 1e-9) * db(-3)
         place(sfx, x, t0, db(c["gain_db"] + 3))
 

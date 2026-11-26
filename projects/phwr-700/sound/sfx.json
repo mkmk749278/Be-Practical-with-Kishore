@@ -1,53 +1,451 @@
-{"_why": "Every visual event has a sound (PLAYBOOK §12). 'want' is the real recording each cue needs (owner, 26 NOV: realistic machinery sounds); 'sfx' is the mixer's stand-in until it arrives, used for our own checks only.",
+{
+ "_why": "Every visual event has a sound (PLAYBOOK §12). 'want' is the real recording each cue needs (owner, 26 NOV: realistic machinery sounds); 'sfx' is the mixer's stand-in until it arrives, used for our own checks only.",
  "cues": [
-  {"at": "w:0:walked", "sfx": "impact_low", "gain_db": -12, "want": "a heavy steel door closing far off in a concrete hall"},
-  {"at": "w:2:wearing", "sfx": "glint", "gain_db": -14, "want": "a faint metal creak"},
-  {"at": "w:3:tubes", "sfx": "counter_land", "gain_db": -10, "want": "a soft mechanical counter tick landing"},
-  {"at": "w:6:kept", "sfx": "stamp", "gain_db": -8, "want": "a rubber stamp hitting paper on a wooden desk"},
-  {"at": "s:7", "to": "e:7", "sfx": "whine", "gain_db": -16, "want": "a heavy carriage rolling slowly on steel rails, motor hum"},
-  {"at": "e:7+0.2", "sfx": "metal_slam", "gain_db": -6, "want": "THE CLUNK: a heavy steel flask locking onto a fitting, a deep clamp and ring"},
-  {"at": "w:8:one", "sfx": "clang", "gain_db": -14, "want": "a metal tube set down on a steel tray"},
-  {"at": "w:11:sixty", "sfx": "whoosh", "gain_db": -14, "want": "a car passing on a country road"},
-  {"at": "w:13:design", "sfx": "paper_tear", "gain_db": -16, "want": "a large drawing sheet slid across a table"},
-  {"at": "w:22:pierced", "sfx": "whoosh", "gain_db": -12, "want": "steel rods sliding through steel sleeves"},
-  {"at": "e:25+0.1", "sfx": "whistle", "gain_db": -8, "want": "an Indian pressure cooker whistle in a kitchen"},
-  {"at": "w:26:one", "sfx": "thump", "gain_db": -10, "want": "a one-kilo iron weight set down on a table"},
-  {"at": "w:28:hundred", "sfx": "counter_land", "gain_db": -12, "want": "iron weights stacking, quick clinks"},
-  {"at": "w:30:pencil", "sfx": "glint", "gain_db": -14, "want": "a pencil laid down on paper"},
-  {"at": "s:34", "sfx": "impact_low", "gain_db": -6, "want": "a deep distant underground blast rumble"},
-  {"at": "w:38:stopped", "sfx": "thump", "gain_db": -10, "want": "a heavy file folder shut on a desk"},
-  {"at": "w:41:halfway", "sfx": "impact_low", "gain_db": -12, "want": "a big hall's lights switching off, relay clunks"},
-  {"at": "w:44:work", "sfx": "glint", "gain_db": -10, "want": "a large electrical switch thrown, hum rising"},
-  {"at": "w:46:nine", "sfx": "counter_land", "gain_db": -12, "want": "a mechanical counter rolling"},
-  {"at": "w:51:while", "sfx": "whine", "gain_db": -16, "want": "a fuelling machine motor and hydraulics"},
-  {"at": "w:57:broke", "sfx": "metal_slam", "gain_db": -8, "want": "a metal pipe bursting under pressure, a hiss"},
-  {"at": "w:63:slipped", "sfx": "glint", "gain_db": -14, "want": "a small coil spring sliding on a steel tube"},
-  {"at": "w:65:touched", "sfx": "clang", "gain_db": -12, "want": "two steel tubes touching, a dull metal knock"},
-  {"at": "w:71:cracked", "sfx": "sparks", "gain_db": -12, "want": "metal cracking, a sharp tick"},
-  {"at": "w:72:split", "sfx": "steam_hiss", "gain_db": -8, "want": "high-pressure steam escaping from a split pipe"},
-  {"at": "w:73:stop", "sfx": "thump", "gain_db": -12, "want": "a turbine hall winding down"},
-  {"at": "w:78:doctor", "sfx": "vault", "gain_db": -8, "want": "a heavy vault door closing and its bolt"},
-  {"at": "w:83:kept", "sfx": "stamp", "gain_db": -8, "want": "a rubber stamp hitting paper on a wooden desk"},
-  {"at": "w:89:stand", "sfx": "riser", "to": "e:90", "gain_db": -14, "want": "a radiation dose meter clicking faster"},
-  {"at": "w:95:cuts", "sfx": "sparks", "gain_db": -10, "want": "a remote cutting tool cutting inside a metal pipe"},
-  {"at": "w:96:drawn", "sfx": "whine", "gain_db": -14, "want": "a winch drawing a long tube slowly into a steel cask"},
-  {"at": "w:97:carries", "sfx": "whine", "gain_db": -16, "want": "a heavy carriage rolling on rails"},
-  {"at": "e:97", "sfx": "vault", "gain_db": -8, "want": "a heavy vault door closing and its bolt"},
-  {"at": "w:100:new", "sfx": "whoosh", "gain_db": -12, "want": "a tube feeding through rollers"},
-  {"at": "e:103", "sfx": "counter_land", "gain_db": -10, "want": "a mechanical counter landing"},
-  {"at": "w:105:two", "sfx": "coin", "gain_db": -12, "want": "a stack of coins set down"},
-  {"at": "w:106:more", "sfx": "coin", "gain_db": -10, "want": "a tall stack of coins set down"},
-  {"at": "w:109:nineteen", "sfx": "paper_tear", "gain_db": -14, "want": "calendar pages flipping"},
-  {"at": "w:116:opened", "sfx": "glint", "gain_db": -12, "want": "an old radio's back panel unscrewed and lifted"},
-  {"at": "w:121:subscribe", "sfx": "glint", "gain_db": -12, "want": "a TV remote button click"},
-  {"at": "w:128:leak", "sfx": "steam_hiss", "gain_db": -14, "want": "a small steam leak hissing"},
-  {"at": "w:129:shut", "sfx": "thump", "gain_db": -8, "want": "control rods dropping, a heavy mechanical thud"},
-  {"at": "w:133:two", "sfx": "counter_land", "gain_db": -10, "want": "a soft tick"},
-  {"at": "w:142:came", "sfx": "clang", "gain_db": -14, "want": "a metal tube set down on a steel tray"},
-  {"at": "w:148:grow", "sfx": "counter_land", "to": "e:148", "gain_db": -12, "want": "a mechanical counter rolling"},
-  {"at": "w:153:alarm", "sfx": "riser", "gain_db": -10, "want": "a control-room alarm buzzer, short"},
-  {"at": "w:160:full", "sfx": "glint", "gain_db": -12, "want": "a turbine spinning up, hum"},
-  {"at": "w:164:three", "sfx": "glint", "gain_db": -12, "want": "three light switches clicking on"},
-  {"at": "w:172:canadian", "sfx": "paper_tear", "gain_db": -14, "want": "a file folder opening"},
-  {"at": "w:184:lights", "sfx": "glint", "gain_db": -12, "want": "a city at dusk, distant traffic, lights humming on"}
- ]}
+  {
+   "at": "w:0:walked",
+   "sfx": "impact_low",
+   "gain_db": -16,
+   "want": "a heavy steel door closing far off in a concrete hall",
+   "file": "assets/sfx/vault_door.mp3",
+   "trim": [
+    0.0,
+    5.2
+   ]
+  },
+  {
+   "at": "w:2:wearing",
+   "sfx": "glint",
+   "gain_db": -14,
+   "want": "a faint metal creak"
+  },
+  {
+   "at": "w:3:tubes",
+   "sfx": "counter_land",
+   "gain_db": -10,
+   "want": "a soft mechanical counter tick landing"
+  },
+  {
+   "at": "w:6:kept",
+   "sfx": "stamp",
+   "gain_db": -8,
+   "want": "a rubber stamp hitting paper on a wooden desk",
+   "file": "assets/sfx/stamp.mp3",
+   "trim": [
+    0.35,
+    1.6
+   ]
+  },
+  {
+   "at": "s:7",
+   "to": "e:7",
+   "sfx": "whine",
+   "gain_db": -14,
+   "want": "a heavy carriage rolling slowly on steel rails, motor hum",
+   "file": "assets/sfx/trolley.mp3",
+   "trim": [
+    0.0,
+    8.7
+   ]
+  },
+  {
+   "at": "e:7+0.2",
+   "sfx": "metal_slam",
+   "gain_db": -6,
+   "want": "THE CLUNK: a heavy steel flask locking onto a fitting, a deep clamp and ring",
+   "file": "assets/sfx/door_slam_hall.mp3",
+   "trim": [
+    0.3,
+    4.2
+   ]
+  },
+  {
+   "at": "e:7+0.22",
+   "file": "assets/sfx/lock_bolt.mp3",
+   "trim": [
+    0.95,
+    2.7
+   ],
+   "gain_db": -8,
+   "want": "the flask's clamp bolt, layered on the hall slam"
+  },
+  {
+   "at": "w:8:one",
+   "sfx": "clang",
+   "gain_db": -14,
+   "want": "a metal tube set down on a steel tray",
+   "file": "assets/sfx/pipe_hits.mp3",
+   "trim": [
+    5.2,
+    7.4
+   ]
+  },
+  {
+   "at": "w:11:sixty",
+   "sfx": "whoosh",
+   "gain_db": -14,
+   "want": "a car passing on a country road"
+  },
+  {
+   "at": "w:13:design",
+   "sfx": "paper_tear",
+   "gain_db": -16,
+   "want": "a large drawing sheet slid across a table"
+  },
+  {
+   "at": "w:22:pierced",
+   "sfx": "whoosh",
+   "gain_db": -12,
+   "want": "steel rods sliding through steel sleeves"
+  },
+  {
+   "at": "e:25+0.1",
+   "sfx": "whistle",
+   "gain_db": -8,
+   "want": "an Indian pressure cooker whistle in a kitchen"
+  },
+  {
+   "at": "w:26:one",
+   "sfx": "thump",
+   "gain_db": -10,
+   "want": "a one-kilo iron weight set down on a table"
+  },
+  {
+   "at": "w:28:hundred",
+   "sfx": "counter_land",
+   "gain_db": -12,
+   "want": "iron weights stacking, quick clinks"
+  },
+  {
+   "at": "w:30:pencil",
+   "sfx": "glint",
+   "gain_db": -14,
+   "want": "a pencil laid down on paper"
+  },
+  {
+   "at": "s:34",
+   "sfx": "impact_low",
+   "gain_db": -6,
+   "want": "a deep distant underground blast rumble"
+  },
+  {
+   "at": "w:38:stopped",
+   "sfx": "thump",
+   "gain_db": -10,
+   "want": "a heavy file folder shut on a desk"
+  },
+  {
+   "at": "w:41:halfway",
+   "sfx": "impact_low",
+   "gain_db": -10,
+   "want": "a big hall's lights switching off, relay clunks",
+   "file": "assets/sfx/relay.mp3",
+   "trim": [
+    0,
+    0.1
+   ]
+  },
+  {
+   "at": "w:44:work",
+   "sfx": "glint",
+   "gain_db": -10,
+   "want": "a large electrical switch thrown, hum rising",
+   "file": "assets/sfx/switch_big.mp3",
+   "trim": [
+    0,
+    0.5
+   ]
+  },
+  {
+   "at": "w:46:nine",
+   "sfx": "counter_land",
+   "gain_db": -12,
+   "want": "a mechanical counter rolling"
+  },
+  {
+   "at": "w:51:while",
+   "sfx": "whine",
+   "gain_db": -16,
+   "want": "a fuelling machine motor and hydraulics",
+   "file": "assets/sfx/winch.mp3",
+   "trim": [
+    30,
+    34
+   ]
+  },
+  {
+   "at": "w:57:broke",
+   "sfx": "metal_slam",
+   "gain_db": -8,
+   "want": "a metal pipe bursting under pressure, a hiss"
+  },
+  {
+   "at": "w:63:slipped",
+   "sfx": "glint",
+   "gain_db": -14,
+   "want": "a small coil spring sliding on a steel tube"
+  },
+  {
+   "at": "w:65:touched",
+   "sfx": "clang",
+   "gain_db": -12,
+   "want": "two steel tubes touching, a dull metal knock",
+   "file": "assets/sfx/pipe_hits.mp3",
+   "trim": [
+    1.3,
+    3.4
+   ]
+  },
+  {
+   "at": "w:71:cracked",
+   "sfx": "sparks",
+   "gain_db": -12,
+   "want": "metal cracking, a sharp tick"
+  },
+  {
+   "at": "w:72:split",
+   "sfx": "steam_hiss",
+   "gain_db": -8,
+   "want": "high-pressure steam escaping from a split pipe",
+   "file": "assets/sfx/steam_valve.mp3",
+   "trim": [
+    1.3,
+    5.5
+   ]
+  },
+  {
+   "at": "w:73:stop",
+   "sfx": "thump",
+   "gain_db": -12,
+   "want": "a turbine hall winding down"
+  },
+  {
+   "at": "w:78:doctor",
+   "sfx": "vault",
+   "gain_db": -8,
+   "want": "a heavy vault door closing and its bolt",
+   "file": "assets/sfx/vault_door.mp3",
+   "trim": [
+    0.0,
+    5.2
+   ]
+  },
+  {
+   "at": "w:83:kept",
+   "sfx": "stamp",
+   "gain_db": -8,
+   "want": "a rubber stamp hitting paper on a wooden desk",
+   "file": "assets/sfx/stamp.mp3",
+   "trim": [
+    0.35,
+    1.6
+   ]
+  },
+  {
+   "at": "w:89:stand",
+   "sfx": "riser",
+   "to": "e:90",
+   "gain_db": -14,
+   "want": "a radiation dose meter clicking faster"
+  },
+  {
+   "at": "w:95:cuts",
+   "sfx": "sparks",
+   "gain_db": -12,
+   "want": "a remote cutting tool cutting inside a metal pipe",
+   "file": "assets/sfx/grinder_cut.mp3",
+   "trim": [
+    1.5,
+    4.6
+   ]
+  },
+  {
+   "at": "w:96:drawn",
+   "sfx": "whine",
+   "gain_db": -14,
+   "want": "a winch drawing a long tube slowly into a steel cask",
+   "file": "assets/sfx/winch.mp3",
+   "trim": [
+    20,
+    26
+   ]
+  },
+  {
+   "at": "w:97:carries",
+   "sfx": "whine",
+   "gain_db": -14,
+   "want": "a heavy carriage rolling on rails",
+   "file": "assets/sfx/trolley.mp3",
+   "trim": [
+    0.0,
+    8.7
+   ]
+  },
+  {
+   "at": "e:97",
+   "sfx": "vault",
+   "gain_db": -8,
+   "want": "a heavy vault door closing and its bolt",
+   "file": "assets/sfx/vault_door.mp3",
+   "trim": [
+    0.0,
+    5.2
+   ]
+  },
+  {
+   "at": "w:100:new",
+   "sfx": "whoosh",
+   "gain_db": -12,
+   "want": "a tube feeding through rollers"
+  },
+  {
+   "at": "e:103",
+   "sfx": "counter_land",
+   "gain_db": -10,
+   "want": "a mechanical counter landing"
+  },
+  {
+   "at": "w:105:two",
+   "sfx": "coin",
+   "gain_db": -12,
+   "want": "a stack of coins set down",
+   "file": "assets/sfx/coin_bag.mp3",
+   "trim": [
+    0.4,
+    1.5
+   ]
+  },
+  {
+   "at": "w:106:more",
+   "sfx": "coin",
+   "gain_db": -10,
+   "want": "a tall stack of coins set down",
+   "file": "assets/sfx/coin_bag.mp3",
+   "trim": [
+    0.4,
+    1.5
+   ]
+  },
+  {
+   "at": "w:109:nineteen",
+   "sfx": "paper_tear",
+   "gain_db": -14,
+   "want": "calendar pages flipping"
+  },
+  {
+   "at": "w:116:opened",
+   "sfx": "glint",
+   "gain_db": -12,
+   "want": "an old radio's back panel unscrewed and lifted"
+  },
+  {
+   "at": "w:121:subscribe",
+   "sfx": "glint",
+   "gain_db": -14,
+   "want": "a TV remote button click",
+   "file": "assets/sfx/switch_big.mp3",
+   "trim": [
+    0,
+    0.5
+   ]
+  },
+  {
+   "at": "w:128:leak",
+   "sfx": "steam_hiss",
+   "gain_db": -16,
+   "want": "a small steam leak hissing",
+   "file": "assets/sfx/steam_valve.mp3",
+   "trim": [
+    1.3,
+    4.0
+   ]
+  },
+  {
+   "at": "w:129:shut",
+   "sfx": "thump",
+   "gain_db": -8,
+   "want": "control rods dropping, a heavy mechanical thud"
+  },
+  {
+   "at": "w:133:two",
+   "sfx": "counter_land",
+   "gain_db": -10,
+   "want": "a soft tick"
+  },
+  {
+   "at": "w:142:came",
+   "sfx": "clang",
+   "gain_db": -14,
+   "want": "a metal tube set down on a steel tray",
+   "file": "assets/sfx/pipe_hits.mp3",
+   "trim": [
+    9.6,
+    11.8
+   ]
+  },
+  {
+   "at": "w:148:grow",
+   "sfx": "counter_land",
+   "to": "e:148",
+   "gain_db": -12,
+   "want": "a mechanical counter rolling"
+  },
+  {
+   "at": "w:153:alarm",
+   "sfx": "riser",
+   "gain_db": -12,
+   "want": "a control-room alarm buzzer, short",
+   "file": "assets/sfx/alarm_beep.mp3",
+   "trim": [
+    0.0,
+    2.6
+   ]
+  },
+  {
+   "at": "w:160:full",
+   "sfx": "glint",
+   "gain_db": -12,
+   "want": "a turbine spinning up, hum"
+  },
+  {
+   "at": "w:164:three",
+   "sfx": "glint",
+   "gain_db": -12,
+   "want": "three light switches clicking on",
+   "file": "assets/sfx/relay.mp3",
+   "trim": [
+    0,
+    0.1
+   ]
+  },
+  {
+   "at": "w:172:canadian",
+   "sfx": "paper_tear",
+   "gain_db": -14,
+   "want": "a file folder opening"
+  },
+  {
+   "at": "w:184:lights",
+   "sfx": "glint",
+   "gain_db": -12,
+   "want": "a city at dusk, distant traffic, lights humming on"
+  }
+ ],
+ "_sources": {
+  "stamp.mp3": "freesound.org/people/I.fekry/sounds/470710 (CC0)",
+  "vault_door.mp3": "freesound.org/people/AudioPapkin/sounds/814976 (CC0)",
+  "grinder_cut.mp3": "freesound.org/people/shelbyshark/sounds/501171 (CC0)",
+  "grinder_run.mp3": "freesound.org/s/386080 (CC0)",
+  "alarm_beep.mp3": "freesound.org/people/loganzsound/sounds/874697 (CC0)",
+  "door_slam_hall.mp3": "freesound.org/people/Sheyvan/sounds/570003 (CC0)",
+  "lock_bolt.mp3": "freesound.org/people/TRP/sounds/715659 (CC0)",
+  "plant_hall.mp3": "freesound.org/people/CHallSmith/sounds/870509 (CC0)",
+  "_note": "licences read on each page 26 NOV 2026 (leads from Gemini, checked by us); files are Freesound's HQ previews",
+  "steam_valve.mp3": "freesound.org/people/Engineer_815 steam_safety_valve.wav (CC0)",
+  "pipe_hits.mp3": "freesound.org/people/Bibow/sounds/426850 steel hollow pipe on concrete (CC0)",
+  "trolley.mp3": "freesound.org/people/IGS_EMBSEN trolley-passing (CC0)",
+  "relay.mp3": "freesound.org/people/JoontheFloof/sounds/740253 Relay 3 (CC0)",
+  "switch_big.mp3": "freesound.org/people/AGFX/sounds/42943 large push button switch (CC0)",
+  "winch.mp3": "freesound.org/people/OverlookHotelRecords/sounds/273351 flatbed tow truck winch (CC0)",
+  "coin_bag.mp3": "freesound.org/people/ralph.whitehead/sounds/565699 coin bag drop (CC0)"
+ }
+}
