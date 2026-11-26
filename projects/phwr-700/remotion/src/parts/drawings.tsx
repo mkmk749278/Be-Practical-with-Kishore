@@ -75,9 +75,11 @@ export const Face306: React.FC<{
 						<circle cx={px} cy={py} r={pitch * 0.2} fill="#0b0d0f" opacity={0.9} />
 						{on > 0 && countA !== undefined ? <circle cx={px} cy={py} r={pitch * 0.42} fill="none" stroke={C.amber} strokeWidth={2.5} opacity={on * (1 - g)} /> : null}
 						{g > 0 ? <circle cx={px} cy={py} r={pitch * 0.4} fill="#3b4046" opacity={0.85 * g} /> : null}
+						{right && back > 0 ? <circle cx={px} cy={py} r={pitch * 0.42} fill="none" stroke={C.green} strokeWidth={3} opacity={back * (1 - 0.5 * tw(f, relightAt! + 60, relightAt! + 120, 0, 1))} /> : null}
 						{worn > 0 ? (
 							<g opacity={worn}>
-								<circle cx={px} cy={py} r={pitch * 0.46} fill="none" stroke={C.stress} strokeWidth={4} />
+								<circle cx={px} cy={py} r={pitch * 0.9} fill={C.stress} opacity={0.18} style={{filter: 'blur(6px)'}} />
+								<circle cx={px} cy={py} r={pitch * 0.48} fill="#3b4046" stroke={C.stress} strokeWidth={5} />
 								<path d={`M${px - pitch * 0.3} ${py - pitch * 0.1}l${pitch * 0.18} ${pitch * 0.08}l${pitch * 0.12} -${pitch * 0.06}l${pitch * 0.18} ${pitch * 0.1}`} stroke={C.stress} strokeWidth={2} fill="none" />
 							</g>
 						) : null}
@@ -192,7 +194,7 @@ export const RajMap: React.FC<{dur: number; mode: 'chambal' | 'kota'; rajAt?: nu
 				</g>
 			</svg>
 			{mode === 'kota' && f >= kmAt ? (
-				<div style={{position: 'absolute', left: 960, top: 300, transform: `translateX(-50%) scale(${0.9 + 0.1 * tw(f, kmAt, kmAt + 14, 0, 1, ez.arrive)})`, opacity: tw(f, kmAt, kmAt + 12, 0, 1), fontFamily: F.mono, fontWeight: 700, fontSize: 92, color: C.flask, textShadow: '0 4px 24px rgba(0,0,0,0.9)'}}>
+				<div style={{position: 'absolute', left: 960, top: 190, transform: `translateX(-50%) scale(${0.9 + 0.1 * tw(f, kmAt, kmAt + 14, 0, 1, ez.arrive)})`, opacity: tw(f, kmAt, kmAt + 12, 0, 1), fontFamily: F.mono, fontWeight: 700, fontSize: 92, color: C.flask, textShadow: '0 4px 24px rgba(0,0,0,0.9)'}}>
 					64 KM
 				</div>
 			) : null}
@@ -208,7 +210,7 @@ export const ExportFile: React.FC<{stampAt?: number; closeAt?: number}> = ({stam
 	const shut = closeAt !== undefined ? tw(f, closeAt, closeAt + 26, 0, 1, ez.sweep) : 0;
 	return (
 		<AbsoluteFill style={{alignItems: 'center', justifyContent: 'center'}}>
-			<div style={{position: 'relative', width: 980, height: 680, transform: 'rotate(-4deg)', perspective: 2000}}>
+			<div style={{position: 'relative', width: 980, height: 680, transform: 'translate(120px, 40px) rotate(-4deg)', perspective: 2000}}>
 				{/* the sheet inside */}
 				<div style={{position: 'absolute', inset: 0, background: C.paper, boxShadow: '0 40px 90px rgba(0,0,0,0.7)', padding: '70px 80px', fontFamily: F.label, color: C.pencil}}>
 					<div style={{fontWeight: 800, fontSize: 52, letterSpacing: 4}}>CANADA</div>
@@ -319,12 +321,12 @@ export const PotTank: React.FC<{dissolveAt: number; tankAt: number; pierceA: num
 		<svg width={1920} height={1080} style={{position: 'absolute'}}>
 			{/* the pot: a pressure vessel, drawn in steel */}
 			<g opacity={pot} transform={`translate(960 560) scale(${1 + spin * 0.4} 1)`}>
-				<path d="M-230 -260Q-230 -330 0 -340Q230 -330 230 -260V250Q230 330 0 340Q-230 330 -230 250Z" fill="#2a3036" stroke={C.steel} strokeWidth={5} />
+				<path d="M-230 -260Q-230 -330 0 -340Q230 -330 230 -260V250Q230 330 0 340Q-230 330 -230 250Z" fill="#5a646d" stroke="#c9d2da" strokeWidth={6} />
 				<path d="M-230 -200H230M-230 200H230" stroke={C.steel} strokeWidth={3} opacity={0.6} />
 				<ellipse cx={-90 + spin * 600} cy={0} rx={40} ry={280} fill="#ffffff" opacity={0.05} />
 			</g>
 			{/* the tank on its side, tubes through it */}
-			<g opacity={tank} transform={`translate(960 ${540 - lift * 0})`}>
+			<g opacity={tank * (1 - 0.85 * cook)} transform={`translate(960 ${640 + 0 * lift})`}>
 				<rect x={-380} y={-250} width={760} height={500} rx={60} fill="#1d3a4a" fillOpacity={0.45} stroke={C.steel} strokeWidth={5} />
 				<rect x={-430} y={-280} width={50} height={560} fill="#2a3036" stroke={C.steel} strokeWidth={3} />
 				<rect x={380} y={-280} width={50} height={560} fill="#2a3036" stroke={C.steel} strokeWidth={3} />
@@ -341,7 +343,7 @@ export const PotTank: React.FC<{dissolveAt: number; tankAt: number; pierceA: num
 				})}
 			</g>
 			{/* the cooker the lifted tube becomes */}
-			<g opacity={cook} transform={`translate(960 ${330 - 0 * cook}) scale(${0.8 + 0.2 * cook})`}>
+			<g opacity={cook} transform={`translate(960 ${300 - 40 * cook}) scale(${1.0 + 0.3 * cook})`}>
 				<Cooker whistle={0} />
 			</g>
 		</svg>
@@ -373,18 +375,19 @@ export const Weights: React.FC<{oneAt: number; stackA?: number; stackB?: number;
 		<AbsoluteFill>
 			<svg width={1920} height={1080} style={{position: 'absolute'}}>
 				{/* the square centimetre, a fingertip's size, drawn on the table */}
-				<rect x={900} y={860} width={120} height={120} fill="none" stroke={C.flask} strokeWidth={5} strokeDasharray="12 8" />
-				<text x={1040} y={940} fontFamily={F.label} fontWeight={800} fontSize={44} fill={C.flask}>1 CM²</text>
+				<rect x={900} y={870} width={120} height={120} fill="none" stroke={C.flask} strokeWidth={5} strokeDasharray="12 8" />
+				<text x={1040} y={950} fontFamily={F.label} fontWeight={800} fontSize={44} fill={C.flask}>1 CM²</text>
 				{Array.from({length: n}, (_, i) => {
 					const col = i % cols;
 					const row = Math.floor(i / cols);
+					const big = n === 1 ? 2.6 : 1;
 					const x = 960 + (col - (Math.min(n, cols) - 1) / 2) * 62;
-					const y = 800 - row * 70;
+					const y = 860 - row * 70;
 					return (
-						<g key={i} transform={`translate(${x} ${y - (i === 0 ? (1 - one) * 300 : 0)})`} opacity={i === 0 ? one : 1}>
+						<g key={i} transform={`translate(${x} ${y - (i === 0 ? (1 - one) * 300 : 0)}) scale(${big})`} opacity={i === 0 ? one : 1}>
 							<path d="M-28 0H28L22 -52H-22Z" fill="#3b4147" stroke="#0b0d0f" strokeWidth={3} />
 							<rect x={-10} y={-64} width={20} height={14} rx={4} fill="#3b4147" stroke="#0b0d0f" strokeWidth={2} />
-							{i === 0 ? <text y={-18} textAnchor="middle" fontFamily={F.label} fontWeight={800} fontSize={22} fill={ink}>1 KG</text> : null}
+							{n === 1 ? <text y={-18} textAnchor="middle" fontFamily={F.label} fontWeight={800} fontSize={18} fill={ink}>1 KG</text> : null}
 						</g>
 					);
 				})}
@@ -414,12 +417,12 @@ export const TubeWall: React.FC<{pencilAt: number; compareAt: number}> = ({penci
 	const pen = useSpring(pencilAt, 120, 18);
 	const cmp = tw(f, compareAt, compareAt + 40, 0, 1, ez.cam);
 	// the pencil: 7 mm across, it slides from the side until it lies along the wall's edge
-	const px = 960 + r + 140 - cmp * 140;
+	const px = 960 + r + 3.5 * mm + 160 - cmp * 154;
 	return (
 		<svg width={1920} height={1080} style={{position: 'absolute'}}>
 			<circle cx={960} cy={540} r={r - wall / 2} fill="none" stroke={C.flask} strokeWidth={wall} pathLength={1} strokeDasharray={`${ring} 1`} />
 			<circle cx={960} cy={540} r={r - wall} fill="#1d3a4a" fillOpacity={0.25} />
-			<text x={960} y={560} textAnchor="middle" fontFamily={F.label} fontWeight={800} fontSize={48} fill={ink} opacity={ring}>
+			<text x={960} y={620} textAnchor="middle" fontFamily={F.label} fontWeight={800} fontSize={48} fill={ink} opacity={ring}>
 				WALL ≈ 4 MM
 			</text>
 			<g opacity={pen} transform={`translate(${px} ${540 + (1 - pen) * 300})`}>
@@ -430,8 +433,8 @@ export const TubeWall: React.FC<{pencilAt: number; compareAt: number}> = ({penci
 			</g>
 			{cmp > 0.6 ? (
 				<g opacity={tw(f, compareAt + 24, compareAt + 40, 0, 1)}>
-					<path d={`M${960 + r - wall} 300H${960 + r}`} stroke={C.stress} strokeWidth={4} />
-					<text x={960 + r - 10} y={286} textAnchor="end" fontFamily={F.label} fontWeight={800} fontSize={40} fill={C.stress}>THINNER</text>
+					<path d={`M${960 + r - wall} 470H${960 + r + 7 * mm + 6}`} stroke={C.stress} strokeWidth={4} />
+					<text x={960 + r - wall - 24} y={484} textAnchor="end" fontFamily={F.label} fontWeight={800} fontSize={48} fill={C.stress} stroke="#0b0d0f" strokeWidth={6} paintOrder="stroke">THINNER THAN A PENCIL</text>
 				</g>
 			) : null}
 		</svg>

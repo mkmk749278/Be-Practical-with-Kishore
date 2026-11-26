@@ -5,7 +5,7 @@ import {DesignSheet, ExportFile, Face306, MayPage, PotTank, RajMap, TubeWall, We
 import {Archive, ChapterCard, tw} from '../parts/kit';
 import {C} from '../theme';
 import {s0, s1, w0} from '../timing';
-import {ask, clip, CR, draw, hero, lab, pre, shot, tag} from './common';
+import {ask, clip, cnt, CR, draw, hero, lab, pre, shot, tag} from './common';
 
 // Cold open (S0–S9) and chapter 1 "306 pressure cookers" (S10–S44), word_map.md. Every frame comes from the locked
 // audio. H1_face = Blender hero 1 (Drive renders/face, prepared at 60 fps): its own frame numbers are given in /60 s.
@@ -51,6 +51,7 @@ const open: Part = {
 	overlays: [
 		tag(w0(0, 'nineteen'), w0(0, 'half'), '1974', 140, 180, 90, C.flask, true),
 		tag(w0(2, 'twenty'), s1(2), '20 YEARS LATER', 140, 180, 60, C.ink, true),
+		cnt(w0(3, 'three'), w0(3, 'tubes'), s1(3) + 30, 306, 'TUBES', 140, 180, 120, C.flask),
 		tag(w0(4, 'only'), s1(4), 'ONLY ONE COUNTRY HAD DONE IT', 140, 860, 50),
 		tag(w0(6, 'export'), s1(6), 'CANADA’S EXPORT RULES', 140, 180, 52, C.ink),
 		tag(w0(8, 'flask'), s1(8), 'A STEEL FLASK', 140, 860, 56, C.flask),
