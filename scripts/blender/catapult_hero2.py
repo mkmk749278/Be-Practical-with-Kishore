@@ -51,6 +51,8 @@ def args():
     ap.add_argument("--bounces", type=int, default=8)
     ap.add_argument("--threads", type=int, default=0)
     ap.add_argument("--noblur", action="store_true")
+    ap.add_argument("--gpu", action="store_true", help="render on the NVIDIA GPU with OptiX (Modal; PLAYBOOK §14.1)")
+    ap.add_argument("--noise", type=float, default=0.02, help="adaptive sampling noise threshold")
     argv = sys.argv[sys.argv.index("--") + 1:] if "--" in sys.argv else sys.argv[1:]
     return ap.parse_args(argv)
 
@@ -252,9 +254,19 @@ def setup(a, exposure=0.0):
     sc.cycles.device = "CPU"
     sc.cycles.samples = a.samples
     sc.cycles.use_adaptive_sampling = True
-    sc.cycles.adaptive_threshold = 0.02
+    sc.cycles.adaptive_threshold = getattr(a, "noise", 0.02)
     sc.cycles.use_denoising = True
     sc.cycles.denoiser = "OPENIMAGEDENOISE"
+    if getattr(a, "gpu", False):
+        prefs = bpy.context.preferences.addons["cycles"].preferences
+        prefs.compute_device_type = "OPTIX"
+        prefs.get_devices()
+        for d in prefs.devices:
+            d.use = d.type == "OPTIX"
+        if not any(d.use for d in prefs.devices):
+            raise SystemExit("no OptiX device found")
+        sc.cycles.device = "GPU"
+        sc.cycles.denoiser = "OPTIX"
     sc.cycles.max_bounces = a.bounces
     sc.cycles.transparent_max_bounces = 16
     sc.cycles.volume_bounces = 1
