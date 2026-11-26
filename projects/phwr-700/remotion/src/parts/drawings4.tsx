@@ -232,7 +232,7 @@ export const HundredBulbs: React.FC<{litAt: number}> = ({litAt}) => {
 				const show = tw(f, i * 0.6, i * 0.6 + 10, 0, 1);
 				return (
 					<g key={i} opacity={show}>
-						<circle cx={x} cy={y} r={24} fill={on ? '#ffd76a' : '#2a3036'} stroke="#0b0d0f" strokeWidth={2} />
+						<circle cx={x} cy={y} r={24} fill={on ? '#ffd76a' : '#5d6770'} stroke="#9aa5ae" strokeWidth={2} />
 						{on ? <circle cx={x} cy={y} r={44} fill="#ffcf6a" opacity={0.3 * on} style={{filter: 'blur(8px)'}} /> : null}
 					</g>
 				);
@@ -246,12 +246,12 @@ export const HundredBulbs: React.FC<{litAt: number}> = ({litAt}) => {
 // ---------------------------------------------------------------- 2010 first concrete → 2020 critical (S167–S168)
 export const TenYears: React.FC<{aAt: number; bAt: number}> = ({aAt, bAt}) => {
 	const f = useCurrentFrame();
-	const a = tw(f, aAt, aAt + 20, 0, 1, ez.arrive);
+	const a = Math.max(tw(f, 0, 30, 0, 0.6, ez.arrive), tw(f, aAt, aAt + 20, 0, 1, ez.arrive));
 	const run = tw(f, bAt - 40, bAt, 0, 1, ez.sweep);
 	const x = (y: number) => 300 + ((y - 2010) / 10) * 1320;
 	return (
 		<svg width={1920} height={1080} style={{position: 'absolute'}}>
-			<path d={`M${x(2010)} 560H${x(2020)}`} stroke="#3b4147" strokeWidth={16} strokeLinecap="round" />
+			<path d={`M${x(2010)} 560H${x(2020)}`} stroke="#6c7780" strokeWidth={16} strokeLinecap="round" />
 			<path d={`M${x(2010)} 560H${x(2010) + 1320 * run}`} stroke={C.stress} strokeWidth={16} strokeLinecap="round" opacity={a} />
 			{Array.from({length: 11}, (_, i) => (
 				<text key={i} x={x(2010 + i)} y={640} textAnchor="middle" fontFamily={F.mono} fontWeight={700} fontSize={30} fill={C.dim} opacity={a}>

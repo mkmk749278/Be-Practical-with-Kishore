@@ -69,7 +69,7 @@ export const p3: Part = {
 		// S83: the export file again, stamped
 		draw(S(83), 'export-again', (d, l) => <ExportFile stampAt={at(w0(83, 'kept'), S(83), l)} />, 'ILLUSTRATION'),
 		// S84–86: the job came home: Rawatbhata; the names over the place
-		clip(S(84), 'RAPS_drive', CR.npcil, 2.0),
+		clip(S(84), 'RAPS_drive', CR.npcil, 0),
 		clip(S(85), 'RAPS_plant', CR.npcil),
 		clip(S(86), 'RAPS_lake', CR.npcil, 1.0),
 		// S87: can you picture the hardest part? the face
@@ -94,7 +94,7 @@ export const p3: Part = {
 			/>
 		), 'ILLUSTRATION', [1.0, 0, 0], [1.06, 0, 0]),
 		// S99: from a distance: engineers at the screens
-		clip(S(99), 'RAPS_screens', CR.npcil),
+		clip(S(98), 'RAPS_screens', CR.npcil),
 		// S100: a new tube goes in (Bruce Power's rollers, Canada)
 		clip(S(100), 'BRU_feed', BR, 0, 'A NEW TUBE · CANADA'),
 		// S101: a stronger mix, zirconium with niobium
