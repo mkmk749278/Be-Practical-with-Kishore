@@ -283,8 +283,11 @@ def synth(name: str, seed: int, dur: float = 0) -> np.ndarray:
 def _fade(x: np.ndarray, dur: float) -> np.ndarray:
     fade = int(min(1.0, dur / 4) * SR)
     x = x.copy()
-    x[:fade] *= np.linspace(0, 1, fade)
-    x[-fade:] *= np.linspace(1, 0, fade)
+    r = np.linspace(0, 1, fade)
+    if x.ndim == 2:  # stereo recordings (real SFX) as well as the mono synths
+        r = r[:, None]
+    x[:fade] *= r
+    x[-fade:] *= r[::-1]
     return x
 
 
@@ -325,7 +328,10 @@ def main() -> None:
     n = int(round(timing["durationInFrames"] / timing["fps"] * SR))  # exactly the picture's length
 
     # ---- voice: peaks at −3 dBFS
-    voice = decode(film / "assets/vo/vo_full.wav")[:n]
+    vpath = film / "assets/vo/vo_full.wav"
+    if not vpath.exists():  # a film may keep only its locked render copy (phwr-700: phwr_vo_full.wav)
+        vpath = sorted((film / "assets/vo").glob("*.wav"))[0]
+    voice = decode(vpath)[:n]
     voice = np.pad(voice, ((0, n - len(voice)), (0, 0)))
     voice *= db(-3) / (np.max(np.abs(voice)) + 1e-9)
 
@@ -408,18 +414,19 @@ def main() -> None:
     pre = out / "mix_pre.wav"
     wavfile.write(pre, SR, mix.astype(np.float32))
 
-    # ---- master: one static gain to −14 LUFS, then a −1 dBTP limiter; measure twice
+    # ---- master: one static gain to −14 LUFS, then a limiter at −2.5 dBFS run 4× oversampled, so the true peak
+    # stays under −1 dBTP (26 NOV: the 48 kHz limiter let inter-sample peaks reach −0.7 dBTP); measure twice
     i0, tp0 = loudness(pre)
     gain = -14 - i0
     final = out / "mix.wav"
     subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(pre), "-af",
-                    f"volume={gain:.2f}dB,alimiter=limit={db(-1.5):.4f}:attack=5:release=60:level=false",
+                    f"volume={gain:.2f}dB,aresample=192000,alimiter=limit={db(-2.5):.4f}:attack=1:release=50:level=false",
                     "-ar", str(SR), "-ac", "2", "-c:a", "pcm_s24le", str(final)], check=True)
     i1, tp1 = loudness(final)
     if abs(i1 + 14) > 0.15:  # the limiter takes a little off: one corrected pass, still one static gain
         gain += -14 - i1
         subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(pre), "-af",
-                        f"volume={gain:.2f}dB,alimiter=limit={db(-1.5):.4f}:attack=5:release=60:level=false",
+                        f"volume={gain:.2f}dB,aresample=192000,alimiter=limit={db(-2.5):.4f}:attack=1:release=50:level=false",
                         "-ar", str(SR), "-ac", "2", "-c:a", "pcm_s24le", str(final)], check=True)
         i1, tp1 = loudness(final)
     pre.unlink()
