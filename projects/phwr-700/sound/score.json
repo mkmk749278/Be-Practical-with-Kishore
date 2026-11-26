@@ -1,0 +1,25 @@
+{
+  "_why": "Music map locked by ear by Gemini (second opinion round 2, 26 NOV, review/gemini_reply2.md), anchored by us to the real sentence times; PLAYBOOK §12: about -25 dB under the voice, up in the gaps.",
+  "bed_rms_db": -27,
+  "duck_db": -20,
+  "slots": [
+    {"track": "The Boardroom", "from": 0, "to": "s:10+1", "offset": 0, "fade_in": 1.5, "fade_out": 1.5, "why": "cold open: tense pizzicato, dark cello (The Exhibit is too bright, by ear)"},
+    {"track": "The Mechanism", "from": "s:10-0.5", "to": "s:38+0.5", "offset": 0, "fade_in": 1.5, "fade_out": 1.5, "why": "ch1: cool, neutral under the explanations"},
+    {"track": "A Way Forward", "from": "s:38-0.5", "to": "s:45+1", "offset": 8, "fade_in": 1.5, "fade_out": 1.5, "why": "ch1 close: India finishes it alone, warm strings at 1981"},
+    {"track": "The Mechanism", "from": "s:45-0.5", "to": "s:56+0.5", "offset": 75, "fade_in": 1.5, "fade_out": 1.5, "why": "ch2a Kaiga and the tube: the clean synth-pulse breakdown (track 1:15–1:51)"},
+    {"track": "The Cascade", "from": "s:56-0.5", "to": "s:77", "offset": 0, "fade_in": 1.5, "fade_out": 2.5, "why": "ch2b Pickering, the crack; out by 'So India had the same disease' so the question lands in silence"},
+    {"track": "Counter-offensive", "from": "s:80", "to": "s:94+0.5", "offset": 0, "fade_in": 2.0, "fade_out": 1.5, "why": "ch3a India decides: plucked strings and tabla (track 0:00–0:50)"},
+    {"track": "Counter-offensive", "from": "s:94-0.5", "to": "s:107+0.5", "offset": 118, "fade_in": 1.5, "fade_out": 1.5, "why": "ch3a the robots: skips the brass and dhol climax (track 0:52–1:55)"},
+    {"track": "Made in India", "from": "s:107-0.5", "to": "s:119+1.5", "offset": 63, "fade_in": 1.5, "fade_out": 2.0, "why": "ch3b cost, radio, the saying: the bansuri breakdown (track 1:03); dry for the remote ask"},
+    {"track": "The Boardroom", "from": "s:122", "to": "s:147+0.5", "offset": 37, "fade_in": 2.0, "fade_out": 1.5, "why": "ch4 Kakrapar: dark, steady, no transients (The Verdict is a trap beat, by ear)"},
+    {"track": "A Way Forward", "from": "s:147-0.5", "to": "s:176+0.5", "offset": 0, "fade_in": 1.5, "fade_out": 1.5, "why": "ch5 306 to 392: warm, drops back to quiet piano on the honest part"},
+    {"track": "A Family's Story", "from": "s:176-0.5", "to": "s:184+0.5", "offset": 73, "fade_in": 1.5, "fade_out": 1.5, "why": "landing: solo piano under the saying (avoids the cello melody at track 0:22–1:12)"},
+    {"track": "Stay Practical", "from": "s:184-0.5", "to": "end+15", "offset": 0, "fade_in": 1.5, "fade_out": 3.0, "why": "next film, sign-off and the end card"}
+  ],
+  "rooms": [
+    {"what": "plant", "file": "assets/sfx/plant_hall.mp3", "from": 0, "to": "s:10", "gain_db": -32},
+    {"what": "plant", "file": "assets/sfx/plant_hall.mp3", "from": "s:87", "to": "s:101", "gain_db": -32},
+    {"what": "plant", "file": "assets/sfx/plant_hall.mp3", "from": "s:129", "to": "s:132", "gain_db": -34}
+  ],
+  "quiet": []
+}
