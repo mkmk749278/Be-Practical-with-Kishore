@@ -45,3 +45,6 @@ video/**/work-*/
 library/_cache/
 .venv-blender/
 library/ph/
+
+# the local Blender venv for test stills
+.venv-blender/
