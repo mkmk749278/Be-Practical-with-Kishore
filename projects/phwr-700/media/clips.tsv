@@ -1,5 +1,5 @@
 # name	source (assets/footage/)	start	end	crop	note (part 1: cold open + ch.1; spans checked on our own 1 fps sheets, 26 NOV)
-RAPS_face	01_98h0F1lkdUA.mp4	175	179.8	1560:878:180:10	NPCIL RAPS-3: yellow suit at the face (photo, Ken Burns)
+RAPS_face	01_98h0F1lkdUA.mp4	175.50	179.8	1560:878:180:10	NPCIL RAPS-3: yellow suit at the face (photo, Ken Burns) [26 NOV: bright opening trimmed]
 RAPS_tube	01_98h0F1lkdUA.mp4	187.6	190.8	1560:878:180:10	a removed tube held in gloved hands
 RAPS_drive	01_98h0F1lkdUA.mp4	6.20	9.33	1560:878:180:10	the road in, trees, open scrub [26 NOV: one continuous shot, the source cut trimmed off]
 RAPS_gate	01_98h0F1lkdUA.mp4	13.28	16.73	1560:878:180:10	the roundabout at the plant, a bus [26 NOV: one continuous shot, the source cut trimmed off]
@@ -41,7 +41,7 @@ PK_platform	01_T8FbAuXiCFQ.mp4	77	80.4	620:465:18:8,V	Pickering 1983 plant video
 CNL_cut	19_7SPi-ILktNA.mp4	21	25.6		CNL: a cut channel sample, the pressure tube inside the calandria tube
 CNL_turn	19_7SPi-ILktNA.mp4	28.20	32.58		CNL: the sample turned in the hand [26 NOV: one continuous shot, the source cut trimmed off]
 # chapter 3 (checked on our sheets, 26 NOV)
-RAPS_core	01_98h0F1lkdUA.mp4	143	148.6	1560:878:180:10	NPCIL: the RAPS-3 face with its feeders
+RAPS_core	01_98h0F1lkdUA.mp4	143.60	148.6	1560:878:180:10	NPCIL: the RAPS-3 face with its feeders [26 NOV: bright opening trimmed]
 RAPS_screens	01_98h0F1lkdUA.mp4	212.5	219	1560:878:180:10	NPCIL: engineers at the control screens
 RAPS_cheer	01_98h0F1lkdUA.mp4	230	235	1560:878:180:10	NPCIL: the crew cheering in the hall
 RAPS_yellow	01_98h0F1lkdUA.mp4	235.2	238.8	1560:878:180:10	NPCIL: the yellow-suited crew cheering at the face
@@ -54,7 +54,7 @@ FDB_barc	15_m9KLkY4K62M.mp4	480	484.9	600:450:0:15,V	FD: the Trombay site from t
 K05_ctrl	05_-3iNKQoeZDE.mp4	80.00	84.87		NPCIL: a 700 MW control room [26 NOV: one continuous shot, the source cut trimmed off]
 K05_towers	05_-3iNKQoeZDE.mp4	110	113.8		NPCIL: cooling towers from the air (plant not named: ILLUSTRATIVE FOOTAGE)
 K05_face700	05_-3iNKQoeZDE.mp4	212	214.8		NPCIL: the 700 MW face, end fittings (B&W)
-K05_vault	05_-3iNKQoeZDE.mp4	201.08	204.27		NPCIL: the reactor building's corridor (B&W) [26 NOV: one continuous shot, the source cut trimmed off]
+K05_vault	05_-3iNKQoeZDE.mp4	201.28	204.27		NPCIL: the reactor building's corridor (B&W) [26 NOV: one continuous shot, the source cut trimmed off] [26 NOV: bright opening trimmed]
 K05_caps	05_-3iNKQoeZDE.mp4	259.00	261.60	1920:880:0:0	NPCIL: the 700's face with its orange caps [26 NOV: ends before the cut at 261.7]
 R7_aerial	02_Lhs8t93p_ag.mp4	21	24.4	1500:844:120:40	NPCIL: the Rawatbhata site from the air, the 700s
 R7_cheer	02_Lhs8t93p_ag.mp4	33	35.8	1500:844:120:40	NPCIL: RAPP-7's control room at first criticality
