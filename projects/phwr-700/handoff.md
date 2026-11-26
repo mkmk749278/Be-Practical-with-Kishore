@@ -123,7 +123,8 @@ on 23 NOV).
   limit. Plan: 1920×1080 (upscaled at the master), 32 samples, every 2nd frame interpolated to 60 fps, and only the
   frames the cut uses (render 0–200 and 240–590): about 4 min a frame, about 75 min a runner on 15.
 - **The look fails the art direction (our check of frames 0, 60, 240, 480):** a flat, bright grey room and a matte
-  orange flask that reads as plastic, not the dim vault with a warm key; no engineer in frame. Before any full run:
+  orange flask that reads as plastic, not the dim vault with a warm key; the engineer is in none of the 10 frames
+  (0–540); the flask path and the lock (360–540) read well. Before any full run:
   darken the world, a warm hard key with haze shafts, darker end shield, worn paint and grime on the flask, place the
   engineer; test 4 stills at 640 px locally (`pip install bpy==5.2.2` in `.venv-blender`).
 - **Then:** parts 2–3 (ch.2–5, landing, end card), `cues.ts`, the 720p review cut on the runners.
