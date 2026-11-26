@@ -49,7 +49,7 @@ export const p2: Part = {
 		// S55: NPCIL: 10–12 years
 		draw(S(55), 'tube-life', (d, l) => <TubeLife shadeAt={at(w0(55, 'ten'), S(55), l)} />, 'SOURCE: NPCIL'),
 		// S56: August 1983, near Toronto
-		draw(S(56), 'aug-1983', () => <CalendarPage month="AUG" year="1983" />),
+		draw(S(56), 'aug-1983', () => <CalendarPage month="AUG" year="1983" />, undefined, [1.0, 0, 30], [1.3, 0, -20]),
 		// S57–58: one tube broke at full power; just one, out of hundreds
 		draw(S(57), 'face-broke', (d, l) => <Face306 brokeAt={at(w0(57, 'broke'), S(57), l)} />, 'ILLUSTRATION', [1.0, 0, 0], [1.16, -90, 120]),
 		// S59: but that is all it takes (the plant video of the time, stamp kept)

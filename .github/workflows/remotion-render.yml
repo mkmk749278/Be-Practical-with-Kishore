@@ -22,8 +22,8 @@ on:
         description: "2/3 = 720p review cut (always first), 1 = 1080p, 2 = 4K master (only after the owner approves)"
         default: "2/3"
       runners:
-        description: "parallel runners (max 6: the account shares 20 with the other channels)"
-        default: "6"
+        description: "parallel runners (max 15: owner, 26 NOV 2026)"
+        default: "15"
       crf:
         description: "x264 CRF"
         default: "16"
@@ -57,7 +57,7 @@ jobs:
           t = json.load(open("projects/${{ inputs.film }}/vo/timing.json"))
           total, per = t["durationInFrames"], 30 * t["fps"]
           starts = list(range(0, total, per))
-          n = max(1, min(20, int("${{ inputs.runners }}")))
+          n = max(1, min(15, int("${{ inputs.runners }}")))  # owner, 26 NOV 2026: never more than 15 runners
           size = -(-len(starts) // n)
           blocks = [f"{s[0]}-{s[-1]}" for s in (starts[i:i + size] for i in range(0, len(starts), size))]
           print("blocks=" + json.dumps(blocks))
