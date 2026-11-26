@@ -24,7 +24,7 @@ from mathutils import Vector
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from catapult_hero2 import (  # noqa: E402
-    aim_cam, args, box, cyl, finish, haze, keys, light, mat, pbr, render, setup, torus, track_cam, track_obj,
+    aim_cam, args, box, cyl, finish, haze, keys, light, mat, pbr, render, setup, sphere, torus, track_cam, track_obj,
     world_hdri)
 
 YEL = (0.95, 0.55, 0.03)        # caution yellow paint (linear)
@@ -111,7 +111,8 @@ def build_face(a):
     m_dark = mat("plugdark", (0.05, 0.05, 0.05), 0.5, metal=0.6)
     m_conc = pbr("vault", "concrete_floor_worn_001", scale=2.5, tint=(0.75, 0.70, 0.62), grime=0.3)
     m_floor = pbr("floor", "concrete_floor_worn_001", scale=3.0, tint=(0.55, 0.52, 0.48), grime=0.4)
-    m_yel = mat("flask", (0.80, 0.42, 0.015), 0.42, coat=0.15)
+    # caution-yellow paint over steel: the plate's own scan gives the paint its wear and roughness
+    m_yel = mat("flask", (0.62, 0.26, 0.0), 0.5)   # AgX lifts and pales yellows: a deeper base reads as caution yellow
     m_black = mat("black", (0.02, 0.02, 0.02), 0.45, metal=0.3)
     m_rail = mat("rail", (0.30, 0.30, 0.30), 0.3, metal=1.0)
 
@@ -140,6 +141,11 @@ def build_face(a):
     bands = [torus(f"fl_band{i}", (0, y, 0), 0.63, 0.025, m_black, rot=(math.pi / 2, 0, 0))
              for i, y in enumerate((-0.6, -1.55, -2.5))]
     back = cyl("fl_back", (0, -2.8, 0), 0.50, 0.12, m_black, rot=(math.pi / 2, 0, 0), verts=64, bevel=0.01)
+    hazard = []
+    for i in range(16):
+        ang = i * 2 * math.pi / 16
+        hazard.append(box(f"fl_hz{i}", (0.625 * math.cos(ang), -0.52, 0.625 * math.sin(ang)), (0.24, 0.16, 0.02),
+                          m_black if i % 2 else m_yel, rot=(0, -ang + math.pi / 2, 0)))
     clamp = torus("fl_clamp", (0, -0.03, 0), 0.13, 0.03, m_black, rot=(math.pi / 2, 0, 0))
     lugs = [box(f"fl_lug{i}", (0.13 * math.cos(i * math.pi / 2), -0.03, 0.13 * math.sin(i * math.pi / 2)),
                 (0.05, 0.06, 0.05), m_steel, bevel=0.005) for i in range(4)]
@@ -149,7 +155,7 @@ def build_face(a):
     shoes = [box(f"fl_shoe{i}", (sx * 0.5, sy, -tz + 0.2), (0.34, 0.5, 0.14), m_yel, bevel=0.01)
              for i, (sx, sy) in enumerate([(-1, -0.6), (1, -0.6), (-1, -2.5), (1, -2.5)])]
     cables = cyl("fl_cable", (0.75, -2.9, -tz + 0.12), 0.05, 4.0, m_black, rot=(math.pi / 2, 0, 0), verts=16)
-    for o in [body, nose, snout, *bands, back, clamp, *lugs, carriage, *legs, *shoes, cables]:
+    for o in [body, nose, snout, *bands, *hazard, back, clamp, *lugs, carriage, *legs, *shoes, cables]:
         o.parent = flask
     for i, o in enumerate(lugs):   # the lugs ride the clamp ring: in its local frame they sit in its xy plane
         o.parent = clamp
@@ -165,6 +171,21 @@ def build_face(a):
     light("AREA", (0, -1.5, 8.6), (0, 0, CZ), 700, (1.0, 0.9, 0.8), size=3.0)
     light("SPOT", (2.5, -3.0, 0.4), (tx, -1.0, tz), 1200, (1.0, 0.85, 0.6), size=0.2, spot=30)
     light("AREA", (0, -8.0, 4.0), (0, 0, CZ), 500, (1.0, 0.95, 0.88), size=6.0)   # a soft wall for the steel to mirror
+    # the engineer for scale: far left at a console, hard hat and coverall, soft in the depth of field
+    m_cov = mat("coverall", (0.10, 0.16, 0.30), 0.8)
+    m_hat = mat("hardhat", (0.85, 0.85, 0.82), 0.35, coat=0.4)
+    m_skin = mat("skin", (0.32, 0.18, 0.11), 0.55)
+    ex, ey = -2.2, -2.6
+    for o in (cyl("eng_legs", (ex, ey, 0.45), 0.16, 0.9, m_cov, verts=24),
+              cyl("eng_body", (ex, ey, 1.25), 0.21, 0.72, m_cov, verts=24, bevel=0.05),
+              sphere("eng_head", (ex, ey, 1.72), 0.11, m_skin),
+              sphere("eng_hat", (ex, ey, 1.78), 0.13, m_hat, scale=(1, 1, 0.62)),
+              cyl("eng_armL", (ex + 0.14, ey + 0.18, 1.22), 0.06, 0.55, m_cov, rot=(math.radians(60), 0, 0), verts=16),
+              cyl("eng_armR", (ex - 0.14, ey + 0.18, 1.22), 0.06, 0.55, m_cov, rot=(math.radians(60), 0, 0), verts=16)):
+        o.rotation_euler[2] += math.radians(-35)
+    box("console", (ex + 0.35, ey + 0.55, 0.5), (1.2, 0.5, 1.0), mat("console", (0.22, 0.22, 0.21), 0.5), bevel=0.02)
+    box("screen", (ex + 0.35, ey + 0.52, 1.25), (0.9, 0.05, 0.5), mat("screen", (0.02, 0.02, 0.02), 0.2,
+        emit=(0.55, 0.85, 1.0), strength=2.5))
     haze((0, -5, 4.5), (14, 10, 9), 0.006, color=(1.0, 0.95, 0.9))
 
     SEAT, LOCK = 470, 480
@@ -178,9 +199,12 @@ def build_face(a):
         if a.shot == "thumb":
             aim_cam(cam, (2.9, -2.9, 3.4), (tx - 0.8, -0.5, tz + 0.1), 24, fstop=7.1)
             return
-        loc = keys(f, [(0, (-3.0, -5.4, 5.0)), (260, (1.2, -6.0, 5.6)), (470, (2.9, -3.4, 4.6)), (599, (2.7, -2.7, 4.3))])
-        aim = keys(f, [(0, (-0.6, 0, CZ + 0.3)), (260, (0.2, -1.2, CZ)), (470, (tx, -0.9, tz)), (599, (tx, -0.95, tz))])
-        lens = keys(f, [(0, 30), (470, 32), (599, 36)])
+        # the push across the face, then round to the side so the snout is seen meeting its fitting at the lock
+        loc = keys(f, [(0, (-3.0, -5.4, 5.0)), (260, (1.2, -6.0, 5.6)), (440, (2.4, -2.2, tz + 0.55)),
+                       (599, (2.1, -1.75, tz + 0.40))])
+        aim = keys(f, [(0, (-0.6, 0, CZ + 0.3)), (260, (0.2, -1.2, CZ)), (440, (tx, -1.05, tz)),
+                       (599, (tx, -1.05, tz))])
+        lens = keys(f, [(0, 30), (440, 30), (599, 34)])
         aim_cam(cam, loc, aim, lens, fstop=4.0)
 
     render(sc, a, frame, track_cam(cam) + track_obj(flask, props=("location",))
