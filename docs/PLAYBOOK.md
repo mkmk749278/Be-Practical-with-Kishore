@@ -665,6 +665,45 @@ existing films**. Archived when done.
   timings and a rendered frame (*why:* of twelve points in one review, five were right, five had another cause, two
   were wrong). A reviewer's rewrite never adds a fact.
 
+### 13.3 The Gemini handoff: Drive bus, Gmail bell (owner, 2026-11-26)
+The owner's Gemini workspace agent (account memory, the three custom skills, Drive, YouTube search, live web, and it
+can listen to audio and watch video) does the **first pass** at seven gates, so the Claude session spends its usage
+on building, not on reading and watching. *Why:* the owner asked to "make films better, simpler, more optimised and
+reduce usage"; Gemini hears takes and watches cuts directly, which Claude cannot, and holds the channel memory a
+stateless API call lacks. No raw Gemini API call is used for these audits (`gemini_watch.py` footage vetting and
+Lyria music are not audits and stay).
+
+| Gate | Task | Replaces |
+|---|---|---|
+| Step 2 research | `research` | the owner pasting the Deep Research sweep (§4) |
+| Plan and narration | `narration-review` | the no-repo audience session (§13.2); that session is the fallback |
+| Step 4 facts | `fact-check` | nothing: a first pass; every row is still checked by us at `max` against its source |
+| Step 6 audio, before the owner's approval | `audio-audit` | the owner listening for faults alone |
+| Step 11–12, every 720p cut | `cut-audit` | the no-repo viewer session (§13.2); that session is the fallback |
+| Release −24 h | `fresh-facts` | part of the fresh-facts gate (we still run it) |
+| Studio at 24 h / 7 d / 28 d | `analytics-audit` | the session reading Studio screenshots |
+
+**The loop:**
+1. `scripts/gemini_handoff.sh new <slug> <task>` writes `projects/<slug>/handoff/to_gemini.md` from
+   `prompts/gemini_handoff.md`; fill every `<fill: …>` line with Drive view links (takes, cut, narration, claims are
+   in Drive already, §14.3), and add this film's own checks.
+2. `scripts/gemini_handoff.sh push <slug> <task> [--attach FILE …]` lints it (no placeholders, secrets or email
+   addresses), uploads it to `Creator/English/<slug>/handoff/to_gemini.md` and prints the wake-up email.
+3. The session sends that email with the **Gmail connector** (`send_message`, plain text, to the owner's own Gmail:
+   the account the connector is signed in to; the address is never written in the repo). Subject
+   `[GEMINI-HANDOFF] <repo> <slug> <task>`. Gemini Spark's Gmail monitor wakes on it; a twice-daily scheduled check
+   is the backup. **Then carry on with other work; never poll or wait.**
+4. At the start of the next step: `scripts/gemini_handoff.sh pull <slug>` saves the newest reply newer than the
+   request to `projects/<slug>/review/gemini_<task>.md` (a Google Doc reply is exported and un-escaped). Exit 4 = no
+   reply yet: search Gmail for `subject:"[GEMINI-RESULT]" <slug>` (Gemini's fallback when it cannot write to Drive);
+   if neither, tell the owner in one line and use the fallback review.
+5. Check every point (§13.2 "outside notes are leads"): `review/gemini_<task>_check.md`, CONFIRMED / PARTLY / NOT
+   CONFIRMED with the evidence, then fix. A Gemini fact is a lead until its primary source is opened by us.
+- **Hard stops:** no 4K master before the Gemini cut audit is checked and the owner approves the cut; no audio sent
+  for approval with an unchecked audio audit; Gemini never writes to the repo or decides a gate.
+- The owner's one-time Gemini setup (the Spark Gmail monitor and its standing instructions) is in the owner's
+  Gemini, not in git.
+
 ---
 
 ## 14. Render, backup and deliver
