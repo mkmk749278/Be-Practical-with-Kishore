@@ -693,6 +693,10 @@ existing films**. Archived when done.
 - **Public repo = public logs:** never echo a secret; renders with third-party excerpts go to Drive, never to a public
   artifact. Media reaches the renderer through Drive (`<film>/render-media`, `<film>/vo-render`; a missing folder fails
   every part); workflows must be on `main` before they can run.
+- **A Modal app file runs twice:** once where `modal run` starts and again inside every container (as `/root/<file>.py`),
+  so anything that needs the repo (its path, `add_local_dir`, local files) sits under `if modal.is_local():`. *Why:* on
+  26 NOV `blender.py` computed the repo path unguarded, every L4 container died at import, and the run crash-looped
+  for 45 minutes with no frames until it was cancelled. A run with no log line for 10 minutes is cancelled and read.
 
 ### 14.2 Review cuts, parts and the master
 - **Every review cut is 720p,** one per round with all its fixes. **The 4K master renders once,** after the owner

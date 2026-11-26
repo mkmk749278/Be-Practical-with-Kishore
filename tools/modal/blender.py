@@ -13,14 +13,17 @@ import time
 
 import modal
 
-ROOT = pathlib.Path(__file__).resolve().parents[2]
 image = (
     modal.Image.debian_slim(python_version="3.13")
     .apt_install("libx11-6", "libxrender1", "libxxf86vm1", "libxfixes3", "libxi6", "libxkbcommon0", "libsm6",
                  "libgl1", "libegl1", "libgomp1")
     .pip_install("bpy==5.2.2", "pillow==11.3.0")
-    .add_local_dir(str(ROOT / "scripts" / "blender"), "/work/scripts/blender")
 )
+# Inside the container this file is /root/blender.py, so the repo path exists only where `modal run` starts
+# (26 NOV: computing it unguarded crashed every container at import, a crash loop with no frames).
+if modal.is_local():
+    ROOT = pathlib.Path(__file__).resolve().parents[2]
+    image = image.add_local_dir(str(ROOT / "scripts" / "blender"), "/work/scripts/blender")
 app = modal.App("bpk-blender", image=image)
 
 
