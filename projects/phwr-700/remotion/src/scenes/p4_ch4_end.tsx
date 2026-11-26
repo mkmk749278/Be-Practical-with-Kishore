@@ -7,6 +7,7 @@ import {ChapterCard} from '../parts/kit';
 import {C} from '../theme';
 import {s0, s1, w0} from '../timing';
 import {clip, cnt, CR, draw, hero, lab, pre, shot, SubscribePill, tag} from './common';
+import {RupeeMark} from './p3_ch3';
 
 // Chapter 4 "Kakrapar: the worst day" (S122–S145), chapter 5 "From 306 to 392" (S146–S175), the landing (S176–S189)
 // and the end card. No footage of the 2016 leak day exists: the map, the regulator's words and plain drawings carry it.
@@ -33,7 +34,7 @@ export const p4: Part = {
 		// S135–137: a wrong chemical; small spots in the outer walls
 		draw(S(135), 'pits', (d, l) => <PittedWall pitA={at(w0(137, 'eaten'), S(135), l)} pitB={at(s1(137), S(135), l)} />, 'ILLUSTRATION'),
 		// S138–140: only in Kakrapar's two units
-		shot(S(138), 'map-fleet', (d, l) => <IndiaPins dur={d} mode="fleet" at={at(w0(140, 'kakrapar'), S(138), l)} />, {tag: 'MAP: NATURAL EARTH · INDIA’S OFFICIAL BOUNDARY'}),
+		shot(S(138), 'map-fleet', (d, l) => <IndiaPins dur={d} mode="fleet" at={at(w0(140, 'kakrapars'), S(138), l)} />, {tag: 'MAP: NATURAL EARTH · INDIA’S OFFICIAL BOUNDARY'}),
 		// S141–143: every tube came out, 306 in each
 		clip(S(141), 'RAPS_face', CR.npcil, 0, 'RAWATBHATA · ILLUSTRATIVE FOOTAGE'),
 		draw(S(142), 'face-out', (d, l) => <Face306 greyAt={l} />, 'ILLUSTRATION', [1.0, 0, 0], [1.1, 0, 0]),
@@ -107,6 +108,7 @@ export const p4: Part = {
 		tag(w0(162, 'three'), s1(162) + 20, 'FOR 392 TUBES', 140, 320, 50, C.ink),
 		tag(w0(166, 'no'), s1(166) + 10, 'NO', 140, 180, 80, C.fail),
 		cnt(w0(170, 'seventy'), w0(170, 'crore'), s1(170) + 20, 70000, 'CRORE', 230, 180, 100, C.green),
+		lab(w0(170, 'seventy') - 6, s1(170) + 20, 'rupee-70k', <RupeeMark />),
 		tag(w0(170, 'indian'), s1(170) + 20, 'ORDERS FOR INDIAN INDUSTRY', 140, 860, 50),
 		tag(w0(174, 'not'), s1(175) + 20, 'NOT REVENGE. TRADE.', 140, 180, 60, C.flask),
 		lab(S(176), S(176) + 300, 'landing', <ChapterCard n={6} text="WHAT IT MEANS TODAY" />),

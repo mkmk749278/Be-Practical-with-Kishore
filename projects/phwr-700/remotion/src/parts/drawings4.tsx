@@ -269,6 +269,7 @@ export const TenDomes: React.FC<{at: number}> = ({at}) => {
 	const f = useCurrentFrame();
 	return (
 		<svg width={1920} height={1080} style={{position: 'absolute'}}>
+			<g transform="translate(0 -150)">
 			<path d="M120 760H1800" stroke="#3b4147" strokeWidth={6} />
 			{Array.from({length: 10}, (_, i) => {
 				const p = tw(f, at + i * 6, at + i * 6 + 18, 0, 1, ez.arrive);
@@ -281,6 +282,7 @@ export const TenDomes: React.FC<{at: number}> = ({at}) => {
 				);
 			})}
 			{lab(960, 560, 'TEN MORE · ONE FLEET', ink, tw(f, at + 40, at + 60, 0, 1), 56, 'middle')}
+			</g>
 		</svg>
 	);
 };
