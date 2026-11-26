@@ -133,7 +133,9 @@ jobs:
       - name: Join, lay the sound, check
         shell: bash
         run: |
-          mkdir -p projects/${{ inputs.film }}/assets  # public/assets points here; the join bundles but needs no media
+          # public/assets links into assets/media and assets/vo: the join bundles but needs no media, only folders the links
+          # can resolve to (26 NOV: a dangling link failed the bundle)
+          mkdir -p projects/${{ inputs.film }}/assets/media projects/${{ inputs.film }}/assets/vo
           node scripts/render_shards.mjs projects/${{ inputs.film }}/remotion ${{ inputs.comp }} out --join-only \
             --audio mix/mix.wav --out "${{ inputs.name }}" 2>&1 | grep -vE "differing memory|CGroup|MemAvailable|--memory flag|lower amount of memory"
           rm -rf out
