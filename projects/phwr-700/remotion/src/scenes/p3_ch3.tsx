@@ -48,7 +48,7 @@ const RemoteDesk: React.FC = () => {
 };
 
 /** the ₹ sign before the counter (Count shows the number only) */
-const RupeeMark: React.FC = () => {
+export const RupeeMark: React.FC = () => {
 	const f = useCurrentFrame();
 	return <div style={{position: 'absolute', left: 140, top: 186, fontFamily: F.mono, fontWeight: 700, fontSize: 110, color: C.green, opacity: tw(f, 0, 12, 0, 1), textShadow: '0 4px 24px rgba(0,0,0,0.8)'}}>₹</div>;
 };
