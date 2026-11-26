@@ -13,7 +13,10 @@ import time
 
 import modal
 
-ROOT = pathlib.Path(__file__).resolve().parents[2]
+# Locally the file is tools/modal/blender.py; inside the Modal container it is /root/blender.py (no parents[2]),
+# and add_local_dir is not re-read there, so any root will do.
+_HERE = pathlib.Path(__file__).resolve()
+ROOT = _HERE.parents[2] if len(_HERE.parents) > 2 else _HERE.parent
 image = (
     modal.Image.debian_slim(python_version="3.13")
     .apt_install("libx11-6", "libxrender1", "libxxf86vm1", "libxfixes3", "libxi6", "libxkbcommon0", "libsm6",
