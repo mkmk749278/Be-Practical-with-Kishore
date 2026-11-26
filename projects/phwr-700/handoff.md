@@ -89,3 +89,15 @@ on 23 NOV).
   archive), the Blender hero bench on Modal (10 frames first, free credit only), then the word-by-word build.
 - C01 (RAPP-8 cleared 19 NOV) is still unverified; the narration uses C31's wording ("began taking in its fuel"), so
   nothing waits on it.
+
+## Footage and the build (26 NOV 2026, about 6:00 AM IST)
+- Footage r1+r2 in Drive `footage/` (22 videos; 7 duplicated by two Termux runs, listed in `footage_log.md`).
+  Gemini notes per clip in `footage_ai/`; best picks by chapter, checked on our own sheets, in `footage_log.md`.
+  Key finds: NPCIL "Refurbishment of RAPS-3" (the real Rawatbhata face, yellow suits at the tubes), Films Division
+  1980 "Nuclear Power: A National Achievement" (a 1980 PHWR face, tube making), 1983 Pickering TV news footage
+  (**owner cleared 26 NOV**: 5–8 s, credited, never the anchor).
+- Gemini API key saved as a network secret (Bearer, OpenAI-compatible endpoint); free tier = 20 requests a day per
+  model (PLAYBOOK §11). `scripts/gemini_watch.py` vets downloaded clips.
+- Blender hero 1 (`scripts/blender/phwr_hero.py`): the face reads; still to do: the flask's material, the lock seen
+  from the side, an engineer for scale; then the 10-frame Modal bench.
+- `word_map.md` part 1 (cold open + ch.1, S0–S44) written. Next: parts 2–3, then scenes and Remotion.

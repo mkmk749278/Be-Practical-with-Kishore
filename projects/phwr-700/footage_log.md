@@ -37,4 +37,4 @@ Duplicates in Drive from two Termux runs (same files): 01_eSnFaa5jl74=09, 02_uoR
 | fuel bundles | 14 @ 13:00 | |
 | ch.1: 1970s-80s Indian operators at control panels | 02_loy @ 00:42–01:03 | Films Division; domes at 00:03–00:06, 00:27–00:36 (plant not named: no place label) |
 | ch.1: Pokhran site | 02_loy @ 01:39–01:51; 18 @ 00:07–00:10 (the blast, Films Division via The Hindu) | skip 02_loy 00:09–00:24 and 01:54 (prime ministers) |
-| ch.2: Pickering 1983 | 01_T8Fb @ 00:20–00:22 (station in snow), 00:26–00:34 (yellow suits at the face), 00:38–00:42 (CANDU face), 00:46–01:20 (plant video stamped 09-05-83, suited workers on the platform) | US/Canadian TV news ("Robert Vito reporting"); **owner to clear**; never the anchor |
+| ch.2: Pickering 1983 | 01_T8Fb @ 00:20–00:22 (station in snow), 00:26–00:34 (yellow suits at the face), 00:38–00:42 (CANDU face), 00:46–01:20 (plant video stamped 09-05-83, suited workers on the platform) | US/Canadian TV news ("Robert Vito reporting"); **cleared by the owner 26 NOV** for 5–8 s, credited; never the anchor |
