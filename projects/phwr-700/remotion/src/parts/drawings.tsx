@@ -39,14 +39,17 @@ export const Face306: React.FC<{
 	wornAt?: number;
 	brokeAt?: number; // one fitting turns red, the rest grey back (S57–S58)
 	questionAt?: number; // every fitting pulses amber, a wave across the face (S74)
+	newA?: number; // the new tubes go in one by one, caution yellow, row by row (S102–S103)
+	newB?: number;
 	cx?: number;
 	cy?: number;
-}> = ({pitch = 40, countA, countB, greyAt, relightAt, wornAt, brokeAt, questionAt, cx = 960, cy = 540}) => {
+}> = ({pitch = 40, countA, countB, greyAt, relightAt, wornAt, brokeAt, questionAt, newA, newB, cx = 960, cy = 540}) => {
 	const f = useCurrentFrame();
 	const lit = countA !== undefined && countB !== undefined ? tw(f, countA, countB, 0, 306, ez.sweep) : 306;
 	const grey = greyAt !== undefined ? tw(f, greyAt, greyAt + 40, 0, 1, ez.sweep) : 0;
 	const back = relightAt !== undefined ? tw(f, relightAt, relightAt + 50, 0, 1, ez.sweep) : 0;
 	const rank = new Map(COUNT_ORDER.map((o, k) => [o.i, k]));
+	const fresh = newA !== undefined && newB !== undefined ? tw(f, newA, newB, 0, 306, ez.sweep) : 0;
 	const R = pitch * 10.2;
 	return (
 		<svg width={1920} height={1080} style={{position: 'absolute'}}>
@@ -86,6 +89,7 @@ export const Face306: React.FC<{
 								<circle cx={px} cy={py} r={pitch * 0.48} fill={C.fail} stroke="#0b0d0f" strokeWidth={3} />
 							</g>
 						) : null}
+						{fresh > (rank.get(i) ?? 0) ? <circle cx={px} cy={py} r={pitch * 0.42} fill={C.flask} stroke="#0b0d0f" strokeWidth={2} opacity={Math.min(1, fresh - (rank.get(i) ?? 0))} /> : null}
 						{q > 0 ? <circle cx={px} cy={py} r={pitch * 0.44} fill="none" stroke={C.amber} strokeWidth={4} opacity={q} /> : null}
 						{right && back > 0 ? <circle cx={px} cy={py} r={pitch * 0.42} fill="none" stroke={C.green} strokeWidth={3} opacity={back * (1 - 0.5 * tw(f, relightAt! + 60, relightAt! + 120, 0, 1))} /> : null}
 						{worn > 0 ? (

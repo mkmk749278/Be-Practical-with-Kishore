@@ -128,3 +128,16 @@ on 23 NOV).
   darken the world, a warm hard key with haze shafts, darker end shield, worn paint and grime on the flask, place the
   engineer; test 4 stills at 640 px locally (`pip install bpy==5.2.2` in `.venv-blender`).
 - **Then:** parts 2–3 (ch.2–5, landing, end card), `cues.ts`, the 720p review cut on the runners.
+
+## 26 NOV 2026, about 8:00 PM IST (owner: "Always merge and continue": merge each PR ourselves and keep going)
+- **Hero 1 look pass** (PR #18): dim vault, hard warm key through haze, solid caution-yellow flask (a scanned plate
+  read as rust), engineer as a silhouette on the fuelling bridge, console off the face. 640 px tests checked.
+  **Full render running** on 15 runners (run 45835464493, frames 0–598 step 2, 1080p, 32 samples) → Drive
+  `renders/face/`. Then: interpolate to 60 fps into `assets/media/clips/H1_face.mp4` (prep with minterpolate),
+  stills of S0, S7, S8, S48, S78 in Remotion.
+- **Chapter 2 built** (PR #19, composition `p2`): H3 is a drawn channel section (decided 26 NOV: the physics reads
+  better in section, no render time); the Pickering news stays at S59 only (6.4 s in the film). Stills checked.
+- **Footage request r3** (when the owner next runs Termux): an Indian kitchen pressure cooker whistling (S24–25), a
+  steel tumbler sweating on a sunlit table (S66–67). Both are drawn until then.
+- **Next:** chapter 3 (S80–, "India opens the heart itself"), chapters 4–5, the landing and end card; `cues.ts`;
+  the 720p review cut on the runners (≤ 15 jobs).
