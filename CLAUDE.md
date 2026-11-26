@@ -89,9 +89,10 @@ against them, everything else pays that promise. **Decide early, build once.** E
   the rest and as the one compositor (1920×1080, 60 fps, pinned 4.0.534, everything a pure function of the frame).
 
 ## Render and backup (§14)
-- **GitHub runners take light jobs only:** 720p review parts, media fetches and stills, started by hand, at most 6 jobs
-  at once. **The 4K master and Blender plates render on Modal** (paid past its free credit: state the cost and ask
-  first). *Why:* heavy renders on the runners got `Creator` disabled.
+- **Renders run on the GitHub runners, never more than 15 at once** (owner, 26 NOV 2026, after the Modal hero bench
+  failed twice): Blender heroes (`blender-render.yml`), review parts and the master, started by hand. Modal stays for the
+  voice enhance; anything paid is still asked first. *Why the cap:* heavy renders on many runners got `Creator`
+  disabled; the owner accepts the risk at 15.
 - Review cuts are 720p, one per round; the 4K master renders once, after the owner approves the cut. Every encode is
   bitrate-capped; every render goes to Drive.
 
