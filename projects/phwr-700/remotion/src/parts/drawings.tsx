@@ -37,9 +37,11 @@ export const Face306: React.FC<{
 	greyAt?: number;
 	relightAt?: number;
 	wornAt?: number;
+	brokeAt?: number; // one fitting turns red, the rest grey back (S57–S58)
+	questionAt?: number; // every fitting pulses amber, a wave across the face (S74)
 	cx?: number;
 	cy?: number;
-}> = ({pitch = 40, countA, countB, greyAt, relightAt, wornAt, cx = 960, cy = 540}) => {
+}> = ({pitch = 40, countA, countB, greyAt, relightAt, wornAt, brokeAt, questionAt, cx = 960, cy = 540}) => {
 	const f = useCurrentFrame();
 	const lit = countA !== undefined && countB !== undefined ? tw(f, countA, countB, 0, 306, ez.sweep) : 306;
 	const grey = greyAt !== undefined ? tw(f, greyAt, greyAt + 40, 0, 1, ez.sweep) : 0;
@@ -69,12 +71,22 @@ export const Face306: React.FC<{
 				const worn = wornAt !== undefined && Math.abs(x + 0.5) < 0.01 && Math.abs(y + 0.5) < 0.01 ? tw(f, wornAt, wornAt + 30, 0, 1) : 0;
 				const px = cx + x * pitch;
 				const py = cy + y * pitch;
+				const isOne = Math.abs(x - 2.5) < 0.01 && Math.abs(y + 3.5) < 0.01;
+				const broke = brokeAt !== undefined ? tw(f, brokeAt, brokeAt + 24, 0, 1) : 0;
+				const q = questionAt !== undefined ? Math.max(0, Math.sin(((f - questionAt) / 60) * Math.PI * 2 - Math.hypot(x, y) * 0.5)) * tw(f, questionAt, questionAt + 30, 0, 1) : 0;
 				return (
-					<g key={i} opacity={0.25 + 0.75 * on}>
+					<g key={i} opacity={(0.25 + 0.75 * on) * (broke > 0 && !isOne ? 1 - 0.6 * broke : 1)}>
 						<circle cx={px} cy={py} r={pitch * 0.4} fill="url(#fit)" opacity={1 - 0.75 * g} />
 						<circle cx={px} cy={py} r={pitch * 0.2} fill="#0b0d0f" opacity={0.9} />
 						{on > 0 && countA !== undefined ? <circle cx={px} cy={py} r={pitch * 0.42} fill="none" stroke={C.amber} strokeWidth={2.5} opacity={on * (1 - g)} /> : null}
 						{g > 0 ? <circle cx={px} cy={py} r={pitch * 0.4} fill="#3b4046" opacity={0.85 * g} /> : null}
+						{broke > 0 && isOne ? (
+							<g opacity={broke}>
+								<circle cx={px} cy={py} r={pitch * 1.1} fill={C.fail} opacity={0.25} style={{filter: 'blur(8px)'}} />
+								<circle cx={px} cy={py} r={pitch * 0.48} fill={C.fail} stroke="#0b0d0f" strokeWidth={3} />
+							</g>
+						) : null}
+						{q > 0 ? <circle cx={px} cy={py} r={pitch * 0.44} fill="none" stroke={C.amber} strokeWidth={4} opacity={q} /> : null}
 						{right && back > 0 ? <circle cx={px} cy={py} r={pitch * 0.42} fill="none" stroke={C.green} strokeWidth={3} opacity={back * (1 - 0.5 * tw(f, relightAt! + 60, relightAt! + 120, 0, 1))} /> : null}
 						{worn > 0 ? (
 							<g opacity={worn}>
