@@ -4,59 +4,67 @@
   {
    "at": "w:0:walked",
    "sfx": "impact_low",
-   "gain_db": -16,
+   "gain_db": -19.5,
    "want": "a heavy steel door closing far off in a concrete hall",
    "file": "assets/sfx/vault_door.mp3",
    "trim": [
     0.0,
     5.2
-   ]
+   ],
+   "fix": "27 NOV (cut audit r3):; fitted -3.5 dB to sit 3 dB under the voice (100 ms RMS)"
   },
   {
    "at": "w:2:wearing",
    "sfx": "glint",
-   "gain_db": -14,
-   "want": "a faint metal creak"
+   "gain_db": -20,
+   "want": "a faint metal creak",
+   "fix": "27 NOV (cut audit r3): diagram chimes and ticks 6 dB down (both Gemini replies: they poked out over the voice)"
   },
   {
    "at": "w:3:tubes",
    "sfx": "counter_land",
-   "gain_db": -10,
-   "want": "a soft mechanical counter tick landing"
+   "gain_db": -16,
+   "want": "a soft mechanical counter tick landing",
+   "fix": "27 NOV (cut audit r3): diagram chimes and ticks 6 dB down (both Gemini replies: they poked out over the voice)"
   },
   {
    "at": "w:6:kept",
    "sfx": "stamp",
-   "gain_db": -8,
+   "gain_db": -15.0,
    "want": "a rubber stamp hitting paper on a wooden desk",
    "file": "assets/sfx/stamp.mp3",
    "trim": [
     0.35,
     1.6
-   ]
+   ],
+   "fix": "27 NOV (cut audit r3): stamp 2 dB down; fitted -5.0 dB to sit 1 dB under the voice (100 ms RMS)"
   },
   {
    "at": "s:7",
    "to": "e:7",
    "sfx": "whine",
-   "gain_db": -14,
+   "gain_db": -18,
    "want": "a heavy carriage rolling slowly on steel rails, motor hum",
    "file": "assets/sfx/trolley.mp3",
    "trim": [
     0.0,
     8.7
-   ]
+   ],
+   "lowpass": 1500,
+   "fix": "27 NOV (cut audit r3): the carriage recording reads as a train: low-passed to its rumble, 4 dB down"
   },
   {
    "at": "e:7+0.2",
    "sfx": "metal_slam",
-   "gain_db": -6,
+   "gain_db": -13.5,
    "want": "THE CLUNK: a heavy steel flask locking onto a fitting, a deep clamp and ring",
    "file": "assets/sfx/door_slam_hall.mp3",
    "trim": [
     0.3,
     4.2
-   ]
+   ],
+   "lowpass": 1400,
+   "fix": "27 NOV (cut audit r3): the hero clunk 6 dB down and low-passed: a deep thud, no high clatter; fitted -1.5 dB to sit 1 dB under the voice (100 ms RMS)"
   },
   {
    "at": "e:7+0.22",
@@ -65,8 +73,10 @@
     0.95,
     2.7
    ],
-   "gain_db": -8,
-   "want": "the flask's clamp bolt, layered on the hall slam"
+   "gain_db": -15.5,
+   "want": "the flask's clamp bolt, layered on the hall slam",
+   "lowpass": 3000,
+   "fix": "27 NOV (cut audit r3): the bolt 6 dB down with the clunk; fitted -1.5 dB to sit 1 dB under the voice (100 ms RMS)"
   },
   {
    "at": "w:8:one",
@@ -82,8 +92,9 @@
   {
    "at": "w:11:sixty",
    "sfx": "whoosh",
-   "gain_db": -14,
-   "want": "a car passing on a country road"
+   "gain_db": -18.0,
+   "want": "a car passing on a country road",
+   "fix": "27 NOV (cut audit r3):; fitted -4.0 dB to sit 4 dB under the voice (100 ms RMS)"
   },
   {
    "at": "w:13:design",
@@ -94,45 +105,66 @@
   {
    "at": "w:22:pierced",
    "sfx": "whoosh",
-   "gain_db": -12,
-   "want": "steel rods sliding through steel sleeves"
+   "gain_db": -18,
+   "want": "steel rods sliding through steel sleeves",
+   "fix": "27 NOV (cut audit r3): diagram chimes and ticks 6 dB down (both Gemini replies: they poked out over the voice)"
   },
   {
-   "at": "w:25:whistle",
+   "at": "w:25:whistle+0.12",
    "sfx": "whistle",
-   "gain_db": -14,
+   "gain_db": -22.0,
    "want": "an Indian pressure cooker whistle in a kitchen",
-   "fix": "27 NOV (cut audit r2): on the word with the picture's whistle, not after the sentence over S26; -8 → -14"
+   "fix": "27 NOV (cut audit r3): band-passed to the whistle tone (no frying hiss), 0.65 s, in the breath after the word, 4 dB down; fitted -4.0 dB to sit 4 dB under the voice (100 ms RMS)",
+   "bandpass": [
+    1200,
+    3200
+   ],
+   "dur": 0.65,
+   "fade_out": 0.2
   },
   {
    "at": "w:26:one",
    "sfx": "thump",
-   "gain_db": -10,
-   "want": "a one-kilo iron weight set down on a table"
+   "gain_db": -24.5,
+   "want": "a one-kilo iron weight set down on a table",
+   "lowpass": 500,
+   "dur": 0.3,
+   "fix": "27 NOV (cut audit r3): was a heavy crash on a one-kilo weight: a small dull tap, low-passed, 0.3 s; fitted -5.5 dB to sit 4 dB under the voice (100 ms RMS)"
   },
   {
    "at": "w:28:hundred",
    "sfx": "counter_land",
-   "gain_db": -12,
-   "want": "iron weights stacking, quick clinks"
+   "gain_db": -18,
+   "want": "iron weights stacking, quick clinks",
+   "fix": "27 NOV (cut audit r3): diagram chimes and ticks 6 dB down (both Gemini replies: they poked out over the voice)"
   },
   {
    "at": "w:30:pencil",
    "sfx": "glint",
-   "gain_db": -14,
-   "want": "a pencil laid down on paper"
+   "gain_db": -20,
+   "want": "a pencil laid down on paper",
+   "fix": "27 NOV (cut audit r3): diagram chimes and ticks 6 dB down (both Gemini replies: they poked out over the voice)"
   },
   {
    "at": "s:34",
    "sfx": "impact_low",
-   "gain_db": -8,
-   "want": "a deep distant underground blast rumble"
+   "gain_db": -14.5,
+   "want": "a deep distant underground blast rumble",
+   "lowpass": 900,
+   "fix": "27 NOV (cut audit r3): the Pokhran hit stays the loudest cue, 4 dB down, low-passed; fitted -2.5 dB to sit -3 dB under the voice (100 ms RMS)"
   },
   {
    "at": "w:38:stopped",
-   "sfx": "thump",
-   "gain_db": -10,
-   "want": "a heavy file folder shut on a desk"
+   "sfx": "stamp",
+   "gain_db": -17,
+   "want": "the CLOSED stamp on the 1974 file",
+   "file": "assets/sfx/stamp.mp3",
+   "trim": [
+    0.35,
+    1.6
+   ],
+   "lowpass": 2500,
+   "fix": "27 NOV (cut audit r3): a folder slam replaced by the stamp the picture shows (CLOSED · 1974), 7 dB down"
   },
   {
    "at": "w:41:halfway",
@@ -148,77 +180,97 @@
   {
    "at": "w:44:work",
    "sfx": "glint",
-   "gain_db": -10,
+   "gain_db": -13.0,
    "want": "a large electrical switch thrown, hum rising",
    "file": "assets/sfx/switch_big.mp3",
    "trim": [
     0,
     0.5
-   ]
+   ],
+   "fix": "27 NOV (cut audit r3):; fitted -3.0 dB to sit 4 dB under the voice (100 ms RMS)"
   },
   {
    "at": "w:46:nine",
    "sfx": "counter_land",
-   "gain_db": -12,
-   "want": "a mechanical counter rolling"
+   "gain_db": -16.0,
+   "want": "a mechanical counter rolling",
+   "fix": "27 NOV (cut audit r3):; fitted -4.0 dB to sit 4 dB under the voice (100 ms RMS)"
   },
   {
    "at": "w:51:while",
    "sfx": "whine",
-   "gain_db": -19,
+   "gain_db": -26,
    "want": "a fuelling machine motor and hydraulics",
    "file": "assets/sfx/winch.mp3",
    "trim": [
     30,
     34
-   ]
+   ],
+   "lowpass": 1200,
+   "dur": 3.4,
+   "fade_out": 0.6,
+   "fix": "27 NOV (cut audit r3): the fuelling-machine motor low-passed, faded in and out, 7 dB down: under the voice, not a wall of hiss"
   },
   {
    "at": "w:57:broke",
-   "sfx": "metal_slam",
-   "gain_db": -8,
-   "want": "a metal pipe bursting under pressure, a hiss"
+   "sfx": "thump",
+   "gain_db": -24.5,
+   "want": "a metal pipe bursting under pressure, a hiss",
+   "lowpass": 700,
+   "fix": "27 NOV (cut audit r3): a metal slam on a diagram's red dot replaced by a dry low thump, 10 dB down; fitted -6.5 dB to sit 4 dB under the voice (100 ms RMS)"
   },
   {
    "at": "w:63:slipped",
    "sfx": "glint",
-   "gain_db": -14,
-   "want": "a small coil spring sliding on a steel tube"
+   "gain_db": -20,
+   "want": "a small coil spring sliding on a steel tube",
+   "fix": "27 NOV (cut audit r3): diagram chimes and ticks 6 dB down (both Gemini replies: they poked out over the voice)"
   },
   {
    "at": "w:65:touched",
    "sfx": "clang",
-   "gain_db": -12,
+   "gain_db": -21.0,
    "want": "two steel tubes touching, a dull metal knock",
    "file": "assets/sfx/pipe_hits.mp3",
    "trim": [
     1.3,
     3.4
-   ]
+   ],
+   "fix": "27 NOV (cut audit r3): diagram chimes and ticks 6 dB down (both Gemini replies: they poked out over the voice); fitted -3.0 dB to sit 4 dB under the voice (100 ms RMS)"
   },
   {
    "at": "w:71:cracked",
    "sfx": "sparks",
-   "gain_db": -12,
-   "want": "metal cracking, a sharp tick"
+   "gain_db": -14.5,
+   "want": "metal cracking, a sharp tick",
+   "fix": "27 NOV (cut audit r3):; fitted -2.5 dB to sit 4 dB under the voice (100 ms RMS)"
   },
   {
    "at": "w:72:split",
    "sfx": "steam_hiss",
-   "gain_db": -13,
+   "gain_db": -21.0,
    "want": "high-pressure steam escaping from a split pipe",
    "file": "assets/sfx/steam_valve.mp3",
    "trim": [
     1.3,
-    3.6
+    2.2
    ],
-   "fix": "27 NOV (cut audit r2): the hiss ran over S73; shorter, under the voice"
+   "fix": "27 NOV (cut audit r3): 0.9 s, low-passed at 1.1 kHz (no white hiss on the sibilants), 4 dB down; ends before S73; fitted -4.0 dB to sit 4 dB under the voice (100 ms RMS)",
+   "lowpass": 1100,
+   "dur": 0.9,
+   "fade_out": 0.3
   },
   {
    "at": "w:73:stop",
-   "sfx": "thump",
-   "gain_db": -12,
-   "want": "a turbine hall winding down"
+   "sfx": "glint",
+   "gain_db": -19,
+   "want": "a control-room relay click",
+   "file": "assets/sfx/relay.mp3",
+   "trim": [
+    0,
+    0.1
+   ],
+   "fix": "27 NOV (cut audit r3): a heavy thump on a cut to the diagram replaced by a soft relay click"
   },
   {
    "at": "w:78:doctor",
@@ -230,48 +282,56 @@
     0.0,
     1.6
    ],
-   "fix": "27 NOV (cut audit r2): only the first slam; the full 5.2 s ran through \"What would you have done?\" and its second hit landed in the pause"
+   "fix": "27 NOV (cut audit r3): removed: it stepped on \"doctor\"; S77–S79 and the pause are dry voice (the bed is out by S77)",
+   "off": true
   },
   {
    "at": "w:83:kept",
    "sfx": "stamp",
-   "gain_db": -8,
+   "gain_db": -12.0,
    "want": "a rubber stamp hitting paper on a wooden desk",
    "file": "assets/sfx/stamp.mp3",
    "trim": [
     0.35,
     1.6
-   ]
+   ],
+   "fix": "27 NOV (cut audit r3):; fitted -4.0 dB to sit 1 dB under the voice (100 ms RMS)"
   },
   {
    "at": "w:89:stand",
    "sfx": "riser",
    "to": "e:90",
-   "gain_db": -14,
-   "want": "a radiation dose meter clicking faster"
+   "gain_db": -17.0,
+   "want": "a radiation dose meter clicking faster",
+   "fix": "27 NOV (cut audit r3):; fitted -3.0 dB to sit 4 dB under the voice (100 ms RMS)"
   },
   {
    "at": "w:95:cuts",
    "sfx": "sparks",
-   "gain_db": -18,
+   "gain_db": -22,
    "want": "a remote cutting tool cutting inside a metal pipe",
    "file": "assets/sfx/grinder_cut.mp3",
    "trim": [
     5.5,
-    7.1
+    6.5
    ],
-   "fix": "27 NOV (cut audit r2): the old trim 1.5–4.6 s was the recording's pre-roll (people talking); now 1.6 s of the cut itself"
+   "fix": "27 NOV (cut audit r3): 1.0 s of the cut, low-passed, 4 dB down",
+   "lowpass": 1600
   },
   {
    "at": "w:96:drawn",
    "sfx": "whine",
-   "gain_db": -14,
+   "gain_db": -24,
    "want": "a winch drawing a long tube slowly into a steel cask",
    "file": "assets/sfx/winch.mp3",
    "trim": [
     20,
     26
-   ]
+   ],
+   "lowpass": 1000,
+   "dur": 3.6,
+   "fade_out": 1.0,
+   "fix": "27 NOV (cut audit r3): the winch low-passed to a slow mechanical draw, 10 dB down"
   },
   {
    "at": "w:97:carries",
@@ -282,30 +342,37 @@
    "trim": [
     0.0,
     8.7
-   ]
+   ],
+   "off": true,
+   "fix": "27 NOV (cut audit r3): removed: the carriage recording read as a train screeching over the tube-draw diagram"
   },
   {
    "at": "e:97",
    "sfx": "vault",
-   "gain_db": -8,
+   "gain_db": -19.5,
    "want": "a heavy vault door closing and its bolt",
    "file": "assets/sfx/vault_door.mp3",
    "trim": [
     0.0,
-    5.2
-   ]
+    0.6
+   ],
+   "lowpass": 900,
+   "fade_out": 0.2,
+   "fix": "27 NOV (cut audit r3): only the first latch, 0.6 s, low-passed, 9 dB down (the full 5.2 s carried a second bang at 5:26); fitted -2.5 dB to sit 4 dB under the voice (100 ms RMS)"
   },
   {
    "at": "w:100:new",
    "sfx": "whoosh",
-   "gain_db": -12,
-   "want": "a tube feeding through rollers"
+   "gain_db": -18,
+   "want": "a tube feeding through rollers",
+   "fix": "27 NOV (cut audit r3): diagram chimes and ticks 6 dB down (both Gemini replies: they poked out over the voice)"
   },
   {
    "at": "e:103",
    "sfx": "counter_land",
-   "gain_db": -10,
-   "want": "a mechanical counter landing"
+   "gain_db": -20.5,
+   "want": "a mechanical counter landing",
+   "fix": "27 NOV (cut audit r3): diagram chimes and ticks 6 dB down (both Gemini replies: they poked out over the voice); fitted -4.5 dB to sit 4 dB under the voice (100 ms RMS)"
   },
   {
    "at": "w:105:two",
@@ -321,13 +388,14 @@
   {
    "at": "w:106:more",
    "sfx": "coin",
-   "gain_db": -10,
+   "gain_db": -12.5,
    "want": "a tall stack of coins set down",
    "file": "assets/sfx/coin_bag.mp3",
    "trim": [
     0.4,
     1.5
-   ]
+   ],
+   "fix": "27 NOV (cut audit r3):; fitted -2.5 dB to sit 4 dB under the voice (100 ms RMS)"
   },
   {
    "at": "w:109:nineteen",
@@ -338,8 +406,9 @@
   {
    "at": "w:116:opened",
    "sfx": "glint",
-   "gain_db": -12,
-   "want": "an old radio's back panel unscrewed and lifted"
+   "gain_db": -18,
+   "want": "an old radio's back panel unscrewed and lifted",
+   "fix": "27 NOV (cut audit r3): diagram chimes and ticks 6 dB down (both Gemini replies: they poked out over the voice)"
   },
   {
    "at": "w:121:subscribe",
@@ -355,25 +424,31 @@
   {
    "at": "w:128:leak",
    "sfx": "steam_hiss",
-   "gain_db": -16,
+   "gain_db": -19.5,
    "want": "a small steam leak hissing",
    "file": "assets/sfx/steam_valve.mp3",
    "trim": [
     1.3,
     4.0
-   ]
+   ],
+   "fix": "27 NOV (cut audit r3):; fitted -3.5 dB to sit 4 dB under the voice (100 ms RMS)"
   },
   {
    "at": "w:129:shut",
    "sfx": "thump",
-   "gain_db": -11,
-   "want": "control rods dropping, a heavy mechanical thud"
+   "gain_db": -25.0,
+   "want": "control rods dropping, a heavy mechanical thud",
+   "lowpass": 800,
+   "dur": 0.7,
+   "fade_out": 0.25,
+   "fix": "27 NOV (cut audit r3): a muffled rod drop, not a door slam: low-passed, 0.7 s, 8 dB down; fitted -6.0 dB to sit 4 dB under the voice (100 ms RMS)"
   },
   {
    "at": "w:133:two",
    "sfx": "counter_land",
-   "gain_db": -10,
-   "want": "a soft tick"
+   "gain_db": -18.0,
+   "want": "a soft tick",
+   "fix": "27 NOV (cut audit r3): diagram chimes and ticks 6 dB down (both Gemini replies: they poked out over the voice); fitted -2.0 dB to sit 4 dB under the voice (100 ms RMS)"
   },
   {
    "at": "w:142:came",
@@ -390,26 +465,29 @@
    "at": "w:148:grow",
    "sfx": "counter_land",
    "to": "e:148",
-   "gain_db": -12,
-   "want": "a mechanical counter rolling"
+   "gain_db": -18,
+   "want": "a mechanical counter rolling",
+   "fix": "27 NOV (cut audit r3): diagram chimes and ticks 6 dB down (both Gemini replies: they poked out over the voice)"
   },
   {
    "at": "w:153:alarm",
    "sfx": "riser",
-   "gain_db": -17,
+   "gain_db": -22,
    "want": "a control-room alarm buzzer, short",
    "file": "assets/sfx/alarm_beep.mp3",
    "trim": [
     0.0,
-    0.8
+    0.5
    ],
-   "fix": "27 NOV (cut audit r2): 2.6 s of tone sat over \"The first one, at Kakrapar, went critical\"; now 0.8 s"
+   "fix": "27 NOV (cut audit r3): low-passed (no square-wave buzz), 0.5 s, 5 dB down",
+   "lowpass": 1800
   },
   {
    "at": "w:160:full",
    "sfx": "glint",
-   "gain_db": -12,
-   "want": "a turbine spinning up, hum"
+   "gain_db": -18,
+   "want": "a turbine spinning up, hum",
+   "fix": "27 NOV (cut audit r3): diagram chimes and ticks 6 dB down (both Gemini replies: they poked out over the voice)"
   },
   {
    "at": "w:164:three",
@@ -431,8 +509,9 @@
   {
    "at": "w:184:lights",
    "sfx": "glint",
-   "gain_db": -12,
-   "want": "a city at dusk, distant traffic, lights humming on"
+   "gain_db": -18,
+   "want": "a city at dusk, distant traffic, lights humming on",
+   "fix": "27 NOV (cut audit r3): diagram chimes and ticks 6 dB down (both Gemini replies: they poked out over the voice)"
   }
  ],
  "_sources": {

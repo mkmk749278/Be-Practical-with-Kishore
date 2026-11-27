@@ -606,11 +606,19 @@ frame read at 480p size. No dense HUD clutter: few, warm words in the narration'
 - **The voice leads:** master at **−14 LUFS integrated, −1 dBTP** (two-pass linear normalisation); limit at −2.5 dBFS
   before AAC. Voice polish: high-pass 70 Hz, +1.5–2.5 dB near 120 Hz, de-ess 6–8 kHz, 2:1–3:1 compression, room tone;
   never pitch-shift.
-- **Music −25 dB under the voice, up to −12 dB in the gaps** with short ramps; one bed per act, crossfaded, never an
-  audible restart. **1.0 s of silence before a major mechanical reveal**, then its sound: the only planned silence.
+- **Music about 11 dB under the voice, steady** (100 ms RMS under speech; changed 27 NOV 2026 from "−25 dB under, up to
+  −12 in the gaps"): the music bus is EQ'd (high-pass 90 Hz, −2.5 dB at 1.8 kHz for the voice) and levelled 3:1, ducked
+  only about 7 dB, so no swell passes about −22 dB; 2 s equal-power crossfades; one bed per act, never an audible
+  restart. *Why:* on phwr-700 r3 the bed sat 22 dB under the voice and a 20 dB duck pumped it up in every pause; both
+  Gemini cut audits heard a thin bed with swells jumping out on phone and TV speakers. **1.0 s of silence before a major mechanical reveal**, then its sound: the only planned silence.
 - **No dead air:** every other pause carries music, room tone or real sound (2–6 s of a hull groan or a furnace at big
   moments); the voice never talks over real speech.
-- **Every visual event has a sound** from `cues.ts`: impacts −6 to −8 dB, small effects −8 to −10 dB.
+- **Every visual event has a sound**, and every sound sits **at least 4 dB under the voice's local level** (100 ms
+  RMS; stamps and a hero clunk 1 dB, one designed hit per film may pass): fit it by measure, not by `gain_db` alone.
+  On drawn diagrams, sounds are low-passed (about 0.5–1.6 kHz) and short, so 1–4 kHz stays the voice's; never a
+  vehicle, crash or door slam on a diagram; never a sound on the emotional word. *Why (27 NOV, phwr-700 r3):* a rail
+  recording under the tube-draw diagram, crashes on a 1 kg weight and on "doctor"; the old −6 to −8 dB cue levels put
+  transients above the voice.
 - **Music from our own Lyria 3.5 library** (owner, 2026-11-04/05): Drive `Music-Library/` (`practical`, `bharat`,
   `blueprint`, `forensic`; any may be used), catalog `config/music_library.csv`, pulled with `scripts/music_pull.sh`.
   Tracks arrive loud: set levels in the mix. Manifest line: "Generated with Google Lyria 3.5 (Gemini API); Google claims

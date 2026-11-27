@@ -197,3 +197,17 @@ on 23 NOV).
   0.2 s dissolves to bright footage (also in r2). Every r3 fix checked on frames of the render itself.
 - **Gemini `cut-audit` on r3 sent** at 8:46 AM IST (360p proxy, narration and our r2 check in `handoff/`). Next:
   `gemini_handoff.sh pull phwr-700` → check → the owner approves the cut → 4K master once → the package.
+
+## 27 NOV 2026, about 11:15 AM IST: both Gemini r3 audits checked, r4 mix, 4K master rendering
+- Gemini's two r3 replies (`review/gemini_cut-audit_r3.md`, `_r3b.md`): picture locked, audio-only fixes. Checked on
+  the real r3 stems: `review/gemini_cut-audit_r3_check.md` (all sound leads confirmed or partly; two numbers not taken).
+- **The owner: "Fix everything and render in 4k"** (27 NOV), taken as the cut's approval.
+- **r4 mix:** music levelled on the bus and about 11 dB under the voice (was 22); 2 s equal-power crossfades; Pokhran
+  and the walk-out under The Boardroom, the warm strings on "Indian engineers finished it on their own", the outro on
+  "Subscribe"; the rail roar, the crashes on the weight and the diagram cut, and the slam on "doctor" gone; every cue
+  low-passed or shortened as needed and fitted 4 dB under the voice. −14.2 LUFS, −2.2 dBTP. Drive `mix/mix.wav`
+  (r3's: `mix/mix_r3.wav`); `renders/phwr_review_r4_720p.mp4` = r3 picture + r4 mix.
+- **4K master:** run 45945459762 (15 runners, scale 2, from `main`), joins with Drive `mix/mix.wav` (r4) →
+  `renders/phwr_master_4k.mp4`. If the join ran before the r4 mix was up, re-join with `join_from`.
+- **Next:** check the master (§13.1 measures on the 4K file, three frames each side of every seam), then the
+  package (§15): SRT with real spellings, thumbnails, metadata, the fresh-facts gate within 24 h of upload.
