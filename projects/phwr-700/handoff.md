@@ -191,3 +191,9 @@ on 23 NOV).
 - `scripts/gemini_handoff.sh pull` now reads front matter written on one heading line.
 - **Next:** r3 (run 45930701547) → Drive `renders/phwr_review_r3_720p.mp4` → our review (§13.1) → Gemini `cut-audit`
   on r3 → the owner approves the cut → 4K master once.
+- **27 NOV, about 8:50 AM IST: r3 rendered and passed our review** (run 45930701547): Drive
+  `renders/phwr_review_r3_720p.mp4` (https://drive.google.com/open?id=16aJro5KYVRBKQUaDx5hw9aLj8Qb4w01l), 10:23,
+  720p 60 fps, −14.1 LUFS, −2.2 dBTP, 0 flash frames, one hard cut (1:54, designed); the two "single-frame jumps" are
+  0.2 s dissolves to bright footage (also in r2). Every r3 fix checked on frames of the render itself.
+- **Gemini `cut-audit` on r3 sent** at 8:46 AM IST (360p proxy, narration and our r2 check in `handoff/`). Next:
+  `gemini_handoff.sh pull phwr-700` → check → the owner approves the cut → 4K master once → the package.
