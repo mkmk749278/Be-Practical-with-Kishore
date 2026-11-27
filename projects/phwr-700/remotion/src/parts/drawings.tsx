@@ -168,7 +168,7 @@ export const RajMap: React.FC<{dur: number; mode: 'chambal' | 'kota'; rajAt?: nu
 	kmAt = 0,
 }) => {
 	const f = useCurrentFrame();
-	const wide: Cam = {x: 20, y: -60, z: 0.95};
+	const wide: Cam = {x: 20, y: -45, z: 0.84}; // all of India inside the frame with a margin (cut audit r2)
 	const raj: Cam = {x: RAWATBHATA[0] - 20, y: RAWATBHATA[1] - 40, z: 2.6};
 	const close: Cam = {x: (RAWATBHATA[0] + KOTA[0]) / 2, y: (RAWATBHATA[1] + KOTA[1]) / 2, z: 28};
 	const cam = mode === 'chambal' ? camAt(f, wide, raj, 0, Math.max(30, dur - 10)) : camAt(f, {...close, z: 14}, close, 0, dur);
@@ -324,10 +324,16 @@ export const DesignSheet: React.FC<{lampAt?: number}> = ({lampAt}) => {
  * potA: one giant steel pot draws on; dissolveAt: it fades; tankAt: a tank on its side; pierceA..pierceB: the tubes
  * slide through it; liftAt: one tube rises out of the row and turns into a pressure cooker (cookerAt).
  */
-export const PotTank: React.FC<{dissolveAt: number; tankAt: number; pierceA: number; pierceB: number; liftAt: number; cookerAt: number}> = ({dissolveAt, tankAt, pierceA, pierceB, liftAt, cookerAt}) => {
+export const PotTank: React.FC<{dissolveAt: number; tankAt: number; pierceA: number; pierceB: number; liftAt: number; cookerAt: number; potLabelAt?: number; manyAt?: number}> = ({dissolveAt, tankAt, pierceA, pierceB, liftAt, cookerAt, potLabelAt = 1e9, manyAt = 1e9}) => {
 	const f = useCurrentFrame();
 	const pot = tw(f, 0, 50, 0, 1, ez.sweep) * tw(f, dissolveAt, dissolveAt + 30, 1, 0);
 	const spin = Math.sin(f / 70) * 0.06;
+	// cut audit r2 (27 NOV): the pot no longer sits still for 7 s. "one giant steel pot": its thick wall is called out;
+	// "most reactors in the world": it shrinks into a row of the same pot
+	const callout = tw(f, potLabelAt, potLabelAt + 24, 0, 1, ez.arrive) * (1 - tw(f, manyAt, manyAt + 20, 0, 1));
+	const many = tw(f, manyAt, manyAt + 40, 0, 1, ez.sweep);
+	const ROW = [-720, -480, -240, 240, 480, 720];
+	const potPath = 'M-230 -260Q-230 -330 0 -340Q230 -330 230 -260V250Q230 330 0 340Q-230 330 -230 250Z';
 	const tank = tw(f, tankAt, tankAt + 30, 0, 1);
 	const pierce = tw(f, pierceA, pierceB, 0, 1, ez.sweep);
 	const lift = tw(f, liftAt, liftAt + 40, 0, 1, ez.cam);
@@ -336,11 +342,31 @@ export const PotTank: React.FC<{dissolveAt: number; tankAt: number; pierceA: num
 	return (
 		<svg width={1920} height={1080} style={{position: 'absolute'}}>
 			{/* the pot: a pressure vessel, drawn in steel */}
-			<g opacity={pot} transform={`translate(960 560) scale(${1 + spin * 0.4} 1)`}>
-				<path d="M-230 -260Q-230 -330 0 -340Q230 -330 230 -260V250Q230 330 0 340Q-230 330 -230 250Z" fill="#5a646d" stroke="#c9d2da" strokeWidth={6} />
+			<g opacity={pot} transform={`translate(960 ${560 + 60 * many}) scale(${(1 - 0.62 * many) * (1 + spin * 0.4)} ${1 - 0.62 * many})`}>
+				<path d={potPath} fill="#5a646d" stroke="#c9d2da" strokeWidth={6 + 22 * callout} />
 				<path d="M-230 -200H230M-230 200H230" stroke={C.steel} strokeWidth={3} opacity={0.6} />
+				{/* bolted lid flange and nozzles: a forged vessel, not a jar */}
+				<path d="M-250 -230H250" stroke="#2a3036" strokeWidth={22} />
+				{Array.from({length: 11}, (_, i) => <circle key={i} cx={-225 + i * 45} cy={-230} r={6} fill="#c9d2da" />)}
+				<path d="M-230 40H-300M230 40H300M-230 120H-300M230 120H300" stroke="#9aa5ae" strokeWidth={26} />
 				<ellipse cx={-90 + spin * 600} cy={0} rx={40} ry={280} fill="#ffffff" opacity={0.05} />
 			</g>
+			<g opacity={pot * callout}>
+				<path d="M1190 380L1310 300H1500" stroke={C.flask} strokeWidth={4} fill="none" />
+				<text x={1320} y={285} fontFamily={F.label} fontWeight={800} fontSize={50} fill={C.flask} stroke="#0b0d0f" strokeWidth={7} paintOrder="stroke">ONE THICK STEEL WALL</text>
+			</g>
+			{ROW.map((x, i) => {
+				const p = tw(f, manyAt + 10 + i * 4, manyAt + 34 + i * 4, 0, 1, ez.arrive) * pot;
+				return (
+					<g key={x} opacity={p} transform={`translate(${960 + x} ${620 + (1 - p) * 40}) scale(0.38)`}>
+						<path d={potPath} fill="#5a646d" stroke="#c9d2da" strokeWidth={8} />
+						<path d="M-250 -230H250" stroke="#2a3036" strokeWidth={22} />
+					</g>
+				);
+			})}
+			<text x={960} y={330} textAnchor="middle" opacity={pot * tw(f, manyAt + 30, manyAt + 50, 0, 1)} fontFamily={F.label} fontWeight={800} fontSize={56} fill={C.ink} stroke="#0b0d0f" strokeWidth={7} paintOrder="stroke" letterSpacing={2}>
+				MOST REACTORS IN THE WORLD
+			</text>
 			{/* the tank on its side, tubes through it */}
 			<g opacity={tank * (1 - 0.85 * cook)} transform={`translate(960 ${640 + 0 * lift})`}>
 				<rect x={-380} y={-250} width={760} height={500} rx={60} fill="#1d3a4a" fillOpacity={0.45} stroke={C.steel} strokeWidth={5} />
@@ -390,6 +416,8 @@ export const Weights: React.FC<{oneAt: number; stackA?: number; stackB?: number;
 	return (
 		<AbsoluteFill>
 			<svg width={1920} height={1080} style={{position: 'absolute'}}>
+				{/* the weight is lowered on a cord from the first frame and lands on "one" (cut audit r2: no empty canvas) */}
+				{n === 1 && one < 0.98 ? <path d={`M960 0V${860 - (1 - one) * (300 - 120 * tw(f, 0, Math.max(1, oneAt), 0, 1, ez.cam)) - 64 * 2.6}`} stroke="#9aa5ae" strokeWidth={3} opacity={1 - one} /> : null}
 				{/* the square centimetre, a fingertip's size, drawn on the table */}
 				<rect x={900} y={870} width={120} height={120} fill="none" stroke={C.flask} strokeWidth={5} strokeDasharray="12 8" />
 				<text x={1040} y={950} fontFamily={F.label} fontWeight={800} fontSize={44} fill={C.flask}>1 CM²</text>
@@ -400,7 +428,7 @@ export const Weights: React.FC<{oneAt: number; stackA?: number; stackB?: number;
 					const x = 960 + (col - (Math.min(n, cols) - 1) / 2) * 62;
 					const y = 860 - row * 70;
 					return (
-						<g key={i} transform={`translate(${x} ${y - (i === 0 ? (1 - one) * 300 : 0)}) scale(${big})`} opacity={i === 0 ? one : 1}>
+						<g key={i} transform={`translate(${x} ${y - (i === 0 ? (1 - one) * (300 - 120 * tw(f, 0, Math.max(1, oneAt), 0, 1, ez.cam)) : 0)}) scale(${big})`} opacity={i === 0 ? Math.max(one, 0.85 * tw(f, 0, 14, 0, 1)) : 1}>
 							<path d="M-28 0H28L22 -52H-22Z" fill="#3b4147" stroke="#0b0d0f" strokeWidth={3} />
 							<rect x={-10} y={-64} width={20} height={14} rx={4} fill="#3b4147" stroke="#0b0d0f" strokeWidth={2} />
 							{n === 1 ? <text y={-18} textAnchor="middle" fontFamily={F.label} fontWeight={800} fontSize={18} fill={ink}>1 KG</text> : null}

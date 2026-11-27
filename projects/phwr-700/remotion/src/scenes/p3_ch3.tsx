@@ -102,13 +102,13 @@ export const p3: Part = {
 		// S102–103: the next, 306 times: the face turns caution yellow, tube by tube
 		draw(S(102), 'face-new', (d, l) => <Face306 newA={l} newB={at(s1(103), S(102), l)} />, 'ILLUSTRATION', [1.12, 0, 0], [1.0, 0, 0]),
 		// S104–106: the cost
-		draw(S(104), 'cost', (d, l) => <CostStacks indiaAt={at(w0(105, 'two'), S(104), l)} canadaAt={at(w0(106, 'more'), S(104), l)} />, 'OUR CALCULATION · BUSINESS INDIA, RBI 1996 RATE'),
+		draw(S(104), 'cost', (d, l) => <CostStacks slipAt={at(w0(105, 'business'), S(104), l)} growAt={at(w0(105, 'rupees'), S(104), l)} indiaAt={at(w0(105, 'two'), S(104), l)} canadaAt={at(w0(106, 'more'), S(104), l)} />, 'OUR CALCULATION · BUSINESS INDIA, RBI 1996 RATE'),
 		// S107–109: was it quick? no: three years, no power
 		draw(S(107), 'no-power', (d, l) => <NoPowerYears at={at(w0(109, 'nineteen'), S(107), l)} />, 'ILLUSTRATION'),
 		// S110: by 1998, running again
 		clip(S(110), 'RAPS_lake', CR.npcil, 2.4),
 		// S111–112: first in India, second in the world; the first in Canada
-		draw(S(111), 'first-second', (d, l) => <FirstSecond secondAt={at(w0(111, 'second'), S(111), l)} firstAt={at(w0(112, 'first'), S(111), l)} />, 'SOURCE: NPCIL'),
+		draw(S(111), 'first-second', (d, l) => <FirstSecond indiaAt={at(w0(111, 'first'), S(111), l)} secondAt={at(w0(111, 'second'), S(111), l)} firstAt={at(w0(112, 'first'), S(111), l)} />, 'SOURCE: NPCIL'),
 		// S113–114: BARC counted the gain
 		arch(S(113), 'FDB_barc', CR.fd, 'TROMBAY'),
 		// S115–116: the broken radio we opened

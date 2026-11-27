@@ -40,7 +40,7 @@ export const p2: Part = {
 		hero(S(48), 'H1_face', 0.5),
 		// S49–51: not the fuel; fresh fuel goes in while it runs
 		arch(S(49), 'FD80_bundle', CR.fd80, 'FUEL', 0.6),
-		clip(pre(w0(51, 'while')), 'K05_fm', CR.npcil, 0, 'KAKRAPAR · FUELLING MACHINE'),
+		clip(pre(w0(51, 'while')), 'K05_fm', CR.npcil, 0, 'A FUELLING MACHINE · 700 MW'),
 		// S52–53: the tubes wear out; the early tubes, made of an older metal mix
 		arch(S(52), 'FD80_rack', CR.fd80, 'THE TUBES'),
 		arch(S(53), 'FD80_pilger', CR.fd80, '1980'),

@@ -86,6 +86,8 @@ const ch1: Part = {
 				pierceA={at(w0(22, 'pierced'), S(19), l)}
 				pierceB={at(w0(22, 'tubes'), S(19), l) + 20}
 				liftAt={at(w0(23, 'each'), S(19), l)}
+				potLabelAt={at(w0(19, 'steel'), S(19), l)}
+				manyAt={at(w0(20, 'most'), S(19), l)}
 				cookerAt={at(w0(23, 'pressure'), S(19), l)}
 			/>
 		), 'ILLUSTRATION', [1.0, 0, 0], [1.1, 0, 20]),
@@ -97,7 +99,7 @@ const ch1: Part = {
 		clip(S(27), 'R7_dome', CR.npcil),
 		clip(pre(w0(27, 'moment')), 'R7_towers', CR.npcil),
 		// S28: a hundred times harder, at 310 °C
-		draw(S(28), 'weight-100', (d, l) => <Weights oneAt={-60} stackA={at(w0(28, 'hundred'), S(28), l)} stackB={at(w0(28, 'harder'), S(28), l) + 20} tempAt={at(w0(28, 'three'), S(28), l)} />, 'OUR CALCULATION'),
+		draw(S(28), 'weight-100', (d, l) => <Weights oneAt={-60} stackA={at(w0(28, 'pushed'), S(28), l)} stackB={at(w0(28, 'harder'), S(28), l) + 20} tempAt={at(w0(28, 'three'), S(28), l)} />, 'OUR CALCULATION'),
 		// S29–31: the wall in section; the pencil; thinner than that
 		draw(S(29), 'tube-wall', (d, l) => <TubeWall pencilAt={at(S(30), S(29), l)} compareAt={at(S(31), S(29), l)} />, 'ILLUSTRATION · TO SCALE', [1.0, 0, 0], [1.18, -60, 0]),
 		// S32–33: May 1974
@@ -124,7 +126,15 @@ const ch1: Part = {
 		arch(S(41), 'FD80_ends', CR.fd80, 'UNIT 2'),
 		draw(pre(w0(41, 'halfway')), 'face-half', (d, l) => <Face306 greyAt={l} />, 'ILLUSTRATION'),
 		// S42: "You might ask me, Kishore…"
-		draw(S(42), 'ask-desk', (d) => <KitchenCooker whistleAt={99999} dur={d} small />, undefined, [1.1, 0, 0], [1.0, 0, 0]),
+		draw(S(42), 'ask-desk', (d) => (
+			<AbsoluteFill>
+				{/* "your half built reactor": the half-grey face, dim behind the question (cut audit r2: the top was empty) */}
+				<AbsoluteFill style={{opacity: 0.4}}>
+					<Face306 greyAt={-100} />
+				</AbsoluteFill>
+				<KitchenCooker whistleAt={99999} dur={d} small />
+			</AbsoluteFill>
+		), 'ILLUSTRATION', [1.1, 0, 0], [1.0, 0, 0]),
 		// S43–44: Indian engineers finished it; it went to work in 1981
 		arch(S(43), 'FD80_face', CR.fd80, '1970s'),
 		draw(pre(w0(44, 'work')), 'face-relit', (d, l) => <Face306 greyAt={-100} relightAt={l} />, 'ILLUSTRATION'),
