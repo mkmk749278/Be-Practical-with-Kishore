@@ -31,10 +31,11 @@ const CITIES: [number, number][] = [
  *  'lights': India at dusk, the cities' lights come on (S184). */
 export const IndiaPins: React.FC<{dur: number; mode: 'kakrapar' | 'fleet' | 'lights'; at?: number}> = ({dur, mode, at = 0}) => {
 	const f = useCurrentFrame();
-	const z0 = mode === 'kakrapar' ? 0.95 : 0.9;
-	const z1 = mode === 'kakrapar' ? 2.2 : 1.0;
-	const c0 = {x: 20, y: -40};
-	const c1 = mode === 'kakrapar' ? {x: SITES.kakrapar[0] + 40, y: SITES.kakrapar[1]} : {x: 20, y: -20};
+	// whole-India modes stay inside the frame end to end, Ladakh to Kanyakumari (cut audit r2, 27 NOV)
+	const z0 = 0.84;
+	const z1 = mode === 'kakrapar' ? 2.2 : 0.88;
+	const c0 = {x: 20, y: -45};
+	const c1 = mode === 'kakrapar' ? {x: SITES.kakrapar[0] + 40, y: SITES.kakrapar[1]} : {x: 20, y: -45};
 	const k = tw(f, 0, dur, 0, 1, ez.cam);
 	const z = Math.exp(Math.log(z0) + (Math.log(z1) - Math.log(z0)) * k);
 	const cx = c0.x + (c1.x - c0.x) * k;
@@ -220,9 +221,12 @@ export const GasAlarm: React.FC<{dropAt: number; alarmAt: number}> = ({dropAt, a
 };
 
 // ---------------------------------------------------------------- 3 out of every 100 units (S164)
-export const HundredBulbs: React.FC<{litAt: number}> = ({litAt}) => {
+export const HundredBulbs: React.FC<{litAt: number; sweepAt?: number}> = ({litAt, sweepAt}) => {
 	const f = useCurrentFrame();
 	const lit = tw(f, litAt, litAt + 24, 0, 1, ez.arrive);
+	// cut audit r2 (27 NOV): no 7 s of still grey dots. "every hundred units of electricity India makes": all hundred
+	// warm up in a sweep (India's power); on "three" the ninety-seven fall back and three stay lit
+	const sw0 = sweepAt ?? litAt;
 	return (
 		<svg width={1920} height={1080} style={{position: 'absolute'}}>
 			{Array.from({length: 100}, (_, i) => {
@@ -230,9 +234,11 @@ export const HundredBulbs: React.FC<{litAt: number}> = ({litAt}) => {
 				const y = 170 + Math.floor(i / 10) * 74;
 				const on = i < 3 ? lit : 0;
 				const show = tw(f, i * 0.6, i * 0.6 + 10, 0, 1);
+				const warm = tw(f, sw0 + i * 0.5, sw0 + i * 0.5 + 10, 0, 1) * (1 - lit);
+				const fill = on ? '#ffd76a' : warm > 0 ? `rgb(${93 + (230 - 93) * warm},${103 + (190 - 103) * warm},${112 + (120 - 112) * warm})` : '#5d6770';
 				return (
 					<g key={i} opacity={show}>
-						<circle cx={x} cy={y} r={24} fill={on ? '#ffd76a' : '#5d6770'} stroke="#9aa5ae" strokeWidth={2} />
+						<circle cx={x} cy={y} r={24} fill={fill} stroke="#9aa5ae" strokeWidth={2} />
 						{on ? <circle cx={x} cy={y} r={44} fill="#ffcf6a" opacity={0.3 * on} style={{filter: 'blur(8px)'}} /> : null}
 					</g>
 				);
@@ -254,7 +260,7 @@ export const TenYears: React.FC<{aAt: number; bAt: number}> = ({aAt, bAt}) => {
 			<path d={`M${x(2010)} 560H${x(2020)}`} stroke="#6c7780" strokeWidth={16} strokeLinecap="round" />
 			<path d={`M${x(2010)} 560H${x(2010) + 1320 * run}`} stroke={C.stress} strokeWidth={16} strokeLinecap="round" opacity={a} />
 			{Array.from({length: 11}, (_, i) => (
-				<text key={i} x={x(2010 + i)} y={640} textAnchor="middle" fontFamily={F.mono} fontWeight={700} fontSize={30} fill={C.dim} opacity={a}>
+				<text key={i} x={x(2010 + i)} y={650} textAnchor="middle" fontFamily={F.mono} fontWeight={700} fontSize={40} fill={C.ink} opacity={a}>
 					{`'${String(10 + i).padStart(2, '0')}`}
 				</text>
 			))}
@@ -274,10 +280,15 @@ export const TenDomes: React.FC<{at: number}> = ({at}) => {
 			{Array.from({length: 10}, (_, i) => {
 				const p = tw(f, at + i * 6, at + i * 6 + 18, 0, 1, ez.arrive);
 				const x = 230 + i * 162;
+				// the ten sites stand as dashed outlines from the first frame (approved, not built); solid on "ten"
+				const ghost = tw(f, i * 3, i * 3 + 16, 0, 1, ez.arrive) * (1 - p);
 				return (
-					<g key={i} opacity={p} transform={`translate(0 ${(1 - p) * 40})`}>
+					<g key={i}>
+					<path d={`M${x - 60} 760V640A60 60 0 0 1 ${x + 60} 640V760Z`} fill="none" stroke="#9aa5ae" strokeWidth={3} strokeDasharray="10 8" opacity={ghost} />
+					<g opacity={p} transform={`translate(0 ${(1 - p) * 40})`}>
 						<path d={`M${x - 60} 760V640A60 60 0 0 1 ${x + 60} 640V760Z`} fill="#c9d2d9" stroke="#0b0d0f" strokeWidth={3} />
 						<rect x={x - 70} y={740} width={140} height={20} fill="#9aa5ae" />
+					</g>
 					</g>
 				);
 			})}

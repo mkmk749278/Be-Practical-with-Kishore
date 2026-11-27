@@ -213,6 +213,11 @@ export const Count: React.FC<{a: number; b: number; from: number; to: number; x:
 				color,
 				textShadow: '0 4px 24px rgba(0,0,0,0.8)',
 				whiteSpace: 'nowrap',
+				// a dark backing so the number reads over bright footage at 480p (cut audit r2, 27 NOV: 962 DAYS on a white wall)
+				background: 'rgba(13,17,23,0.82)',
+				borderLeft: `6px solid ${color}`,
+				padding: `0 ${Math.round(size * 0.18)}px`,
+				lineHeight: 1.15,
 			}}
 		>
 			{v.toLocaleString('en-IN', {minimumFractionDigits: decimals, maximumFractionDigits: decimals})}
@@ -341,6 +346,19 @@ export const Insert: React.FC<{name: string; dur: number; startAt?: number; aspe
  * Archive on the drafting table (art direction): a 4:3 archive clip (prepared 1440×1080) as a warm monochrome print
  * lying on the steel table, a small title tab beside it (year · maker). `mono` false keeps the source's colour.
  */
+/** The unbuilt part of a photo drawn as a blueprint sheet: a drafting grid, a pencil line sweeping across, "HALF BUILT"
+ *  (cut audit r2, 27 NOV: the plain grey hatch read as a broken image). */
+const Unbuilt: React.FC<{f: number; mask: number}> = ({f, mask}) => {
+	const sweep = tw(f, 0, 70, 0, 1, ez.sweep);
+	return (
+		<div style={{position: 'absolute', left: 0, right: 0, top: 0, height: `${50 * mask}%`, overflow: 'hidden', background: '#1d3550', borderBottom: '4px dashed #9fc3e6'}}>
+			<div style={{position: 'absolute', inset: 0, backgroundImage: 'linear-gradient(rgba(159,195,230,0.22) 2px, transparent 2px), linear-gradient(90deg, rgba(159,195,230,0.22) 2px, transparent 2px)', backgroundSize: '48px 48px'}} />
+			<div style={{position: 'absolute', left: 0, bottom: 0, width: `${100 * sweep}%`, height: 4, background: '#e6edf3'}} />
+			<div style={{position: 'absolute', left: 40, top: 36, opacity: tw(f, 10, 30, 0, 1), fontFamily: F.label, fontWeight: 800, fontSize: 52, letterSpacing: 6, color: '#e6edf3'}}>HALF BUILT</div>
+		</div>
+	);
+};
+
 export const Archive: React.FC<{name: string; dur: number; startAt?: number; year?: string; maker?: string; mono?: boolean; aspect?: number; tilt?: number; mask?: number; punch?: boolean}> = ({
 	name,
 	dur,
@@ -369,7 +387,7 @@ export const Archive: React.FC<{name: string; dur: number; startAt?: number; yea
 							muted
 							style={{width: '100%', height: '100%', objectFit: 'cover', filter: mono ? `grayscale(1) sepia(0.35) contrast(${punch ? 2.2 : 1.08}) brightness(${punch ? 1.05 : 0.95})` : 'contrast(1.04) saturate(0.9)'}}
 						/>
-						{mask > 0 ? <div style={{position: 'absolute', left: 0, right: 0, top: 0, height: `${50 * mask}%`, background: 'repeating-linear-gradient(135deg, #5a6068 0 14px, #464b52 14px 28px)', opacity: 0.92}} /> : null}
+						{mask > 0 ? <Unbuilt f={f} mask={mask} /> : null}
 					</div>
 					{year || maker ? (
 						<div style={{position: 'absolute', left: -14, bottom: -78, opacity: tab, transform: `translateY(${(1 - tab) * 12}px)`, display: 'flex', gap: 14, fontFamily: F.label, fontWeight: 800, fontSize: 40, whiteSpace: 'nowrap'}}>

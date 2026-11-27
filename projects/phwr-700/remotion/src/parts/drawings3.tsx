@@ -75,11 +75,20 @@ const describeArc = (cx: number, cy: number, r: number, a0: number, a1: number) 
 export const ToolSheet: React.FC<{fillAt: number}> = ({fillAt}) => {
 	const f = useCurrentFrame();
 	const k = tw(f, fillAt, fillAt + 90, 0, 1, ez.sweep);
+	// "machines that did not exist yet": the tool is a faint pencil ghost from the first frame (cut audit r2: no blank card)
+	const g = tw(f, 0, 30, 0, 1, ez.sweep) * (1 - k);
 	return (
 		<AbsoluteFill style={{alignItems: 'center', justifyContent: 'center'}}>
 			<div style={{position: 'relative', width: 1300, height: 840, transform: 'rotate(-3deg)', background: '#dfe6ea', boxShadow: '0 50px 100px rgba(0,0,0,0.7)'}}>
 				<svg width={1300} height={840} style={{position: 'absolute'}}>
 					<rect x={30} y={30} width={1240} height={780} fill="none" stroke="#2e4a66" strokeWidth={3} />
+					<g stroke="#5f7a94" strokeWidth={3} fill="none" strokeDasharray="10 10" opacity={g}>
+						<path d="M140 420H900M140 470H900M140 420V470" />
+						<path d="M900 395H1060V495H900Z" />
+						<circle cx={1000} cy={445} r={36} />
+						<path d="M100 360H240V530H100Z" />
+					</g>
+					<text x={650} y={300} textAnchor="middle" fontFamily={F.label} fontWeight={800} fontSize={120} fill="#8aa0b4" opacity={0.8 * g}>?</text>
 					<g stroke="#2e4a66" strokeWidth={3} fill="none">
 						{/* a long-reach cutting tool: a tube with a head, a cutter wheel, a drive at the back */}
 						<path pathLength={1} strokeDasharray={`${k} 1`} d="M140 420H900M140 470H900M140 420V470" />
@@ -147,9 +156,13 @@ export const TubeJourney: React.FC<{cutAt: number; drawA: number; drawB: number;
 };
 
 // ---------------------------------------------------------------- the cost: ₹250 crore vs more than ₹1,000 crore (S104–S106)
-export const CostStacks: React.FC<{indiaAt: number; canadaAt: number}> = ({indiaAt, canadaAt}) => {
+export const CostStacks: React.FC<{indiaAt: number; canadaAt: number; slipAt?: number; growAt?: number}> = ({indiaAt, canadaAt, slipAt = 1e9, growAt}) => {
 	const f = useCurrentFrame();
-	const a = tw(f, indiaAt, indiaAt + 40, 0, 1, ez.sweep);
+	// cut audit r2 (27 NOV): the outlines no longer wait empty for 6 s. The magazine slip lands on "Business India",
+	// and the rupee stack starts climbing on "rupees", reaching its height on "two hundred and fifty crore".
+	const g0 = growAt ?? indiaAt;
+	const a = Math.max(tw(f, g0, indiaAt, 0, 0.6, ez.cam), tw(f, indiaAt, indiaAt + 40, 0.6, 1, ez.sweep) * (f >= indiaAt ? 1 : 0));
+	const slip = useSpring(slipAt, 150, 18) * (1 - tw(f, canadaAt - 10, canadaAt + 10, 0, 1));
 	const b = tw(f, canadaAt, canadaAt + 60, 0, 1, ez.sweep);
 	const unit = 150; // px per ₹250 crore
 	const stack = (x: number, h: number, k: number, color: string) => (
@@ -165,9 +178,14 @@ export const CostStacks: React.FC<{indiaAt: number; canadaAt: number}> = ({india
 			<rect x={560} y={860 - unit} width={240} height={unit} fill="none" stroke={C.green} strokeWidth={3} strokeDasharray="12 8" opacity={0.7 * outline} />
 			<rect x={1120} y={860 - unit * 4.25} width={240} height={unit * 4.25} fill="none" stroke={C.stress} strokeWidth={3} strokeDasharray="12 8" opacity={0.7 * outline} />
 			{lab(960, 200, '?', ink, outline * (1 - a), 120, 'middle')}
+			<g opacity={slip} transform={`translate(${1500 + (1 - slip) * 200} 250) rotate(4)`}>
+				<rect x={-190} y={-70} width={380} height={140} fill={C.paper} stroke="#0b0d0f" strokeWidth={3} />
+				<text x={0} y={-12} textAnchor="middle" fontFamily={F.label} fontWeight={800} fontSize={40} fill={C.pencil} letterSpacing={2}>BUSINESS INDIA</text>
+				<text x={0} y={40} textAnchor="middle" fontFamily={F.mono} fontWeight={700} fontSize={32} fill="#5a6470">AS REPORTED</text>
+			</g>
 			{stack(560, unit, a, C.green)}
 			{stack(1120, unit * 4.25, b, C.stress)}
-			{lab(680, 860 - unit * a - 30, '₹250 CRORE', C.green, a, 56, 'middle')}
+			{lab(680, 860 - unit * a - 30, '₹250 CRORE', C.green, f >= indiaAt ? a : 0, 56, 'middle')}
 			{lab(680, 930, 'INDIA PLANNED', ink, a, 40, 'middle')}
 			{lab(1240, 860 - unit * 4.25 * b - 30, '₹1,000+ CRORE', C.stress, b, 56, 'middle')}
 			{lab(1240, 930, 'CANADA SPENT', ink, b, 40, 'middle')}
@@ -183,8 +201,16 @@ export const NoPowerYears: React.FC<{at: number}> = ({at}) => {
 			{['1995', '1996', '1997'].map((y, i) => {
 				const p = tw(f, at + i * 14, at + i * 14 + 18, 0, 1, ez.arrive);
 				const x = 340 + i * 440;
+				// the three pages hang blank from the first frame, swaying; each fills on its year (cut audit r2)
+				const blank = tw(f, i * 6, i * 6 + 20, 0, 1, ez.arrive);
+				const sway = Math.sin(f / 30 + i) * 1.5 * (1 - p);
 				return (
-					<g key={y} opacity={p} transform={`translate(0 ${(1 - p) * -60})`}>
+					<g key={y}>
+					<g opacity={blank * (1 - p) * 0.75} transform={`rotate(${sway} ${x + 180} 300)`}>
+						<rect x={x} y={300} width={360} height={420} fill={C.paper} stroke="#0b0d0f" strokeWidth={3} />
+						<rect x={x} y={300} width={360} height={56} fill="#8c2f24" />
+					</g>
+					<g opacity={p} transform={`translate(0 ${(1 - p) * -60})`}>
 						<rect x={x} y={300} width={360} height={420} fill={C.paper} stroke="#0b0d0f" strokeWidth={3} />
 						<rect x={x} y={300} width={360} height={56} fill="#8c2f24" />
 						<text x={x + 180} y={440} textAnchor="middle" fontFamily={F.label} fontWeight={800} fontSize={92} fill={C.pencil}>
@@ -195,6 +221,7 @@ export const NoPowerYears: React.FC<{at: number}> = ({at}) => {
 							POWER: 0
 						</text>
 					</g>
+					</g>
 				);
 			})}
 		</svg>
@@ -202,7 +229,12 @@ export const NoPowerYears: React.FC<{at: number}> = ({at}) => {
 };
 
 // ---------------------------------------------------------------- first and second in the world (S111–S112), NPCIL
-export const FirstSecond: React.FC<{secondAt: number; firstAt: number}> = ({secondAt, firstAt}) => {
+export const FirstSecond: React.FC<{secondAt: number; firstAt: number; indiaAt?: number}> = ({secondAt, firstAt, indiaAt}) => {
+	const f = useCurrentFrame();
+	// cut audit r2 (27 NOV): the Rawatbhata plate stands from the first frame; "first such job in India" writes 1ST · IN
+	// INDIA, "second in the world" turns it to 2ND · IN THE WORLD, then Canada's 1ST lands beside it
+	const r = tw(f, 0, 18, 0, 1, ez.arrive);
+	const inIndia = useSpring(indiaAt ?? secondAt, 160, 16);
 	const s = useSpring(secondAt, 160, 16);
 	const fi = useSpring(firstAt, 160, 16);
 	const plate = (x: number, n: string, place: string, color: string, p: number) => (
@@ -219,7 +251,16 @@ export const FirstSecond: React.FC<{secondAt: number; firstAt: number}> = ({seco
 	return (
 		<svg width={1920} height={1080} style={{position: 'absolute'}}>
 			{plate(260, '1ST', 'CANADA', C.steel, fi)}
-			{plate(1040, '2ND', 'RAWATBHATA', C.flask, s)}
+			<g opacity={r}>
+				<rect x={1040} y={380} width={620} height={300} rx={14} fill="#1b1f24" stroke={C.flask} strokeWidth={6} />
+				<text x={1350} y={740} textAnchor="middle" fontFamily={F.label} fontWeight={800} fontSize={48} fill={ink} letterSpacing={2}>RAWATBHATA-2</text>
+			</g>
+			<text x={1350} y={500} textAnchor="middle" fontFamily={F.label} fontWeight={800} fontSize={96} fill={C.flask} opacity={s > 0.5 ? s : inIndia}>
+				{s > 0.5 ? '2ND' : '1ST'}
+			</text>
+			<text x={1350} y={600} textAnchor="middle" fontFamily={F.label} fontWeight={800} fontSize={48} fill={ink} letterSpacing={2} opacity={s > 0.5 ? s : inIndia}>
+				{s > 0.5 ? 'IN THE WORLD' : 'IN INDIA'}
+			</text>
 		</svg>
 	);
 };

@@ -171,6 +171,19 @@ export const TubeLife: React.FC<{shadeAt: number}> = ({shadeAt}) => {
 	return (
 		<svg width={1920} height={1080} style={{position: 'absolute'}}>
 			<rect x={x(0)} y={500} width={1400 * draw} height={80} fill="#2a3036" stroke="#0b0d0f" strokeWidth={3} />
+			{/* the years run from the first frame, a cursor walking the ruler toward the answer (cut audit r2: no empty bar) */}
+			{(() => {
+				const yr = tw(f, 20, shadeAt, 0, 9.6, ez.cam);
+				return (
+					<g opacity={1 - sh}>
+						<rect x={x(0)} y={500} width={x(yr) - x(0)} height={80} fill={C.amber} opacity={0.35} />
+						<path d={`M${x(yr)} 480V600`} stroke={C.amber} strokeWidth={5} opacity={draw} />
+						<text x={x(yr)} y={460} textAnchor="middle" fontFamily={F.mono} fontWeight={700} fontSize={44} fill={C.amber} opacity={draw}>
+							{`YEAR ${Math.max(1, Math.ceil(yr))}`}
+						</text>
+					</g>
+				);
+			})()}
 			<rect x={x(0)} y={500} width={(x(10) - x(0)) * sh} height={80} fill={C.amber} opacity={0.9} />
 			<rect x={x(10)} y={500} width={(x(12) - x(10)) * sh} height={80} fill={C.stress} />
 			{[0, 5, 10, 15, 20, 25, 30].map((y) => (

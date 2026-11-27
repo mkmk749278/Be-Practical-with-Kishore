@@ -174,6 +174,9 @@ for line in text.splitlines()[:20]:
     m = re.match(r"^[\s*•-]*\**(\w+)\**:\**\s*(.+?)\s*$", line)
     if m and m.group(1) in KEYS and m.group(1) not in fm:
         fm[m.group(1)] = m.group(2).strip("* ")
+    # all keys on one line, sometimes as a heading ("## repo: … task_type: cut-audit … verdict: …"; 27 NOV)
+    for k, v in re.findall(r"\b(" + "|".join(KEYS) + r"):\s*([^\s*]+(?:\s+IST)?)", line):
+        fm.setdefault(k, v)
 task = fm.get("task_type", "reply").split("#")[0].strip()
 out = dest or os.path.join(local, "review", f"gemini_{task}.md")
 os.makedirs(os.path.dirname(out), exist_ok=True)

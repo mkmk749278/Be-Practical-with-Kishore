@@ -64,7 +64,7 @@ export const p4: Part = {
 		clip(S(161), 'RAPS_lake', CR.npcil, 0.5),
 		clip(pre(w0(161, 'unit')), 'K4_fuel', CR.npcil, 0, 'ILLUSTRATIVE FOOTAGE · KAKRAPAR-4'),
 		// S163–164: the honest part: 3 in 100
-		draw(S(163), 'bulbs', (d, l) => <HundredBulbs litAt={at(w0(164, 'three'), S(163), l)} />, 'ILLUSTRATION'),
+		draw(S(163), 'bulbs', (d, l) => <HundredBulbs sweepAt={at(w0(164, 'hundred'), S(163), l)} litAt={at(w0(164, 'three'), S(163), l)} />, 'ILLUSTRATION'),
 		// S165–168: late: 2010 → 2020
 		draw(S(165), 'ten-years', (d, l) => <TenYears aAt={at(w0(167, 'twenty'), S(165), l)} bAt={at(w0(168, 'ten'), S(165), l)} />, 'ILLUSTRATION'),
 		// S169–170: ten more, one fleet; ₹70,000 crore of orders
