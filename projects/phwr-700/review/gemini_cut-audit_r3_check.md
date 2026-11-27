@@ -47,3 +47,9 @@ started from `main` (run 45945459762, 15 runners) with the r4 mix laid at the jo
 `sound/sfx.json`, `sound/score.json`, `scripts/score_mix.py` (cue EQ and length, the bus filter, equal-power fades).
 −14.2 LUFS, −2.2 dBTP, LRA 2.9 LU. Drive `mix/mix.wav` (r3's is `mix/mix_r3.wav`); the r4 720p review copy is r3's
 picture with this mix (`renders/phwr_review_r4_720p.mp4`, stream copy, no re-render).
+
+## Gemini on r4 (27 NOV, 11:45 AM IST): APPROVED
+`gemini_cut-audit_r4.md`: picture (r3) and the r4 mix pass; its numbers agree with ours (−14.2 LUFS, −2.2 dBTP;
+Pokhran the only cue above −18.5 dB under speech; 4:15.5–4:22.2 dry). **CONFIRMED.** Its "4K Modal render" is not
+taken: the master renders on the GitHub runners (owner, 26 NOV), already running (run 45945459762), no Modal spend.
+The owner approved the cut the same hour ("Ok approved").
