@@ -34,6 +34,33 @@ def decode(path: Path) -> np.ndarray:
     return np.frombuffer(raw, dtype=np.float32).reshape(-1, 2).copy()
 
 
+def ffilter(x: np.ndarray, af: str) -> np.ndarray:
+    """Run a stereo float32 buffer through an ffmpeg audio filter chain (EQ, compressor), same length back."""
+    x = np.ascontiguousarray(x, dtype=np.float32)
+    raw = subprocess.run(["ffmpeg", "-v", "error", "-f", "f32le", "-ac", "2", "-ar", str(SR), "-i", "-", "-af", af,
+                          "-f", "f32le", "-ac", "2", "-ar", str(SR), "-"], input=x.tobytes(), check=True,
+                         capture_output=True).stdout
+    y = np.frombuffer(raw, dtype=np.float32).reshape(-1, 2)
+    return np.pad(y, ((0, max(0, len(x) - len(y))), (0, 0)))[: len(x)].copy()
+
+
+def shape_cue(x: np.ndarray, c: dict) -> np.ndarray:
+    """A cue's own EQ and length (27 NOV, Gemini cut audit r3: diagram cues low-passed so 1-4 kHz stays the voice's):
+    "lowpass"/"highpass": Hz, "bandpass": [lo, hi] Hz, "dur": seconds kept, with a "fade_out" (s, default 0.1)."""
+    st = x if x.ndim == 2 else np.stack([x, x], 1)
+    if "highpass" in c:
+        st = signal.sosfilt(signal.butter(4, c["highpass"], btype="high", fs=SR, output="sos"), st, axis=0)
+    if "lowpass" in c:
+        st = signal.sosfilt(signal.butter(4, c["lowpass"], btype="low", fs=SR, output="sos"), st, axis=0)
+    if "bandpass" in c:
+        st = signal.sosfilt(signal.butter(4, c["bandpass"], btype="band", fs=SR, output="sos"), st, axis=0)
+    if "dur" in c:
+        st = st[: int(c["dur"] * SR)].copy()
+        k = min(len(st), int(c.get("fade_out", 0.1) * SR))
+        st[len(st) - k:] *= (np.cos(np.linspace(0, np.pi / 2, k)) ** 2)[:, None]
+    return st.astype(np.float32)
+
+
 def db(x: float) -> float:
     return 10 ** (x / 20)
 
@@ -364,10 +391,16 @@ def main() -> None:
         seg = seg * db(float(score.get("bed_rms_db", -23)) - rms_db(seg) + s.get("gain_db", 0))
         fi, fo = int(s.get("fade_in", 1.5) * SR), int(s.get("fade_out", 1.5) * SR)
         env = np.ones(len(seg))
-        env[: min(fi, len(env))] = np.linspace(0, 1, min(fi, len(env))) ** 2
-        env[-min(fo, len(env)):] *= np.linspace(1, 0, min(fo, len(env))) ** 2
+        # equal-power (sine/cosine) fades, so two overlapping slots cross at constant power (27 NOV, cut audit r3)
+        env[: min(fi, len(env))] = np.sin(np.linspace(0, np.pi / 2, min(fi, len(env))))
+        env[-min(fo, len(env)):] *= np.cos(np.linspace(0, np.pi / 2, min(fo, len(env))))
         place(bed, seg * env[:, None], t0, 1.0)
         print(f"  {t0:7.1f}–{t1:7.1f}  {s['track']}")
+    if score.get("bus_filter"):  # the music bus's EQ and leveller (27 NOV, cut audit r3: swells jumped, pads vanished)
+        bed = ffilter(bed, score["bus_filter"])
+        if score.get("bus_rms_db") is not None:  # back to the asked level, measured where music plays
+            on = np.abs(bed[:, 0]) > 1e-5
+            bed *= db(score["bus_rms_db"] - rms_db(bed[on]))
     for r in score.get("rooms", []):
         t0, t1 = A(r["from"]), A(r["to"])
         if r.get("file"):  # a real room recording, looped to length with a crossfade-free tile (pick a steady bed)
@@ -392,6 +425,9 @@ def main() -> None:
             x = _fade(x, min(0.03, len(x) / SR / 4))
         else:
             x = synth(c["sfx"], 100 + k, (A(c["to"]) - t0) if "to" in c else 0)
+        if c.get("off"):  # kept in the list with its reason, not played
+            continue
+        x = shape_cue(x, c)
         x = x / (np.max(np.abs(x)) + 1e-9) * db(-3)
         place(sfx, x, t0, db(c["gain_db"] + 3))
 
