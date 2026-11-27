@@ -1,0 +1,83 @@
+{
+ "title": "Canada Walked Out of India's Nuclear Reactor",
+ "title_alternatives": [
+  "1974: Canada Left. India Rebuilt Its Heart",
+  "The Reactor Canada Left Half-Built"
+ ],
+ "title_history": [
+  {
+   "date": "2026-11-23",
+   "title": "Canada Walked Out of India's Nuclear Reactor",
+   "why": "plan lock, owner"
+  }
+ ],
+ "thumbnails": {
+  "main": "youtube/thumb_a_1974.jpg",
+  "challengers": [
+   "youtube/thumb_b_halfbuilt.jpg",
+   "youtube/thumb_c_worker.jpg"
+  ],
+  "sources": "frames of the film: our Blender render (a, b); NPCIL video, credited in the film (c)"
+ },
+ "description": "In 1974, Canada walked out of a half-built nuclear reactor at Rawatbhata in Rajasthan. India finished it. Twenty years later its 306 pressure tubes were wearing out, and Canada's export rules kept its firms out of the job.\n\nThis is how Indian engineers learned to open a reactor's heart and replace it themselves, from Rajasthan unit 2 to Kakrapar and India's own 700 MW reactors.\n\nThe date to watch: the day Rajasthan unit 8 goes critical.\n\n0:00 Canada walks out\n0:39 306 pressure cookers\n2:26 What breaks a tube\n4:21 India opens the heart itself\n6:37 Kakrapar: the worst day\n7:45 From 306 to 392\n9:29 What it means today",
+ "chapters": [
+  {
+   "t": "0:00",
+   "name": "Canada walks out"
+  },
+  {
+   "t": "0:39",
+   "name": "306 pressure cookers"
+  },
+  {
+   "t": "2:26",
+   "name": "What breaks a tube"
+  },
+  {
+   "t": "4:21",
+   "name": "India opens the heart itself"
+  },
+  {
+   "t": "6:37",
+   "name": "Kakrapar: the worst day"
+  },
+  {
+   "t": "7:45",
+   "name": "From 306 to 392"
+  },
+  {
+   "t": "9:29",
+   "name": "What it means today"
+  }
+ ],
+ "playlist": {
+  "id": "PLYqsLgsTPCfg",
+  "title": "Practical India | Hard Truths, Simply Explained"
+ },
+ "slot_ist": "2026-11-27 19:00",
+ "category_id": "28",
+ "default_language": "en",
+ "default_audio_language": "en",
+ "made_for_kids": false,
+ "contains_synthetic_media": false,
+ "tags": [
+  "Rawatbhata",
+  "Rajasthan Atomic Power Station",
+  "RAPS-2",
+  "PHWR",
+  "CANDU",
+  "NPCIL",
+  "Kakrapar",
+  "Kaiga",
+  "pressure tube",
+  "coolant channel replacement",
+  "Pokhran 1974",
+  "CIRUS",
+  "700 MW PHWR",
+  "Be Practical with Kishore"
+ ],
+ "captions": "youtube/phwr-700.en.srt",
+ "pinned_comment": "Thank you for staying with me till the end.\n\nYou might ask me, Kishore, why spend all this effort on these reactors when India's real hope is thorium? Because India's plan has three stages, and this reactor is stage one. Reactors like this make the plutonium the fast breeder at Kalpakkam needs, and only after that can thorium be bred into fuel. No 306 tubes, no thorium.\n\nOne fact to keep: a reactor of this family at Kaiga ran 962 days without stopping, a world record.\n\nSo tell me honestly. Would you have waited for help, or opened it yourself?\n\nAnd the day Rajasthan unit 8 goes critical, I want you here with me. Subscribe, so you are.",
+ "pinned_reply": "The sources for this film:\nNPCIL, Quest for Excellence (RAPS): https://npcil.nic.in/WriteReadData/CMS/201708101153249571544Quest_for_Excellence_RAPS.pdf\nNPCIL press releases on RAPP-7 and RAPP-8: https://npcil.nic.in/writereaddata/Orders/202602111000267145054Press_Release_11022026_01.pdf and https://npcil.nic.in/writereaddata/Orders/202609220306187287487Press_Release_22092026_01.pdf\nBARC newsletter on the coolant-channel tools: https://www.barc.gov.in/barc_nl/2003/200307.pdf\nPickering-2 pressure tube failure (US NRC): https://www.nrc.gov/docs/ML0323/ML032300454.pdf\nKakrapar 2016 (IAEA): https://www-news.iaea.org/ErfView.aspx?mId=ca32e9d8-9e97-461f-97bd-0c3bed0f9b03\nKakrapar channel replacement and Kaiga's record (World Nuclear News): https://world-nuclear-news.org/Articles/Coolant-channel-replacement-complete-at-Kakrapar-2 and https://www.world-nuclear-news.org/Articles/Kaiga-1-completes-record-breaking-run\nIndia country profile (World Nuclear Association): https://world-nuclear.org/information-library/country-profiles/countries-g-n/india\nTen 700 MW reactors approved, 2017: https://www.pmindia.gov.in/en/news_updates/cabinet-approves-construction-of-10-units-of-indias-indigenous-pressurised-heavy-water-reactors-phwrs/\nCameco's 2026 supply agreement: https://www.cameco.com/media/news/cameco-signs-long-term-uranium-supply-agreement-with-india",
+ "end_screen": "the Arjun tank film (A2mxbj2LoJI) and the playlist; set in Studio (the API cannot)"
+}

@@ -48,3 +48,4 @@ library/ph/
 
 # the local Blender venv for test stills
 .venv-blender/
+projects/*/youtube/*.jpg
