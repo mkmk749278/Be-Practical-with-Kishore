@@ -176,3 +176,18 @@ on 23 NOV).
   owner approves the cut → 4K master once → the package.
 - **Open, optional:** hero 2 pot drawing is weak; a real Indian cooker whistle (owner asked for a 3 s phone recording);
   footage r3 (cooker, tumbler); C01 unverified (not on screen).
+
+## 27 NOV 2026, about 8:20 AM IST: Gemini's cut audit of r2 checked, fixes made, r3 rendering
+- Gemini's reply (`review/gemini_cut-audit.md`, FIXES_REQUIRED) checked lead by lead on r2 frames, the scene code and
+  the mix: `review/gemini_cut-audit_check.md` (16 confirmed or partly, 4 not confirmed or not taken).
+- **Worst find:** the 2:45 "Kakrapar · fuelling machine" shot was NPCIL's CMD talking (a typo span, 415 for 4:15).
+  K05_fm re-cut to 261.75–264.20 s; tag "A FUELLING MACHINE · 700 MW".
+- **Picture:** eight drawn shots no longer open empty (pot → row of pots, weight on a cord, year cursor, tool ghost,
+  cost slip and rupee stack, blank calendar pages, 1ST IN INDIA → 2ND IN THE WORLD, warming bulbs, ghost domes);
+  "HALF BUILT" blueprint on the 1970s photo; every counter on a dark pill; whole-India maps fit Ladakh to Kanyakumari.
+- **Sound** (`sound/sfx.json`): whistle on its word (−14), vault door first slam only (the pause after S79 is dry),
+  cutter trim was the recording's talking pre-roll (now the cut), alarm 0.8 s, steam hiss shorter. New mix in Drive
+  `mix/mix.wav` (r2's is `mix/mix_r2.wav`), −14.1 LUFS, −2.5 dBTP.
+- `scripts/gemini_handoff.sh pull` now reads front matter written on one heading line.
+- **Next:** r3 (run 45930701547) → Drive `renders/phwr_review_r3_720p.mp4` → our review (§13.1) → Gemini `cut-audit`
+  on r3 → the owner approves the cut → 4K master once.
