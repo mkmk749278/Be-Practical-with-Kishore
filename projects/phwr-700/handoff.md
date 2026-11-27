@@ -211,3 +211,21 @@ on 23 NOV).
   `renders/phwr_master_4k.mp4`. If the join ran before the r4 mix was up, re-join with `join_from`.
 - **Next:** check the master (§13.1 measures on the 4K file, three frames each side of every seam), then the
   package (§15): SRT with real spellings, thumbnails, metadata, the fresh-facts gate within 24 h of upload.
+
+## 27 NOV 2026, about 1:30 PM IST: cut approved, 4K master, release today 7:00 PM IST
+- Gemini on r4: APPROVED (`review/gemini_cut-audit_r4.md`); **the owner approved the cut** ("Ok approved").
+- **4K master:** the runners rendered all 21 shards (run 45945459762), but the join's copy to Drive hung for 45+ min,
+  so the shards were pulled as artifacts and joined here with the r4 mix (concat, stream copy): 3840×2160, 60 fps,
+  623.42 s, 1.6 GB, −14.2 LUFS, LRA 2.9. Every frame's luma matches the approved r4 cut (max 2.4/255, no flashes);
+  three frames each side of every seam checked. The run was cancelled. Drive: `renders/phwr_master_4k_local.mp4`.
+- **Fresh-facts gate (27 NOV):** RAPP-8 has not gone critical (AERB cleared its first approach to criticality on 19
+  NOV: World Nuclear News "Start-up milestones for Indian plants"), so "the date to watch" stands.
+- **Package:** `youtube/metadata.json` (title, description, chapters, tags, playlist, pinned comment and sources
+  reply), `youtube/phwr-700.en.srt` (`make_srt.py`: numerals, CIRUS, NPCIL, TV; 42-character lines), thumbnails
+  (`make_thumbs.py`, frames of the film: main "1974" on the face and flask; "LEFT HALF-BUILT"; "1974" on the NPCIL
+  worker), in Drive `youtube/`.
+- **Uploaded 27 NOV, about 12:40 PM IST: https://youtu.be/0BgAi3dGfl0, Private, scheduled 7:00 PM IST** (owner chose: "I upload, you schedule"; slot today 7:00 PM IST):** `scripts/yt_upload.py` rebuilt (resumable,
+  thumbnail, SRT, playlist, containsSyntheticMedia false, made for kids No). Left for the owner in Studio: Test & Compare
+  with the two challengers, the end screen (Arjun film + playlist), pinning the comment.
+- **At the slot:** `python3 scripts/yt_upload.py projects/phwr-700 --comment <id>` posts the comment and its sources
+  reply; the owner pins it. Studio checks at 24 h, 7 d, 28 d (§15.5).
